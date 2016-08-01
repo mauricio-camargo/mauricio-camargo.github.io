@@ -1,0 +1,45 @@
+---
+title: "Research"
+output:
+  html_document:
+    toc: false
+---
+
+```{r setup, include=FALSE}
+source("setup_knitr.R")
+```
+
+## Interests
+
+- Computational statistics
+- Bayesian statistics
+- Spatio-temporal models
+
+## Research projects
+
+- Non-linear state-space models for biomass dymanic models of fisheries
+  stocks. *Ph.D project*, ESALQ/USP. Advisor: [Paulo Justiniano Ribeiro
+  Jr.][1] (LEG/UFPR) e [Paul Gerhard Kinas][2] (LEA/FURG).
+
+- Probabilistic models for zero-inflated and overdispersed data in
+  commercial fisheries. *M.Sc. dissertation*, UFSC, 2011. Advisor:
+  [Humber A. Andrade][3]. (*In portuguese*)
+
+- Swordfish (*Xiphias gladius*) fishery in southwestern Atlantic: fleet
+  dynamics and Catch Per Unit Effort (CPUE) influencing factors. *B.Sc.
+  final work*, UNIVALI, 2005. Advisor: Humber A. Andrade. (*In
+  portuguese*)
+
+- Using a delta-lognormal Generalized Linear Model (GLM) in the analysis
+  of swordfish (*Xiphias gladius*) catch data from the southwestern
+  Atlantic. *Report for the scientific initiation scholarship*,
+  ProBic/UNIVALI, 2005. Advisor: Humber A. Andrade. (*In portuguese*)
+
+- Study of the factors influencing the swordfish (*Xiphias gladius*)
+  CPUE captured in the southwestern Atlantic through Generalized Linear
+  Models (GLM). *Report for the scientific initiation scholarship*,
+  ProBic/UNIVALI, 2004. Advisor: Humber A. Andrade. (*In portuguese*)
+
+[1]: http://www.leg.ufpr.br/~paulojus/
+[2]: https://sites.google.com/site/materialdokinas/
+[3]: https://sites.google.com/site/humberandrade/

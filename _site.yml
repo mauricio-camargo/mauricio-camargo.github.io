@@ -1,0 +1,34 @@
+name: "fernandomayer.github.io"
+output_dir: "."
+exclude: ["README.md"]
+output:
+  html_document:
+    theme: flatly
+    highlight: default
+    code_folding: hide
+    number_sections: false
+    toc: true
+    toc_depth: 4
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    includes:
+      in_header: analytics.html
+      after_body: footer.html
+navbar:
+  title: "FPM"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Ensino"
+      href: ensino.html
+    - text: "Research"
+      href: research.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Software"
+      href: software.html
+  right:
+    - text: GitHub
+      icon: fa-github fa-lg
+      href: https://github.com/fernandomayer
