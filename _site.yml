@@ -1,4 +1,4 @@
-name: "fernandomayer.github.io"
+name: "mauricio-camargo.github.io"
 output_dir: "."
 exclude: ["README.md"]
 output:
@@ -16,19 +16,19 @@ output:
       in_header: analytics.html
       after_body: footer.html
 navbar:
-  title: "FPM"
+  title: "Maurício Camargo"
   left:
-    - text: "Home"
+    - text: "Principal"
       href: index.html
     - text: "Ensino"
       href: ensino.html
-    - text: "Research"
+    - text: "Pesquisa"
       href: research.html
-    - text: "Publications"
-      href: publications.html
     - text: "Software"
       href: software.html
+    - text: "R-ecados"
+      href: publications.html
   right:
     - text: GitHub
       icon: fa-github fa-lg
-      href: https://github.com/fernandomayer
+      href: https://github.com/mauricio-camargo
