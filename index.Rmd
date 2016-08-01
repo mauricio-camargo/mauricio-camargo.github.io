@@ -1,5 +1,5 @@
 ---
-title: "Fernando de Pol Mayer"
+title: "Maurício Garcia de Camargo"
 output:
   html_document:
     toc: false
@@ -11,72 +11,12 @@ source("setup_knitr.R")
 
 [![Build Status](https://travis-ci.org/fernandomayer/fernandomayer.github.io.svg)](https://travis-ci.org/fernandomayer/fernandomayer.github.io)
 
-## Sobre
-
-Eu sou Professor Assistente no [Departamento de Estatística][1] da
-Universidade Federal do Paraná ([UFPR][2]). Sou membro do Laboratório de
-Estatística e Geoinformação ([LEG][]), onde trabalho principalmente com
-modelos espaciais aplicados a problemas ambientais e ecológicos,
-especialmente com aqueles relacionados a recursos pesqueiros marinhos.
-Também sou colaborador do Laboratório de Estatística Ambiental ([LEA][])
-da Universidade Federal do Rio Grande ([FURG][]).
-
-Minha formação original é em [Oceanografia][3] pela Universidade do Vale do
-Itajaí ([UNIVALI][4]), com mestrado em [Ecologia][5] pela Universidade Federal de
-Santa Catarina ([UFSC][6]). Atualmente curso o doutorado em [Estatística e
-Experimentação Agronômica][] na Escola Superior de Agricultura "Luiz de
-Queiroz" ([ESALQ][]) da Universidade de São Paulo ([USP][7]).
-
-## About
-
-I'm an Assistant Professor in the [Statistics Department][1] at the
-Federal University of Paraná ([UFPR][8]), Brazil. I'am a member of the
-Laboratory of Statistics and Geoinformation ([LEG][]), where I deal
-mainly with statistical spatial models applied to environmental and
-ecological problems, specially those dealing with marine fisheries
-resources. I'm also a collaborator at the Laboratory of Environmental
-Statistics ([LEA][]) of Federal University of Rio Grande ([FURG][]).
-
-Originally, I have a bachelor degree in [Oceanography][3] from University
-of Vale do Itajaí ([UNIVALI][9]), with a master's degree in [Ecology][5]
-from Federal University of Santa Catarina ([UFSC][10]). Currently, I'am a
-Ph.D. candidate in [Statistics and Agricultural Experimentation][] at
-University of São Paulo ([USP][11]), Brazil.
+## Atuação
+- Professor Associado da [FURG](www.furg.br), no Instituto de Oceanografia [IO-FURG](www.io.furg.br),  no Laboratório de Ecologia de Invertebrados Bentônicos.
+- Orientador permanente do [Programa de Pós-graduação em Sistemas Costeiros e Oceânicos](www.cem.ufpr.br/?page_id=61) do [CEM-UFPR](www.cem.ufpr) 
+- Interessado em análise estatística de dados ambientais, planejamento de amostragem em ecologia, delineamentos para estudos de impacto ambiental, ecologia bêntica e ecologia de manguezais. Programador de computadores versado em algumas linguagens e autor de alguns softwares livres. Entusiasta e disseminador do R para análise de dados e gráficos.
 
 ## Contato
 
-- **Email**: `fernando.mayer` $\in$ {`gmail.com`, `ufpr.br`}
-- [**Plataforma Lattes**](http://lattes.cnpq.br/2222077812442414) (Brazilian portuguese full CV)
-- [**Mendeley**](http://www.mendeley.com/profiles/fernando-mayer)
-- [**Research Gate**](https://www.researchgate.net/profile/Fernando_Mayer)
-- [**Orcid**](http://orcid.org/0000-0001-5115-338X)
-- [**Linkedin**](http://br.linkedin.com/in/fernandomayer)
-- [**Twitter**](https://twitter.com/fernando_mayer)
-
-
-<!-- links -->
-
-[1]: http://www.est.ufpr.br/
-[2]: http://www.ufpr.br/
-[LEG]: http://www.leg.ufpr.br/
-[LEA]: http://www.imef.furg.br/index.php/laboratorios/12-lea.html
-[FURG]: http://www.furg.br/
-[3]: http://www.univali.br/oceano
-[4]: http://www.univali.br/
-[5]: http://poseco.ufsc.br
-[6]: http://ufsc.br/
-[Estatística e Experimentação Agronômica]: http://www4.esalq.usp.br/pg/programas/estatistica
-[ESALQ]: http://www4.esalq.usp.br/
-[7]: http://www5.usp.br/
-[8]: https://issuu.com/ufprdigital/docs/ufpr_english
-[9]: http://www.univali.br/english
-[10]: http://en.ufsc.br
-[Statistics and Agricultural Experimentation]: http://www.en.esalq.usp.br/graduate/programs/agricultural-statistics-and-experimentation
-[11]: http://www5.usp.br/en/
-
-[OA]: http://en.wikipedia.org/wiki/Open_source
-[GNU/Linux]: http://en.wikipedia.org/wiki/Linux
-[R]: http://r-project.org
-[Latex]: http://www.latex-project.org/
-[en_CV]: files/CV_web/CV_Fernando_Mayer_en_web.pdf
-[pt-BR_CV]: files/CV_web/CV_Fernando_Mayer_pt-BR_web.pdf
+- E-mail: [camargofurg@gmail.com](mailto:camargofurg@gmail.com)
+- [**Currículo Lattes**](http://lattes.cnpq.br/6674393714532464) 
