@@ -1,0 +1,43 @@
+---
+title: "Software"
+output:
+  html_document:
+    toc: false
+---
+
+
+# Open-source software projects
+
+All projects are available from my GitHub repository at [https://github.com/fernandomayer](https://github.com/fernandomayer)
+
+## `R` packages
+
+- **[FishMaps][]**: Proportional symbol mapping for fishery data in batch mode.
+
+## Contributed `R` packages
+
+- **[FishMaps2][]**: A `ggplot2` version of FishMaps. (Rodrigo Sant'Ana)
+
+- **[Regrans][]**: A "segmented" regression approach for morphometric
+  data. (Rodrigo Sant'Ana)
+
+-  **[mcglm][]**: Fitting multivariate covariance generalized linear
+   models. (Wagner Bonat and Walmes Zeviani)
+
+## Configuration files
+
+These are not really software, but can be usefull
+
+- **[linux-config][]**: Initial scripts for configuring Linux.
+
+- **[R-config-files][]**: My `R` configuration files.
+
+- **[emacs-files][]**: My Emacs configuration files.
+
+[FishMaps]: https://github.com/fernandomayer/FishMaps
+[FishMaps2]: https://github.com/rodrigosantana/FishMaps2
+[Regrans]: https://github.com/rodrigosantana/Regrans
+[R-config-files]: https://github.com/fernandomayer/R-config-files
+[emacs-files]: https://github.com/fernandomayer/emacs-files
+[linux-config]: https://github.com/fernandomayer/linux-config
+[mcglm]: https://github.com/wbonat/mcglm
