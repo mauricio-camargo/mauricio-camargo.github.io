@@ -30,6 +30,8 @@ navbar:
       href: software.html
     - text: "R-ecados"
       href: r-ecados.html
+    - text: "Agenda"
+      href: agenda.html
   right:
     - text: GitHub
       icon: fa-github fa-lg
