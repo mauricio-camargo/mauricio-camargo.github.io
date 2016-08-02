@@ -1,0 +1,15 @@
+---
+title: "Extensão"
+output:
+  html_document:
+    toc: false
+---
+
+## Cursos de extensão
+
+- Desvendando o R
+- Dominando o R
+- Expandindo o RStudio
+
+
+
