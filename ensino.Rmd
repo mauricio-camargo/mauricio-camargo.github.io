@@ -7,31 +7,9 @@ output:
 
 ## Disciplinas em andamento
 
-Clique na turma para ir para a página da disciplina.
+Segundo semestre de 2016
 
-| Código | Disciplina      | Curso            | Turma | Ano  | Semestre |
-|:-------|:----------------|:-----------------|:-----:|:----:|:--------:|
-| CE-082 | Seminários | Estatística | [EST][7] | 2016 | 2 |
-| CE-083 | Estatística Computacional I | Estatística | [EST][6] | 2016 | 2 |
-| CE-001 | Bioestatística | Enfermagem | [E][5] | 2016 | 2 |
-
-## Disciplinas passadas
-
-Clique na turma para ir para a página da disciplina.
-
-| Código | Disciplina      | Curso            | Turma | Ano  | Semestre |
-|:-------|:----------------|:-----------------|:-----:|:----:|:--------:|
-| CE-003 | Estatística II | Eng. de Bioproc. (F) e Mat. Ind. (MI) | [FMI][4] | 2016 | 1 |
-| CE-001 | Bioestatística | Biologia (N) | [N][3] | 2016 | 1 |
-| CE-083 | Estatística Computacional I | Estatística | [EST][2] | 2015 | 2 |
-| CE-074 | Controle de Processos Industriais | Estatística | [EST][1] | 2015 | 2 |
-
-
-
-[1]: http://www.leg.ufpr.br/doku.php/disciplinas:ce074-2015-02
-[2]: http://www.leg.ufpr.br/doku.php/disciplinas:ce083-2015-02
-[3]: http://fernandomayer.github.io/ce001n-2016-01/
-[4]: http://fernandomayer.github.io/ce003fmi-2016-01/
-[5]: http://fernandomayer.github.io/ce001e-2016-2/
-[6]: http://fernandomayer.github.io/ce083-2016-2/
-[7]: http://fernandomayer.github.io/ce082-2016-2/
+- Estatística (Biologia)
+- Análise numérica de comunidades ecológicas (Oceanologia)
+- Ciências do ambiente (engenharias)
+- Estatística univariada para estudos de distribuição espacial e temporal (PGOB)
