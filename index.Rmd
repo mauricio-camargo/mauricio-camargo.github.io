@@ -5,6 +5,7 @@ output:
     toc: false
 ---
 
+
 ## Atuação
 - Professor Associado da [FURG](www.furg.br), no Instituto de Oceanografia [IO-FURG](www.io.furg.br),  no Laboratório de Ecologia de Invertebrados Bentônicos.
 - Orientador permanente do [Programa de Pós-graduação em Sistemas Costeiros e Oceânicos](www.cem.ufpr.br/?page_id=61) do [CEM-UFPR](www.cem.ufpr) 
