@@ -20,3 +20,4 @@ source("setup_knitr.R")
 - [**Currículo Lattes**](http://lattes.cnpq.br/6674393714532464) 
 
 
+

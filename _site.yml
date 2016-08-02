@@ -24,10 +24,10 @@ navbar:
       icon: fa-home
       href: index.html    
     - text: "Ensino"
-      icon: fa fa-superscript
+      icon: fa fa-book
       href: ensino.html
     - text: "Pesquisa"
-      icon: fa fa-bar-chart
+      icon: fa fa-flask
       href: pesquisa.html
     - text: "Extensão"
       icon: fa fa-user
@@ -39,6 +39,7 @@ navbar:
       icon: fa fa-linux
       href: software.html
     - text: "R-ecados"
+      icon: fa fa-cog
       href: r-ecados.html
     - text: "Agenda"
       icon: fa fa-calendar
