@@ -5,13 +5,27 @@ output:
     toc: false
 ---
 
+------
 
-## Cursos de extensão
+# Cursos de extensão ministrados eventualmente
 
+* **Desvendando o R**  
+  Duração: 8 horas  
+  Conteúdo: bláblá 
+    
+* **Dominando o R**  
+  Duração: 8 horas  
+  Conteúdo: bláblá 
 
-- Desvendando o R
-- Dominando o R
-- Expandindo o RStudio
+* **Expandindo o RStudio**  
+  Duração: 8 horas  
+  Conteúdo: bláblá 
 
+# Próximo curso de extensão:
 
+### 13 e 14 de agosto  
+### Mini-curso no Congresso Brasileiro de Biologia Marinha
 
+# Cursos ministrados anteriormente
+
+### 2015 - Semestre 2 : Curso de extensão na FURG
