@@ -19,3 +19,4 @@ source("setup_knitr.R")
 - E-mail: [camargofurg@gmail.com](mailto:camargofurg@gmail.com)
 - [**Currículo Lattes**](http://lattes.cnpq.br/6674393714532464) 
 
+

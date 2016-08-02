@@ -18,6 +18,9 @@ output:
 navbar:
   title: "Maurício Camargo"
   left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html    
     - text: "Ensino"
       href: ensino.html
     - text: "Pesquisa"
