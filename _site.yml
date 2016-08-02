@@ -24,10 +24,14 @@ navbar:
       href: ensino.html
     - text: "Pesquisa"
       href: research.html
+    - text: "Extensão"
+      href: extensao.html
+    - text: "Administração"
+      href: administracao.html
     - text: "Software"
       href: software.html
     - text: "R-ecados"
-      href: publications.html
+      href: r-ecados.html
   right:
     - text: GitHub
       icon: fa-github fa-lg
