@@ -1,0 +1,11 @@
+---
+title: "Administração"
+output:
+  html_document:
+    toc: false
+---
+
+## Cargos e comissões
+
+- Representante do NOB no Conselho do IO
+- Suplente do NDE da Oceanologia
