@@ -17,6 +17,7 @@ output:
       after_body: footer.html
 navbar:
   title: "Maurício Camargo"
+  icon: fa-home
   type: inverse
   left:
     - text: "Home"
@@ -29,8 +30,10 @@ navbar:
       icon: fa fa-bar-chart
       href: pesquisa.html
     - text: "Extensão"
+      icon: fa fa-user
       href: extensao.html
     - text: "Administração"
+      icon: fa fa-newspaper-o
       href: administracao.html
     - text: "Software"
       icon: fa fa-linux
@@ -38,6 +41,7 @@ navbar:
     - text: "R-ecados"
       href: r-ecados.html
     - text: "Agenda"
+      icon: fa fa-calendar
       href: agenda.html
   right:
     - text: GitHub
