@@ -1,5 +1,5 @@
 ---
-title: "Maurício09 Garcia de Camargo"
+title: "Maurício Garcia de Camargo"
 output:
   html_document:
     toc: false
@@ -8,8 +8,6 @@ output:
 ```{r setup, include=FALSE}
 source("setup_knitr.R")
 ```
-
-[![Build Status](https://travis-ci.org/fernandomayer/fernandomayer.github.io.svg)](https://travis-ci.org/fernandomayer/fernandomayer.github.io)
 
 ## Atuação
 - Professor Associado da [FURG](www.furg.br), no Instituto de Oceanografia [IO-FURG](www.io.furg.br),  no Laboratório de Ecologia de Invertebrados Bentônicos.
