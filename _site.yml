@@ -24,8 +24,8 @@ navbar:
       href: index.html    
     - text: "Ensino"
       href: ensino.html
-    - text: "---------"
     - text: "Pesquisa"
+      icon: fa fa-bar-chart
       href: pesquisa.html
     - text: "Extensão"
       href: extensao.html
