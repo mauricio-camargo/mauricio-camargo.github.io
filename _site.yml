@@ -4,8 +4,7 @@ exclude: ["README.md"]
 output:
   html_document:
     theme: cosmo
-    highlight: default
-    code_folding: hide
+    highlight: tango
     number_sections: false
     toc: true
     toc_depth: 4
@@ -17,7 +16,6 @@ output:
       after_body: footer.html
 navbar:
   title: "Maurício Camargo"
-  icon: fa-home
   type: inverse
   left:
     - text: "Home"

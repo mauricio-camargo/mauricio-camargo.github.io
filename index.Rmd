@@ -5,9 +5,6 @@ output:
     toc: false
 ---
 
-```{r setup, include=FALSE}
-source("setup_knitr.R")
-```
 
 ## Atuação
 - Professor Associado da [FURG](www.furg.br), no Instituto de Oceanografia [IO-FURG](www.io.furg.br),  no Laboratório de Ecologia de Invertebrados Bentônicos.
