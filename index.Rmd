@@ -8,15 +8,12 @@ output:
 ------
 
 ## Atuação
-- Professor Associado da [FURG](http://www.furg.br), no Instituto de Oceanografia [IO-FURG](www.io.furg.br),  no Laboratório de Ecologia de Invertebrados Bentônicos.
-- Orientador permanente do [Programa de Pós-graduação em Sistemas Costeiros e Oceânicos](www.cem.ufpr.br/?page_id=61) do [CEM-UFPR](www.cem.ufpr) 
+- Professor Associado da [FURG](http://www.furg.br), no Instituto de Oceanografia [IO-FURG](http://www.io.furg.br),  no Laboratório de Ecologia de Invertebrados Bentônicos.
+- Orientador permanente do [Programa de Pós-graduação em Sistemas Costeiros e Oceânicos](http://www.cem.ufpr.br/?page_id=61) do [CEM-UFPR](http://www.cem.ufpr) 
 - Interessado em análise estatística de dados ambientais, planejamento de amostragem em ecologia, delineamentos para estudos de impacto ambiental, ecologia bêntica e ecologia de manguezais. Programador de computadores versado em algumas linguagens e autor de alguns softwares livres. Entusiasta e disseminador do R para análise de dados e gráficos.
 
 ## Contato
 
 - E-mail: [camargofurg@gmail.com](mailto:camargofurg@gmail.com)
 - [**Currículo Lattes**](http://lattes.cnpq.br/6674393714532464) 
-
-
-
-
+- Github (http://www.github.com/mauricio-camargo)
