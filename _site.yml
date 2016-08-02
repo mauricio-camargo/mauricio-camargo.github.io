@@ -23,6 +23,7 @@ navbar:
       icon: fa-home
       href: index.html    
     - text: "Ensino"
+      icon: fa fa-superscript
       href: ensino.html
     - text: "Pesquisa"
       icon: fa fa-bar-chart
@@ -32,6 +33,7 @@ navbar:
     - text: "Administração"
       href: administracao.html
     - text: "Software"
+      icon: fa fa-linux
       href: software.html
     - text: "R-ecados"
       href: r-ecados.html
