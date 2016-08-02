@@ -7,7 +7,6 @@ output:
 
 ------
 
-
 ## Disciplinas em andamento
 
 Segundo semestre de 2016
