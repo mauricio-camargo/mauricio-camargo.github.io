@@ -5,5 +5,4 @@ output:
     toc: false
 ---
 
-
 ## Coisas do R
