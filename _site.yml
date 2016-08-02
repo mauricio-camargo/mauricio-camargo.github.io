@@ -18,12 +18,10 @@ output:
 navbar:
   title: "Maurício Camargo"
   left:
-    - text: "Principal"
-      href: index.html
     - text: "Ensino"
       href: ensino.html
     - text: "Pesquisa"
-      href: research.html
+      href: pesquisa.html
     - text: "Extensão"
       href: extensao.html
     - text: "Administração"
