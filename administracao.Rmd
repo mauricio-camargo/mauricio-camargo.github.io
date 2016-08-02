@@ -8,6 +8,5 @@ output:
 ## Cargos e comissões
 
 
-
 - Representante do NOB no Conselho do IO
 - Suplente do NDE da Oceanologia
