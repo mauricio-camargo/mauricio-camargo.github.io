@@ -5,12 +5,6 @@ output:
   html_document:
     theme: cosmo
     highlight: tango
-    number_sections: false
-    toc: true
-    toc_depth: 4
-    toc_float:
-      collapsed: false
-      smooth_scroll: false
     includes:
       in_header: analytics.html
       after_body: footer.html
