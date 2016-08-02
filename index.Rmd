@@ -8,7 +8,7 @@ output:
 ------
 
 ## Atuação
-- Professor Associado da [FURG](www.furg.br), no Instituto de Oceanografia [IO-FURG](www.io.furg.br),  no Laboratório de Ecologia de Invertebrados Bentônicos.
+- Professor Associado da [FURG](http://www.furg.br), no Instituto de Oceanografia [IO-FURG](www.io.furg.br),  no Laboratório de Ecologia de Invertebrados Bentônicos.
 - Orientador permanente do [Programa de Pós-graduação em Sistemas Costeiros e Oceânicos](www.cem.ufpr.br/?page_id=61) do [CEM-UFPR](www.cem.ufpr) 
 - Interessado em análise estatística de dados ambientais, planejamento de amostragem em ecologia, delineamentos para estudos de impacto ambiental, ecologia bêntica e ecologia de manguezais. Programador de computadores versado em algumas linguagens e autor de alguns softwares livres. Entusiasta e disseminador do R para análise de dados e gráficos.
 
