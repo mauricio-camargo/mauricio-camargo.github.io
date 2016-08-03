@@ -1,10 +1,9 @@
 ---
 title: "Agenda e horários"
-toc: false
 output:
   html_document:
-includes:
-  before_body: agenda_emb.html
+    includes:
+      after_body: agenda_emb.html
 ---
 
 ------
