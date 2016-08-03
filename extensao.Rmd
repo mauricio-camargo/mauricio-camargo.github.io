@@ -16,18 +16,17 @@ Mini-curso no [V Simpósio Acadêmico de Biologia Marinha](http://www.sabmar.com
 # Cursos de extensão ministrados eventualmente
 
 * **Desvendando o R**  
-  Duração: 8 horas  
-  Conteúdo: bláblá 
+  Duração: 4 a 8 horas  
+  Conteúdo: Estatística básica univariada e gráficos no R. Inferência básica. 
     
 * **Dominando o R**  
-  Duração: 8 horas  
-  Conteúdo: bláblá 
+  Duração: 8 a 12 horas  
+  Conteúdo: Estatística inferencial multifatorial, análises multivariadas e mapas
 
-* **Expandindo o RStudio**  
-  Duração: 8 horas  
-  Conteúdo: bláblá 
-
+* **Expandindo o R**  
+  Duração: 2 a 6 horas  
+  Conteúdo: Funcionalidades não-estatísticas do RStudio, planilhagem, gráficos modernos, relatórios em html, pdf e doc, integração com Github, manipulação de arquivos LaTeX, criação de aplicativos no browser.
 
 # Cursos ministrados anteriormente
 
-2015 - Semestre 2 : Curso de extensão na FURG
+2015/Semestre 2: Curso de extensão na FURG
