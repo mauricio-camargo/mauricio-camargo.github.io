@@ -3,10 +3,9 @@ output_dir: "."
 exclude: ["README.md"]
 output:
   html_document:
-    theme: cosmo
-    highlight: tango
+    theme: cerulean
+    highlight: default
     includes:
-      in_header: analytics.html
       after_body: footer.html
 navbar:
   title: "Maurício Camargo"
@@ -16,7 +15,7 @@ navbar:
       icon: fa-home
       href: index.html    
     - text: "Ensino"
-      icon: fa fa-book
+      icon: fa-book
       href: ensino.html
     - text: "Pesquisa"
       icon: fa fa-flask

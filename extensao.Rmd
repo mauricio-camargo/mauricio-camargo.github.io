@@ -7,6 +7,11 @@ output:
 
 ------
 
+# Próximo curso de extensão:
+
+13 e 14 de agosto/2016 
+Mini-curso no [V Simpósio Acadêmico de Biologia Marinha](http://www.sabmar.com.br/)
+
 # Cursos de extensão ministrados eventualmente
 
 * **Desvendando o R**  
@@ -21,11 +26,7 @@ output:
   Duração: 8 horas  
   Conteúdo: bláblá 
 
-# Próximo curso de extensão:
-
-### 13 e 14 de agosto  
-### Mini-curso no Congresso Brasileiro de Biologia Marinha
 
 # Cursos ministrados anteriormente
 
-### 2015 - Semestre 2 : Curso de extensão na FURG
+2015 - Semestre 2 : Curso de extensão na FURG
