@@ -1,0 +1,10 @@
+---
+title: "Estatística"
+output:
+  html_document:
+    toc: false
+---
+
+------
+
+#Curso de Estatística para a Biologia
