@@ -1,18 +1,38 @@
 ---
-title: "Maurício Garcia de Camargo"
+title: "Dr. Maurício Garcia de Camargo"
 output:
   html_document:
     toc: false
 ---
 
+
+### Vínculo profissional
+Professor Associado da [**FURG**](http://www.furg.br), no Instituto de Oceanografia ([**IO-FURG**](http://www.io.furg.br)),  no **Laboratório de Ecologia de Invertebrados Bentônicos**.  
+
 ------
 
-## Atuação
-- Professor Associado da [FURG](http://www.furg.br), no Instituto de Oceanografia [IO-FURG](http://www.io.furg.br),  no Laboratório de Ecologia de Invertebrados Bentônicos.
-- Orientador permanente do [Programa de Pós-graduação em Sistemas Costeiros e Oceânicos](http://www.cem.ufpr.br/?page_id=61) do [CEM-UFPR](http://www.cem.ufpr) 
-- Interessado em análise estatística de dados ambientais, planejamento de amostragem em ecologia, delineamentos para estudos de impacto ambiental, ecologia bêntica e ecologia de manguezais. Programador de computadores versado em algumas linguagens e autor de alguns softwares livres. Entusiasta e disseminador do R para análise de dados e gráficos.
+### Disciplinas e cursos de extensão
+Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na pós-graduação e eventuais [cursos de extensão](extensao.html), usando o [software R](r-ecados.html).
 
-## Contato
+**Disciplinas em andamento:**
+
+- [**Estatística**](curso_estat_biol.html) (Graduação em Biologia)
+- [**Análise numérica de comunidades ecológicas**](curso_comunidades.html) (Oceanologia)
+- [**Ciências do ambiente**](curso_cie_amb.html) (Engenharias)
+- [**Estatística univariada para estudos de distribuição espacial e temporal**](curso_univariada.html) (Diversos programas de pós-graduação)
+
+------
+
+### Interesses em pesquisa
+Análise estatística de dados ambientais, planejamento de amostragem em ecologia, delineamentos para estudos de impacto ambiental, ecologia bêntica estuarina e de praias e ecologia de manguezais. 
+
+Orientador de mestrado e doutorado do [Programa de Pós-graduação em Sistemas Costeiros e Oceânicos](http://www.cem.ufpr.br/?page_id=61) do [CEM-UFPR](http://www.cem.ufpr) 
+
+Alunos de graduação ou pós-graduação interessados em trabalhar com ecologia do bentos e que tenham aptidão para estatística e computadores, devem enviar um email para  [camargofurg@gmail.com](mailto:camargofurg@gmail.com)
+
+------
+
+### Contato
 
 - E-mail: [camargofurg@gmail.com](mailto:camargofurg@gmail.com)
 - [**Currículo Lattes**](http://lattes.cnpq.br/6674393714532464) 
@@ -20,3 +40,4 @@ output:
 - Facebook: http://www.facebook.com/mauricio.camargo75
 - Endereço: Laboratório de Invertebrados Bentônicos - Instituto de Oceanografia. Av. Itália, km 8. Campus Carreiros. Rio Grande - RS. CEP 96203-900.
 - Telefone: (053) 3233-6750
+

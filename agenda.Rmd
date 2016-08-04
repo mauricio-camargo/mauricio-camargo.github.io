@@ -8,6 +8,6 @@ output:
 
 ------
 
-[Clique aqui](www.cem.ufpr.br) para preencher um formulário para agendar um atendimento.
+[Clique aqui](www.google.br) para preencher um formulário para agendar um atendimento.
 
 ------
