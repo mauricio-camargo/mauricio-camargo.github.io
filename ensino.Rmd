@@ -5,9 +5,9 @@ output:
     toc: false
 ---
 
-------
+-----
 
-# Disciplinas em andamento na FURG
+# Disciplinas em andamento - FURG
 
 **Segundo semestre de 2016**
 
