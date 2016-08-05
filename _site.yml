@@ -12,7 +12,7 @@ navbar:
   type: inverse
   left:
     - text: "Home"
-      icon: fa-home
+      icon: "fa-home"
       href: index.html    
     - text: "Ensino"
       icon: fa-book
