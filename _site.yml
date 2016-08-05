@@ -3,6 +3,7 @@ output_dir: "."
 exclude: ["README.md"]
 output:
   html_document:
+    theme: cerulean
     highlight: default
     includes:
       after_body: footer.html
