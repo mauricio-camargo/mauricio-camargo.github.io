@@ -9,7 +9,6 @@ output:
       after_body: footer.html
 navbar:
   title: "Maurício Camargo"
-  type: inverse
   left:
     - text: "Home"
       icon: fa-home
