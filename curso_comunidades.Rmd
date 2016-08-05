@@ -1,5 +1,5 @@
 ---
-title: "Análise numérica de comunidades ecológicas"
+title: "Análise numérica de comunidades ecológicas (Oceanologia-2016)"
 output:
   html_document:
     toc: false
@@ -7,4 +7,37 @@ output:
 
 ------
 
-# Disciplinas 
+## **Semana 1 - 05/08/2016**
+
+**- Conteúdo:**
+ 
+* Um R-ecado para você... (aliás, dois: permissão)
+* Aulas, provas e notas (apresentação falsa da disciplina)
+    + Aulas: o que e como ensinar?
+    + Provas: como avaliar?
+    + Notas: quem passa aprende? Quem frequenta aprende?
+* Conceito de população e amostra
+* Amostragem
+
+**- Aulas em pdf**  
+Toda as semanas os arquivos gerados durante a aula serão colocados aqui, logo após o término. 
+
+**- Códigos do R**  
+Aqui ficarão os arquivos relacionados ao aprendizado prático do R.
+
+**- Material complementar**  
+Aqui constarão links de interesse, sugestões de leituras complementares e informações adicionais da matéria da semana.
+
+----
+
+**PLANO DA DISCIPLINA**  
+
+**- Ementa:**  
+Teórica: noções de diversidade biológica, comunidades ecológicas e processos ecológicos em comunidades. Amostragem em uma comunidade fictícia. Planilhas de dados abióticos e bióticos. Estatística ecológica em índices univariados de resumo: testes de hipóteses e correlações. Estatística multivariada em comunidades: PCA (planilha de dados abióticos), MDS e PCO (planilha de dados bióticos), análises de agrupamentos e análises canônicas (planilhas abióticas e bióticas).  
+Prática: Introdução ao R e RStudio. Estatística descritiva no R. Capacidade gráfica do R. Testes de hipóteses e correlação no R. Tratamento de planilhas no R. Análises multivariadas no R.
+
+**- Procedimentos didáticos**  
+Voz e caneta.
+
+**- Avaliação**  
+????????
