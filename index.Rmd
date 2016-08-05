@@ -5,6 +5,7 @@ output:
     toc: false
 ---
 
+
 ### Vínculo profissional
 Professor Associado da [**FURG**](http://www.furg.br), no Instituto de Oceanografia ([**IO-FURG**](http://www.io.furg.br)),  no **Laboratório de Ecologia de Invertebrados Bentônicos**.  
 
