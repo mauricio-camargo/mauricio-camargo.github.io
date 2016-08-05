@@ -5,7 +5,6 @@ output:
     toc: false
 ---
 
-
 ------
 
 # Próximo curso de extensão:

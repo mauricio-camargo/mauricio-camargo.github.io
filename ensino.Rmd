@@ -12,12 +12,15 @@ output:
 **Segundo semestre de 2016**
 
 - [**Estatística**](curso_estat_biol.html)  
-Curso: *Biologia*  
+Curso oferecido: *Biologia*  
 Período: Agosto a novembro de 2016
 Horário: Sextas-feiras, das 15:30h às 18:50h.
 
+- [Análise numérica de comunidades ecológicas]()
+Curso oferecido: *Oceanologia*  
+Período: Agosto a novembro de 2016
+Horário: Sextas-feiras, das 15:30h às 18:50h.
 
-- Análise numérica de comunidades ecológicas (Oceanologia)
 - Ciências do ambiente (engenharias)
 - Estatística univariada para estudos de distribuição espacial e temporal (PGOB)
 

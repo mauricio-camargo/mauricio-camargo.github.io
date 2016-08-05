@@ -1,0 +1,10 @@
+---
+title: "Disciplina: Análise numérica de comunidades ecológicas"
+output:
+  html_document:
+    toc: false
+---
+
+------
+
+# Disciplinas 
