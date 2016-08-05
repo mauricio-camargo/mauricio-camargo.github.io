@@ -3,7 +3,6 @@ output_dir: "."
 exclude: ["README.md"]
 output:
   html_document:
-    theme: cerulean
     highlight: default
     includes:
       after_body: footer.html
@@ -12,7 +11,7 @@ navbar:
   type: inverse
   left:
     - text: "Home"
-      icon: "fa-home"
+      icon: fa-home
       href: index.html    
     - text: "Ensino"
       icon: fa-book
