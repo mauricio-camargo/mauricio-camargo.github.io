@@ -1,0 +1,10 @@
+---
+title: "Estatística univariada para estudos de distribuição espacias e temnporal"
+output:
+  html_document:
+    toc: false
+---
+
+------
+
+# Disciplinas 
