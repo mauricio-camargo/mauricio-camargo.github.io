@@ -14,12 +14,12 @@ output:
 - [**Estatística**](curso_estat_biol.html)  
 Curso oferecido: *Biologia*  
 Período: Agosto a novembro de 2016
-Horário: Sextas-feiras, das 15:30h às 18:50h.
+Horário: Sextas-feiras, das 14:20h às 18:50h.
 
 - [**Análise numérica de comunidades ecológicas**](curso_comunidades.html)  
 Curso oferecido: *Oceanologia*  
 Período: Agosto a novembro de 2016
-Horário: Sextas-feiras, das 15:30h às 18:50h.
+Horário: Sextas-feiras, das 13:30h às 15:10h.
 
 - Ciências do ambiente (engenharias)
 - Estatística univariada para estudos de distribuição espacial e temporal (PGOB)
