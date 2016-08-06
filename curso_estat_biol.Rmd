@@ -14,7 +14,7 @@ Aguardem os arquivos de aula e os recursos complementares para segunda-feira.
 
 ----
 
-## **Semana 2 - 12/08/2016**
+### **Semana 2 - 12/08/2016**
 
 Programas para instalar antes da aula:  
 [R para Windows](https://cran.r-project.org/bin/windows/base)  
@@ -22,7 +22,7 @@ Programas para instalar antes da aula:
 
 ----
 
-## **Semana 1 - 05/08/2016**
+### **Semana 1 - 05/08/2016**
 
 **- Conteúdo:**
  

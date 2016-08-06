@@ -7,16 +7,16 @@ output:
 
 ------
 
-# Pacotes do R
+### Pacotes do R
 - [GAD](https://github.com/mauricio-camargo/GAD): General Anova Design. Pacote para modelos mistos de ANOVA.
 - [rysgran](https://github.com/mauricio-camargo/rysgran): Estatísticas e gráficos para análise granulométrica do sedimento. É o porte do SysGran para o R.
 
-# Programas livres escritos em Delphi 
+### Programas de código livre escritos em Delphi 
 - [SysGran](https://github.com/mauricio-camargo/SysGran): Sistema integrado de análise granulométrica para Windows, com análises estatísticas e gráficos para sedimentologia.
 - [MaresDB](https://github.com/mauricio-camargo/MaresDB): Sobreposição gráfica de linhas de maré para demonstração de longas séries temporais. Para Windows.
 - [BGM](https://github.com/mauricio-camargo/BGM): Rotinas usadas em Biogeoquímica marinha. Para Windows.
 
-# Programas comerciais escritos em Delphi
+### Programas comerciais escritos em Delphi
 - Pilots-Transf: Programa de transferência dos dados recebidos por maregráfos da Paranaguá Pilots para banco de dados.
 - Pilots-Maregrama: Programa de visualização dos dados de marés armazenados nos banco de dados. 
 - Saci: Programa para controle de vendas de uma loja de material de construção.

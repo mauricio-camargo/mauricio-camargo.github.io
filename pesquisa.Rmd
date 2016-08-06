@@ -7,7 +7,7 @@ output:
 
 ------
 
-## Publicações 
+### Publicações 
 
 - [MACHADO, E. C. ; AREVALO, P. R. ; CASARTELLI, M. R. O. ; Camargo, Mauricio Garcia ; SILVA-FILHO, E. V. . Preliminary Study about the Origin of Trace Elements in the Atmospheric Deposition in Two Brazilian Subtropical Estuaries. Journal of the Brazilian Chemical Society (Impresso), v. 27, p. 735-744, 2016.](http://dx.doi.org/10.5935/0103-5053.20150323)
 

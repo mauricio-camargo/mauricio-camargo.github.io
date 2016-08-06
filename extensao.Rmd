@@ -14,7 +14,7 @@ Mini-curso no [V Simpósio Acadêmico de Biologia Marinha](http://www.sabmar.com
 
 ----
 
-## Cursos de extensão ministrados eventualmente
+### Cursos de extensão ministrados eventualmente
 
 * **Desvendando o R**  
   Duração: 4 a 8 horas  
@@ -30,6 +30,6 @@ Mini-curso no [V Simpósio Acadêmico de Biologia Marinha](http://www.sabmar.com
 
 ----
 
-## Cursos ministrados anteriormente
+### Cursos ministrados anteriormente
 
 2015/Semestre 2: Curso de extensão na FURG
