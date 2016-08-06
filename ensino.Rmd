@@ -5,7 +5,7 @@ output:
     toc: false
 ---
 
------
+----
 
 ### Disciplinas em andamento - FURG
 
@@ -23,6 +23,8 @@ Horário: Sextas-feiras, das 15:30h às 18:50h.
 
 - Ciências do ambiente (engenharias)
 - Estatística univariada para estudos de distribuição espacial e temporal (PGOB)
+
+----
 
 ### Disciplinas anteriormente ministradas na FURG
 
