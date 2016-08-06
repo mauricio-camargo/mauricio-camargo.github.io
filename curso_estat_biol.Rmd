@@ -9,8 +9,13 @@ output:
 
 ```
 MENSAGENS DO PROFESSOR:
-- Incluído links para instalação do R e do RStudio
+Aguardem os arquivos de aula e os recursos complementares para segunda-feira.
 ```
+## **Semana 2 - 12/08/2016**
+
+Instalar antes da aula os programas:  
+[R para Windows](https://cran.r-project.org/bin/windows/base)  
+[RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/)
 
 ## **Semana 1 - 05/08/2016**
 
