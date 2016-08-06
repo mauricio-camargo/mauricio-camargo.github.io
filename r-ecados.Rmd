@@ -7,4 +7,4 @@ output:
 
 ------
 
-## Coisas do R
+## Em breve: dicas e receitas do R.
