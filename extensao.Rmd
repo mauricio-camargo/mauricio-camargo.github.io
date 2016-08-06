@@ -5,14 +5,16 @@ output:
     toc: false
 ---
 
-------
+----
 
-# Próximo curso de extensão:
+## Próximo curso de extensão:
 
 13 e 14 de agosto/2016 
 Mini-curso no [V Simpósio Acadêmico de Biologia Marinha](http://www.sabmar.com.br/) em Osório.
 
-# Cursos de extensão ministrados eventualmente
+----
+
+## Cursos de extensão ministrados eventualmente
 
 * **Desvendando o R**  
   Duração: 4 a 8 horas  
@@ -26,6 +28,8 @@ Mini-curso no [V Simpósio Acadêmico de Biologia Marinha](http://www.sabmar.com
   Duração: 2 a 6 horas  
   Conteúdo: Funcionalidades não-estatísticas do RStudio, planilhagem, gráficos modernos, relatórios em html, pdf e doc, integração com Github, manipulação de arquivos LaTeX, criação de aplicativos no browser.
 
-# Cursos ministrados anteriormente
+----
+
+## Cursos ministrados anteriormente
 
 2015/Semestre 2: Curso de extensão na FURG

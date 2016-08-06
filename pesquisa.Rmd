@@ -29,7 +29,7 @@ output:
 
 - BRAUKO, K. M. ; CAMARGO, M. G. ; LANA, P. C. . A new method to assess herbivory levels on Rhizophora mangle L. fruits in mangroves with different degrees of forest complexity. Pan-American Journal of Aquatic Sciences, v. 6, p. 9-15, 2011.
 
-- Oliveira, V.M. ; GOMES, C. S. ; LANA, P. C. ; CAMARGO, M. G. . Morphological variations caused by fixation techniques may lead to taxonomic confusion in Laeonereis (Polychaeta, Nereididae). Zoologia (Curitiba. Impresso), v. 27, p. 146-150, 2010.](http://dx.doi.org/10.1590/s1984-46702010000100022)
+- [Oliveira, V.M. ; GOMES, C. S. ; LANA, P. C. ; CAMARGO, M. G. . Morphological variations caused by fixation techniques may lead to taxonomic confusion in Laeonereis (Polychaeta, Nereididae). Zoologia (Curitiba. Impresso), v. 27, p. 146-150, 2010.](http://dx.doi.org/10.1590/s1984-46702010000100022)
 
 - GARRAFFONI, A. ; CAMARGO, M. G. . A new application of morphometrics in a study of the variation in uncinial shape present within the Terebellidae (Polychaeta): a reevaluation from digital images.. Cahiers de Biologie Marine, v. 48, p. 229-248, 2007.
 
