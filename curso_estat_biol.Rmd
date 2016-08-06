@@ -7,6 +7,11 @@ output:
 
 ------
 
+```
+MENSAGENS DO PROFESSOR:
+- Incluído links para instalação do R e do RStudio
+```
+
 ## **Semana 1 - 05/08/2016**
 
 **- Conteúdo:**
