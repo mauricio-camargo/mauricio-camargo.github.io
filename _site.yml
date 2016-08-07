@@ -8,7 +8,7 @@ output:
     includes:
       after_body: footer.html
 navbar:
-  title: "Maurício Camargoo"
+  title: "Maurício CamargooD"
   type: inverse
   left:
     - text: "Home"
