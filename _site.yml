@@ -12,30 +12,30 @@ navbar:
   type: inverse
   left:
     - text: "Home"
-      icon: fa-home
+      icon: glyphicon-home
       href: index.html    
     - text: "Ensino"
-      icon: fa-book
+      icon: glyphicon-education
       href: ensino.html
     - text: "Pesquisa"
-      icon: fa fa-flask
+      icon: glyphicon-stats
       href: pesquisa.html
     - text: "Extensão"
-      icon: fa fa-user
+      icon: glyphicon-tent
       href: extensao.html
     - text: "Administração"
-      icon: fa fa-newspaper-o
+      icon: glyphicon-earphone
       href: administracao.html
     - text: "Software"
-      icon: fa fa-linux
+      icon: glyphicon-floppy-disk
       href: software.html
     - text: "R-ecados"
-      icon: fa fa-cog
+      icon: glyphicon-registration-mark
       href: r-ecados.html
     - text: "Agenda"
-      icon: fa fa-calendar
+      icon: glyphicon-calendar
       href: agenda.html
   right:
     - text: GitHub
-      icon: glyphicon-home
+      icon: glyphicon-cloud-download
       href: https://github.com/mauricio-camargo
