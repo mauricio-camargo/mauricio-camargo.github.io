@@ -12,7 +12,7 @@ output:
 **Segundo semestre de 2016**
 
 - [**Estatística**](curso_estat_biol.html)  
-Curso oferecido: *Biologia*  
+Curso oferecido: *Ciências Biológicas*  
 Período: Agosto a novembro de 2016
 Horário: Sextas-feiras, das 14:20h às 18:50h.
 
@@ -21,8 +21,15 @@ Curso oferecido: *Oceanologia*
 Período: Agosto a novembro de 2016
 Horário: Sextas-feiras, das 13:30h às 15:10h.
 
-- Ciências do ambiente (engenharias)
-- Estatística univariada para estudos de distribuição espacial e temporal (PGOB)
+- [Ciências do ambiente](curso_cien_amb.html)
+Cursos oferecidos: *Engenharias*  
+Período: Agosto a novembro de 2016
+Horário: Seg (10:35h); Seg (13:30h); Qui (07:45h). Dias 26 e 29/set. 
+
+- [Estatística univariada para estudos de distribuição espacial e temporal](curso_univar.html)
+Cursos oferecidos: Pós-graduações diversas
+Período: Outubro e novembro de 2016
+Horário: A ser definido.
 
 ----
 
