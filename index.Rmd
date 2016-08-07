@@ -1,13 +1,11 @@
 ---
-title: "Maurício Garcia de Camargo"
+#title: "Maurício Garcia de Camargo"
 output:
   html_document:
     toc: false
 ---
 
-------
-
-![Maurício Garcia de Camargo](img/img1.jpg)
+![](img/img1.jpg)
 
 ### Vínculo profissional
 Professor Associado da [**FURG**](http://www.furg.br), no Instituto de Oceanografia ([**IO-FURG**](http://www.io.furg.br)),  no **Laboratório de Ecologia de Invertebrados Bentônicos**.  
