@@ -52,7 +52,7 @@ Para aqueles que querem entender melhor a estatística através da matémática.
 **PLANO DA DISCIPLINA**  
 
 **- Ementa:**  
-Conteúdo:
+Conteúdo sugerido:
 
 Teoria: População e amostra. Amostragem. Tipos de dados. Distribuição de frequência. Ajustes probabilísticos a uma distribuição de frequência. Medidas de tendência central. Medidas de dispersão. Testes de hipóteses. Teste-t. ANOVA de um fator. Regressão e correlação. Estatística em experimentos biológicos (opcional).
 
