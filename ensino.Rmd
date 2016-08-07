@@ -21,7 +21,7 @@ Curso oferecido: *Oceanologia*
 Período: Agosto a novembro de 2016
 Horário: Sextas-feiras, das 13:30h às 15:10h.
 
-- [Ciências do ambiente](curso_cie_amb.html)
+- [Ciências do ambiente](curso_cie_amb.html)  
 Cursos oferecidos: *Engenharias*  
 Período: Agosto a novembro de 2016  
 Horário: Seg (10:35h); Seg (13:30h); Qui (07:45h). Dias 26 e 29/set. 
