@@ -1,16 +1,13 @@
 ---
 title: "Administração"
 output:
-  prettydoc::html_pretty:
-    theme: cayman
-    highlight: github
+  html_document:
+    toc: false
 ---
 
 ------
 
 ### Cargos e comissões
-
-asd
 
 - Representante do  Núcleo de Oceanografia Biológica (NOB) no Conselho do Instituto de Oceanografia (IO).
 - Suplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia.
