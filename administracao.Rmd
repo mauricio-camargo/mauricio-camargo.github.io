@@ -1,8 +1,9 @@
 ---
 title: "Administração"
 output:
-  html_document:
-    toc: false
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
 ---
 
 ------
