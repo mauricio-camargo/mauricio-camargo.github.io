@@ -5,7 +5,7 @@ output:
     toc: false
 ---
 
-----
+-----
 
 ### Próximo curso de extensão:
 * **Como escrever artigos e criar apresentações usando o RStudio**  
