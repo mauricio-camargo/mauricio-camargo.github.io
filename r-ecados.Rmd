@@ -9,6 +9,8 @@ output:
 
 ## R-ecados: coisas interessantes sobre o R e o RStudio.  
 
+... em breve.
+
 * **Gráficos**
     + Barra simples  
     + Histograma  
