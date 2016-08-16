@@ -9,7 +9,6 @@ output:
 
 -----
 
-
 ### Vínculo profissional
 Professor Associado da [**FURG**](http://www.furg.br), no Instituto de Oceanografia ([**IO-FURG**](http://www.io.furg.br)),  no **Laboratório de Ecologia de Invertebrados Bentônicos**.  
 
@@ -30,7 +29,7 @@ Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na
 ### Interesses em pesquisa
 Análise estatística de dados ambientais, planejamento de amostragem em ecologia, delineamentos para estudos de impacto ambiental, ecologia bêntica estuarina, de praias arenosas, de manguezais e taxonomia de poliquetas. 
 
-Alunos de graduação ou pós-graduação que tenham aptidão para estatística e computadores e que tenham interesse em trabalhar com algum desses temas, entrem em contato. 
+Sou orientador de alunos de graduação ou pós-graduação com interesse em trabalhar com algum desses temas e que tenham também aptidão para estatística e computadores. 
 
 ### Atuação na pós-graduação
 Orientador de mestrado e doutorado do [Programa de Pós-graduação em Sistemas Costeiros e Oceânicos](http://www.cem.ufpr.br/?page_id=61) do [CEM-UFPR](http://www.cem.ufpr) 
