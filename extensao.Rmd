@@ -8,28 +8,38 @@ output:
 ----
 
 ### Próximo curso de extensão:
-
-13 e 14 de agosto/2016 
-Mini-curso no [V Simpósio Acadêmico de Biologia Marinha](http://www.sabmar.com.br/) em Osório.
+* **Como escrever artigos e criar apresentações usando o RStudio**  
+Local: FURG  
+Data: a confirmar
 
 ----
 
 ### Cursos de extensão ministrados eventualmente
 
 * **Desvendando o R**  
-  Duração: 4 a 8 horas  
+  Duração: 8 a 16 horas  
   Conteúdo: Estatística básica univariada e gráficos no R. Inferência básica. 
     
 * **Dominando o R**  
-  Duração: 8 a 12 horas  
+  Duração: 8 a 16 horas  
   Conteúdo: Estatística inferencial multifatorial, análises multivariadas e mapas
 
 * **Expandindo o R**  
-  Duração: 2 a 6 horas  
+  Duração: 8 a 16 horas  
   Conteúdo: Funcionalidades não-estatísticas do RStudio, planilhagem, gráficos modernos, relatórios em html, pdf e doc, integração com Github, manipulação de arquivos LaTeX, criação de aplicativos no browser.
 
 ----
 
-### Cursos ministrados anteriormente
+### Cursos ministrados anteriormente (desde 2015)
 
-2015/Semestre 2: Curso de extensão na FURG
+* **Análise estatística de comunidades ecológicas no R.** 
+Local: Osório  
+Evento: Mini-curso no [V Simpósio Acadêmico de Biologia Marinha](http://www.sabmar.com.br/).  
+Carga horária: 16 horas  
+Data: 13 e 14 de agosto/2016
+
+* **Desvendando o R.**
+Local: FURG  
+Evento: Curso de extensão eventual  
+Carga horária: 20 horas  
+Data:  Agosto-Dezembro/2015

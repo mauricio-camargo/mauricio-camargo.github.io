@@ -7,4 +7,40 @@ output:
 
 ------
 
-### Em breve: dicas e receitas do R.
+## R-ecados: coisas interessantes sobre o R e o RStudio.  
+
+* **Gráficos**
+    + Barra simples  
+    + Histograma  
+    + Boxplot  
+    + Barra com erro  
+    + Dispersão (scatter e linha)
+    + Gráficos mistos (barras e linhas)
+    + Duplo eixo y
+* **Modelos lineares gerais (LM)**
+    + Teste-t
+    + ANOVA unifatorial
+    + ANOVA multifatorial
+    + Chi-quadrado
+    + Regressão simples
+    + Regressão múltipla
+    + ANCOVA
+* **Modelos lineares generalizados (GLM)**
+* **Análises não-paramétricas**
+    + Mann-Whitney e Wilcoxon
+    + Kruskal-Wallis
+    + Friedman
+    + Spearman e Kendal
+* **Séries temporais**
+    + Autocorrelação
+    + Médias móveis
+* **Multivariadas**
+    + PCA
+    + CA
+    + DCA
+    + Cluster
+    + MDS
+    + PCO
+    + CCA
+    + RDA
+    
