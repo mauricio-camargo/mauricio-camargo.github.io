@@ -25,7 +25,7 @@ navbar:
       href: extensao.html
     - text: "Administração"
       icon: glyphicon-earphone
-      href: administracao.html
+      href: tete.html
     - text: "Software"
       icon: glyphicon-floppy-disk
       href: software.html
