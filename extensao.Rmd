@@ -32,7 +32,7 @@ Data: a confirmar
 
 ### Cursos ministrados anteriormente (desde 2015)
 
-* **Análise estatística de comunidades ecológicas no R.** 
+* **Análise estatística de comunidades ecológicas no R.**  
 Local: Osório  
 Evento: Mini-curso no [V Simpósio Acadêmico de Biologia Marinha](http://www.sabmar.com.br/).  
 Carga horária: 16 horas  
