@@ -24,7 +24,7 @@ Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na
 - [**Ciências do ambiente**](curso_cie_amb.html) (Engenharias)
 - [**Estatística univariada para estudos de distribuição espacial e temporal**](curso_univariada.html) (Diversos programas de pós-graduação)
 
-------
+-----
 
 ### Interesses em pesquisa
 Análise estatística de dados ambientais, planejamento de amostragem em ecologia, delineamentos para estudos de impacto ambiental, ecologia bêntica estuarina, de praias arenosas, de manguezais e taxonomia de poliquetas. 
@@ -36,7 +36,7 @@ Orientador de mestrado e doutorado do [Programa de Pós-graduação em Sistemas 
 
 ------
 
-### Contato
+### Contato 
 
 - E-mail: [camargofurg@gmail.com](mailto:camargofurg@gmail.com)
 - [**Currículo Lattes**](http://lattes.cnpq.br/6674393714532464) 
