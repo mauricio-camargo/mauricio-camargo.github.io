@@ -7,18 +7,16 @@ output:
 
 ----
 
-```
-MENSAGENS DO PROFESSOR:
-Aguardem os arquivos de aula e os recursos complementares para segunda-feira.
-```
-
-----
-
 ### **Semana 2 - 12/08/2016**
 
-Programas para instalar antes da aula:  
+**- Programas para instalar antes da aula:**  
 [R para Windows](https://cran.r-project.org/bin/windows/base)  
-[RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/)
+[RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/)  
+No site existem instruções para instalações em outros sistemas operacionais.
+
+**- Aulas em pdf**  
+[Aula1.pdf](Curso_Comunidades/Aula1.pdf)  
+[Aula2.pdf](Curso_Comunidades/Aula2.pdf)  
 
 ----
 
