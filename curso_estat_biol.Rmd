@@ -7,8 +7,6 @@ output:
 
 ----
 
-----
-
 ### **Semana 2 - 12/08/2016**
 
 **- Programas para instalar antes da aula:**  
