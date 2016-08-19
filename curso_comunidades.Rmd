@@ -22,7 +22,6 @@ No site existem instruções para instalações em outros sistemas operacionais.
 [EcoR - Introdução ao R para ecologia do IB-USP](http://ecologia.ib.usp.br/bie5782/doku.php)  
 Curso online oferecido pelo Instituto de Biologia da USP para ecólogos e áreas afins, com muito material de consulta e exercícios interessantes.
 
-
 ----
 
 ### **Semana 1 - 05/08/2016**
