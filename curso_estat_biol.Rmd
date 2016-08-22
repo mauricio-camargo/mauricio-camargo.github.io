@@ -2,75 +2,80 @@
 title: "Estatística (Ciências biológicas - 2016/2)"
 output:
   html_document:
-    toc: false
+    toc: true
 ---
 
 ----
 
 ### **Semana 3 - 19/08/2016**
-**- Aulas em pdf**  
+* **Aulas em pdf**  
 [Aula3.pdf](Curso_Estat_Biol/Aula1.pdf)  
 
-**- Códigos do R**  
+* **Códigos do R**  
 [Aula2.R](Curso_Estat_Biol/Aula1.R)
 
 ----
 
 ### **Semana 2 - 12/08/2016**
 
-**- Programas para instalar antes da aula:**  
+* **Programas para instalar antes da aula:**  
 [R para Windows](https://cran.r-project.org/bin/windows/base)  
 [RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/)
 
-**- Aulas em pdf**  
+* **Aulas em pdf**  
 [Aula1.pdf](Curso_Estat_Biol/Aula1.pdf)  
 [Aula2.pdf](Curso_Estat_Biol/Aula2.pdf)
 
-**- Códigos do R**  
+* **Códigos do R**  
 [Aula1.R](Curso_Estat_Biol/Aula1.R)
 
 ----
 
 ### **Semana 1 - 05/08/2016**
 
-**- Conteúdo:**
- 
-* Um R-ecado para você... 
-* Aulas, provas e notas 
+* **Conteúdo:**
+    + Um R-ecado para você... 
     + Aulas: o que e como ensinar?
     + Provas: como avaliar?
     + Notas: quem passa aprende? Quem frequenta aprende?
-* Por que é legal saber estatística?
-* Conceito de população e amostra
-* Amostragem
+    + Por que é legal saber estatística?
+    + Conceito de população e amostra
+    + Amostragem
 
-**- Aulas em pdf**  
+* **Aulas em pdf**  
 Toda as semanas os arquivos gerados durante a aula serão colocados aqui, logo após o término. 
 
-**- Códigos do R**  
+* **Códigos do R**  
 Aqui ficarão os arquivos relacionados ao aprendizado prático do R.
 
-**- Material complementar**  
+* **Material complementar**  
 Aqui constarão links de interesse, sugestões de leituras complementares e informações adicionais da matéria da semana.
-
-**- Opcional: Grupo de matemática**  
-Para aqueles que querem entender melhor a estatística através da matémática.
 
 ----
 
-**PLANO DA DISCIPLINA**  
+## Opcional: Grupo de matemática   
 
-**- Ementa:**  
+Para aqueles que querem entender melhor a estatística através da matémática.  
+
+* Turmas do grupo de matemática:  
+    + Terça-feira, 11:00h, prédio 6.  
+    + Quinta-feira, 11:00h, prédio 6.  
+
+----
+
+## Plano da disciplina
+
+**Ementa:**  
 Conteúdo sugerido:
 
 Teoria: População e amostra. Amostragem. Tipos de dados. Distribuição de frequência. Ajustes probabilísticos a uma distribuição de frequência. Medidas de tendência central. Medidas de dispersão. Testes de hipóteses. Teste-t. ANOVA de um fator. Regressão e correlação. Estatística em experimentos biológicos (opcional).
 
 Prática: Familiarização com o R e o RStudio. Entrada de dados. Cálculos simples. Vetores. Cálculos com vetores. Gráficos simples. Análises estatísticas dadas em aulas teóricas.
 
-**- Procedimentos didáticos**  
+**Procedimentos didáticos**  
 Voz e caneta.
 
-**- Avaliações**  
+## Avaliações
 
 1. **Provas escritas** (1,5 pt cada)
     + Prova 1: 02/set
