@@ -37,5 +37,5 @@ navbar:
       href: agenda.html
   right:
     - text: GitHub
-      icon: fa-github
+      icon: glyphicon-cloud-download
       href: https://github.com/mauricio-camargo
