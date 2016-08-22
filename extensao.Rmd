@@ -5,31 +5,50 @@ output:
     toc: false
 ---
 
------
+----
 
 ### Próximo curso de extensão:
-* **Rmarkdown: um jeito simples de escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio**  
-Local: FURG (Sala a confirmar)  
-Data: 31 de agosto/2016  
-Hora: 14:00h até 18:00h
+**Rmarkdown: um jeito simples de escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio**  
+
+**Local:** FURG (Sala a confirmar)   
+**Data**: 31 de agosto/2016  
+**Hora:** 14:00h até 18:00h  
+**Conteúdo:** RMarkdown é uma linguagem para criar documentos em PDF ou HTML que incluam textos, gráficos, tabelas e fórmulas. É capaz de incluir gráficos criados no R e mostrar o código. Arquivos profissionais em PDF podem ser criados, tanto para  relatórios de estudantes como para escrever artigos científicos. A partir dos arquivos em HTML podem ser criadas apresentações portáveis simples porém eficientes. Um site inteiro pode ser criado usando os arquivos HTML e o RStudio traz ferramentas para gerenciá-lo.
 
 [**Formulário de inscrição**](https://goo.gl/forms/lN57zRrbR7boSxBg1)
 
 ----
 
-
 ### Cursos ministrados anteriormente (desde 2015)
 
 * **Análise estatística de comunidades ecológicas no R.**  
-Local: Osório  
-Evento: Mini-curso no [V Simpósio Acadêmico de Biologia Marinha](http://www.sabmar.com.br/).  
-Carga horária: 16 horas  
-Data: 13 e 14 de agosto/2016
-Conteúdo: Análise multivariada para aplicaçãoes em estudos de comunidades ecológicas.
+**Local:** Osório  
+**Evento:** Mini-curso no [V Simpósio Acadêmico de Biologia Marinha](http://www.sabmar.com.br/).  
+**Carga horária:** 16 horas  
+**Data**: 13 e 14 de agosto/2016  
+**Conteúdo:** Análise multivariada aplicada a estudos de comunidades ecológicas.
 
 * **Desvendando o R.**  
-Local: FURG  
-Evento: Curso de extensão eventual  
-Carga horária: 20 horas  
-Data:  Agosto-Dezembro/2015
-Conteúdo: Estatística descritiva e inferência básica no R.
+Curso de extensão eventual  
+**Local:** FURG  
+**Carga horária:** 24 horas  
+**Data**: Agosto-Dezembro/2015  
+**Conteúdo:** Estatística descritiva e inferência básica no R.
+
+* **Dominando o R**  
+Curso de extensão eventual  
+**Local:** FURG  
+**Carga horária:** 12 horas  
+**Data**: Outubro/2015  
+**Conteúdo:** Estatística inferencial multifatorial, análises multivariadas e mapas.
+
+----
+
+### Curso em preparação (eventualmente uma parte será ministrada)
+
+* **Expandindo o R**  
+Curso de extensão eventual  
+**Local:** FURG  
+**Carga horária:** até 24 horas  
+**Data**: Outubro/2015  
+**Conteúdo:** Funcionalidades não-estatísticas do RStudio, planilhagem, gráficos modernos, relatórios em html, pdf e doc, integração com Github, manipulação de arquivos LaTeX, criação de aplicativos no browser.
