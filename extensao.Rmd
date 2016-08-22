@@ -8,7 +8,7 @@ output:
 -----
 
 ### Próximo curso de extensão:
-* **Como escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio**  
+* **Rmarkdown: um jeito simples de escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio**  
 Local: FURG  
 Data: a confirmar
 
