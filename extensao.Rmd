@@ -12,7 +12,7 @@ output:
 
 **Local:** FURG (Sala a confirmar)   
 **Data**: 31 de agosto/2016  
-**Hora:** 14:00h até 18:00h  
+**Hora:** 09:00h até 12:00h  
 **Conteúdo:** RMarkdown é uma linguagem para criar documentos em PDF ou HTML que incluam textos, gráficos, tabelas e fórmulas. É capaz de incluir gráficos criados no R e mostrar o código. Arquivos profissionais em PDF podem ser criados, tanto para  relatórios de estudantes como para escrever artigos científicos. A partir dos arquivos em HTML podem ser criadas apresentações portáveis simples porém eficientes. Um site inteiro pode ser criado usando os arquivos HTML e o RStudio traz ferramentas para gerenciá-lo.  
 **Público:** Aberto a qualquer pessoa.
 
