@@ -11,6 +11,7 @@ output:
 
 ... em breve.
 
+<!--
 * **Gráficos**
     + Barra simples  
     + Histograma  
@@ -45,4 +46,4 @@ output:
     + PCO
     + CCA
     + RDA
-    
+    -->
