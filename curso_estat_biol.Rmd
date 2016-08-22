@@ -53,7 +53,7 @@ Aqui constarão links de interesse, sugestões de leituras complementares e info
 
 ----
 
-## Opcional: Grupo de matemática   
+### **Opcional: Grupo de matemática**  
 
 Para aqueles que querem entender melhor a estatística através da matémática.  
 
@@ -63,19 +63,15 @@ Para aqueles que querem entender melhor a estatística através da matémática.
 
 ----
 
-## Plano da disciplina
-
-**Ementa:**  
-Conteúdo sugerido:
+### **Conteúdo sugerido**
 
 Teoria: População e amostra. Amostragem. Tipos de dados. Distribuição de frequência. Ajustes probabilísticos a uma distribuição de frequência. Medidas de tendência central. Medidas de dispersão. Testes de hipóteses. Teste-t. ANOVA de um fator. Regressão e correlação. Estatística em experimentos biológicos (opcional).
 
 Prática: Familiarização com o R e o RStudio. Entrada de dados. Cálculos simples. Vetores. Cálculos com vetores. Gráficos simples. Análises estatísticas dadas em aulas teóricas.
 
-**Procedimentos didáticos**  
-Voz e caneta.
+----
 
-## Avaliações
+### **Avaliações**
 
 1. **Provas escritas** (1,5 pt cada)
     + Prova 1: 02/set
