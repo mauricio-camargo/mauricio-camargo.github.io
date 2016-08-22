@@ -53,7 +53,7 @@ Aqui ficarão os arquivos relacionados ao aprendizado prático do R.
 **- Material complementar**  
 Aqui constarão links de interesse, sugestões de leituras complementares e informações adicionais da matéria da semana.
 
-**- Opicional: Grupo de matemática**  
+**- Opcional: Grupo de matemática**  
 Para aqueles que querem entender melhor a estatística através da matémática.
 
 ----
@@ -78,6 +78,6 @@ Voz e caneta.
     + Prova 3: 04/nov
     + Prova 4: 02/dez
 
-2. **Trabalho prático no R** (4 pt) 
+2. **Trabalho prático no R** (4 pt)  
 Trabalho em grupo de no máximos 3 pessoas. As diretrizes para o trabalho serão disponibilizadas em breve.
 
