@@ -70,5 +70,14 @@ Prática: Familiarização com o R e o RStudio. Entrada de dados. Cálculos simp
 **- Procedimentos didáticos**  
 Voz e caneta.
 
-**- Avaliação**  
-????????
+**- Avaliações**  
+
+1. **Provas escritas** (1,5 pt cada)
+    + Prova 1: 02/set
+    + Prova 2: 07/out
+    + Prova 3: 04/nov
+    + Prova 4: 02/dez
+
+2. **Trabalho prático no R** (4 pt) 
+Trabalho em grupo de no máximos 3 pessoas. As diretrizes para o trabalho serão disponibilizadas em breve.
+
