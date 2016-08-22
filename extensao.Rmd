@@ -9,8 +9,10 @@ output:
 
 ### Próximo curso de extensão:
 * **Rmarkdown: um jeito simples de escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio**  
-Local: FURG  
+Local: FURG (Sala a confirmar)
 Data: a confirmar
+
+[Pré-inscrição:](https://goo.gl/forms/lN57zRrbR7boSxBg1)
 
 ----
 
