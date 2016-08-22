@@ -7,6 +7,15 @@ output:
 
 ----
 
+### **Semana 3 - 19/08/2016**
+**- Aulas em pdf**  
+[Aula3.pdf](Curso_Estat_Biol/Aula1.pdf)  
+
+**- Códigos do R**  
+[Aula2.R](Curso_Estat_Biol/Aula1.R)
+
+----
+
 ### **Semana 2 - 12/08/2016**
 
 **- Programas para instalar antes da aula:**  
