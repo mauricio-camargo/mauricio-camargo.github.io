@@ -8,7 +8,7 @@ output:
 -----
 
 ### Próximo curso de extensão:
-* **Como escrever artigos e criar apresentações usando o RStudio**  
+* **Como escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio**  
 Local: FURG  
 Data: a confirmar
 
