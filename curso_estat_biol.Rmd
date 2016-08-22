@@ -3,6 +3,7 @@ title: "Estatística (Ciências biológicas - 2016/2)"
 output:
   html_document:
     toc: true
+    toc_float: true
 ---
 
 ----
