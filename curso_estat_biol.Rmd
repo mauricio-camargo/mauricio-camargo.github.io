@@ -97,16 +97,36 @@ As provas escritas serão aplicadas nos primeiros 50 minutos da aula, contendo 3
 
 O relatório prático será em grupos de no máximo 3 pessoas. As diretrizes para o trabalho serão disponibilizadas em breve.
 
-Avaliação         Data               Peso
----------------   ----------------   ----
-Prova escrita 1   02/set             1,5
-Prova escrita 2   07/out             1,5
-Prova escrita 3   04/nov             1,5
-Prova escrita 4   02/dez             1,5
-Trabalho no R     25/nov (entrega)   4,0
-                  **Total**          **10,0**
+<!-- Centralização das colunas
+No centro
+  Avaliação       Data             Peso
+--------------- ---------------- --------------
+À direita
+Avaliação       Data             Peso
+--------------- ---------------- --------------
+
+
+-->
+  Avaliação         Data           Peso
+--------------- ---------------- --------------
+Prova escrita 1 02/set           1,5
+Prova escrita 2 07/out           1,5
+Prova escrita 3 04/nov           1,5
+Prova escrita 4 02/dez           1,5
+Trabalho no R   25/nov (entrega) 4,0
+                                 **Total=10,0**
 
 Table: Resumo das avaliações
 
-
-
+<!--
+Pode er tb com pacote pander
+```{r echo = FALSE}
+library(pander)
+a=c(1,2,3,4)
+b=c('A','B','C','D')
+d=c('qwe','Betr','Cert','Drty')
+x=data.frame(a,b)
+rownames(x)=d
+pander(x)
+``` 
+-->
