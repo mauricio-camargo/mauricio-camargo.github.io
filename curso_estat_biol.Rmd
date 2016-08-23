@@ -97,10 +97,16 @@ As provas escritas serão aplicadas nos primeiros 50 minutos da aula, contendo 3
 
 O relatório prático será em grupos de no máximo 3 pessoas. As diretrizes para o trabalho serão disponibilizadas em breve.
 
-Avaliação       | Peso | Data
---------------- | ---- | -------
-Prova escrita 1 | 1,5  | 02/set
-Prova escrita 2 | 1,5  | 07/out
-Prova escrita 3 | 1,5  | 04/nov
-Prova escrita 4 | 1,5  | 02/dez
-Trabalho no R   | 4,0  | 25/nov (entrega)
+Avaliação         Data               Peso
+---------------   ----------------   ----
+Prova escrita 1   02/set             1,5
+Prova escrita 2   07/out             1,5
+Prova escrita 3   04/nov             1,5
+Prova escrita 4   02/dez             1,5
+Trabalho no R     25/nov (entrega)   4,0
+                  **Total**          **10,0**
+
+Table: Resumo das avaliações
+
+
+
