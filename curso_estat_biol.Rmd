@@ -43,13 +43,13 @@ output:
     + Conceito de população e amostra
     + Amostragem
 
-* **Aulas em pdf**  
+- **Aulas em pdf**  
 Toda as semanas os arquivos gerados durante a aula serão colocados aqui, logo após o término. 
 
-* **Códigos do R**  
+- **Códigos do R**  
 Aqui ficarão os arquivos relacionados ao aprendizado prático do R.
 
-* **Material complementar**  
+- **Material complementar**  
 Aqui constarão links de interesse, sugestões de leituras complementares e informações adicionais da matéria da semana.
 
 ----
@@ -57,20 +57,18 @@ Aqui constarão links de interesse, sugestões de leituras complementares e info
 ### **Atendimento aos alunos**
 Atendimentos na base oceanográfica (Laboratório de Ecologia de Comunidades Bentônicas), nos seguintes horários:  
 
-* Terça-feira, 09:15h até 11:00h  
-* Quinta-feira, 09:15h até 11:00h  
+- Terça-feira, 09:15h até 11:00h  
+- Quinta-feira, 09:15h até 11:00h  
 
 
-----
-
-----
+-----
 
 ### **Opcional: Grupo de matemática**  
 
 Para aqueles que querem entender melhor a estatística através da matémática, o grupo de matemática se reunirá nos seguintes horários:
 
-* Terça-feira, 11:00h, prédio 6.  
-* Quinta-feira, 11:00h, prédio 6.  
+- Terça-feira, 11:00h, prédio 6.  
+- Quinta-feira, 11:00h, prédio 6.  
  
 ----
 
@@ -84,12 +82,16 @@ Prática: Familiarização com o R e o RStudio. Entrada de dados. Cálculos simp
 
 ### **Avaliações**
 
-1. **Provas escritas** (1,5 pt cada)
-    + Prova 1: 02/set
-    + Prova 2: 07/out
-    + Prova 3: 04/nov
-    + Prova 4: 02/dez
+As avaliações constarão de 4 pequenas provas escritas e um relatório prático escrito no RStudio.
 
-2. **Trabalho prático no R** (4 pt)  
-Trabalho em grupo de no máximos 3 pessoas. As diretrizes para o trabalho serão disponibilizadas em breve.
+As provas escritas serão aplicadas nos primeiros 50 minutos da aula, contendo 3 ou 4 perguntas simples. 
 
+O relatório prático será em grupos de no máximos 3 pessoas. As diretrizes para o trabalho serão disponibilizadas em breve.
+
+Avaliação       | Peso | Data
+--------------- | ---- | -------
+Prova escrita 1 | 1,5  | 02/set
+Prova escrita 2 | 1,5  | 07/out
+Prova escrita 3 | 1,5  | 04/nov
+Prova escrita 4 | 1,5  | 02/dez
+Trabalho no R   | 4,0  | 25/nov (entrega)
