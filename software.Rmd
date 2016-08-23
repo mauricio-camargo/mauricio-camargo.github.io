@@ -5,7 +5,7 @@ output:
     toc: false
 ---
 
-----
+---
 
 ### Pacotes do R
 - [GAD](https://github.com/mauricio-camargo/GAD): General Anova Design. Pacote para modelos mistos de ANOVA.  
