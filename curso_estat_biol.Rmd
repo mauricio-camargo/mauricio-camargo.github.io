@@ -8,7 +8,7 @@ output:
 
 ----
 
-[enquete](Enquete.xls)  
+[enquete](Curso_Estat_Biol/Enquete.xls)  
 
 
 ### **Semana 4 - 22-26/08/2016**
