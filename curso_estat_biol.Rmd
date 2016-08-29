@@ -8,48 +8,62 @@ output:
 
 ----
 
-[enquete](Curso_Estat_Biol/Enquete.xls)  
-
+### **Semana 5 - 29/08-02/09/2016**
+####Prova dia 02, sexta-feira
+- [**Banco de questões**](Curso_Estat_Biol/Banco1.pdf)  
+*Aula extra de revisão:* **Quinta-feira, 14:30h**
+Nesta semana não haverá 
 
 ### **Semana 4 - 22-26/08/2016**
+- **Aulas em pdf**  
+[Aula4.pdf](Curso_Estat_Biol/Aula4.pdf)  
 
-> ##### **Grupo de matemática** (Quinta, 27)  
-> Alunos presentes: *Zero*  
+- **Códigos do R**  
+[Enquete.R](Curso_Estat_Biol/Enquete.R)
+
+- **Arquivo do Excel para abrir no R**
+[enquete.xls](Curso_Estat_Biol/Enquete.xls)  
+
+##### **Grupo de matemática** (Quinta, 27)  
+Alunos presentes: *Zero*  
 Material usado:  
 - [Distribuição de frequências](Curso_Estat_Biol/1-Int-DistFreq.pdf)  
 - [Somatórios](Curso_Estat_Biol/2-Inf-Somatorio.pdf)  
 - [Artigo interessante para leitura](Curso_Estat_Biol/3-artigo1.pdf)  
 
+##### **Grupo de matemática** (Terça, 25)  
+Alunos presentes: *Zero*  
+
 ----
 
 ### **Semana 3 - 15-19/08/2016**
 
-* **Aulas em pdf**  
+- **Aulas em pdf**  
 [Aula3.pdf](Curso_Estat_Biol/Aula3.pdf)  
 
-* **Códigos do R**  
+- **Códigos do R**  
 [Aula2.R](Curso_Estat_Biol/aula2.R)
 
 ----
 
 ### **Semana 2 - 08-12/08/2016**
 
-* **Programas para instalar antes da aula:**  
+- **Programas para instalar antes da aula:**  
 [R para Windows](https://cran.r-project.org/bin/windows/base)  
 [RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/)
 
-* **Aulas em pdf**  
+- **Aulas em pdf**  
 [Aula1.pdf](Curso_Estat_Biol/Aula1.pdf)  
 [Aula2.pdf](Curso_Estat_Biol/Aula2.pdf)
 
-* **Códigos do R**  
+- **Códigos do R**  
 [Aula1.R](Curso_Estat_Biol/aula2.R)
 
 ----
 
 ### **Semana 1 - 01-05/08/2016**
 
-* **Conteúdo:**
+- **Conteúdo:**
     + Um R-ecado para você... 
     + Aulas: o que e como ensinar?
     + Provas: como avaliar?
@@ -74,7 +88,6 @@ Atendimentos na base oceanográfica (Laboratório de Ecologia de Comunidades Ben
 
 - Terça-feira, 09:15h até 11:00h  
 - Quinta-feira, 09:15h até 11:00h  
-
 
 -----
 
