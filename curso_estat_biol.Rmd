@@ -9,10 +9,11 @@ output:
 ----
 
 ### **Semana 5 - 29/08-02/09/2016**
-####Prova dia 02, sexta-feira
+>####Prova dia 02, sexta-feira
+
 - [**Banco de questões**](Curso_Estat_Biol/Banco1.pdf)  
-*Aula extra de revisão:* **Quinta-feira, 14:30h**
-Nesta semana não haverá 
+*Aula extra de revisão:* **Quinta-feira, 14:30h**  
+Nesta semana não haverá aula para o Grupo de Matemática.
 
 ### **Semana 4 - 22-26/08/2016**
 - **Aulas em pdf**  
@@ -21,7 +22,7 @@ Nesta semana não haverá
 - **Códigos do R**  
 [Enquete.R](Curso_Estat_Biol/Enquete.R)
 
-- **Arquivo do Excel para abrir no R**
+- **Arquivo do Excel para abrir no R**  
 [enquete.xls](Curso_Estat_Biol/Enquete.xls)  
 
 ##### **Grupo de matemática** (Quinta, 27)  
