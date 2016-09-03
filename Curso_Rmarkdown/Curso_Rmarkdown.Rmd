@@ -1,30 +1,17 @@
 ---
-title: "Untitled"
-author: "Mauricio Camargo"
-date: "3 de setembro de 2016"
-output: html_document
+title: "Rmarkdown"
+output:
+  html_document:
+    toc: false
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+### **Rmarkdown: um jeito simples de escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio** 
+**Local:** FURG  
+**Data**: 31 de agosto/2016  
+**Hora:** 09:00h até 12:00h  
+**Conteúdo:** RMarkdown é uma linguagem de rápido aprendizado para criar documentos em PDF ou HTML que incluam textos, figuras, gráficos, tabelas e fórmulas. É capaz de inserir no arquivo gráficos criados no R. Arquivos profissionais em PDF podem ser criados, tanto para  relatórios de estudantes como para escrever artigos científicos. A partir dos arquivos em HTML podem ser criadas apresentações portáveis e simples, porém eficientes. Um site inteiro pode ser criado usando os arquivos HTML, que pode ser gerenciado facilmente usando as ferramentas que a nova versão do RStudio traz.  
+**Público:** Aberto a qualquer pessoa.
 
-## R Markdown
+Arquivos do curso:
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+- [Curso_Rmarkdown.Rpres](Curso_Rmarkdown.Rpres)
