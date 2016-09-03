@@ -5,6 +5,8 @@ output:
     toc: false
 ---
 
+---
+
 ### **Rmarkdown: um jeito simples de escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio** 
 **Local:** FURG  
 **Data**: 31 de agosto/2016  
@@ -14,4 +16,9 @@ output:
 
 Arquivos do curso:
 
-- [Curso_Rmarkdown.Rpres](Curso_Rmarkdown.Rpres)
+- [](Curso_Rmarkdown.Rpres)
+- [](referencias.bib)
+- [](R.jpg)
+- [](Aula_Pratica_Rmarkdown.Rmd)
+- [](Cartao_referencia.pdf)
+- [](Curso_Rmarkdown.Rmd)
