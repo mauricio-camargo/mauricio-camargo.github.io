@@ -1,5 +1,5 @@
 ---
-title: "Rmarkdown"
+title: "Curso de Rmarkdown"
 output:
   html_document:
     toc: false
