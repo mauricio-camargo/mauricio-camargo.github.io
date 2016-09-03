@@ -15,8 +15,10 @@ Este é meu site pessoal, onde concentro todas as minhas atividades profissionai
 
 ----
 
->### Vínculo profissional
->Professor Associado da [**FURG**](http://www.furg.br), no >Instituto de Oceanografia >([**IO-FURG**](http://www.io.furg.br)),  no **Laboratório de >Ecologia de Invertebrados Bentônicos**.  
+> ### Vínculo profissional
+> Professor Associado da [**FURG**](http://www.furg.br), no 
+> Instituto de Oceanografia 
+> ([**IO-FURG**](http://www.io.furg.br)),  no **Laboratório de > Ecologia de Invertebrados Bentônicos**.  
 
 ------
 
