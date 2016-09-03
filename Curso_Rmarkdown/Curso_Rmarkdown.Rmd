@@ -16,9 +16,9 @@ output:
 
 Arquivos do curso:
 
-- [](Curso_Rmarkdown.Rpres)
-- [](referencias.bib)
-- [](R.jpg)
-- [](Aula_Pratica_Rmarkdown.Rmd)
-- [](Cartao_referencia.pdf)
-- [](Curso_Rmarkdown.Rmd)
+- [Curso_Rmarkdown.Rpres](Curso_Rmarkdown.Rpres)
+- [referencias.bib](referencias.bib)
+- [R.jpg](R.jpg)
+- [Aula_Pratica_Rmarkdown.Rmd](Aula_Pratica_Rmarkdown.Rmd)
+- [Cartao_referencia.pdf](Cartao_referencia.pdf)
+- [Curso_Rmarkdown.Rmd](Curso_Rmarkdown.Rmd)
