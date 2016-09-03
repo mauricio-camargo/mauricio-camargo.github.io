@@ -1,0 +1,135 @@
+---
+title: "Título de teste"
+author: "Mauricio Camargo"
+date: "31 de agosto de 2016"
+output:
+  pdf_document:
+  html_document:
+    toc: yes
+    toc_float: yes
+bibliography: referencias.bib
+---
+
+# Título 1
+## Título 2
+### Título 3
+#### Título 4
+##### Título 5
+
+```{r}
+plot(1:10)
+```
+
+*Texto em itálico.*  
+**Texto em negrito.**
+
+Primeiro parágrafo
+
+  Segundo parágrafo
+
+|     Texto identado
+
+Teste de nota de rodapé^[Esta é a nota de rodapé]
+
+Outra nota^[Esta é a segunda]
+
+
+<center>
+**Texto centralizado**  
+*Outra linha*
+</center>
+
+<!--
+Isso é um comentário
+-->
+
+
+\begin{center}
+Centralizar em LaTeX
+\end{center}
+
+% Isso é um comentário
+
+$\rho$
+
+Lista não ordenadas  
+
+- Item 1  
+- Item 2  
+- Item 3  
+    - Sub-item 3.1  
+    - Sub-item 3.2  
+        - Sub-Sub-item 3.2.1.1a=c(1,4,3,6,7)
+b=c('A','B','C','D','E')
+c=c(12,43,54,65,76)
+df=data.frame(a,b,c)
+df
+
+            - Sub-Sub-item 3.2.1
+
+Lista ordenada
+
+1. Item 1
+1. Item 1
+    i. Sub-item 1.1
+    i. Sub-item 1.2
+        a. Outro item
+        a. Outro ainda
+        
+Links
+
+[Texto do link](www.furg.br)  
+[Mande-me um email](mailto:fulano@gmail.com)
+
+Imagens:
+
+![Caption da imagem](R.jpg)
+
+<!--
+![Caption da imagem](www.google.com/imagen1254)
+-->
+
+Tabela simples
+
+tabela1     Col1   Col2   Col3
+--------- ------ ------ -----
+**Linha1**     23    43     65
+**Linha2**     54    65     87
+
+------------------------
+           Mic.   Jen.
+           furn   lin.
+--------- ------ ------
+Area de
+controle   23      45
+externa
+
+Área de    `r length(cars)`      76
+impacto
+direto
+------------------------------
+Table: Tabela 1. Meus peixinhos.
+
+`r length(cars)`
+
+Criando tabelas a partir de dataframe
+
+```{r}
+a=c(1,4,3,6,7)
+b=c('A','B','C','D','E')
+c=c(12,43,54,65,76)
+df=data.frame(a,b,c)
+df
+library(pander)
+pander(df)
+```
+
+Citações:
+
+Segundo o autor [@CASTELLO2010], tá tudo dominado.
+
+##Referências
+
+$\sqrt{16}$
+
+$\frac{\sum\left(\bar x\right)^{2}} {4}$
