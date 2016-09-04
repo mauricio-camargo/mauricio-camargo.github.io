@@ -1,0 +1,37 @@
+---
+title: "R para todos"
+output:
+  html_document:
+    toc: false
+--- 
+
+---
+
+**Livro em construção**
+
+Eu ensino estatística no R desde 2004, do primeiro ano à pós-graduação. Esta esperiência me ensinou que os padrões de aprendizado do R se repetem entre as turmas. De uma turma padrão de 30 anos, cerca de cinco nem tentam aprender. Alguns desses se dizem traumatizados pelo curso. Outros cinco aprendem ou decoram o mínimo para passar, mas fariam isso com qualquer outra disciplina. Cerca de 10 saem do curso conseguindo se virar com coisas básicas. Entre 8 e 10 acabam gostando do R e o adotam no seu dia-a-dia. Um ou dois alunos se tornam viciados.
+
+Este livro é para todos vocês. 
+
+Este será um livro de R e de Rstudio, não de estatística. Claro que muitos exemplos serão baseados em análises estatísticas de diversos níveis, mas a teoria subjacente não será aborada em profundidade.
+
+**R para todos** é um livro aberto de conteúdo abrangente, cobrindo desde o nível mais fundamental, que não requer nenhum conhecimento de estatística ou de computação, até o nível mais avançado, de programação.
+
+<!--
+Vantagens. 
+
+Curva de aprendizado do R.
+
+O objetivo deste livro é fornecer os
+
+
+- **Iniciante**
+    + Instalação do R e Rstudio
+    + R: uma calculadora de luxo gratuita
+    + Estatística básica
+- **Intermediário**
+    + ggplot2
+    + Modelos lineares
+- **Avançado**
+
+-->
