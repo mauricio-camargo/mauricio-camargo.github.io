@@ -29,9 +29,9 @@ navbar:
     - text: "Software"
       icon: glyphicon-floppy-disk
       href: software.html
-    - text: "R-ecados"
+    - text: "Coisas do R"
       icon: glyphicon-registration-mark
-      href: r-ecados.html
+      href: coisas_do_R.html
     - text: "Agenda"
       icon: glyphicon-calendar
       href: agenda.html

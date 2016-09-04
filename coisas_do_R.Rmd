@@ -1,0 +1,17 @@
+---
+title: "Coisas do R"
+output:
+  html_document:
+    toc: false
+--- 
+
+---
+
+- Iniciantes
+    + Instalação do R e Rstudio
+    + 
+- Intermediários
+
+- Avançados
+
+

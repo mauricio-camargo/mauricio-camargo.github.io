@@ -5,22 +5,20 @@ output:
     toc: false
 --- 
 
-------
+---
 
-## R-ecados: coisas interessantes sobre o R e o RStudio.  
-
-... em breve.
+## R-ecados: dicas e truques do R  
 
 <!--
 * **Gráficos**
     + Barra simples  
-    + Histograma  
+    + Histograma ajustado
     + Boxplot  
     + Barra com erro  
     + Dispersão (scatter e linha)
     + Gráficos mistos (barras e linhas)
     + Duplo eixo y
-* **Modelos lineares gerais (LM)**
+* **Modelos lineares (LM)**
     + Teste-t
     + ANOVA unifatorial
     + ANOVA multifatorial
@@ -28,6 +26,7 @@ output:
     + Regressão simples
     + Regressão múltipla
     + ANCOVA
+* **Modelos mistos (Mixed Models)**
 * **Modelos lineares generalizados (GLM)**
 * **Análises não-paramétricas**
     + Mann-Whitney e Wilcoxon
@@ -37,6 +36,7 @@ output:
 * **Séries temporais**
     + Autocorrelação
     + Médias móveis
+    + ARIMA
 * **Multivariadas**
     + PCA
     + CA
