@@ -9,6 +9,3 @@ output:
 
 ## R-nomados: coisas interessantes para se fazer com o RStudio 
 
-- Gerador de provas individuais com dados aleatorizados para cada aluno
-    - [Prova genérica]()
-    - [Exemplo de prova completa]()

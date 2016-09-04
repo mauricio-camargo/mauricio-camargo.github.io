@@ -7,11 +7,12 @@ output:
 
 ---
 
+R para todos:
+
 - Iniciantes
     + Instalação do R e Rstudio
     + 
 - Intermediários
 
 - Avançados
-
 
