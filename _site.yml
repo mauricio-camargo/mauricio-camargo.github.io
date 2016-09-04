@@ -31,7 +31,7 @@ navbar:
       href: software.html
     - text: "R para todos"
       icon: glyphicon-registration-mark
-      href: R_para_todos.html
+      href: R_para_todos/R_para_todos.html
     - text: "Agenda"
       icon: glyphicon-calendar
       href: agenda.html
