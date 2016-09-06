@@ -9,6 +9,10 @@ output:
 ---
 
 ### **Semana 5 - 29/08-02/09/2016**
+- **Aulas em pdf**  
+[Aula5.pdf](Curso_Estat_Biol/Aula5 - Continuacao da Aula3.pdf)  
+
+
 > #### **Prova dia 02, sexta-feira**
 Conteúdo baseado neste 
 [**Banco de questões**](Curso_Estat_Biol/Banco1.pdf).  
