@@ -22,7 +22,7 @@ Ecologia de Invertebrados Bentônicos**.
 ------
 
 ### Disciplinas e cursos de extensão
-Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na pós-graduação e eventuais [cursos de extensão](extensao.html), usando o [software R](r-ecados.html).
+Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na pós-graduação e eventuais [cursos de extensão](extensao.html), usando o [software R](https://mauricio-camargo.github.io/R_para_todos.html).
 
 **Disciplinas em andamento (segundo semestre de 2016):**
 
