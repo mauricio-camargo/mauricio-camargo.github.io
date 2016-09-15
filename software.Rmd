@@ -7,7 +7,7 @@ output:
 
 ---
 
-### Pacotes do R
+### Pacotes do R (Multiplataforma)
 - [GAD](https://github.com/mauricio-camargo/GAD): General Anova Design. Pacote para modelos mistos de ANOVA.  
 Autores: [Leonardo Sandrini Neto](http://lattes.cnpq.br/8490360283693098) e Maurício Camargo
 
@@ -22,8 +22,8 @@ Autores: [Eliandro Gilbert](http://lattes.cnpq.br/5433409191582743) e Maurício 
 
 ----
 
-### Programas de código livre escritos em Delphi 
-- [SysGran](https://github.com/mauricio-camargo/SysGran): Sistema integrado de análise granulométrica para Windows, com análises estatísticas e gráficos para sedimentologia.  
+### Programas de código livre escritos em Delphi (Windows)
+- [SysGran](https://github.com/mauricio-camargo/SysGran): Sistema integrado de análise granulométrica para Windows, com análises estatísticas e gráficos para sedimentologia. 
 Autor: Maurício Camargo
 
 - [MaresDB](https://github.com/mauricio-camargo/MaresDB): Sobreposição gráfica de linhas de maré para demonstração de longas séries temporais. Para Windows.  
@@ -37,7 +37,12 @@ Autor: Maurício Camargo
 
 ----
 
-### Programas comerciais escritos em Delphi
+### Programa livre escrito em Lazarus (Linux)
+- [PDFtoTEXTgui](https://github.com/mauricio-camargo/PDFtoTEXTgui): Interface Gráfica de Usuário (GUI) escrito em Lazarus Pascal do programa pdftotext para Linux, para transformar PDF em TXT.
+
+---
+
+### Programas comerciais escritos em Delphi (Windows)
 - Pilots-Transf: Programa de transferência dos dados recebidos por maregráfos da Paranaguá Pilots para banco de dados.  
 Autor: Maurício Camargo
 
