@@ -9,45 +9,58 @@ output:
 
 ### Pacotes do R (Multiplataforma)
 - [GAD](https://github.com/mauricio-camargo/GAD): General Anova Design. Pacote para modelos mistos de ANOVA.  
-Autores: [Leonardo Sandrini Neto](http://lattes.cnpq.br/8490360283693098) e Maurício Camargo
+Autores: [Leonardo Sandrini Neto](http://lattes.cnpq.br/8490360283693098) e Maurício Camargo  
+Estágio: ativo
 
 - GAD2 (pacote experimental): Extensão do pacote GAD, com funcionalidades adicionais, como aproximações e pooling.  
-Autores: [Leonardo Sandrini Neto](http://lattes.cnpq.br/8490360283693098), [Eliandro Gilbert](http://lattes.cnpq.br/5433409191582743) e Maurício Camargo
+Autores: [Leonardo Sandrini Neto](http://lattes.cnpq.br/8490360283693098), [Eliandro Gilbert](http://lattes.cnpq.br/5433409191582743) e Maurício Camargo  
+Estágio: em construção
 
 - [rysgran](https://github.com/mauricio-camargo/rysgran): Estatísticas e gráficos para análise granulométrica do sedimento. É o porte do SysGran para o R.  
-Autores: Maurício Camargo, [Eliandro Gilbert](http://lattes.cnpq.br/5433409191582743) e [Leonardo Sandrini Neto](http://lattes.cnpq.br/8490360283693098)
+Autores: Maurício Camargo, [Eliandro Gilbert](http://lattes.cnpq.br/5433409191582743) e [Leonardo Sandrini Neto](http://lattes.cnpq.br/8490360283693098)  
+Estágio: ativo
 
 - permanova (pacote experimental): Análise variância multivariada permutacional.  
-Autores: [Eliandro Gilbert](http://lattes.cnpq.br/5433409191582743) e Maurício Camargo
+Autores: [Eliandro Gilbert](http://lattes.cnpq.br/5433409191582743) e Maurício Camargo  
+Estágio: em construção
 
 ----
 
 ### Programas de código livre escritos em Delphi (Windows)
 - [SysGran](https://github.com/mauricio-camargo/SysGran): Sistema integrado de análise granulométrica para Windows, com análises estatísticas e gráficos para sedimentologia. 
-Autor: Maurício Camargo
+Autor: Maurício Camargo  
+Estágio: inativo. Substituído pelo pacote rysgran.
 
 - [MaresDB](https://github.com/mauricio-camargo/MaresDB): Sobreposição gráfica de linhas de maré para demonstração de longas séries temporais. Para Windows.  
-Autor: Maurício Camargo
+Autor: Maurício Camargo  
+Estágio: ativo (necessita atualização)
 
 - Spiro: Software para visualização da direção e velocidade da corrente em um ou mais perfis verticais, para auxílio da navegação.  
-Autor: Maurício Camargo
+Autor: Maurício Camargo  
+Estágio: desaparecido
 
 - [BGM](https://github.com/mauricio-camargo/BGM): Rotinas usadas em Biogeoquímica marinha. Para Windows.  
-Autor: Maurício Camargo
+Autor: Maurício Camargo  
+Estágio: inativo.
 
 ----
 
 ### Programa livre escrito em Lazarus (Linux)
-- [PDFtoTEXTgui](https://github.com/mauricio-camargo/PDFtoTEXTgui): Interface Gráfica de Usuário (GUI) escrito em Lazarus Pascal do programa pdftotext para Linux, para transformar PDF em TXT.
+- [PDFtoTEXTgui](https://github.com/mauricio-camargo/PDFtoTEXTgui): Interface Gráfica de Usuário (GUI) escrito em Lazarus Pascal do programa pdftotext para Linux, para transformar PDF em TXT.  
+Autor: Maurício Camargo  
+Estágio: ativo
 
 ---
 
 ### Programas comerciais escritos em Delphi (Windows)
 - Pilots-Transf: Programa de transferência dos dados recebidos por maregráfos da Paranaguá Pilots para banco de dados.  
 Autor: Maurício Camargo
+Estágio: ativo
 
 - Pilots-Maregrama: Programa de visualização dos dados de marés armazenados nos banco de dados.  
-Autor: Maurício Camargo
+Autor: Maurício Camargo  
+Estágio: ativo
 
 - Saci: Programa para controle de vendas de uma loja de material de construção.  
-Autor: Maurício Camargo
+Autor: Maurício Camargo  
+Estágio: ativo
