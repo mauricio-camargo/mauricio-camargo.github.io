@@ -93,10 +93,10 @@ Alunos presentes: *Zero*
 
 ### **Semana 1 - (01 a 05/08/2016)**
 
-    + Por que estatística?
-    + Conceito de população e amostra
-    + Amostragem
-    + Tipos de dados
+- Por que estatística?
+- Conceito de população e amostra
+- Amostragem
+- Tipos de dados
 
 ----
 
