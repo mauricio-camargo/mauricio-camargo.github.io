@@ -8,9 +8,18 @@ output:
 
 ---
 
+### **Semana 8 (19 a 23/09/2016)**  
+>#### **Prova de segunda chamada**
+>A segunda chamada será nesta quinta-feira (22/09), as 17:30h, no prédio 6. 
+
+---
+
 ### **Semana 7 (12 a 16/09/2016)**  
 >#### **Prova de segunda chamada**
->A segunda chamada será nesta quinta-feira (15/09), as 17:30h, no prédio 6. 
+- **Aulas em pdf**  
+[Aula7.pdf](Curso_Estat_Biol/Aula7.pdf)  
+
+---
 
 ### **Semana 6 (05 a 09/09/2016)**  
 - **Aulas em pdf**  

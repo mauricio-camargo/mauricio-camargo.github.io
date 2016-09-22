@@ -11,7 +11,7 @@ output:
 
 - Representante do  Núcleo de Oceanografia Biológica (NOB) no Conselho do Instituto de Oceanografia (IO).
     + Reunião de agosto/16
-        + Enquete online sobre a vaga referente à aposentadoria de professor do Núcleo de Auicultura. Prazo: dia 05/09.
+        + [Enquete online](https://docs.google.com/forms/d/1Mf3zDHy4RkxUQkT9HgsRfAyjTnsW9dxJ5SXwIocjhS8/edit#responses) sobre a vaga referente à aposentadoria de professor do Núcleo de Auicultura. Prazo: dia 05/09.
     
 - Suplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia.
 
