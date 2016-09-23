@@ -11,7 +11,7 @@ output:
 ### **Semana 8 (19 a 23/09/2016)**  
 
 [Notas da primeira prova](https://dl.dropboxusercontent.com/u/85015358/Notas1.pdf)*: dúvidas sobre a prova logo após a aula de sexta.*  
-
+[Estatística descritiva das notas da prova](Curso_Estat_Biol/Notas.html)
 
 ````
 Prova 2a chamada de novo: Dia 22/09, quinta-feira, às 17:00h, no prédio 6. 

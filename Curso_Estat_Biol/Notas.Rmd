@@ -1,5 +1,5 @@
 ---
-title: "NOTAS da disciplina de Estatística para Ciências Biológicas"
+title: "Primeira prova"
 output:
   html_document:
     toc: false
@@ -7,8 +7,37 @@ output:
 
 ---
 
-# Primeira prova
+# Abaixo estão os códigos funcionais do R para realizar as análises descritivas das notas.
 
+```{r echo=TRUE}
+#Abrindo o arquivo com as notas diretamente da internet:
+notas = scan('https://dl.dropboxusercontent.com/u/85015358/notas1.txt')
+```
+```{r echo=TRUE}
+#Calculando a média
+mean(notas)
+```
+```{r echo=TRUE}
+#Sumário de 5 números mais a média
+summary(notas)
+```
+```{r echo=TRUE}
+#Criando um box-plot
+boxplot(notas)
+```
+```{r echo=TRUE}
+#Criando um histograma
+hist(notas,probability=T,main='')
+lines(density(notas),col='blue')
+```
+```{r echo=TRUE}
+#QQ-plot 
+qqnorm(notas)
+qqline(notas)
+```
+```{r echo=TRUE}
+#Teste de normalidade de Shapiro 
+shapiro.test(notas)
+```
 ---
 
-[aqui](https://dl.dropboxusercontent.com/u/85015358/qqqq/REPLICATE%20OR%20LIE%20-%20Prosser.pdf)
