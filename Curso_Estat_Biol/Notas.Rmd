@@ -1,0 +1,11 @@
+---
+title: "Estatística para Ciências biológicas - NOTAS"
+output:
+  html_document:
+    toc: false
+---
+
+---
+
+### **Semana 8 (19 a 23/09/2016)**  
+
