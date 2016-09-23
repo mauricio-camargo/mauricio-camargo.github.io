@@ -1,5 +1,5 @@
 ---
-title: "Estatística para Ciências biológicas - NOTAS"
+title: "NOTAS da disciplina de Estatística para Ciências Biológicas"
 output:
   html_document:
     toc: false
@@ -7,5 +7,8 @@ output:
 
 ---
 
-### **Semana 8 (19 a 23/09/2016)**  
+# Primeira prova
 
+---
+
+[aqui](https://dl.dropboxusercontent.com/u/85015358/qqqq/REPLICATE%20OR%20LIE%20-%20Prosser.pdf)
