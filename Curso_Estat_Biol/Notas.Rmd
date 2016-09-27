@@ -11,7 +11,6 @@ output:
 [**Voltar para a página da disciplina**](https://mauricio-camargo.github.io/curso_estat_biol.html)
 </center>
 
-
 ### Abaixo estão os códigos funcionais do R para realizar as análises descritivas das notas.
 
 ```{r echo=TRUE}
