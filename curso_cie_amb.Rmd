@@ -7,4 +7,4 @@ output:
 
 ------
 
-[Acesso](Curso_Cienc_Amb.html) ao material usado em aula.
+[Acesso](Curso_Cienc_Amb/CienAmbi2016.html) ao material usado em aula.
