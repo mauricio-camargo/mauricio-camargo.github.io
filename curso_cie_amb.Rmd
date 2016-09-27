@@ -5,6 +5,13 @@ output:
     toc: false
 ---
 
-------
+----
 
-[Acesso](Curso_Cienc_Amb/CienAmbi2016.html) ao material usado em aula.
+## Turma de Ciências do ambiente, 2016/2
+
+Aulas:  
+26/09 - 10:35h  
+26/09 - 13:30h  
+29/09 - 07:45h  
+
+[Acesso](Curso_Cienc_Amb/CienAmbi2016.html) à apresentação usada em aula. Uses as setas para mover os slides. 
