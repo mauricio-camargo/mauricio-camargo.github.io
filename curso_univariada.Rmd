@@ -1,5 +1,5 @@
 ---
-title: "Estatística univariada para estudos de distribuição espacias e temnporal"
+title: "Estatística univariada para estudos de distribuição espacial e temporal"
 output:
   html_document:
     toc: false
