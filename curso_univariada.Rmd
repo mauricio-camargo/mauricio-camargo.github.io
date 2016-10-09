@@ -7,10 +7,15 @@ output:
 
 ------
 
+### **Semana 2 - (11/10/2016)**
+
+**A aula esta semana será na terça-feira, às 09:00h, na sala de reuniões do IO.**
+
+**- Programas para instalar antes da aula:**  
+[R para Windows](https://cran.r-project.org/bin/windows/base)  
+[RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/)  
+No site existem instruções para instalações em outros sistemas operacionais.
+
 ### **Semana 1 - (05/10/2016)**
 
 > Aula cancelada em razão do I ENCOB.
-
-Semana que vem é feriado. Aguardem instruções...
-
-![Prestigie o I Encontro da Pós-graduação em Oceanografia Biológica](/Curso_Univar_PG/Convite_IENCOB.PNG)
