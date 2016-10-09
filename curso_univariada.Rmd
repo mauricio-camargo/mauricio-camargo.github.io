@@ -9,7 +9,7 @@ output:
 
 ### **Semana 2 - (11/10/2016)**
 
-**A aula esta semana será na terça-feira, às 09:00h, na sala de reuniões do IO.**
+> **A aula desta semana será excepcionalmente na terça-feira, às 09:00h, na sala de reuniões do IO.**
 
 **- Programas para instalar antes da aula:**  
 [R para Windows](https://cran.r-project.org/bin/windows/base)  
