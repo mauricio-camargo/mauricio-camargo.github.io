@@ -19,3 +19,29 @@ No site existem instruções para instalações em outros sistemas operacionais.
 ### **Semana 1 - (05/10/2016)**
 
 > Aula cancelada em razão do I ENCOB.
+
+**Ementa:**
+
+Introdução ao R e ao RStudio. O R como calculadora de luxo. Instalação de pacotes do R. Entrada de dados e importação de planilhas do Excel. Estatística descritiva: medidas de tendência central e de posição, medidas de dispersão. Gráficos básicos: gráficos de dispersão, boxplots e gráficos de barras com medidas de dispersão. Distribuições estatísticas e histogramas. Inferência estatística. Regressão e correlação. ANOVA de um fator. 
+
+A lógica do pensamento científico. Modelos. Modelos lineares. Modelos lineares gerais: Regressão linear e ANOVA. Teoria e prática (no R).
+
+Métodos clássicos de regressão linear simples e múltipla e de ANOVA multifatorial. Teoria e prática (no R).
+
+Fatores fixos e aleatórios. Delineamentos hierárquicos e ortogonais clássicos e suas aplicações universais. Modelos complexos e suas aplicações. Teoria e prática no R.
+
+Diversos sabores de ANOVA em ecologia e suas aplicações. Pseudoreplicação e modelos mistos de ANOVA. Teoria e prática no R.
+
+Aplicações de ANOVA no espaço-tempo. 
+
+**Bibliografia**
+
+Gottelli, N.; Ellison, A.M. *A primer of ecological statistics.* 2013. ISBN 9781605351919
+
+Quinn, G.P.; Keough, M. *Experimental design and data analysis for biologists.* 2002. ISBN 0521009766
+
+Sokal, R.R and Rohlf, F,J. Biometry: *The Principles and Practices of Statistics in Biological Research.* 1995. ISBN 0716724111.
+
+Underwood, A.J. *Experiments in ecology – their logical design and interpretation using analysis of variance.* 1997. ISBN 0521556961.
+
+Zuur, A.F. ; Leno, E.N. ; Meesters, E.W.G. *A beginner’s guide to R.* 2009. ISBN 9780387938363.

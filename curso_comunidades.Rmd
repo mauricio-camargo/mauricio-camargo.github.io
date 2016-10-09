@@ -7,10 +7,6 @@ output:
 
 ----
 
-### **Semana 3 - 19/08/2016**
-
-
-### **Semana 2 - 12/08/2016**
 
 **- Programas para instalar antes da aula:**  
 [R para Windows](https://cran.r-project.org/bin/windows/base)  
@@ -26,8 +22,6 @@ No site existem instruções para instalações em outros sistemas operacionais.
 Curso online oferecido pelo Instituto de Biologia da USP para ecólogos e áreas afins, com muito material de consulta e exercícios interessantes.
 
 ----
-
-### **Semana 1 - 05/08/2016**
 
 **- Conteúdo:**
  
