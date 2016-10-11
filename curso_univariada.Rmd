@@ -5,20 +5,34 @@ output:
     toc: false
 ---
 
-------
+### **Semana 3 - (19/10/2016)**
+
+De 19 a 21 (quarta a sexta) havera o MPU e portanto precisaremos passar a aula para segunda ou terça.
+
+Criei outro Doodle para agendarmos a aula:
+http://doodle.com/poll/h9rba5xifhh4v3ib
+
+---
 
 ### **Semana 2 - (11/10/2016)**
 
-> **A aula desta semana será excepcionalmente na terça-feira, às 09:00h, na sala de reuniões do IO.**
+**Aulas**
+
+[Aula1.pdf](Curso_Univar_PG/Aula1.pdf)  
+[Aula1.R](Curso_Univar_PG/Aula1.R)  
 
 **- Programas para instalar antes da aula:**  
 [R para Windows](https://cran.r-project.org/bin/windows/base)  
 [RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/)  
 No site existem instruções para instalações em outros sistemas operacionais.
 
+----
+
 ### **Semana 1 - (05/10/2016)**
 
 > Aula cancelada em razão do I ENCOB.
+
+----
 
 **Ementa:**
 

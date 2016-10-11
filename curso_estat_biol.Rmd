@@ -2,21 +2,53 @@
 title: "Estatística (Ciências biológicas - 2016/2)"
 output:
   html_document:
-    toc: true
-    toc_float: true
+    toc: false
 ---
 
 ---
+
+### **Semana 14 (31/10 a 04/11/2016)**  
+> #### **Prova dia 04, sexta-feira**
+Conteúdo baseado nos exercícios que serão lançados em breve
+
+***
+
+### **Semana 13 (24 a 28/10/2016)**  
+Não haverá aula na sexta-feira devido à Semana acadêmica da biologia.
+
+> Dia 27, quinta-feira, às 16:20h, haverá uma aula extra de revisão para a prova, que será na semana que vem.
+
+***
+
+### **Semana 12 (17 a 21/10/2016)**  
+Não haverá aula na sexta-feira devido à MPU.
+
+***
+
+### **Semana 11 (10 a 14/10/2016)**  
+Aula normal na sexta-feira, dia 14, no prédio 6, não sendo necessário laptop.
+
+A prova que seria nessa semana foi adiada para o dia 04/11
+
+***
 
 ### **Semana 10 (03 a 07/10/2016)**  
-Aula normal nessa sexta-feira, na sala do prédio 6. Não é necessário levar laptop.
+- **Aulas em pdf**  
+[Aula9.pdf](Curso_Estat_Biol/Aula9.pdf)  
+
+***
 
 ### **Semana 9 (26 a 30/09/2016)**  
 **ATENÇÃO**: CANCELADA a aula desta semana em razão de viagem para defesa de tese de doutorado na UFPR.
 
 A prova que seria realizada no dia 07/10 será adiada.
 
+***
+
 ### **Semana 8 (19 a 23/09/2016)**  
+- **Aulas em pdf**  
+[Aula8.pdf](Curso_Estat_Biol/Aula8.pdf)  
+
 
 [Notas da primeira prova](https://dl.dropboxusercontent.com/u/85015358/Notas1.pdf)*: dúvidas sobre a prova logo após a aula de sexta.*  
 [Estatística descritiva das notas da prova](Curso_Estat_Biol/Notas.html)

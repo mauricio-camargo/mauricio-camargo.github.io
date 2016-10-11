@@ -19,9 +19,6 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <link rel="stylesheet"
@@ -166,100 +163,6 @@ $(document).ready(function () {
 
 
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.9em;
-  padding-left: 5px;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
@@ -354,17 +257,53 @@ div.tocify {
 
 
 <hr />
+<div id="semana-14-3110-a-04112016" class="section level3">
+<h3><strong>Semana 14 (31/10 a 04/11/2016)</strong></h3>
+<blockquote>
+<h4 id="prova-dia-04-sexta-feira"><strong>Prova dia 04, sexta-feira</strong></h4>
+<p>Conteúdo baseado nos exercícios que serão lançados em breve</p>
+</blockquote>
+<hr />
+</div>
+<div id="semana-13-24-a-28102016" class="section level3">
+<h3><strong>Semana 13 (24 a 28/10/2016)</strong></h3>
+<p>Não haverá aula na sexta-feira devido à Semana acadêmica da biologia.</p>
+<blockquote>
+<p>Dia 27, quinta-feira, às 16:20h, haverá uma aula extra de revisão para a prova, que será na semana que vem.</p>
+</blockquote>
+<hr />
+</div>
+<div id="semana-12-17-a-21102016" class="section level3">
+<h3><strong>Semana 12 (17 a 21/10/2016)</strong></h3>
+<p>Não haverá aula na sexta-feira devido à MPU.</p>
+<hr />
+</div>
+<div id="semana-11-10-a-14102016" class="section level3">
+<h3><strong>Semana 11 (10 a 14/10/2016)</strong></h3>
+<p>Aula normal na sexta-feira, dia 14, no prédio 6, não sendo necessário laptop.</p>
+<p>A prova que seria nessa semana foi adiada para o dia 04/11</p>
+<hr />
+</div>
 <div id="semana-10-03-a-07102016" class="section level3">
 <h3><strong>Semana 10 (03 a 07/10/2016)</strong></h3>
-<p>Aula normal nessa sexta-feira, na sala do prédio 6. Não é necessário levar laptop.</p>
+<ul>
+<li><strong>Aulas em pdf</strong><br />
+<a href="Curso_Estat_Biol/Aula9.pdf">Aula9.pdf</a></li>
+</ul>
+<hr />
 </div>
 <div id="semana-9-26-a-30092016" class="section level3">
 <h3><strong>Semana 9 (26 a 30/09/2016)</strong></h3>
 <p><strong>ATENÇÃO</strong>: CANCELADA a aula desta semana em razão de viagem para defesa de tese de doutorado na UFPR.</p>
 <p>A prova que seria realizada no dia 07/10 será adiada.</p>
+<hr />
 </div>
 <div id="semana-8-19-a-23092016" class="section level3">
 <h3><strong>Semana 8 (19 a 23/09/2016)</strong></h3>
+<ul>
+<li><strong>Aulas em pdf</strong><br />
+<a href="Curso_Estat_Biol/Aula8.pdf">Aula8.pdf</a></li>
+</ul>
 <p><a href="https://dl.dropboxusercontent.com/u/85015358/Notas1.pdf">Notas da primeira prova</a><em>: dúvidas sobre a prova logo após a aula de sexta.</em><br />
 <a href="Curso_Estat_Biol/Notas.html">Estatística descritiva das notas da prova</a></p>
 <pre><code>Prova 2a chamada de novo: Dia 22/09, quinta-feira, às 17:00h, no prédio 6. </code></pre>
@@ -586,8 +525,6 @@ Número de hits desde 15 de agosto de 2016
 </center>
 
 
-</div>
-</div>
 
 </div>
 
