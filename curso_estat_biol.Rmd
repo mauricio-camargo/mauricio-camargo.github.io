@@ -8,15 +8,27 @@ output:
 ---
 
 ### **Semana 14 (31/10 a 04/11/2016)**  
-> #### **Prova dia 04, sexta-feira**
-Conteúdo baseado nos exercícios que serão lançados em breve
+
+**Lista de exercícios para a prova.**
+
+Conteúdo:   
+- Erro padrão e intervalo de confiança (IC)
+- Testes de hipóteses
+- Teste-t
+- ANOVA
+- Teste a posteriori de Tukey
+- Teste do Chi-quadrado
+
+Aula de revisão e resolução dos exercícios na quinta, 16:20h.
+
+**Prova dia 04, sexta-feira, horário de aula**
 
 ***
 
 ### **Semana 13 (24 a 28/10/2016)**  
 Não haverá aula na sexta-feira devido à Semana acadêmica da biologia.
 
-> Dia 27, quinta-feira, às 16:20h, haverá uma aula extra de revisão para a prova, que será na semana que vem.
+- A aula extra de quinta-feira (27/10-16:20) foi cancelada porque a defesa civil de Rio Grande recomendou a suspensão das atividades a partir das 15:00h, segundo a página da FURG.
 
 ***
 
@@ -30,11 +42,12 @@ Aula normal na sexta-feira, dia 14, no prédio 6, não sendo necessário laptop.
 
 A prova que seria nessa semana foi adiada para o dia 04/11
 
+[Aula10.pdf](Curso_Estat_Biol/Aula10.pdf)  
+
 ***
 
 ### **Semana 10 (03 a 07/10/2016)**  
-- **Aulas em pdf**  
-[Aula9.pdf](Curso_Estat_Biol/Aula9.pdf)  
+- [Aula9.pdf](Curso_Estat_Biol/Aula9.pdf)  
 
 ***
 
