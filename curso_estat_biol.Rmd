@@ -10,7 +10,7 @@ output:
 ### **Semana 14 (31/10 a 04/11/2016)**  
 **Prova dia 04, sexta-feira, horário de aula**
 
-Lista de exercícios para a prova (banco de questões). Clique [**aqui**](Curso_Estat_Biol/Banco2.pdf) (espere atualizar)
+Lista de exercícios para a prova (banco de questões). Clique [**aqui**](Curso_Estat_Biol/Banco2.pdf) (agora funciona!)
 
 Conteúdo:   
 
