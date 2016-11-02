@@ -11,19 +11,17 @@ output:
 **Prova dia 04, sexta-feira, horário de aula**
 
 Lista de exercícios para a prova (banco de questões). Clique [**aqui**](Curso_Estat_Biol/Banco2.pdf) (espere atualizar)
-  
 
 Conteúdo:   
 
-- Erro padrão e intervalo de confiança (IC)
+- Erro padrão e intervalo de confiança
 - Testes de hipóteses
+- Testes de normalidade e de homocedasticidade
 - Teste-t
 - ANOVA
-- Teste a posteriori de Tukey
-- Teste do Chi-quadrado
+- Teste do qui-quadrado
 
 Aula de revisão e resolução dos exercícios na quinta, 16:20h.
-
 
 ***
 
