@@ -8,10 +8,13 @@ output:
 ---
 
 ### **Semana 14 (31/10 a 04/11/2016)**  
+**Prova dia 04, sexta-feira, horário de aula**
 
-**Lista de exercícios para a prova.**
+Lista de exercícios para a prova (banco de questões). Clique [**aqui**](Curso_Estat_Biol/Banco2.pdf) (espere atualizar)
+  
 
 Conteúdo:   
+
 - Erro padrão e intervalo de confiança (IC)
 - Testes de hipóteses
 - Teste-t
@@ -21,7 +24,6 @@ Conteúdo:
 
 Aula de revisão e resolução dos exercícios na quinta, 16:20h.
 
-**Prova dia 04, sexta-feira, horário de aula**
 
 ***
 
@@ -42,7 +44,7 @@ Aula normal na sexta-feira, dia 14, no prédio 6, não sendo necessário laptop.
 
 A prova que seria nessa semana foi adiada para o dia 04/11
 
-[Aula10.pdf](Curso_Estat_Biol/Aula10.pdf)  
+- [Aula10.pdf](Curso_Estat_Biol/Aula10.pdf)  
 
 ***
 
