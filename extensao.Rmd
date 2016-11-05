@@ -10,7 +10,7 @@ output:
 > ### Próximo curso de extensão:
 > **Shiny: desenvolvimento rápido de aplicações interativas no browser pelo Rstudio**  
 > **Local:** FURG   
-> **Data**: Outubro (data a ser definida)
+> **Data**: Dezembro/2016 (data a ser definida)
 
 ----
 
