@@ -5,16 +5,22 @@ output:
     toc: false
 ---
 
-### **Semana 3 - (19/10/2016)**
+---
 
-De 19 a 21 (quarta a sexta) havera o MPU e portanto precisaremos passar a aula para segunda ou terça.
-
-Criei outro Doodle para agendarmos a aula:
-http://doodle.com/poll/h9rba5xifhh4v3ib
+### **Semana 5 - (Aula em 31/10/2016)**
 
 ---
 
-### **Semana 2 - (11/10/2016)**
+### **Semana 4 - (Aula em 26/10/2016)**
+
+---
+
+### **Semana 3 - (Aula em 17/10/2016)**
+
+
+---
+
+### **Semana 2 - (Aula em 11/10/2016)**
 
 **Aulas**
 
@@ -28,7 +34,7 @@ No site existem instruções para instalações em outros sistemas operacionais.
 
 ----
 
-### **Semana 1 - (05/10/2016)**
+### **Semana 1 - (Aula em 05/10/2016)**
 
 > Aula cancelada em razão do I ENCOB.
 
