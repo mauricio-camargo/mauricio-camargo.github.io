@@ -5,4 +5,4 @@ output:
     toc: false
 ---
 
-[1-Andrew 1993.pdf](Curso_Univar_PG/artigos_seminario/1-Andrew 1993.pdf)
+[1-Andrew 1993.pdf](artigos_seminario/1-Andrew 1993.pdf)
