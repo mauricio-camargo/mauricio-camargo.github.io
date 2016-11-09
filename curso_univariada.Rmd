@@ -55,6 +55,9 @@ Artigos para o seminário.
 [Aula2.pdf](Curso_Univar_PG/Aula2.pdf)  
 [Aula2.R](Curso_Univar_PG/Aula2.R)  
 
+**Artigo**  
+[Beyond Bar and Line Graphs.pdf](Curso_Univar_PG/Beyond Bar and Line Graphs.pdf)
+
 ---
 
 ### **Semana 1 - (Aula em 11/10/2016)**
@@ -62,6 +65,9 @@ Artigos para o seminário.
 **Aulas**  
 [Aula1.pdf](Curso_Univar_PG/Aula1.pdf)  
 [Aula1.R](Curso_Univar_PG/Aula1.R)  
+
+**Artigo**  
+[Error Bars in Experiemental Biology.pdf](Curso_Univar_PG/Error Bars in Experiemental Biology.pdf)
 
 ---
 
