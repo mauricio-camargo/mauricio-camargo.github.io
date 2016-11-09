@@ -47,15 +47,13 @@ output:
 [40a-Hughes 1999.pdf](artigos_seminario/40-Hughes 1999.pdf)  
 [41-Chapman 2010.pdf](artigos_seminario/41-Chapman 2010.pdf)  
 [42-Charton 2004.pdf](artigos_seminario/42-Charton 2004.pdf)  
-[43-Clarke & Ward 1994.pdf](artigos_seminario/43-Clarke & Ward 1994.pdf) [44-Clemente 2007.pdf](artigos_seminario/44-Clemente 2007.pdf)  
+[43-Clarke & Ward 1994.pdf](artigos_seminario/43-Clarke & Ward 1994.pdf)   [44-Clemente 2007.pdf](artigos_seminario/44-Clemente 2007.pdf)  
 [45-Boaventura 2002.pdf](artigos_seminario/45-Boaventura 2002.pdf)  
-[46-Cannicci etal 2009.pdf](artigos_seminario/46-Cannicci etal 2009.pdf)
+[46-Cannicci etal 2009.pdf](artigos_seminario/46-Cannicci etal 2009.pdf)  
 [47-Guichard 2001.pdf](artigos_seminario/47-Guichard 2001.pdf)  
-[48-Henry Jenkins 1995.pdf](artigos_seminario/48-Henry Jenkins 1995.pdf)
+[48-Henry Jenkins 1995.pdf](artigos_seminario/48-Henry Jenkins 1995.pdf)  
 [49-Lourenço-McKinley 2011.pdf](artigos_seminario/49-Lourenço-McKinley 2011.pdf)  
 [50-Underwood 1999.pdf](artigos_seminario/50-Underwood 1999.pdf)  
 [51-Winberg 2007.pdf](artigos_seminario/51-Winberg 2007.pdf)  
 [52-James e Fairweather 1996.pdf](artigos_seminario/52-James e Fairweather 1996.pdf)  
 [53-Neves2012.pdf](artigos_seminario/53-Neves2012.pdf)  
-
-
