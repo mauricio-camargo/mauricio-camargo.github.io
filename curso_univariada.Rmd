@@ -7,25 +7,63 @@ output:
 
 ---
 
-### **Semana 5 - (Aula em 31/10/2016)**
+### **Semana 8 - (Aula em 30/11/2016)**
+A aula começará mais cedo, às 07:45h.
+
+Será o dia da apresentação dos seminários, por sorteio.
+
+Serão 12 seminários. Cada um de 20 minutos, em média.
+
+Portanto, serão quatro horas de seminários.
 
 ---
 
-### **Semana 4 - (Aula em 26/10/2016)**
+### **Semana 7 - (Aula em 23/11/2016)**
 
 ---
 
-### **Semana 3 - (Aula em 17/10/2016)**
-
+### **Semana 6 - (Aula em 16/11/2016)**
 
 ---
 
-### **Semana 2 - (Aula em 11/10/2016)**
+### **Semana 5 - (Aula em 09/11/2016)**
+Artigos para o seminário.
 
-**Aulas**
+---
 
+### **Semana 4 - (Aula em 31/10/2016)**
+
+**Aulas**  
+[Aula5.pdf](Curso_Univar_PG/Aula5.pdf)  
+[Aula6.pdf](Curso_Univar_PG/Aula6.pdf)  
+[Aula4.R](Curso_Univar_PG/Aula4.R)  
+
+---
+
+### **Semana 3 - (Aula em 26/10/2016)**
+
+**Aulas**  
+[Aula4.pdf](Curso_Univar_PG/Aula4.pdf)  
+[Aula3.pdf](Curso_Univar_PG/Aula3.pdf)  
+[Aula3.R](Curso_Univar_PG/Aula3.R)  
+
+---
+
+### **Semana 2 - (Aula em 17/10/2016)**
+
+**Aulas**  
+[Aula2.pdf](Curso_Univar_PG/Aula2.pdf)  
+[Aula2.R](Curso_Univar_PG/Aula2.R)  
+
+---
+
+### **Semana 1 - (Aula em 11/10/2016)**
+
+**Aulas**  
 [Aula1.pdf](Curso_Univar_PG/Aula1.pdf)  
 [Aula1.R](Curso_Univar_PG/Aula1.R)  
+
+---
 
 **- Programas para instalar antes da aula:**  
 [R para Windows](https://cran.r-project.org/bin/windows/base)  
@@ -34,7 +72,7 @@ No site existem instruções para instalações em outros sistemas operacionais.
 
 ----
 
-### **Semana 1 - (Aula em 05/10/2016)**
+### **Aula de 05/10/2016 foi cancelada)**
 
 > Aula cancelada em razão do I ENCOB.
 
