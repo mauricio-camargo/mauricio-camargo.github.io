@@ -1,0 +1,8 @@
+---
+title: "Atigos para o seminário"
+output:
+  html_document:
+    toc: false
+---
+
+---
