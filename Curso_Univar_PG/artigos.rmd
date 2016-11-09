@@ -5,4 +5,13 @@ output:
     toc: false
 ---
 
-[1-Andrew 1993.pdf](artigos_seminario/1-Andrew 1993.pdf)
+[1-Andrew 1993.pdf](artigos_seminario/1-Andrew 1993.pdf)  
+[2-Archambault 1996.pdf](artigos_seminario/2-Archambault 1996.pdf)  
+[3-Barros 2001.pdf](artigos_seminario/3-Barros 2001.pdf)  
+[4-Boaventura 2002.pdf](artigos_seminario/4-Boaventura 2002.pdf)  
+[5-Chapman 1994.pdf](artigos_seminario/5-Chapman 1994.pdf)  
+[](artigos_seminario/)  
+[](artigos_seminario/)  
+[](artigos_seminario/)  
+[](artigos_seminario/)  
+[](artigos_seminario/)  
