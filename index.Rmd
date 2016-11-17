@@ -11,9 +11,7 @@ output:
 
 <br>
 
-Este é meu site pessoal, onde concentro todas as minhas atividades profissionais. 
-
-Tudo aqui é livre!!!
+Este é meu site pessoal, onde concentro todas as minhas atividades profissionais. Todo o conteúdo é livre para uso [não comercial](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
 
 ----
 
