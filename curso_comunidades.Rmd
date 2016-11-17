@@ -7,6 +7,8 @@ output:
 
 ----
 
+> **Reunião no meu laboratório no mesmo horário da aula durante o período de greve.**
+
 **- Programas para instalar antes da aula:**  
 [R para Windows](https://cran.r-project.org/bin/windows/base)  
 [RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/)  
