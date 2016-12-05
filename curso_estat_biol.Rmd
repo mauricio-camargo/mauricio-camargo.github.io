@@ -9,9 +9,12 @@ output:
 
 ### **Semana 15 (Aula em 02/12/2016)**  
 
+- [Lista_de_exercicios_regressao.pdf](Curso_Estat_Biol/Lista_de_exercicios_regressao.pdf)
+
 - [Aula11.pdf](Curso_Estat_Biol/Aula11.pdf)  
 
 - [Aula12.pdf](Curso_Estat_Biol/Aula12.pdf)  
+
 
 
 > **Por orientação do comando de greve, as disciplinas que possuem formandos podem ser finalizadas.**
