@@ -7,6 +7,10 @@ output:
 
 ---
 
+### **Semana 16 (Aula em 08/12/2016)**  
+[Notas da primeira e da segunda prova](Curso_Estat_Biol/Notas2.pdf)
+
+
 ### **Semana 15 (Aula em 02/12/2016)**  
 
 - [Lista_de_exercicios_regressao.pdf](Curso_Estat_Biol/Lista_de_exercicios_regressao.pdf)
