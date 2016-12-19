@@ -7,6 +7,10 @@ output:
 
 ---
 
+> [Notas fechadas incluindo o exame (18/12/2016)](Curso_Estat_Biol/Notas_Divulgar.pdf)
+
+----
+
 > Tem 5 minutos para responder à uma avaliação da disciplina? Ajude-me a tornar a disciplina mais atrativa. A avaliação é anônima, caso vc não queira se identificar.
 [Enquete para avaliação da disciplina](https://docs.google.com/forms/d/12JserAuEwarQ1kPU1TQi3l4CQ_uMkRMgavgR0KwVeCk)
 
