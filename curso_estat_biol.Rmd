@@ -5,6 +5,12 @@ output:
     toc: false  
 ---
 
+<!---
+> Tem 5 minutos para responder à uma avaliação da disciplina? Ajude-me a tornar a disciplina mais atrativa. A avaliação é anônima, caso vc não queira se identificar.
+[Enquete para avaliação da disciplina](https://docs.google.com/forms/d/12JserAuEwarQ1kPU1TQi3l4CQ_uMkRMgavgR0KwVeCk)
+-->
+
+
 ---
 
 ### **Proposta de calendário de reposição devido à greve:**
@@ -31,11 +37,6 @@ Aguardem uma versão corrigida das notas.
 
 
 ----
-
-<!---
-> Tem 5 minutos para responder à uma avaliação da disciplina? Ajude-me a tornar a disciplina mais atrativa. A avaliação é anônima, caso vc não queira se identificar.
-[Enquete para avaliação da disciplina](https://docs.google.com/forms/d/12JserAuEwarQ1kPU1TQi3l4CQ_uMkRMgavgR0KwVeCk)
--->
 
 ### **Semana 18 (Exame em 16/12/2016)**  
 [Notas das provas regulares da disciplina](Curso_Estat_Biol/Notas3.pdf)
