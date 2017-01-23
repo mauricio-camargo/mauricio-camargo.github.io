@@ -2,10 +2,9 @@
 title: "Estatística (Ciências biológicas - 2016/2)"
 output:
   html_document:
-    toc: false
+    toc: false  
 ---
 
----
 
 ### **Proposta de calendário de reposição devido à greve:**
 
