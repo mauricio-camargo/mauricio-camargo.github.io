@@ -22,12 +22,20 @@ output:
 ---
 
 ### **Aqui encerram as atividades para quem não aderiu à greve**
+
+**Observação**: as notas divulgadas abaixo contêm um ERRO de cálculo, de modo que alguns alunos foram reprovadas equivocadamente (e talvez alguns que tenham sido aprovados equivocadamente, mas nenhum se manifestou até agora!). 
+
+Aguardem uma versão corrigida das notas.
+
 > [Notas fechadas incluindo o exame  (18/12/2016)](Curso_Estat_Biol/Notas_Divulgar.pdf)
+
 
 ----
 
+<!---
 > Tem 5 minutos para responder à uma avaliação da disciplina? Ajude-me a tornar a disciplina mais atrativa. A avaliação é anônima, caso vc não queira se identificar.
 [Enquete para avaliação da disciplina](https://docs.google.com/forms/d/12JserAuEwarQ1kPU1TQi3l4CQ_uMkRMgavgR0KwVeCk)
+-->
 
 ### **Semana 18 (Exame em 16/12/2016)**  
 [Notas das provas regulares da disciplina](Curso_Estat_Biol/Notas3.pdf)
