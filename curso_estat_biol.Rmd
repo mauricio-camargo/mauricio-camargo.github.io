@@ -15,6 +15,8 @@ output:
 
 ### **Proposta de calendário de reposição devido à greve:**
 
+**Inclusão**
+
 > 10/02 - Sexta - (14:20 - 16:20): Segunda chamada da prova 2. 
 
 > 10/02 - Sexta - (16:20 - 18:50): Última aula da disciplina. 
@@ -25,7 +27,9 @@ output:
 
 > 20/02 - Sexta - (16:20 - 18:50): Segunda chamada da prova 3 (somente com atestado regulamentado).
 
-> 03/03 - Sexta - (14:00 - 16:00): EXAME FINAL.
+**Modificação**
+
+> **02**/03 - Quinta - (14:00 - 16:00): EXAME FINAL.
 
 
 ---
