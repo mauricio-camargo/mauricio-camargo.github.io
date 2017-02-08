@@ -13,7 +13,11 @@ output:
 
 ---
 
-### **Proposta de calendário de reposição devido à greve:**
+### **Proposta de calendário de reposição devido à greve - CONSOLIDADO:**
+
+> 09/02 - Quinta - (10:00-12:30) Tira-dúvidas para a prova 2. 
+
+> 10/02 - Sexta - (10:00 - 12:00) Tira-dúvidas para a prova 2.
 
 > 10/02 - Sexta - (14:20 - 16:20): Segunda chamada da prova 2. 
 
@@ -21,9 +25,15 @@ output:
 
 > 16/02 - Quinta - (11:00 - 12:30): Revisão para a prova 3. 
 
+> 16/02 - Quinta - (14:30 - 17:00): Tira-dúvidas para a prova 3. 
+
+> 17/02 - Sexta - (14:20 - 16:00): Tira-dúvidas para a prova 3. 
+
 > 17/02 - Sexta - (16:20 - 18:50): Prova 3. 
 
 > 20/02 - Sexta - (16:20 - 18:50): Segunda chamada da prova 3 (somente com atestado regulamentado).
+
+> 02/03 - Quinta - (11:00 - 12:00): Revisão para o exame.
 
 > 02/03 - Quinta - (14:00 - 16:00): EXAME FINAL.
 
