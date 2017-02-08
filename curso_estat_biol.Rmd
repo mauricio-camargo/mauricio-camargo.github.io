@@ -13,9 +13,9 @@ output:
 
 ---
 
-### **Proposta de calendário de reposição devido à greve.
+### **Proposta de calendário de reposição devido à greve.**
 
-Todas as atividades acontecerão no pavilhão 6, na mesma sala de aula**
+#### **Todas as atividades acontecerão no pavilhão 6, na mesma sala de aula**
 
 > 09/02 - Quinta - (10:00-12:30) Tira-dúvidas para a prova 2. 
 
