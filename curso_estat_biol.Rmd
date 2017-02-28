@@ -5,6 +5,7 @@ output:
     toc: false  
 ---
 
+
 <!---
 > Tem 5 minutos para responder à uma avaliação da disciplina? Ajude-me a tornar a disciplina mais atrativa. A avaliação é anônima, caso vc não queira se identificar.
 [Enquete para avaliação da disciplina](https://docs.google.com/forms/d/12JserAuEwarQ1kPU1TQi3l4CQ_uMkRMgavgR0KwVeCk)
@@ -12,48 +13,21 @@ output:
 
 ---
 
-> [Notas parciais corrigidas, incluindo a segunda prova de 10/02/2017](Curso_Estat_Biol/Notas_Div.pdf)
+> [Notas FINAIS das  provas](Curso_Estat_Biol/Notas.pdf)
 
-
-### **Proposta de calendário de reposição devido à greve (Consolidado em 07/02).**
-
-#### **Todas as atividades acontecerão no pavilhão 6, na mesma sala de aula de sempre.**
-
-> ~~09/02 - Quinta - (10:00-12:30) Tira-dúvidas para a prova 2.~~
-
-> ~~10/02 - Sexta - (10:00 - 12:00) Tira-dúvidas para a prova 2.~~
-
-> ~~10/02 - Sexta - (14:20 - 16:20): Segunda chamada da prova 2.~~
-
-> ~~10/02 - Sexta - (16:20 - 18:50): Última aula da disciplina (Regressão).~~
-
-> 16/02 - Quinta - (11:00 - 12:30): Revisão para a prova 3. 
-
-> (CANCELADO) ~~16/02 - Quinta - (14:30 - 17:00): Tira-dúvidas para a prova 3.~~
-
-> 17/02 - Sexta - (14:20 - 16:00): Tira-dúvidas para a prova 3 (Prédio 6). 
-
-> 17/02 - Sexta - (16:20 - 18:50): Prova 3. 
-
-> 24/02 - Sexta - (16:20 - 18:50): Segunda chamada da prova 3 (somente com atestado regulamentado).
-
-> 02/03 - Quinta - (11:00 - 12:00): Revisão para o exame.
-
-> 02/03 - Quinta - (14:00 - 16:00): EXAME FINAL.
+O exame será dado duas vezes, na quinta e na sexta, às 14:00h, na sala 6103.
+Os alunos podem escolher o melhor dia.
 
 
 ---
 
-### **Aqui encerram as atividades para quem não aderiu à greve**
+### AQUI ENCERRAM AS ATIVIDADES ANTES DA GREVE
 
-**Observação**: as notas divulgadas abaixo contêm um ERRO de cálculo, de modo que alguns alunos foram reprovadas equivocadamente (e talvez alguns que tenham sido aprovados equivocadamente, mas nenhum se manifestou até agora!). 
+---
 
-Aguardem uma versão corrigida das notas.
-
-----
+---
 
 ### **Semana 18 (Exame em 16/12/2016)**  
-[Notas das provas regulares da disciplina](Curso_Estat_Biol/Notas3.pdf)
 
 > O exame será dia 16/12 (sexta-feira), no horário da aula. 
 
