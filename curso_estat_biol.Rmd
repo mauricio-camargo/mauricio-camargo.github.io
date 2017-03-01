@@ -5,21 +5,20 @@ output:
     toc: false  
 ---
 
-
-<!---
-> Tem 5 minutos para responder à uma avaliação da disciplina? Ajude-me a tornar a disciplina mais atrativa. A avaliação é anônima, caso vc não queira se identificar.
-[Enquete para avaliação da disciplina](https://docs.google.com/forms/d/12JserAuEwarQ1kPU1TQi3l4CQ_uMkRMgavgR0KwVeCk)
--->
-
----
-
 > [Notas FINAIS das  provas](Curso_Estat_Biol/Notas.pdf)
 
 O exame será dado duas vezes, na quinta (02/03) e na sexta (03/03), às 14:00h, na sala 6103.
 Os alunos podem escolher o melhor dia. Não será possivel dar uma aula de revisão. 
 
+As notas definitivas serão lançadas no sistema na segunda-feira à noite. A planilha preliminar de notas contendo todos os cálculos envolvidos na composição da nota final pode ser baixada [aqui](Curso_Estat_Biol/Notas_Est_bio_2016_2.xlsx). 
+
+Qualquer dúvida entre em contato por e-mail.
 
 ---
+
+Tem 5 minutos para responder à uma avaliação da disciplina? Ajude-me a tornar a disciplina mais atrativa. A avaliação é anônima, caso vc não queira se identificar.
+[Enquete para avaliação da disciplina](https://docs.google.com/forms/d/12JserAuEwarQ1kPU1TQi3l4CQ_uMkRMgavgR0KwVeCk)
+
 
 ### AQUI ENCERRAM AS ATIVIDADES ANTES DA GREVE
 
