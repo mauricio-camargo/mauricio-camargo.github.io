@@ -19,12 +19,11 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
-<link rel="stylesheet"
-      href="site_libs/highlight/default.css"
-      type="text/css" />
-<script src="site_libs/highlight/highlight.js"></script>
 <style type="text/css">
   pre:not([class]) {
     background-color: white;
@@ -151,7 +150,6 @@ $(document).ready(function () {
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
@@ -261,7 +259,7 @@ $(document).ready(function () {
 
 </div>
 <p><br></p>
-<p>Este é meu site pessoal, onde concentro todas as minhas atividades profissionais. Todo o conteúdo é livre para uso <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR">não comercial</a>.</p>
+<p>Este é o meu site pessoal, onde concentro todas as minhas atividades profissionais como professor da <a href="www.furg.br">FURG</a> e pesquisador do <a href="www.io.furg.br">Instituto de Oceanografia</a>. Todo o conteúdo do site é livre para uso <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR">não comercial</a>.</p>
 <hr />
 <div id="vinculo-profissional" class="section level3">
 <h3>Vínculo profissional</h3>
@@ -331,8 +329,11 @@ Número de hits desde 15 de agosto de 2016
 <script>
 
 // add bootstrap table styles to pandoc tables
-$(document).ready(function () {
+function bootstrapStylePandocTables() {
   $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
 });
 
 
