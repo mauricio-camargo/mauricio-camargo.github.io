@@ -12,6 +12,7 @@ output:
 <br>
 
 Este é o meu site pessoal, onde concentro todas as minhas atividades profissionais como professor da [FURG](www.furg.br) e pesquisador do [Instituto de Oceanografia](www.io.furg.br), lotado no **Laboratório de Ecologia de Invertebrados Bentônicos**.
+
 Todo o conteúdo do site é livre para uso [não comercial](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
 
 ----
