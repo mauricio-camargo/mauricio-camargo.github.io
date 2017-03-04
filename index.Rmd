@@ -16,12 +16,6 @@ Todo o conteúdo do site é livre para uso [não comercial](https://creativecomm
 
 ----
 
-### Vínculo profissional
-Professor Associado da [**FURG**](http://www.furg.br), no  Instituto de Oceanografia  ([**IO-FURG**](http://www.io.furg.br)), no **Laboratório de 
-Ecologia de Invertebrados Bentônicos**.  
-
-------
-
 ### Disciplinas e cursos de extensão
 Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na pós-graduação e eventuais [cursos de extensão](extensao.html), usando o [software R](https://mauricio-camargo.github.io/R_para_todos.html).
 
