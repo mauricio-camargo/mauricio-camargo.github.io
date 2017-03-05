@@ -7,13 +7,6 @@ output:
 
 ----
 
-> ### Próximo curso de extensão:
-> **Shiny: desenvolvimento rápido de aplicações interativas no browser pelo Rstudio**  
-> **Local:** FURG   
-> **Data**: Dezembro/2016 (data a ser definida)
-
-----
-
 ### Cursos ministrados anteriormente (desde 2015)
 
 - **Rmarkdown: um jeito simples de escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio** 
