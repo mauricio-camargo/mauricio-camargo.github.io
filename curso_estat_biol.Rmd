@@ -5,12 +5,12 @@ output:
     toc: false  
 ---
 
-> [Notas FINAIS das  provas](Curso_Estat_Biol/Notas.pdf)
+**Disciplina finalizada.**
 
-O exame será dado duas vezes, na quinta (02/03) e na sexta (03/03), às 14:00h, na sala 6103.
-Os alunos podem escolher o melhor dia. Não será possivel dar uma aula de revisão. 
+> [Notas do EXAME](Curso_Estat_Biol/Notas_Finais.pdf)
 
-As notas definitivas serão lançadas no sistema na segunda-feira à noite. A planilha preliminar de notas contendo todos os cálculos envolvidos na composição da nota final pode ser baixada [aqui](Curso_Estat_Biol/Notas_Est_bio_2016_2.xlsx). 
+
+A planilha FINAL de notas contendo todos os cálculos envolvidos na composição da nota final pode ser baixada [aqui](Curso_Estat_Biol/Notas_Estat_Biol_2016_2.xlsx). 
 
 Qualquer dúvida entre em contato por e-mail.
 
