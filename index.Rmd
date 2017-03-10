@@ -24,9 +24,9 @@ Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na
 **Disciplinas ministradas no segundo semestre de 2016:**
 
 - [**Estatística**](curso_estat_biol.html) (Graduação em Biologia)
-- [**Análise numérica de comunidades ecológicas**](curso_comunidades.html) (Oceanologia)
+- **Análise numérica de comunidades ecológicas** (Oceanologia) - ENCERRADA
 - [**Ciências do ambiente**](curso_cie_amb.html) (Engenharias)
-- [**Estatística univariada para estudos de distribuição espacial e temporal**](curso_univariada.html) (Diversos programas de pós-graduação)
+- **Estatística univariada para estudos de distribuição espacial e temporal**] (Diversos programas de pós-graduação) - ENCERRADA
 
 -----
 
