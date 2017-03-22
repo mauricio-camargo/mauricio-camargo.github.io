@@ -11,9 +11,9 @@ navbar:
   title: "Maurício Camargo (FURG)"
   type: inverse
   left:
-    - text: "Home"
-      icon: glyphicon-home
-      href: index.html    
+#    - text: "Home"
+#      icon: glyphicon-home
+#      href: index.html    
     - text: "Ensino"
       icon: glyphicon-education
       href: ensino.html
