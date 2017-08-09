@@ -21,7 +21,7 @@ Todo o conteúdo do site é livre para uso [não comercial](https://creativecomm
 ### Disciplinas e cursos de extensão
 Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na pós-graduação e eventuais [cursos de extensão](extensao.html), usando o [software R](https://mauricio-camargo.github.io/R_para_todos.html).
 
-**Disciplinas ministradas no segundo semestre de 2017**
+**Disciplinas ministradas no segundo semestre de 2017:**
 
 - [**Análise numérica de comunidades ecológicas**](curso_comunidades.html) (Oceanologia)
 - **Estatística univariada para estudos de distribuição espacial e temporal** (Diversos programas de pós-graduação) - Em outubro.
