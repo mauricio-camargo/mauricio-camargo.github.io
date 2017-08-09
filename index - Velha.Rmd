@@ -1,0 +1,49 @@
+---
+#title: "Maurício Garcia de Camargo"
+output:
+  html_document:
+    toc: false
+---
+
+---
+
+![](img/img2.png)  
+
+<br>
+Prof. Maurício Garcia de Camargo - FURG.
+Este é o meu site pessoal, onde concentro todas as minhas atividades profissionais como professor e pesquisador do [Instituto de Oceanografia](www.io.furg.br) da [Universidade Federal do Rio Grande - FURG](www.furg.br), lotado no **Laboratório de Ecologia de Invertebrados Bentônicos**.
+<br>
+<br>
+Todo o conteúdo do site é livre para uso [não comercial](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
+
+----
+
+### Disciplinas e cursos de extensão
+Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na pós-graduação e eventuais [cursos de extensão](extensao.html), usando o [software R](https://mauricio-camargo.github.io/R_para_todos.html).
+
+**Disciplinas ministradas no segundo semestre de 2016:**
+
+- [**Estatística**](curso_estat_biol.html) (Graduação em Biologia)
+- **Análise numérica de comunidades ecológicas** (Oceanologia) - ENCERRADA
+- [**Ciências do ambiente**](curso_cie_amb.html) (Engenharias)
+- **Estatística univariada para estudos de distribuição espacial e temporal**] (Diversos programas de pós-graduação) - ENCERRADA
+
+-----
+
+### Orientações em pesquisa
+Oriento alunos de graduação e de pós-graduação em ecologia de comunidades com interesse em taxonomia de qualquer grupo, estatística ambiental e linguagens de programação.
+
+
+### Atuação na pós-graduação
+Orientador de mestrado e doutorado do [Programa de Pós-graduação em Sistemas Costeiros e Oceânicos](http://www.cem.ufpr.br/?page_id=61) do [CEM-UFPR](http://www.cem.ufpr) 
+
+------
+
+### Contato 
+
+- E-mail: [camargofurg@gmail.com](mailto:camargofurg@gmail.com)
+- [**Currículo Lattes**](http://lattes.cnpq.br/6674393714532464) 
+- Github: http://www.github.com/mauricio-camargo
+- Facebook: ~~http://www.facebook.com/mauricio.camargo75~~ (Desativei o Facebook quando criei esta página.)
+- Endereço: Laboratório de Invertebrados Bentônicos - Instituto de Oceanografia. Av. Itália, km 8. Campus Carreiros. Rio Grande - RS. CEP 96203-900.
+- Telefone: (053) 3233-6750

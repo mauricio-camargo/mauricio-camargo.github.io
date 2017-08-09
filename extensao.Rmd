@@ -7,9 +7,18 @@ output:
 
 ----
 
+### R-cases: casos de sucesso no R
+- **05/05 (sexta). R: por onde começar?**
+
+- **12/05. A gramática dos gráficos (ggplot e agregados)**
+- **19/05. A gramática dos dados (SQL, dplyr e agregados)**
+- **24/05. R-case: o pacote rysgran para granulometria**
+- **02/06. Reprodutibilidade da ciência no R**
+- **09/06 08:00h. Última aula do mini-curso da SAO.**
+
 ### Cursos ministrados anteriormente (desde 2015)
 
-- **Rmarkdown: um jeito simples de escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio** 
+- **Rmarkdown: um jeito simples de escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio**  
 **Local:** FURG  
 **Data**: 31 de agosto/2016  
 **Hora:** 09:00h até 12:00h  
