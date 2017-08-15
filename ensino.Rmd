@@ -11,7 +11,7 @@ output:
 
 **Segundo semestre de 2016**
 
-- [**Estatística**](curso_estat_biol.html)  
+- **Estatística**  
     + Curso oferecido: *Ciências Biológicas*  
     + Período: Agosto a novembro de 2016
     + Horário: Sextas-feiras, das 14:20h às 18:50h.
