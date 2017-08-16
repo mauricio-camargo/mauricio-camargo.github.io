@@ -7,31 +7,18 @@ output:
 
 ----
 
-> **Reunião no meu laboratório no mesmo horário da aula durante o período de greve.**
+# Dia 1 (16/08/17)
 
 **- Programas para instalar antes da aula:**  
 [R para Windows](https://cran.r-project.org/bin/windows/base)  
 [RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/)  
 No site existem instruções para instalações em outros sistemas operacionais.
 
-**- Aulas em pdf**  
-Aguardem...
-
 **- Material complementar**  
 [EcoR - Introdução ao R para ecologia do IB-USP](http://ecologia.ib.usp.br/bie5782/doku.php)  
 Curso online oferecido pelo Instituto de Biologia da USP para ecólogos e áreas afins, com muito material de consulta e exercícios interessantes.
 
 ----
-
-**- Conteúdo:**
- 
-* Um R-ecado para você... (aliás, dois: permissão)
-* Aulas, provas e notas (apresentação falsa da disciplina)
-    + Aulas: o que e como ensinar?
-    + Provas: como avaliar?
-    + Notas: quem passa aprende? Quem frequenta aprende?
-* Conceito de população e amostra
-* Amostragem
 
 **- Aulas em pdf**  
 Toda as semanas os arquivos gerados durante a aula serão colocados aqui, logo após o término. 
@@ -51,7 +38,7 @@ Teórica: noções de diversidade biológica, comunidades ecológicas e processo
 Prática: Introdução ao R e RStudio. Estatística descritiva no R. Capacidade gráfica do R. Testes de hipóteses e correlação no R. Tratamento de planilhas no R. Análises multivariadas no R.
 
 **- Procedimentos didáticos**  
-Voz e caneta.
+Voz e caneta
 
 **- Avaliação**  
-????????
+Vamos pensar nisso!
