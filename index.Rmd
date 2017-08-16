@@ -23,7 +23,7 @@ Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na
 
 **Disciplinas ministradas no segundo semestre de 2017:**
 
-- [**Análise numérica de comunidades ecológicas**](curso_comunidades.html) (Oceanologia)
+- [**Análise numérica de comunidades ecológicas**](curso_comunidades_2017.html) (Oceanologia)
 - **Estatística univariada para estudos de distribuição espacial e temporal** (Diversos programas de pós-graduação) - Em outubro.
 
 -----
