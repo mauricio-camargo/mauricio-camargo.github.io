@@ -9,6 +9,9 @@ output:
 
 ### Aula 1 (16/08/17)
 
+**Aulas em PDF**  
+[Aula1.pdf](Curso_Comunidades_2017/Aula1.pdf)
+
 **Informações gerais**  
 Programas para instalar antes do início do curso:
 
