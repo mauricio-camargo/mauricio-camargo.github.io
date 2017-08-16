@@ -8,7 +8,10 @@ output:
 ----
 
 ### Aula 1 (16/08/17)
-**Programas para instalar antes do início do curso:**  
+
+**Informações gerais**  
+Programas para instalar antes do início do curso:
+
 [R para Windows](https://cran.r-project.org/bin/windows/base)  
 [RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/)  
 *Nestes sites existem instruções para instalações em outros sistemas operacionais.*
@@ -22,18 +25,18 @@ output:
 
 ----
 
-No decorrer da disciplina, esta página será atualizada toda semana, contendo **Aulas em pdf** geradas durante a aula, **Códigos do R** relacionados ao aprendizado prático do R e **Material complementar**, como links de interesse, sugestões de leituras e informações adicionais da matéria da semana.
-
-----
-
 **PLANO DA DISCIPLINA**  
 
-**Ementa:**  
-Teórica: noções de diversidade biológica, comunidades ecológicas e processos ecológicos em comunidades. Amostragem em uma comunidade fictícia. Planilhas de dados abióticos e bióticos. Estatística ecológica em índices univariados de resumo: testes de hipóteses e correlações. Estatística multivariada em comunidades: PCA (planilha de dados abióticos), MDS e PCO (planilha de dados bióticos), análises de agrupamentos e análises canônicas (planilhas abióticas e bióticas).  
-Prática: Introdução ao R e RStudio. Estatística descritiva no R. Capacidade gráfica do R. Testes de hipóteses e correlação no R. Tratamento de planilhas no R. Análises multivariadas no R.
+Esta página será atualizada semanalmente, contendo **Informações gerais**, **Aulas em pdf** geradas durante a aula, **Códigos do R** relacionados ao aprendizado prático do R e **Material complementar**, como links de interesse, sugestões de leituras e informações adicionais da matéria da semana.
+
+Os alunos devem treinar os códigos apresentados em casa
 
 **Procedimentos didáticos**  
 Aulas teóricas e exercícios semanais no computador.
 
-**Avaliação**  
+**Avaliações**  
 Vamos pensar nisso!
+
+**Ementa:**  
+Teórica: noções de diversidade biológica, comunidades ecológicas e processos ecológicos em comunidades. Amostragem em uma comunidade fictícia. Planilhas de dados abióticos e bióticos. Estatística ecológica em índices univariados de resumo: testes de hipóteses e correlações. Estatística multivariada em comunidades: PCA (planilha de dados abióticos), MDS e PCO (planilha de dados bióticos), análises de agrupamentos e análises canônicas (planilhas abióticas e bióticas).  
+Prática: Introdução ao R e RStudio. Estatística descritiva no R. Capacidade gráfica do R. Testes de hipóteses e correlação no R. Tratamento de planilhas no R. Análises multivariadas no R.
