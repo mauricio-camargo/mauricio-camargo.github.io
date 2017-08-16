@@ -8,8 +8,7 @@ output:
 ----
 
 ### Aula 1 (16/08/17)
-
-**Programas para instalar antes da aula:**  
+**Programas para instalar antes do início do curso:**  
 [R para Windows](https://cran.r-project.org/bin/windows/base)  
 [RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/)  
 *Nestes sites existem instruções para instalações em outros sistemas operacionais.*
@@ -34,7 +33,7 @@ Teórica: noções de diversidade biológica, comunidades ecológicas e processo
 Prática: Introdução ao R e RStudio. Estatística descritiva no R. Capacidade gráfica do R. Testes de hipóteses e correlação no R. Tratamento de planilhas no R. Análises multivariadas no R.
 
 **Procedimentos didáticos**  
-Voz e caneta
+Aulas teóricas e exercícios semanais no computador.
 
 **Avaliação**  
 Vamos pensar nisso!
