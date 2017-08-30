@@ -1,0 +1,38 @@
+---
+title: "Aqui coloque o TÍTULO"
+author: "Aqui coloque seu NOME"
+date: "30 de agosto de 2017"
+output: pdf_document
+---
+
+O RStudio tem um guia rápido de referência do RMarkdown,
+no menu Help > Markdownn quick reference.
+
+Abaixo estão apenas exemplos de funcionalidades básicas do RMarkdown.
+
+# 1. Aqui vai o título do ítem 1
+
+## 1.1. Aqui vai título do subitem 1.1
+
+### 1.1.1 Aqui vai título do subitem 1.1.1
+
+Exemplos de **negrito** e de *itálico.*
+
+A maior mágica do Rmarkdown é a sua capacidade de inserir códigos e mostrar o resultado, como as tabelas e gráficos abaixo.
+
+Lendo uma planilha Excel e imprimindo a tabela.
+
+```{r echo = TRUE}
+library(readxl)
+df3 <- read_excel("E:/Dropbox/000Comunidades-Oceano2017/Aula3/Aula3.xlsx")
+library(knitr)
+kable(df3)
+```
+
+Agora imprimindo um gráfico:
+
+```{r echo = TRUE}
+library(sciplot)
+bargraph.CI(df3$Local,df3$Sp2)
+```
+
