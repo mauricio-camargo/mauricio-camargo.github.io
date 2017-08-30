@@ -5,8 +5,6 @@ output:
     toc: false
 ---
 
-----
-
 ### Aula 3 (30/08/17)
 **Planilhas em Excel**  
 [Aula3.xlsx](Curso_Comunidades_2017/Aula3.xlsx)
@@ -14,7 +12,7 @@ output:
 **Códigos do R**  
 [Aula3.R](Curso_Comunidades_2017/Aula3.R)
 
-**Exercício para a semana que vem**  
+**Exercício para o dia 13/09 (e não mais para a próxima semana)**  
 [Exercicio1.pdf](Curso_Comunidades_2017/Exercicio1.pdf)
 
 **Material complementar**  
