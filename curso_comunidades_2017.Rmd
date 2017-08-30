@@ -9,13 +9,13 @@ output:
 
 ### Aula 2 (26/08/17)
 
-**Aulas em PDF**  
+**Aulas**  
 [Aula2.pptx](Curso_Comunidades_2017/Aula2.pptx)
 
-**Planilhas em Excel**
-[Aula2.xlsx](Curso_Comunidades_2017/Aula2.pdf)
+**Planilhas em Excel** 
+[Aula2.xlsx](Curso_Comunidades_2017/Aula2.xlsx)
 
-**Códigos do R**
+**Códigos do R** 
 [Aula2.R](Curso_Comunidades_2017/Aula2.R)
 
 ### Aula 1 (16/08/17)
