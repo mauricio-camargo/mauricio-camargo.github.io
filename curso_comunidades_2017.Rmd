@@ -14,7 +14,7 @@ output:
 **Códigos do R**  
 [Aula3.R](Curso_Comunidades_2017/Aula3.R)
 
-**Exercícios para a semana que vem**  
+**Exercício para a semana que vem**  
 [Exercicio1.pdf](Curso_Comunidades_2017/Exercicio1.pdf)
 
 **Material complementar**  
