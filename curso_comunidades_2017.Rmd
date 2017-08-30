@@ -7,6 +7,21 @@ output:
 
 ----
 
+### Aula 3 (30/08/17)
+**Planilhas em Excel**  
+[Aula3.xlsx](Curso_Comunidades_2017/Aula3.xlsx)
+
+**Códigos do R**  
+[Aula3.R](Curso_Comunidades_2017/Aula3.R)
+
+**Exercícios para a semana que vem**  
+[Exercicio1.pdf](Curso_Comunidades_2017/Exercicio1.pdf)
+
+**Material complementar**  
+
+Como fazer relatórios em HTML e PDF no RStudio usando RMarkdown.  
+[Exemplo_RMarkdown.Rmd](Curso_Comunidades_2017/Exemplo_RMarkdown.Rmd)
+
 ### Aula 2 (26/08/17)
 
 **Aulas**  
@@ -15,7 +30,7 @@ output:
 **Planilhas em Excel**  
 [Aula2.xlsx](Curso_Comunidades_2017/Aula2.xlsx)
 
-**Códigos do Rz**  
+**Códigos do R**  
 [Aula2.R](Curso_Comunidades_2017/Aula2.R)
 
 ### Aula 1 (16/08/17)
