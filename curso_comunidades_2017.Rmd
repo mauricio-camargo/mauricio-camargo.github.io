@@ -8,9 +8,15 @@ output:
 ----
 
 ### Aula 2 (26/08/17)
-**Conforme acertamos na última aula, a próxima aula será no sábado, dia 26/08, no mesmo horário (10:35h), na mesma sala (4203).**
 
-Quem puder, por favor, leve o laptop.
+**Aulas em PDF**  
+[Aula2.pptx](Curso_Comunidades_2017/Aula2.pptx)
+
+**Planilhas em Excel**
+[Aula2.xlsx](Curso_Comunidades_2017/Aula2.pdf)
+
+**Códigos do R**
+[Aula2.R](Curso_Comunidades_2017/Aula2.R)
 
 ### Aula 1 (16/08/17)
 
