@@ -16,7 +16,7 @@ Para gerar relatórios em PDF, instale o [MikTex](http://miktex.org/download)
 ### Aula 3 (30/08/17)
 
 **Planilhas em Excel**  
-[Aula3.xlsx](Curso_Comunidades_2017/Aula3.xlsx)
+[Aula3.xlsx](Curso_Comunidades_2017/Aula3.xlsx) **novidade**
 
 **Códigos do R**  
 [Aula3.R](Curso_Comunidades_2017/Aula3.R)

@@ -11,7 +11,7 @@ R para todos:
 
 - Iniciantes
     + Instalação do R e Rstudio
-    + 
+    + Out
 - Intermediários
 
 - Avançados
