@@ -5,7 +5,16 @@ output:
     toc: false
 ---
 
+### Aula 4 (06/09/17)
+
+**Material complementar**  
+Como criar relatórios em HTML, PDF ou Word no RStudio usando RMarkdown.  
+[Video aula introdutória de Rmarkdown](https://www.youtube.com/watch?v=ZNJTkjetPNU&t=8s)  
+[Exemplo_RMarkdown.Rmd](Curso_Comunidades_2017/Exemplo_RMarkdown.Rmd)  
+Para gerar relatórios em PDF, instale o [MikTex](http://miktex.org/download)
+
 ### Aula 3 (30/08/17)
+
 **Planilhas em Excel**  
 [Aula3.xlsx](Curso_Comunidades_2017/Aula3.xlsx)
 
@@ -14,11 +23,6 @@ output:
 
 **Exercício para o dia 13/09 (e não mais para a próxima semana)**  
 [Exercicio1.pdf](Curso_Comunidades_2017/Exercicio1.pdf)
-
-**Material complementar**  
-
-Como fazer relatórios em HTML e PDF no RStudio usando RMarkdown.  
-[Exemplo_RMarkdown.Rmd](Curso_Comunidades_2017/Exemplo_RMarkdown.Rmd)
 
 ### Aula 2 (26/08/17)
 
