@@ -27,7 +27,7 @@ output:
 
 #### Graduação
 
-- ***Estatística***  
+- **Estatística**  
     + Curso oferecido: *Ciências Biológicas*  
     + Período: Agosto a novembro de 2016
 
