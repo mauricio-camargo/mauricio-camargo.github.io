@@ -11,7 +11,7 @@ output:
 [Aula4.pdf](Curso_Comunidades_2017/Aula4.pdf)
 
 **Códigos do R**  
-[Aula4 - roteiro da aula](Curso_Comunidades_2017/Aula4 - roteiro da aula.R)
+[Aula4 - roteiro da aula.R](Curso_Comunidades_2017/Aula4 - roteiro da aula.R)
 
 **Material complementar**  
 Como criar relatórios em HTML, PDF ou Word no RStudio usando RMarkdown.  
