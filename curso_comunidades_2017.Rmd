@@ -7,6 +7,9 @@ output:
 
 ### Aula 4 (06/09/17)
 
+**Aulas**  
+[Aula4.pdf](Curso_Comunidades_2017/Aula4.pdf)
+
 **Material complementar**  
 Como criar relatórios em HTML, PDF ou Word no RStudio usando RMarkdown.  
 [Video aula introdutória de Rmarkdown](https://www.youtube.com/watch?v=ZNJTkjetPNU&t=8s)  

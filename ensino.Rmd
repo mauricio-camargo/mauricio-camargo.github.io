@@ -7,38 +7,64 @@ output:
 
 ----
 
-### Disciplinas em andamento - FURG
+## Disciplinas - FURG
 
-**Segundo semestre de 2016**
+### **2017**
 
-- **Estatística**  
+#### Graduação
+
+ - [**Análise numérica de comunidades  ecológicas**](curso_comunidades_2017.html) 
+    + Cursos oferecidos: *Oceanologia e ouvintes da pós-graduação*
+    + Período: Agosto a novembro de 2017
+
+#### Pós-graduação
+
+- **Estatística univariada para estudos de distribuição espacial e temporal**
+    + Cursos oferecidos: *Pós-graduações diversas*
+    + Período: Outubro e novembro de 2017
+
+### **2016**
+
+#### Graduação
+
+- ***Estatística***  
     + Curso oferecido: *Ciências Biológicas*  
     + Período: Agosto a novembro de 2016
-    + Horário: Sextas-feiras, das 14:20h às 18:50h.
-    + Atividade: Em andamento.
 
-- **Análise numérica de comunidades ecológicas**
-    + Curso oferecido: *Oceanologia*  
+- **Ciências do ambiente**
+    + Cursos oferecidos: *Engenharias*  
+    + Período: Agosto a novembro de 2016  
+
+ - **Análise numérica de comunidades  ecológicas**   
+    + Cursos oferecidos: *Oceanologia e ouvintes da pós-graduação*
     + Período: Agosto a novembro de 2016
-    + Horário: Sextas-feiras, das 13:30h às 15:10h.
-    + Atividade: Encerrada
+
+#### Pós-graduação
 
 - **Estatística univariada para estudos de distribuição espacial e temporal**
     + Cursos oferecidos: *Pós-graduações diversas*
     + Período: Outubro e novembro de 2016
-    + Horário: 
-    + Atividade: Encerrada
 
-- [**Ciências do ambiente**](curso_cie_amb.html)  
-    + Cursos oferecidos: *Engenharias*  
-    + Período: Agosto a novembro de 2016  
-    + Horário: Seg (10:35h); Seg (13:30h); Qui (07:45h). Dias 26 e 29/set. 
+### **2015**
 
+#### Pós-graduação
 
-----
+- **Estatística univariada para estudos de distribuição espacial e temporal**
+    + Cursos oferecidos: *Pós-graduações diversas*
+    + Período: Outubro e novembro de 2015
 
-### Disciplinas anteriormente ministradas na FURG
+### **2014 - 2004**
 
-**Segundo semestre de 2015**
+Disciplinas ministradas no Centro de Estudos do Mar da UFPR:  
 
-- Estatística univariada para estudos de distribuição espacial e temporal (PGOB)
+**Graduação**
+
+- Introdução à estatística
+- Inferência estatística
+- Análise multivariada
+- Planejamento amostral e experimental
+
+**Pós-graduação**
+
+- Ecologia numérica
+- Análise multivariada
