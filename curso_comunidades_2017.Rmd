@@ -9,7 +9,6 @@ output:
 **Planilhas**  
 [Abiot.xlsx](Curso_Comunidades_2017/Abiot.xlsx)  
 
-
 ### Aula 5 (13/09/17)
 
 **Aulas**  
@@ -37,7 +36,7 @@ Para gerar relatórios em PDF, instale o [MikTex](http://miktex.org/download)
 ### Aula 3 (30/08/17)
 
 **Planilhas em Excel**  
-[Aula3.xlsx](Curso_Comunidades_2017/Aula3.xlsx) **novidade**
+[Aula3.xlsx](Curso_Comunidades_2017/Aula3.xlsx) 
 
 **Códigos do R**  
 [Aula3.R](Curso_Comunidades_2017/Aula3.R)
