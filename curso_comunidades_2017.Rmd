@@ -4,11 +4,21 @@ output:
   html_document:
     toc: false
 ---
-
-### Aula 5 (13/09/17)
+### Aula 6 (27/09/17)
 
 **Planilhas**  
 [Abiot.xlsx](Curso_Comunidades_2017/Abiot.xlsx)  
+
+
+### Aula 5 (13/09/17)
+
+**Aulas**  
+[Aula5.pdf](Curso_Comunidades_2017/Aula5.pdf)
+
+**Exercício 1 resolvido**  
+[Exerc1_resolvido.Rmd](Curso_Comunidades_2017/Exerc1_resolvido.Rmd)  
+[Exerc1_resolvido.pdf](Curso_Comunidades_2017/Exerc1_resolvido.pdf)
+
 
 ### Aula 4 (06/09/17)
 
