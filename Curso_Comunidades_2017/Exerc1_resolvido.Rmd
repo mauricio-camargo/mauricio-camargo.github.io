@@ -14,7 +14,6 @@ output: pdf_document
 ```{r}
 library(readxl)
 dd=read_excel("~/Dropbox/000Comunidades-Oceano2017/Aula3/exerc1.xlsx")
-#dd=read_excel("C:\Comunid_Oceano\Aula3\exerc1.xlsx")
 
 library(knitr)
 kable(dd)
