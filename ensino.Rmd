@@ -19,7 +19,7 @@ output:
 
 #### Pós-graduação
 
-- **Estatística univariada para estudos de distribuição espacial e temporal**
+- [**Estatística univariada para estudos de distribuição espacial e temporal**](curso_univariada_2017.html)
     + Cursos oferecidos: *Pós-graduações diversas*
     + Período: Outubro e novembro de 2017
 
