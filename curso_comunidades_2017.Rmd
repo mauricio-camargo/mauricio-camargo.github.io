@@ -16,7 +16,7 @@ output:
 [Abiot.xlsx](Curso_Comunidades_2017/Abiot.xlsx)  
 
 **Códigos do R**  
-[Aula6 - Abiot.R](Curso_Comunidades_2017/Aula6.R)
+[Aula6 - Abiot.R](Curso_Comunidades_2017/Aula6 - Abiot.R)
 
 
 ### Aula 5 (13/09/17)
