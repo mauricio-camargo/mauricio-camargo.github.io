@@ -4,11 +4,20 @@ output:
   html_document:
     toc: false
 ---
+### Aula 7 (11/10/17)
+
+
 ### Aula 6 (27/09/17)
 
+**Aulas**  
+[Aula6.pdf](Curso_Comunidades_2017/Aula6.pdf)  
 
 **Planilhas**  
 [Abiot.xlsx](Curso_Comunidades_2017/Abiot.xlsx)  
+
+**Códigos do R**  
+[Aula6 - Abiot.R](Curso_Comunidades_2017/Aula6.R)
+
 
 ### Aula 5 (13/09/17)
 
