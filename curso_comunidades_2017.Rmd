@@ -6,6 +6,7 @@ output:
 ---
 ### Aula 6 (27/09/17)
 
+
 **Planilhas**  
 [Abiot.xlsx](Curso_Comunidades_2017/Abiot.xlsx)  
 
