@@ -4,6 +4,15 @@ output:
   html_document:
     toc: false
 ---
+
+### Aula 8 (25/10/17)
+
+**Exercício 2**
+[Exerc2.pdf](Curso_Comunidades_2017/Exerc2.pdf)  
+
+Planilha para exercício: 
+[poluicao.xlsx](Curso_Comunidades_2017/poluicao.xlsx)  
+
 ### Aula 7 (11/10/17)
 
 **Aulas**  
@@ -11,9 +20,6 @@ output:
 
 **Códigos do R**  
 [Aula7.R](Curso_Comunidades_2017/Aula7.R)
-
-
-**Exercício 2**
 
 
 ### Aula 6 (27/09/17)
