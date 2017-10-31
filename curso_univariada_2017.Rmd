@@ -12,10 +12,8 @@ output:
 
 **Aulas**  
 
-<!--
- [Aula1.pdf](Curso_Univar_PG/Aula1.pdf)  
- [Aula1.R](Curso_Univar_PG/Aula1.R)  
--->
+ [Aula1.pdf](Curso_Univar_PG_2017/Aula1.pdf)  
+ [Aula1.R](Curso_Univar_PG_2017/Aula1.R)  
 
 **Artigo**  
 [Error Bars in Experiemental Biology.pdf](Curso_Univar_PG/Error Bars in Experiemental Biology.pdf)
