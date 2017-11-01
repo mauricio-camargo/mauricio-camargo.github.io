@@ -5,7 +5,18 @@ output:
     toc: false
 ---
 
+### Aula 9 (01/11/17)
+
+**Aulas**
+
+[PCA.ppt](Curso_Comunidades_2017/PCA.ppt)
+
+**Planilha para aula**
+[Planilhas_PCA.xlsx](Curso_Comunidades_2017/Planilhas_PCA.xlsx)  
+
 ### Aula 8 (25/10/17)
+
+**A aula teórica foi dada no quadro devido a problemas no datashow e portanto não tenho registro dela.**
 
 **Exercício 2**
 [Exerc2.pdf](Curso_Comunidades_2017/Exerc2.pdf)  
