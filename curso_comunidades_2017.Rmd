@@ -12,6 +12,7 @@ output:
 [PCA.ppt](Curso_Comunidades_2017/PCA.ppt)
 
 **Planilha para aula**
+
 [Planilhas_PCA.xlsx](Curso_Comunidades_2017/Planilhas_PCA.xlsx)  
 
 ### Aula 8 (25/10/17)
