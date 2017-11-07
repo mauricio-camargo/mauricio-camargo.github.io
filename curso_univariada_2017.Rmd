@@ -5,7 +5,15 @@ output:
     toc: false
 ---
 
----
+### **Semana 3 - (Aula em 03/11/2017)**
+
+Aula para alunos voluntários durante o recesso, resultando numa conversa sobre os problemas que cada aluno vai se deparar no seu trabalho de pós-graduação.
+
+### **Semana 2 - (Aula em 27/10/2017)**
+
+**Aulas**  
+
+ [Aula2.pdf](Curso_Univar_PG_2017/Aula2.pdf)  
 
 
 ### **Semana 1 - (Aula em 06/10/2017)**
@@ -20,10 +28,12 @@ output:
 
 ---
 
-**- Programas para instalar antes da aula:**  
+**- Programas para instalar antes da aula:**   
+
 [R para Windows](https://cran.r-project.org/bin/windows/base)  
-[RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/)  
-No site existem instruções para instalações em outros sistemas operacionais.
+[RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/) 
+
+Nestes sites existem instruções para instalações em outros sistemas operacionais.
 
 ----
 
