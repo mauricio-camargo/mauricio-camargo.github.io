@@ -5,15 +5,32 @@ output:
     toc: false
 ---
 
+
+### **Semana 4 - (Aula em 17/11/2017)**
+
+**Aulas**  
+
+[Aula3.pdf](Curso_Univar_PG_2017/Aula3.pdf)  
+[Aula4.pdf](Curso_Univar_PG_2017/Aula4.pdf)    
+
+[Aula3.R](Curso_Univar_PG_2017/Aula3.R)  
+[Aula4.R](Curso_Univar_PG_2017/Aula3.4)  
+
+**Artigo (Resenha para a semana que vem, dia 24/11**  
+[Replicate or lie](REPLICATE OR LIE - Prosser.pdf)
+
+
 ### **Semana 3 - (Aula em 03/11/2017)**
 
-Aula para alunos voluntários durante o recesso, consistindo numa conversa individual sobre os problemas que cada aluno vai se deparar no seu trabalho de pós-graduação.
+Aula para alunos voluntários durante o recesso, consistindo numa conversa individual sobre os problemas estatísticos ou de amostragem que cada aluno vai se deparar durante o desenvolvimento trabalho de pós-graduação.
 
 ### **Semana 2 - (Aula em 27/10/2017)**
 
 **Aulas**  
 
 [Aula2.pdf](Curso_Univar_PG_2017/Aula2.pdf)  
+[Aula2.R](Curso_Univar_PG_2017/Aula2.R)  
+
 
 ### **Semana 1 - (Aula em 06/10/2017)**
 
