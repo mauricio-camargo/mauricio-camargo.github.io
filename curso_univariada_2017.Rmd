@@ -17,7 +17,7 @@ output:
 [Aula4.R](Curso_Univar_PG_2017/Aula3.4)  
 
 **Artigo (Resenha para a semana que vem, dia 24/11**  
-[Replicate or lie](REPLICATE OR LIE - Prosser.pdf)
+[Replicate or lie](Curso_Univar_PG_2017/REPLICATE OR LIE - Prosser.pdf)
 
 
 ### **Semana 3 - (Aula em 03/11/2017)**
