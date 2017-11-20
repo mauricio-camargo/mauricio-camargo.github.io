@@ -14,7 +14,7 @@ output:
 [Aula4.pdf](Curso_Univar_PG_2017/Aula4.pdf)    
 
 [Aula3.R](Curso_Univar_PG_2017/Aula3.R)  
-[Aula4.R](Curso_Univar_PG_2017/Aula3.4)  
+[Aula4.R](Curso_Univar_PG_2017/Aula4.R)  
 
 **Artigo (Resenha para a semana que vem, dia 24/11**  
 [Replicate or lie](Curso_Univar_PG_2017/REPLICATE OR LIE - Prosser.pdf)
