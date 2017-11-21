@@ -5,6 +5,11 @@ output:
     toc: false
 ---
 
+### Aula 10 (08/11/17)
+
+[Aula10.pdf](Curso_Comunidades_2017/Aula10.pdf)  
+[Transformacoes.pdf](Curso_Comunidades_2017/Transformacoes.pdf)
+
 ### Aula 9 (01/11/17)
 
 **Aulas**  
