@@ -5,6 +5,8 @@ output:
     toc: false
 ---
 
+----
+  
 ### Aula 10 (08/11/17)
 
 [Aula10.pdf](Curso_Comunidades_2017/Aula10.pdf)  

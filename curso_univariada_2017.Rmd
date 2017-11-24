@@ -5,8 +5,10 @@ output:
     toc: false
 ---
 
+### **Semana 5 - (Aula em 24/11/2017) 09:00-12:00h**
 
-### **Semana 4 - (Aula em 17/11/2017)**
+
+### **Semana 4 - (Aula em 17/11/2017) 09:00-12:00h**
 
 **Aulas**  
 
@@ -15,6 +17,9 @@ output:
 
 [Aula3.R](Curso_Univar_PG_2017/Aula3.R)  
 [Aula4.R](Curso_Univar_PG_2017/Aula4.R)  
+
+**Planila excel usada nos scripts**  
+[enquete.xls](Curso_Univar_PG_2017/enquete.xls)
 
 **Artigo (Resenha para a semana que vem, dia 24/11**  
 [Replicate or lie](Curso_Univar_PG_2017/REPLICATE OR LIE - Prosser.pdf)
