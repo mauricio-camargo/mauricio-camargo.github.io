@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +30,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -249,6 +251,8 @@ $(document).ready(function () {
 
 <div id="semana-5---aula-em-24112017-0900-1200h" class="section level3">
 <h3><strong>Semana 5 - (Aula em 24/11/2017) 09:00-12:00h</strong></h3>
+<p><strong>Artigo (Resenha para a semana que o dia 08/12</strong><br />
+<a href="Curso_Univar_PG_2017/Morrison%20-%202002%20-%20Nested%20factors.pdf">Morrison - 2002 - Nested factors.pdf</a></p>
 </div>
 <div id="semana-4---aula-em-17112017-0900-1200h" class="section level3">
 <h3><strong>Semana 4 - (Aula em 17/11/2017) 09:00-12:00h</strong></h3>
