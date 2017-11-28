@@ -14,7 +14,7 @@ output:
 [Aula11a.pptx](Curso_Comunidades_2017/Aula11a.pptx)  
 
 **Códigos do R**  
-[Capitais.R](Curso_Comunidades_2017/Capitais.r)  
+[Capitais.R](Curso_Comunidades_2017/Capitais.R)  
 [Distancias_Cidades.xls](Curso_Comunidades_2017/Distancias_Cidades.xls)
 
 ### Aula 10 (08/11/17)
