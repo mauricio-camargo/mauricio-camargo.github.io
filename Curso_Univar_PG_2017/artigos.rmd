@@ -43,23 +43,27 @@ Limits to generality: seasonal and temporal variation in
 dispersal of an intertidal gastropod   
 [12-Dempster 2002.pdf](artigos_seminario/12-Dempster 2002.pdf)  
 Attraction of wild fish to sea-cage fish farms in the south-western Mediterranean Sea: spatial and short-term temporal variability  
-[13-Dempster 2005.pdf](artigos_seminario/13-Dempster 2005.pdf) Vertical variability of wild fish assemblages around
+[13-Dempster 2005.pdf](artigos_seminario/13-Dempster 2005.pdf)     
+Vertical variability of wild fish assemblages around
 sea-cage fish farms: implications for management     
-[14-Di Domenico 2009.pdf](artigos_seminario/14-Di Domenico 2009.pdf)  
+[14-Di Domenico 2009.pdf](artigos_seminario/14-Di Domenico 2009.pdf)   
+ **Reservado Fernando**  
 Distribution patterns of interstitial polychaetes in sandy
 beaches of southern Brazil  
 [15-Eggleston 1998.pdf](artigos_seminario/15-Eggleston 1998.pdf)  
 Organism response to habitat patchiness: species and habitat-
 dependent recruitment of decapod crustaceans  
-[16-Fraschetti 2001.pdf](artigos_seminario/16-Fraschetti 2001.pdf)   
+[16-Fraschetti 2001.pdf](artigos_seminario/16-Fraschetti 2001.pdf)  
 Spatial variability and human disturbance in shallow subtidal hard substrate assemblages: a regional approach  
 [17-Gray 1996.pdf](artigos_seminario/17-Gray 1996.pdf)  
+**Reservado Priscila**  
 Small-scale temporal variability in assemblages of larval fishes: implications for sampling  
 [18-Gray 2009.pdf](artigos_seminario/18-Gray 2009.pdf)  
 Spatial scales of variation of assemblages of fish in coastal lakes sampled with multi-mesh gillnets: Implications for designing research surveys  
 [19-Hernandez 2006.pdf](artigos_seminario/19-Hernandez 2006.pdf)  
 Spatial and seasonal variation of the gonad index of Diadema antillarum (Echinodermata: Echinoidea) in the Canary Islands  
 [20-Lindegarth 2001.pdf](artigos_seminario/20-Lindegarth 2001.pdf)  
+**Reservado Camila**  
 Patterns of Distribution of Macro-fauna in Different Types of Estuarine, Soft Sediment Habitats Adjacent to Urban and Non-urban Areas  
 [21-Morais 2003.pdf](artigos_seminario/21-Morais 2003.pdf)  
 Gonad development and fatty acid composition of Patella depressa Pennant (Gastropoda: Prosobranchia) populations with different patterns of spatial distribution, in exposed and sheltered sites  
@@ -82,6 +86,7 @@ Comparison of patterns of spatial variation of microgastropods between two contr
 [29-Olabarria 2002.pdf](artigos_seminario/29-Olabarria 2002.pdf)  
 Role of colonization in spatio-temporal patchiness of microgastropods in coralline turf habitat  
 [30-Olabarria 2009.pdf](artigos_seminario/30-Olabarria 2009.pdf)  
+**Reservado Nicholas**  
 Use of hierarchical designs to detect scales of heterogeneity in the invasive species Sargassum muticum  
 [31-Paiva 2001.pdf](artigos_seminario/31-Paiva 2001.pdf)  
 Spatial and Temporal Variation of a Nearshore Benthic Community in Southern Brazil: Implications for the Design of Monitoring Programs  
@@ -122,6 +127,7 @@ Predation upon Diadema aff. antillarum in barren grounds in the Canary Islands
 The effects of grazing on the distribution and composition of low-shore algal communities on the central coast of Portugal and on the southern coast of 
 Britain  
 [46-Cannicci etal 2009.pdf](artigos_seminario/46-Cannicci etal 2009.pdf)  
+**Reservado Andréa**  
 Effects of urban wastewater on crab and mollusc assemblages in equatorial and
 subtropical mangroves of East Africa  
 [47-Guichard 2001.pdf](artigos_seminario/47-Guichard 2001.pdf)  
@@ -131,6 +137,7 @@ The impact of predation by the girdled goby, Nesogobiu sp. on abundances of meio
 [49-Lourenço-McKinley 2011.pdf](artigos_seminario/49-Lourenço-McKinley 2011.pdf)  
 Strong links between metal contamination, habitat modification and estuarine larval fish distributions  
 [50-Underwood 1999.pdf](artigos_seminario/50-Underwood 1999.pdf)  
+**Reservado Ana Carolina**  
 Physical disturbances and their direct effect on an indirect effect: responses of an intertidal assemblage to a severe storm  
 [51-Winberg 2007.pdf](artigos_seminario/51-Winberg 2007.pdf)  
 The importance of spatial scale for the conservation of tidal flat macrobenthos: An example from New South Wales, Australia  
