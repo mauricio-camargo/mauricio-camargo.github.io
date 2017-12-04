@@ -16,7 +16,7 @@ output:
 
 **Trabalho final**  
 [Trabalho_final.doc](Curso_Comunidades_2017/
-Trabalho final.doc)  
+Trabalho_final.doc)  
 [DoubsEnv.xlsx](Curso_Comunidades_2017/DoubsEnv.xlsx)  
 [DoubsSpe.xlsx](Curso_Comunidades_2017/DoubsSpe.xlsx)  
 
