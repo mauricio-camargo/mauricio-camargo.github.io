@@ -9,16 +9,13 @@ output:
 
 ### Aula 12 (29/11/17)
   
-
-
-
 **Aulas**  
 [Aula12.pdf](Curso_Comunidades_2017/Aula12.pdf)  
 [Aula13.pdf](Curso_Comunidades_2017/Aula13.pdf)  
 [Aula_MDS.r](Curso_Comunidades_2017/Aula_MDS.r) 
 
 **Trabalho final**  
-[Trabalho final.doc](Curso_Comunidades_2017/
+[Trabalho_final.doc](Curso_Comunidades_2017/
 Trabalho final.doc)  
 [DoubsEnv.xlsx](Curso_Comunidades_2017/DoubsEnv.xlsx)  
 [DoubsSpe.xlsx](Curso_Comunidades_2017/DoubsSpe.xlsx)  
