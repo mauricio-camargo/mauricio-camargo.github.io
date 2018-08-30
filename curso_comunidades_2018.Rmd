@@ -7,7 +7,7 @@ output:
 
 ----
 
-### Aula 2 (26/08/17)
+### Aulaaa 2 (26/08/17)
 
 **Aulas**  
 [Aula2.pptx](Curso_Comunidades_2017/Aula2.pptx)
