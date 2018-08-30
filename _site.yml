@@ -35,7 +35,6 @@ navbar:
     - text: "Agenda"
       icon: glyphicon-calendar
       href: agenda.html
-  right:
     - text: GitHub
       icon: glyphicon-cloud-download
       href: https://github.com/mauricio-camargo
