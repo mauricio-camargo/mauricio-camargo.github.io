@@ -9,6 +9,20 @@ output:
 
 ## Disciplinas - FURG
 
+### **2018**
+
+#### Graduação
+
+ - [**Análise numérica de comunidades  ecológicas**](curso_comunidades_2018.html) 
+    + Cursos oferecidos: *Oceanologia e ouvintes da pós-graduação*
+    + Período: Agosto a novembro de 2018
+
+#### Pós-graduação
+
+- **Estatística univariada para estudos de distribuição espacial e temporal**
+    + Cursos oferecidos: *Pós-graduações diversas*
+    + Período: Outubro e novembro de 2018
+
 ### **2017**
 
 #### Graduação
