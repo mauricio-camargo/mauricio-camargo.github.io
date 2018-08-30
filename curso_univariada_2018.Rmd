@@ -1,0 +1,101 @@
+---
+title: "Estatística univariada para estudos de distribuição espacial e temporal"
+output:
+  html_document:
+    toc: false
+---
+
+
+### **Semana 5 - (Aula em 24/11/2017) 09:00-12:00h**
+
+###[**Artigos para o seminário**](Curso_Univar_PG_2017/artigos.html)
+
+**Aulas**  
+
+[Aula5.pdf](Curso_Univar_PG_2017/Aula5.pdf)  
+[Aula6.pdf](Curso_Univar_PG_2017/Aula6.pdf)    
+
+[Aula5.R](Curso_Univar_PG_2017/Aula5.R)  
+[Aula6.R](Curso_Univar_PG_2017/Aula6.R)  
+
+**Planila excel usada nos scripts**  
+[planilha_dados.xlsx](Curso_Univar_PG_2017/planilha_dados.xlsx)
+
+**Artigo (Resenha para o dia 08/12)**  
+[Morrison - 2002 - Nested factors.pdf](Curso_Univar_PG_2017/Morrison - 2002 - Nested factors.pdf)
+
+### **Semana 4 - (Aula em 17/11/2017) 09:00-12:00h**
+
+**Aulas**  
+
+[Aula3.pdf](Curso_Univar_PG_2017/Aula3.pdf)  
+[Aula4.pdf](Curso_Univar_PG_2017/Aula4.pdf)    
+
+[Aula3.R](Curso_Univar_PG_2017/Aula3.R)  
+[Aula4.R](Curso_Univar_PG_2017/Aula4.R)  
+
+**Planila excel usada nos scripts**  
+[enquete.xls](Curso_Univar_PG_2017/enquete.xls)
+
+**Artigo (Resenha para a semana que vem, dia 24/11**  
+[Replicate or lie](Curso_Univar_PG_2017/REPLICATE OR LIE - Prosser.pdf)
+
+
+### **Semana 3 - (Aula em 03/11/2017)**
+
+Aula para alunos voluntários durante o recesso, consistindo numa conversa individual sobre os problemas estatísticos ou de amostragem que cada aluno vai se deparar durante o desenvolvimento trabalho de pós-graduação.
+
+### **Semana 2 - (Aula em 27/10/2017)**
+
+**Aulas**  
+
+[Aula2.pdf](Curso_Univar_PG_2017/Aula2.pdf)  
+[Aula2.R](Curso_Univar_PG_2017/Aula2.R)  
+
+
+### **Semana 1 - (Aula em 06/10/2017)**
+
+**Aulas**  
+
+ [Aula1.pdf](Curso_Univar_PG_2017/Aula1.pdf)  
+ [Aula1.R](Curso_Univar_PG_2017/Aula1.R)  
+
+**Artigo**  
+[Error Bars in Experiemental Biology.pdf](Curso_Univar_PG/Error Bars in Experiemental Biology.pdf)
+
+---
+
+**- Programas para instalar antes da aula:**   
+
+[R para Windows](https://cran.r-project.org/bin/windows/base)  
+[RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/) 
+
+Nestes sites existem instruções para instalações em outros sistemas operacionais.
+
+----
+
+**Ementa:**
+
+Introdução ao R e ao RStudio. O R como calculadora de luxo. Instalação de pacotes do R. Entrada de dados e importação de planilhas do Excel. Estatística descritiva: medidas de tendência central e de posição, medidas de dispersão. Gráficos básicos: gráficos de dispersão, boxplots e gráficos de barras com medidas de dispersão. Distribuições estatísticas e histogramas. Inferência estatística. Regressão e correlação. ANOVA de um fator. 
+
+A lógica do pensamento científico. Modelos. Modelos lineares. Modelos lineares gerais: Regressão linear e ANOVA. Teoria e prática (no R).
+
+Métodos clássicos de regressão linear simples e múltipla e de ANOVA multifatorial. Teoria e prática (no R).
+
+Fatores fixos e aleatórios. Delineamentos hierárquicos e ortogonais clássicos e suas aplicações universais. Modelos complexos e suas aplicações. Teoria e prática no R.
+
+Diversos sabores de ANOVA em ecologia e suas aplicações. Pseudoreplicação e modelos mistos de ANOVA. Teoria e prática no R.
+
+Aplicações de ANOVA no espaço-tempo. 
+
+**Bibliografia**
+
+Gottelli, N.; Ellison, A.M. *A primer of ecological statistics.* 2013. ISBN 9781605351919
+
+Quinn, G.P.; Keough, M. *Experimental design and data analysis for biologists.* 2002. ISBN 0521009766
+
+Sokal, R.R and Rohlf, F,J. Biometry: *The Principles and Practices of Statistics in Biological Research.* 1995. ISBN 0716724111.
+
+Underwood, A.J. *Experiments in ecology – their logical design and interpretation using analysis of variance.* 1997. ISBN 0521556961.
+
+Zuur, A.F. ; Leno, E.N. ; Meesters, E.W.G. *A beginner’s guide to R.* 2009. ISBN 9780387938363.
