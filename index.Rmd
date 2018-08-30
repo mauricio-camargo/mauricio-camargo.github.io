@@ -10,7 +10,7 @@ output:
 ![](img/img2.png)  
 
 <br>
-zProf. Maurício Garcia de Camargo - FURG.  
+Prof. Maurício Garcia de Camargo - FURG.  
 Este é o meu site pessoal, onde concentro todas as minhas atividades profissionais como professor e pesquisador do [Instituto de Oceanografia](http://www.io.furg.br) da [Universidade Federal do Rio Grande - FURG](http://www.furg.br), lotado no **Laboratório de Ecologia de Invertebrados Bentônicos**.
 <br>
 <br>
