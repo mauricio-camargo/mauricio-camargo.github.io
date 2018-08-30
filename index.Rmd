@@ -21,20 +21,29 @@ Todo o conteúdo do site é livre para uso [não comercial](https://creativecomm
 ### Disciplinas e cursos de extensão
 Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na pós-graduação e eventuais [cursos de extensão](extensao.html), usando o [software R](https://mauricio-camargo.github.io/R_para_todos.html).
 
-**Disciplinas ministradas no segundo semestre de 2017:**
+**Disciplinas ministradas no segundo semestre de 2018:**
 
-- [**Análise numérica de comunidades ecológicas**](curso_comunidades_2017.html) (Oceanologia e ouvintes da pós-graduação)
-- [**Estatística univariada para estudos de distribuição espacial e temporal**](curso_univariada_2017.html) (Diversos programas de pós-graduação) - Em outubro.
+- [**Análise numérica de comunidades ecológicas**](curso_comunidades_2018.html) (Oceanologia e ouvintes da pós-graduação)
 
+- **Estatística univariada para estudos de distribuição  espacial e temporal**
+
+<!-- 
+- [**Estatística univariada para estudos de distribuição  espacial e temporal**](curso_univariada_2017.html) (Diversos programas de pós-graduação) - Em outubro.
+-->
+
+
+<!--
 -----
-
 ### Orientações em pesquisa
 Oriento alunos de graduação e de pós-graduação em ecologia de comunidades bentônicas com interesse em estatística ambiental e linguagens de programação.
+-->
 
+
+<!--
 -----
-
 ### Atividades adminstrativas
 Atualmente sou coordenador substituto do curso de Oceanologia.
+-->
 
 ------
 
