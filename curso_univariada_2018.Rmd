@@ -5,7 +5,6 @@ output:
     toc: false
 ---
 
-
 ### **Semana 5 - (Aula em 24/11/2017) 09:00-12:00h**
 
 ###[**Artigos para o seminário**](Curso_Univar_PG_2017/artigos.html)
