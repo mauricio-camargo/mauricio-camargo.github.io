@@ -5,11 +5,7 @@ output:
     toc: false
 ---
 
----
-
 ![](img/img2.png)  
-
-[asd](http://www.uol.com.br)
 
 <br>
 Prof. Maurício Garcia de Camargo - FURG.  
