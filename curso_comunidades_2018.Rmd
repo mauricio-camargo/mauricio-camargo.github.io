@@ -1,22 +1,11 @@
 ---
-title: "Análise numérica de comunidades ecológicas (Oceanologia-2017)"
+title: "Análise numérica de comunidades ecológicas (Oceanologia-2018)"
 output:
   html_document:
     toc: false
 ---
 
 ----
-
-### Aula 3 (30/08/17)
-
-**Planilhas em Excel**  
-[Aula3.xlsx](Curso_Comunidades_2017/Aula3.xlsx) 
-
-**Códigos do R**  
-[Aula3.R](Curso_Comunidades_2017/Aula3.R)
-
-**Exercício para o dia 13/09 (e não mais para a próxima semana)**  
-[Exercicio1.pdf](Curso_Comunidades_2017/Exercicio1.pdf)
 
 ### Aula 2 (26/08/17)
 
@@ -60,7 +49,7 @@ Os alunos devem treinar os códigos apresentados em casa
 Aulas teóricas e exercícios semanais no computador.
 
 **Avaliações**  
-Vamos pensar nisso!
+Será baseada em trabalhos a serem entregues durante a disciplina.
 
 **Ementa:**  
 Teórica: noções de diversidade biológica, comunidades ecológicas e processos ecológicos em comunidades. Amostragem em uma comunidade fictícia. Planilhas de dados abióticos e bióticos. Estatística ecológica em índices univariados de resumo: testes de hipóteses e correlações. Estatística multivariada em comunidades: PCA (planilha de dados abióticos), MDS e PCO (planilha de dados bióticos), análises de agrupamentos e análises canônicas (planilhas abióticas e bióticas).  
