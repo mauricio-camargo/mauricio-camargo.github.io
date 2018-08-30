@@ -29,12 +29,13 @@ navbar:
     - text: "Software"
       icon: glyphicon-floppy-disk
       href: software.html
-    - text: "R para todos"
-      icon: glyphicon-registration-mark
-      href: R_para_todos.html
+#    - text: "R para todos"
+#      icon: glyphicon-registration-mark
+#     href: R_para_todos.html
     - text: "Agenda"
       icon: glyphicon-calendar
       href: agenda.html
+#  right:
     - text: GitHub
       icon: glyphicon-cloud-download
       href: https://github.com/mauricio-camargo
