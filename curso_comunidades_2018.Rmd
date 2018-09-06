@@ -7,7 +7,10 @@ output:
 
 ----
 
-Teste
+### EXERCÍCIO 1 #####
+[Exercicio1.pdf](Curso_Comunidades_2018/Exercicio1.pdf)  
+[Exerc.xlsx](Curso_Comunidades_2018/Exerc.xlsx)  
+
 ### Aula 4 (06/09/18)
 
 **Aulas**  
