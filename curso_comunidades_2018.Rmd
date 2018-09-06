@@ -7,10 +7,21 @@ output:
 
 ----
 
+### Aula 4 (06/09/18)
+
+**Aulas**  
+[Aula4.pdf](Curso_Comunidades_2018/Aula4.pdf)  
+
+**Planilhas em Excel**  
+[Aula4.xlsx](Curso_Comunidades_2018/Aula4.xlsx)
+
+**Códigos do R**  
+[Aula4.R](Curso_Comunidades_2018/Aula4.R)
+
 ### Aula 3 (30/08/18)
 
 **Aulas**  
-[Aula1.pdf](Curso_Comunidades_2018/Aula1.pdf)  
+[Aula3.pdf](Curso_Comunidades_2018/Aula3.pdf)  
 
 **Planilhas em Excel**  
 [Aula2.xlsx](Curso_Comunidades_2018/Aula2.xlsx)
