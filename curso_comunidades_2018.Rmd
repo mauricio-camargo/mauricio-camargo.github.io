@@ -9,7 +9,7 @@ output:
 
 ### EXERCÍCIO 1 #####
 [Exercicio1.pdf](Curso_Comunidades_2018/Exercicio1.pdf)  
-[Exerc1.xlsx](Curso_Comunidades_2018/Exerc.xlsx)  
+[Exerc1.xlsx](Curso_Comunidades_2018/Exerc1.xlsx)  
 
 ### Aula 4 (06/09/18)
 
