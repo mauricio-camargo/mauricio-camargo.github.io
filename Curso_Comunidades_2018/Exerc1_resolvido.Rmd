@@ -1,0 +1,134 @@
+---
+title: "Exercício 1 resolvido"
+author: "Mauricio Camargo"
+date: "13 de setembro de 2017"
+output: pdf_document
+---
+
+#Resolução do Exercício 1
+
+##Preparando os dados
+
+###Abrindo a planilha do Excel chamada exerc1.xlsx
+
+```{r}
+library(readxl)
+dd=read_excel("Exerc1.xlsx")
+library(knitr)
+kable(dd)
+```
+
+###Separando o dataframe dd em dois: fatores e numéricos
+
+```{r}
+ddf=dd[,1:2] #Cria o dataframe ddf, que armazenará as duas primeiras colunas do dataframe dd
+kable(ddf) #A função kable serve para formatar a tabela para impressão
+
+ddn=dd[,3:12] #Cria o dataframe ddn, que armazenará as colunas de 3 até 12.
+kable(ddn)
+```
+
+##Questões
+
+**1.** Calcule os principais descritores univariados: o número de indivíduos (N) e o número de espécies (S)
+
+```{r,message=F}
+library(vegan)
+S=specnumber(ddn)
+N=rowSums(ddn)
+kable(cbind(ddf,S,N))
+```
+
+**2.** A seguir calcule o índice de riqueza de espécies de Margalef, usando N e S
+
+```{r}
+Dmg=(S-1)/log(N) #Riqueza de Margalef
+kable(cbind(ddf,S,N,Dmg))
+```
+
+**3.** Depois, os índices de diversidade de espécies de Simpson (1 – D) e Shannon-Wienner (H), usando a abundância relativa das espécies
+
+```{r}
+D=diversity(ddn, "simpson") 
+D=1-D   #Simpson é expresso como 1-D
+H=diversity(ddn, "shannon")
+```
+
+**Esta é a tabela final dos Descritores Univariados**
+
+```{r}
+tab=cbind(ddf,S,N,Dmg,D,H)
+kable(tab)
+```
+
+**4.** Discuta sobre riqueza e diversidade das amostras A5 e A6
+
+**Resposta:**  
+Na amostra A5, todas as espécies possuíam apenas 1 indivíduo, exceto a última (sp10), que continha 51 indivíduos.  
+
+Na amostra A6, todas as espécies continham 6 indivíduos.
+
+Nota-se que a riqueza medida por S, N e Dmg são idênticas entre as amostras A5 e A6, mesmo com as discrepâncias na distribuição das espécies entre as duas amostras. 
+
+A diversidade de Simpson (D) é sensível a estas diferenças. Quando existe homogeneidade total entre as espécies, como em A6, D é igual a 0,1. Quando a abundância é diferente em apenas uma espécie, como em A5, D é igual a 0,725. 
+
+A diversidade de Shannon (H) é muito mais sensível a estas variações. Em situação de homogeneidade, como em A6, H é igual 2,30. Quando a abundância difere em apenas uma espécies,  como em A5, H é igual a 0,75. 
+
+**5.** Calcule a média e o desvio padrão entre os locais Norte e Sul, número de indivíduos (N) e número de espécies (S)
+
+```{r}
+library(doBy)
+kable(summaryBy(S+N~Local,FUN=c(mean,sd),data=tab))
+```
+
+**6.** Faça um gráfico de barras com barras de erro representadas pelo erro padrão, usando o pacote sciplot, comparando as amostras de Norte e
+Sul para todos os descritores univariados
+
+```{r}
+library(sciplot)
+par(mfrow=c(3,2)) #Cria uma grade para 6 gráficos
+bargraph.CI(tab$Local,tab$S,main='Número de espécies')
+bargraph.CI(tab$Local,tab$N,main='Número de indivíduos')
+bargraph.CI(tab$Local,tab$Dmg,main='Margalef')
+bargraph.CI(tab$Local,tab$D,main='Simpson')
+bargraph.CI(tab$Local,tab$H,main='Shannon')
+```
+
+
+**7.** Faça um teste-t para cada um dos descritores univariados entre os locais norte e sul
+
+7.1. Número de espécies
+
+Aceita H0
+```{r}
+t.test(tab$S ~ tab$Local)
+```
+
+
+7.2. Número de indivíduos
+
+Aceita H0
+```{r}
+t.test(tab$N ~ tab$Local)
+```
+
+7.3. Margalef
+
+Aceita H0
+```{r}
+t.test(tab$Dmg ~ tab$Local)
+```
+
+7.4. Simpson
+
+Aceita H0
+```{r}
+t.test(tab$D ~ tab$Local)
+```
+
+7.5. Shannon
+
+Aceita H0
+```{r}
+t.test(tab$H ~ tab$Local)
+```

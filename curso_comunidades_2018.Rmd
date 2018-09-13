@@ -7,9 +7,17 @@ output:
 
 ----
 
-### EXERCÍCIO 1 #####
+### Aula 5 (13/09/18)  
+Nessa aula foi demonstrada a utilização de Rmarkdown. Quem quiser rever a aula, existe um vídeo que eu gravei e que pode ser visto [aqui](https://www.youtube.com/watch?v=ZNJTkjetPNU).
+
+**Cabeçalho em Rmarkdown para resolução do exercício 1**  
+[Exerc1](Curso_Comunidades_2018/Exerc1_resolvido.Rmd)  
+
+
+
+### Exercício 1 #####
 [Exercicio1.pdf](Curso_Comunidades_2018/Exercicio1.pdf)  
-[Exerc1.xlsx](Curso_Comunidades_2018/Exerc1.xlsx)  
+[Exerc1.xlsx](Curso_Comunidades_2018/Exerc1.xlsx)     
 
 ### Aula 4 (06/09/18)
 
