@@ -7,12 +7,15 @@ output:
 
 ----
 
+### Aula 6 (27/09/18)  
+[Abiot.xlsx](Abiot.xlsx)  
+
+
 ### Aula 5 (13/09/18)  
 Nessa aula foi demonstrada a utilização de Rmarkdown. Quem quiser rever a aula, existe um vídeo que eu gravei e que pode ser visto [aqui](https://www.youtube.com/watch?v=ZNJTkjetPNU).
 
 **Cabeçalho em Rmarkdown para resolução do exercício 1**  
 [Exerc1](Curso_Comunidades_2018/Exerc1_resolvido.Rmd)  
-
 
 
 ### Exercício 1 #####
