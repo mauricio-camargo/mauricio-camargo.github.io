@@ -13,13 +13,10 @@ output:
 [Aula5a.r](Curso_Comunidades_2018/Aula5a.r)
 
 ```{r,echo=F}
-
 #[Aula6.pdf](Curso_Comunidades_2018/Aula6.pdf)  
 #[Aula6.r](Curso_Comunidades_2018/Aula6.r)
 
 #[Abiot.xlsx](Curso_Comunidades_2018/Abiot.xlsx)   
-
-
 ```
 
 ### Aula 6 (27/09/18)  
