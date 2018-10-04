@@ -7,8 +7,16 @@ output:
 
 ----
 
-### Aula 6 (27/09/18)  
+### Aula 7 (03/10/18)  
 [Abiot.xlsx](Curso_Comunidades_2018/Abiot.xlsx)  
+
+
+### Aula 6 (27/09/18)  
+
+Resolução do exercício 1.
+
+[Exerc1_resolvido.Rmd](Curso_Comunidades_2018/Exerc1_resolvido.Rmd)  
+[Exerc1_resolvido.pdf](Curso_Comunidades_2018/Exerc1_resolvido.pdf)
 
 
 ### Aula 5 (13/09/18)  
@@ -18,7 +26,7 @@ Nessa aula foi demonstrada a utilização de Rmarkdown. Quem quiser rever a aula
 [Exerc1](Curso_Comunidades_2018/Exerc1_resolvido.Rmd)  
 
 
-### Exercício 1 #####
+#### Exercício 1 #####
 [Exercicio1.pdf](Curso_Comunidades_2018/Exercicio1.pdf)  
 [Exerc1.xlsx](Curso_Comunidades_2018/Exerc1.xlsx)     
 
