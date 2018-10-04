@@ -10,7 +10,7 @@ output:
 ### Aula 7 (03/10/18)  
 
 [Aula5a.pdf](Curso_Comunidades_2018/Aula5a.pdf)  
-[Aula-5a.R](Curso_Comunidades_2018/Aula5a.R)
+[Aula5a.R](Curso_Comunidades_2018/Aula5a.R)
 
 ```{r,echo=F}
 #[Aula6.pdf](Curso_Comunidades_2018/Aula6.pdf)  
