@@ -9,13 +9,12 @@ output:
 
 **Aulas**  
 
- [Aula1.pdf](Curso_Univar_PG_2018/Aula1.pdf)  
- [Aula1.R](Curso_Univar_PG_2018/Aula1.R)  
+ [](Curso_Univar_PG_2018/Aula1.pptx)  
 
-**Artigo para resenha**  
+**Artigo para resenha (entregar dia 16/10)**  
 [Error Bars in Experiemental Biology.pdf](Curso_Univar_PG/Error Bars in Experiemental Biology.pdf)
 
----
+----
 
 **- Programas para instalar antes da aula:**   
 
