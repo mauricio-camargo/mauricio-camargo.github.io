@@ -25,11 +25,7 @@ Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na
 
 - [**Análise numérica de comunidades ecológicas**](curso_comunidades_2018.html) (Oceanologia e ouvintes da pós-graduação)
 
-- **Estatística univariada para estudos de distribuição  espacial e temporal**
-
-<!-- 
-- [**Estatística univariada para estudos de distribuição  espacial e temporal**](curso_univariada_2017.html) (Diversos programas de pós-graduação) - Em outubro.
--->
+- [**Estatística univariada para estudos de distribuição  espacial e temporal**](curso_univariada_2018.html)
 
 
 <!--
