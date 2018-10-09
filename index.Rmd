@@ -30,7 +30,7 @@ Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na
 
 <!--
 -----
-### Orientações em pesquisa
+### Orientações em pesqisa
 Oriento alunos de graduação e de pós-graduação em ecologia de comunidades bentônicas com interesse em estatística ambiental e linguagens de programação.
 -->
 

@@ -12,7 +12,7 @@ output:
  [Aula1.pdf](Curso_Univar_PG_2018/Aula1.pdf)  
  [Aula1.R](Curso_Univar_PG_2018/Aula1.R)  
 
-**Artigo**  
+**Artigo para resenha**  
 [Error Bars in Experiemental Biology.pdf](Curso_Univar_PG/Error Bars in Experiemental Biology.pdf)
 
 ---
