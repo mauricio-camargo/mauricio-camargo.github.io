@@ -10,7 +10,10 @@ output:
 ### **Semana 2 - (Aula em 16/10/2018)**
 
 Baixar arquivo para a aula  
-[planilha1.xlsx](Curso_Univar_PG_2018/planilha1.xlsx)
+[Desvendando R.pptx](Curso_Univar_PG_2018/Desvendando R.pptx)
+
+Aula prática no R  
+[Aula1.R](Curso_Univar_PG_2018/Aula1.R)
 
 ### **Semana 1 - (Aula em 09/10/2018)**
 
