@@ -9,14 +9,14 @@ output:
 
 ### **Semana 2 - (Aula em 16/10/2018)**
 
-**Atenção** alunos: tragam os seus celulares para a próxima aula.
+**Apresentação do Mentimeter usando celulares** 
 
 ### **Semana 1 - (Aula em 09/10/2018)**
 
 **Aulas**  
 [Aula1.pptx](Curso_Univar_PG_2018/Aula1.pptx)  
 
-**Artigo para resenha (entregar dia 16/10)**  
+**Artigo para resenha (entregar dia 23/10) - *Atenção para nova data* **  
 [Error Bars in Experiemental Biology.pdf](Curso_Univar_PG/Error Bars in Experiemental Biology.pdf)
 
 ----
@@ -32,26 +32,34 @@ Nestes sites existem instruções para instalações em outros sistemas operacio
 
 **Ementa:**
 
-Introdução ao R e ao RStudio. O R como calculadora de luxo. Instalação de pacotes do R. Entrada de dados e importação de planilhas do Excel. Estatística descritiva: medidas de tendência central e de posição, medidas de dispersão. Gráficos básicos: gráficos de dispersão, boxplots e gráficos de barras com medidas de dispersão. Distribuições estatísticas e histogramas. Inferência estatística. Regressão e correlação. ANOVA de um fator. 
+Este curso é baseado em seis aulas teóricas e quatro aulas práticas:
 
-A lógica do pensamento científico. Modelos. Modelos lineares. Modelos lineares gerais: Regressão linear e ANOVA. Teoria e prática (no R).
+1. Introdução ao R e ao RStudio. O R como calculadora de luxo. Instalação de pacotes do R. Entrada de dados e importação de planilhas do Excel. Estatística descritiva: medidas de tendência central e de posição, medidas de dispersão. Gráficos básicos: gráficos de dispersão, boxplots e gráficos de barras com medidas de dispersão. Distribuições estatísticas e histogramas. Inferência estatística. Regressão e correlação. ANOVA de um fator (Teoria).
+Biblio: 1 e 5
 
-Métodos clássicos de regressão linear simples e múltipla e de ANOVA multifatorial. Teoria e prática (no R).
+2. A lógica do pensamento científico. Modelos. Modelos lineares. Modelos lineares gerais: Regressão linear e ANOVA (Teoria e prática no R).
+Biblio: 2 e 4
 
-Fatores fixos e aleatórios. Delineamentos hierárquicos e ortogonais clássicos e suas aplicações universais. Modelos complexos e suas aplicações. Teoria e prática no R.
+3. Métodos clássicos de regressão linear simples e múltipla e de ANOVA multifatorial (Teoria e prática no R).
+Biblio: 4, 3 e 2
 
-Diversos sabores de ANOVA em ecologia e suas aplicações. Pseudoreplicação e modelos mistos de ANOVA. Teoria e prática no R.
+4. Fatores fixos e aleatórios. Delineamentos hierárquicos e ortogonais clássicos e suas aplicações universais. Modelos complexos e suas aplicações (Teoria e prática no R).
+Biblio: 4
 
-Aplicações de ANOVA no espaço-tempo. 
+5. Diversos sabores de ANOVA em ecologia e suas aplicações. Pseudoreplicação e modelos mistos de ANOVA (Teoria e prática no R).
+Biblio:4, 3 e 2
+
+6. Aplicações de ANOVA no espaço-tempo (Teoria). 
+Biblio: 1,2,3,4 e 5
 
 **Bibliografia**
 
-Gottelli, N.; Ellison, A.M. *A primer of ecological statistics.* 2013. ISBN 9781605351919
+1. Gottelli, N.; Ellison, A.M. *A primer of ecological statistics.* 2013. ISBN 9781605351919
 
-Quinn, G.P.; Keough, M. *Experimental design and data analysis for biologists.* 2002. ISBN 0521009766
+2. Quinn, G.P.; Keough, M. *Experimental design and data analysis for biologists.* 2002. ISBN 0521009766
 
-Sokal, R.R and Rohlf, F,J. Biometry: *The Principles and Practices of Statistics in Biological Research.* 1995. ISBN 0716724111.
+3. Sokal, R.R and Rohlf, F,J. Biometry: *The Principles and Practices of Statistics in Biological Research.* 1995. ISBN 0716724111.
 
-Underwood, A.J. *Experiments in ecology – their logical design and interpretation using analysis of variance.* 1997. ISBN 0521556961.
+4. Underwood, A.J. *Experiments in ecology – their logical design and interpretation using analysis of variance.* 1997. ISBN 0521556961.
 
-Zuur, A.F. ; Leno, E.N. ; Meesters, E.W.G. *A beginner’s guide to R.* 2009. ISBN 9780387938363.
+5. Zuur, A.F. ; Leno, E.N. ; Meesters, E.W.G. *A beginner’s guide to R.* 2009. ISBN 9780387938363.
