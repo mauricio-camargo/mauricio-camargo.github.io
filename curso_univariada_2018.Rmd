@@ -15,7 +15,7 @@ Baixar arquivo para a aula
 ### **Semana 1 - (Aula em 09/10/2018)**
 
 **Aulas**  
-[Aula1.pptx](Curso_Univar_PG_2018/Aula1.pptx)  
+[Aula1.ppt](Curso_Univar_PG_2018/Aula1.ppt)  
 
 **Artigo para resenha (entregar dia 23/10) - *Atenção para nova data* **  
 [Error Bars in Experiemental Biology.pdf](Curso_Univar_PG/Error Bars in Experiemental Biology.pdf)
