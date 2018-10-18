@@ -7,17 +7,18 @@ output:
 
 ----
 
-### Aula 7 (03/10/18)  
+### Aula 9 (18/10/18)  
+
+Não
+
+### Aula 8 (10/10/18)  
+
+Tira dúvidas do conteúdo até aqui ministrado.
+
+### Aula 7 (04/10/18)  
 
 [Aula5a.pdf](Curso_Comunidades_2018/Aula5a.pdf)  
 [Aula5a.R](Curso_Comunidades_2018/Aula5a.R)
-
-```{r,echo=F}
-#[Aula6.pdf](Curso_Comunidades_2018/Aula6.pdf)  
-#[Aula6.](Curso_Comunidades_2018/Aula6.r)
-
-#[Abiot.xlsx](Curso_Comunidades_2018/Abiot.xlsx)   
-```
 
 ### Aula 6 (27/09/18)  
 
