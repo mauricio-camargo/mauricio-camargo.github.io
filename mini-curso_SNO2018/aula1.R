@@ -3,7 +3,7 @@ library(vegan)
 library(readxl)
 library(sciplot)
 
-#Abrir Aula3.xlsx com Import dataset
+#Abrir Aula1.xlsx com Import dataset
 #e atribuir ao objeto df3
 
 #Testando o dataframe

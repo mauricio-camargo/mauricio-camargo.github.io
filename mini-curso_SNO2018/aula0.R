@@ -1,44 +1,33 @@
-#Instalar e abrir o pacote vegan
+#Pacotes para instalar
 library(vegan)
 library(readxl)
 library(sciplot)
 
-#Abrir Aula3.xlsx com Import dataset
-#e atribuir ao objeto df3
+#Abrir aula0.xlsx com Import dataset
+#e atribuir ao objeto df
 
 #Testando o dataframe
-df3 <- read_excel("aula1.xlsx")
-View(df3)
-df3$Amostra
-df3$Sp1
+df <- read_excel("aula0.xlsx")
+View(df)
+df$fator_B
+df$resp1
 
 #Separando o df em dois: fatores e numéricos
-df3fat=df3[,1:2]
-df3fat
-df3num=df3[,3:length(df3)]
-df3num
+df_fat=df[,1:2]
+df_fat
+df_num=df[,3:length(df)]
+df_num
 
-tot=colSums(df3num)
-tot #Abundância total das espécies
-N=rowSums(df3num)
-N #Número de indivíduos
-S=specnumber(df3num)
-S #Número de espécies
+#Total das colunas
+tot_c=colSums(df_num)
+tot_c
+#Total das linhas
+tot_r=rowSums(df_num)
+tot_r
 
-bargraph.CI(df3$Local,S)
-bargraph.CI(df3$Local,N)
+bargraph.CI(df$fator_A,tot_r)
+bargraph.CI(df$fator_B,tot_r)
 
-df3$Local
-#Calculando a riqueza de Margalef 
-Dmg=(S-1)/log(N)
-Dmg
-D=diversity(df3num, "simpson") #Expresso como 1-D
-D
-H=diversity(df3num, "shannon")
-H
-
-bargraph.CI(df3$Local,H)
-
-
-
-
+#Realizando um teste-t ente níveis o fator A
+t.test(tot_r ~ df$fator_A)
+#p_valor = 0,20
