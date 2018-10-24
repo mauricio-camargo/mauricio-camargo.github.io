@@ -1,0 +1,113 @@
+---
+title: "Estatística univariada para estudos de distribuição espacial e temporal"
+output:
+  html_document:
+    toc: false
+---
+
+---
+
+> **Aula normal para a pós-graduação durante o período de greve.**
+
+### **Semana 8 - (Aula em 30/11/2016)**
+A aula começará mais cedo, às 07:45h.
+
+Será o dia da apresentação dos seminários, por sorteio.
+
+Serão 12 seminários. Cada um de 20 minutos, em média.
+
+Portanto, serão quatro horas de seminários.
+
+---
+
+### **Semana 7 - (Aula em 23/11/2016)**
+
+---
+
+### **Semana 6 - (Aula em 16/11/2016)**
+
+---
+
+### **Semana 5 - (Aula em 09/11/2016)**
+[Artigos para o seminário](Curso_Univar_PG/artigos.html)
+
+---
+
+### **Semana 4 - (Aula em 31/10/2016)**
+
+**Aulas**  
+[Aula5.pdf](Curso_Univar_PG/Aula5.pdf)  
+[Aula6.pdf](Curso_Univar_PG/Aula6.pdf)  
+[Aula4.R](Curso_Univar_PG/Aula4.R)  
+
+---
+
+### **Semana 3 - (Aula em 26/10/2016)**
+
+**Aulas**  
+[Aula4.pdf](Curso_Univar_PG/Aula4.pdf)  
+[Aula3.pdf](Curso_Univar_PG/Aula3.pdf)  
+[Aula3.R](Curso_Univar_PG/Aula3.R)  
+
+---
+
+### **Semana 2 - (Aula em 17/10/2016)**
+
+**Aulas**  
+[Aula2.pdf](Curso_Univar_PG/Aula2.pdf)  
+[Aula2.R](Curso_Univar_PG/Aula2.R)  
+
+**Artigo**  
+[Beyond Bar and Line Graphs.pdf](Curso_Univar_PG/Beyond Bar and Line Graphs.pdf)
+
+---
+
+### **Semana 1 - (Aula em 11/10/2016)**
+
+**Aulas**  
+[Aula1.pdf](Curso_Univar_PG/Aula1.pdf)  
+[Aula1.R](Curso_Univar_PG/Aula1.R)  
+
+**Artigo**  
+[Error Bars in Experiemental Biology.pdf](Curso_Univar_PG/Error Bars in Experiemental Biology.pdf)
+
+---
+
+**- Programas para instalar antes da aula:**  
+[R para Windows](https://cran.r-project.org/bin/windows/base)  
+[RStudio para Windows](https://www.rstudio.com/products/rstudio/download2/)  
+No site existem instruções para instalações em outros sistemas operacionais.
+
+----
+
+### **Aula de 05/10/2016 foi cancelada)**
+
+> Aula cancelada em razão do I ENCOB.
+
+----
+
+**Ementa:**
+
+Introdução ao R e ao RStudio. O R como calculadora de luxo. Instalação de pacotes do R. Entrada de dados e importação de planilhas do Excel. Estatística descritiva: medidas de tendência central e de posição, medidas de dispersão. Gráficos básicos: gráficos de dispersão, boxplots e gráficos de barras com medidas de dispersão. Distribuições estatísticas e histogramas. Inferência estatística. Regressão e correlação. ANOVA de um fator. 
+
+A lógica do pensamento científico. Modelos. Modelos lineares. Modelos lineares gerais: Regressão linear e ANOVA. Teoria e prática (no R).
+
+Métodos clássicos de regressão linear simples e múltipla e de ANOVA multifatorial. Teoria e prática (no R).
+
+Fatores fixos e aleatórios. Delineamentos hierárquicos e ortogonais clássicos e suas aplicações universais. Modelos complexos e suas aplicações. Teoria e prática no R.
+
+Diversos sabores de ANOVA em ecologia e suas aplicações. Pseudoreplicação e modelos mistos de ANOVA. Teoria e prática no R.
+
+Aplicações de ANOVA no espaço-tempo. 
+
+**Bibliografia**
+
+Gottelli, N.; Ellison, A.M. *A primer of ecological statistics.* 2013. ISBN 9781605351919
+
+Quinn, G.P.; Keough, M. *Experimental design and data analysis for biologists.* 2002. ISBN 0521009766
+
+Sokal, R.R and Rohlf, F,J. Biometry: *The Principles and Practices of Statistics in Biological Research.* 1995. ISBN 0716724111.
+
+Underwood, A.J. *Experiments in ecology – their logical design and interpretation using analysis of variance.* 1997. ISBN 0521556961.
+
+Zuur, A.F. ; Leno, E.N. ; Meesters, E.W.G. *A beginner’s guide to R.* 2009. ISBN 9780387938363.
