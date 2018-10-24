@@ -5,7 +5,19 @@ output:
     toc: false
 ---
 
-asdasd
+### Aula 1 (24/10/18)  
+
+[aula1.R](mini-curso_SNO2018/aula1.R)
+[aula1.xlsx](mini-curso_SNO2018/aula1.xlsx)  
+
+**Exercício 1**
+
+[exercicio1.pdf](mini-curso_SNO2018/exercicio1.pdf)  
+[exercicio1.xlsx](mini-curso_SNO2018/exercicio1.xlsx)
+
 
 ---
 
+**Ementa:** As medidas de diversidade tradicionais (taxonômicas) levam em consideração no seu cálculo apenas o número de espécies e suas contribuições relativas, sendo estas medidas da estrutura comunidade consideradas, no entanto, como grosseiras. Biodiversidade funcional, por outro lado, é considerada uma abordagem promissora, pois tem se mostrado mais sensível ante as mudanças ambientais do que a diversidade tradicional, e por isso seu interesse vem crescendo muito nos últimos anos. 
+As medidas de biodiversidade funcional envolvem diversidade de características funcionais, ou traços funcionais, que são componentes dos fenótipos dos organismos que influenciam os processos da comunidade. Em última instância, isso significa categorizar as espécies em seus respectivos traços funcionais, criar uma nova matriz de dados funcional (espécies X traços funcionais), e prosseguir com as análises estatísticas apropriadas.
+O software R possui diversos pacotes para análise da diversidade tradicional. Como a diversidade funcional vem se popularizando mais recentemente, alguns pacotes têm aparecido nos últimos anos para incluir as análises mais comuns, tais como índices de diversidade funcional (Riqueza funcional, equidade funcional, divergência funcional e Dispersão funcional) e Análise de Traços Biológicos (BTA – Biological Traits Analysis).
