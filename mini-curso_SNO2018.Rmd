@@ -18,7 +18,8 @@ output:
 
 **Diversidade funcional**  
 
-[comunidades.csv](mini-curso_SNO2018/comunidades.csv) [atributos.csv](mini-curso_SNO2018/atributos.csv)  
+[comunidades.csv](mini-curso_SNO2018/comunidades.csv)   
+[atributos.csv](mini-curso_SNO2018/atributos.csv)  
 
 ---
 
