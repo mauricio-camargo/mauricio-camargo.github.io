@@ -7,7 +7,8 @@ output:
 
 ### Aula 1 (24/10/18)  
 
-[aula1.R](mini-curso_SNO2018/aula1.R)  
+[aula0.xlsx](mini-curso_SNO2018/aula0.xlsx)  
+
 [aula1.xlsx](mini-curso_SNO2018/aula1.xlsx)  
 
 **Exercício 1**
@@ -15,10 +16,6 @@ output:
 [exercicio1.pdf](mini-curso_SNO2018/exercicio1.pdf)  
 [exercicio1.xlsx](mini-curso_SNO2018/exercicio1.xlsx)
 
-### Aula 0 (24/10/18)  
-
-[aula0.R](mini-curso_SNO2018/aula0.R)  
-[aula0.xlsx](mini-curso_SNO2018/aula0.xlsx)  
 
 ---
 
