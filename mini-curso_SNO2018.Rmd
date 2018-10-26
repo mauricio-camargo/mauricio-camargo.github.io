@@ -5,7 +5,7 @@ output:
     toc: false
 ---
 
-### Aula 1 (24/10/18)  
+### Aula  24 e 26/10/18  
 
 [aula0.xlsx](mini-curso_SNO2018/aula0.xlsx)  
 
@@ -16,6 +16,9 @@ output:
 [exercicio1.pdf](mini-curso_SNO2018/exercicio1.pdf)  
 [exercicio1.xlsx](mini-curso_SNO2018/exercicio1.xlsx)
 
+**Diversidade funcional**  
+
+[comunidades.csv](mini-curso_SNO2018/comunidades.csv) [atributos.csv](mini-curso_SNO2018/atributos.csv)  
 
 ---
 
