@@ -29,8 +29,8 @@ Ministro [disciplinas](ensino.html) de estatística ambiental na graduação, na
 
 **Mini-cursos ministrados no segundo semestre de 2018:**
 
-- [**Mini-curso SNO**](mini-curso_SNO2018.html)
-- **Mini-Curso UERGS**
+- **Mini-curso SNO** (out/18)
+- **Mini-Curso UERGS** (ago/18)
 
 <!--
 -----
