@@ -9,9 +9,16 @@ output:
 
 ### **Semana 3 - (Aula em 30/10/2018)**
 
+Aulas teóricas  
+[Aula3.pdf](Curso_Univar_PG_2018/Aula3.pdf)  
+
 Baixar arquivos para a aula:  
 [planilha1.xlsx](Curso_Univar_PG_2018/planilha1.xlsx)  
 [enquete.xls](Curso_Univar_PG_2018/enquete.xls)  
+
+Aula prática no R  
+[Aula2.R](Curso_Univar_PG_2018/Aula2.R)
+[Aula3.R](Curso_Univar_PG_2018/Aula3.R)
 
 
 ### **Semana 2 - (Aula em 16/10/2018)**
