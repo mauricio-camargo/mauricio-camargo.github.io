@@ -9,8 +9,10 @@ output:
 
 ### **Semana 3 - (Aula em 30/10/2018)**
 
-Baixar arquivo para a aula  
-[planilha1.xlsx](Curso_Univar_PG_2018/planilha1.xlsx)
+Baixar arquivos para a aula:  
+[planilha1.xlsx](Curso_Univar_PG_2018/planilha1.xlsx)  
+[Enquete.xlsx](Curso_Univar_PG_2018/Enquete.xlsx)  
+
 
 ### **Semana 2 - (Aula em 16/10/2018)**
 

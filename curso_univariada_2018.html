@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -30,10 +30,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -87,6 +89,9 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -237,8 +242,9 @@ $(document).ready(function () {
 <hr />
 <div id="semana-3---aula-em-30102018" class="section level3">
 <h3><strong>Semana 3 - (Aula em 30/10/2018)</strong></h3>
-<p>Baixar arquivo para a aula<br />
-<a href="Curso_Univar_PG_2018/planilha1.xlsx">planilha1.xlsx</a></p>
+<p>Baixar arquivos para a aula:<br />
+<a href="Curso_Univar_PG_2018/planilha1.xlsx">planilha1.xlsx</a><br />
+<a href="Curso_Univar_PG_2018/Enquete.xlsx">Enquete.xlsx</a></p>
 </div>
 <div id="semana-2---aula-em-16102018" class="section level3">
 <h3><strong>Semana 2 - (Aula em 16/10/2018)</strong></h3>
