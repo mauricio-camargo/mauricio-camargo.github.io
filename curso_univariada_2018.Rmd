@@ -9,7 +9,7 @@ output:
 
 ### **Semana 2 - (Aula em 16/10/2018)**
 
-Baixar arquivo para a aula  
+aBaixar arquivo para a aula  
 [Desvendando R.pptx](Curso_Univar_PG_2018/Desvendando R.pptx)
 
 Aula prática no R  
