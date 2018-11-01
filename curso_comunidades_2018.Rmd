@@ -8,9 +8,10 @@ output:
 ----
 
 ### Aula 10 (01/11/18)  
+
+Arquivos para baixar:  
 [Abiot.xlsx](Curso_Comunidades_2018/Abiot.xlsx)
 
-Não houve aula!
 
 ### Aula 9 (18/10/18)  
 
