@@ -17,8 +17,8 @@ Baixar arquivos para a aula:
 [enquete.xls](Curso_Univar_PG_2018/enquete.xls)  
 
 Aula prática no R  
-[Aula2.R](Curso_Univar_PG_2018/Aula2.R)
-[Aula3.R](Curso_Univar_PG_2018/Aula3.R)
+[Aula3.R](Curso_Univar_PG_2018/Aula3.R)  
+[Aula2.R](Curso_Univar_PG_2018/Aula2.R)  
 
 
 ### **Semana 2 - (Aula em 16/10/2018)**
