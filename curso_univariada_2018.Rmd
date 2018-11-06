@@ -9,32 +9,32 @@ output:
 
 ### **Semana 4 - (Aula em 06/11/2018)**
 
-Aula teórica  
+**Aula teórica**  
 [Aula4.pdf](Curso_Univar_PG_2018/Aula4.pdf)  
 
-Arquivo para resenha:  
+**Arquivo para resenha**  
 [REPLICATE OR LIE - Prosser.pdf](Curso_Univar_PG_2018/REPLICATE OR LIE - Prosser.pdf)
 
 ### **Semana 3 - (Aula em 30/10/2018)**
 
-Aula teórica  
+**Aula teórica**  
 [Aula3.pdf](Curso_Univar_PG_2018/Aula3.pdf)  
 
-Baixar arquivos para a aula:  
+**Baixar arquivos para a aula**  
 [planilha1.xlsx](Curso_Univar_PG_2018/planilha1.xlsx)  
 [enquete.xls](Curso_Univar_PG_2018/enquete.xls)  
 
-Aulas práticas no R  
+**Aulas práticas no R**  
 [Aula3.R](Curso_Univar_PG_2018/Aula3.R)  
 [Aula2.R](Curso_Univar_PG_2018/Aula2.R)  
 
 
 ### **Semana 2 - (Aula em 16/10/2018)**
 
-Baixar arquivo para a aula  
+**Baixar arquivo para a aula**  
 [Desvendando R.pptx](Curso_Univar_PG_2018/Desvendando R.pptx)
 
-Aula prática no R  
+**Aula prática no R**  
 [Aula1.R](Curso_Univar_PG_2018/Aula1.R)
 
 ### **Semana 1 - (Aula em 09/10/2018)**
