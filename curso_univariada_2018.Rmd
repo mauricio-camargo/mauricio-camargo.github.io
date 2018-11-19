@@ -7,6 +7,10 @@ output:
 
 ---- 
 
+### **Semana 5 - (Aula em 19/11/2018)**
+
+
+
 ### **Semana 4 - (Aula em 06/11/2018)**
 
 **Aulas práticas no R**  
