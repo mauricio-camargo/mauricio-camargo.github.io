@@ -1,6 +1,6 @@
 library (readxl)
 library(sciplot)
-enquete=read_excel('enquete.xls')
+enquete=read_excel('enquete.xls') #Arquivo tem que ficar na mesma pasta de Aula4.r
 
 #ANOVA de um fator
 bargraph.CI(roupa,peso,ylim=c(50,90),data=enquete)
@@ -18,8 +18,7 @@ TukeyHSD(anov)
 zoop=c(7,11,15,9,14,17,19,9,16,
        21,23,17)
 sal=19:30
-plot(zoop ~ sal,ylim=c(-10,30),
-     xlim=c(-10,30))
+plot(zoop ~ sal)
 cor(zoop,sal)
 reg=lm(zoop ~ sal)
 reg

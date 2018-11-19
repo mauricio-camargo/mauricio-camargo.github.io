@@ -9,6 +9,9 @@ output:
 
 ### **Semana 4 - (Aula em 06/11/2018)**
 
+**Aulas práticas no R**  
+[Aula4.R](Curso_Univar_PG_2018/Aula4.R)  
+
 **Aula teórica**  
 [Aula4.pdf](Curso_Univar_PG_2018/Aula4.pdf)  
 
