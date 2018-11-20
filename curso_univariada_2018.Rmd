@@ -7,9 +7,21 @@ output:
 
 ---- 
 
-### **Semana 5 - (Aula em 19/11/2018)**
+### **Semana 5 - (Aula em 19 e 20/11/2018)**
 
+**Aulas práticas no R**  
+[RegMult.r](Curso_Univar_PG_2018/RegMult.r)  
+[Aula4.R](Curso_Univar_PG_2018/Aula4.R)  
 
+**Planilhas**  
+[Costao.xlsx](Curso_Univar_PG_2018/Costao.xlsx)  
+[Peixes.xlsx](Curso_Univar_PG_2018/Peixes.xlsx)  
+
+**Artigo para leitura**  
+[Underwood 1997-metodo.doc](Curso_Univar_PG_2018/Underwood 1997-metodo.doc)  
+
+**Artigo para resenha (entregar dia 27/11)**  
+[Morrison - 2002 - Nested factors.pdf](Curso_Univar_PG_2018/Morrison - 2002 - Nested factors.pdf]  
 
 ### **Semana 4 - (Aula em 06/11/2018)**
 
