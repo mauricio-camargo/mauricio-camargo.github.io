@@ -12,10 +12,14 @@ output:
 **Aulas práticas no R**  
 [RegMult.r](Curso_Univar_PG_2018/RegMult.r)  
 [Aula4.R](Curso_Univar_PG_2018/Aula4.R)  
+[Aula5.R](Curso_Univar_PG_2018/Aula5.R)  
+[Aula6.R](Curso_Univar_PG_2018/Aula6.R)  
+
 
 **Planilhas**  
 [Costao.xlsx](Curso_Univar_PG_2018/Costao.xlsx)  
 [Peixes.xlsx](Curso_Univar_PG_2018/Peixes.xlsx)  
+[planilha_dados.xlsx](Curso_Univar_PG_2018/planilha_dados.xlsx)  
 
 **Artigo para leitura**  
 [Underwood 1997-metodo.doc](Curso_Univar_PG_2018/Underwood 1997-metodo.doc)  
