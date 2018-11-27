@@ -7,7 +7,17 @@ output:
 
 ---- 
 
-### **Semana 5 - (Aula em 19 e 20/11/2018)**
+### **Semana 7 - (Aula em 27/11/2018)**  
+**Seminário: Artigos para escolher**  
+[Morrisey Espacial 1992.pdf](Curso_Univar_PG_2018/Morrisey Espacial 1992.pdf)  
+[Morrisey Temporal 1992.pdf](Curso_Univar_PG_2018/Morrisey Temporal 1992.pdf)   [Hughes et al. 1999.pdf](Curso_Univar_PG_2018/Hughes et al. 1999.pdf)  
+[Crowe 1999.pdf](Curso_Univar_PG_2018/Crowe 1999.pdf)  
+[Olabarria 2009.pdf](Curso_Univar_PG_2018/Olabarria 2009.pdf)  
+[Souza et al.2016.pdf](Curso_Univar_PG_2018/Souza et al.2016.pdf)  
+[Camargo et al. 2017.pdf](Curso_Univar_PG_2018/Camargo et al. 2017.pdf)  
+
+
+### **Semana 5 e 6 - (Aula em 19 e 20/11/2018)**
 
 **Aulas práticas no R**  
 [RegMult.r](Curso_Univar_PG_2018/RegMult.r)  
