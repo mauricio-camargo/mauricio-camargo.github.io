@@ -11,6 +11,7 @@ output:
 
 **Aulas práticas no R**  
 [RegMult.r](Curso_Univar_PG_2018/RegMult.r)  
+[Aula4.R](Curso_Univar_PG_2018/Aula4.R)  
 [Aula5.R](Curso_Univar_PG_2018/Aula5.R)  
 [Aula6.R](Curso_Univar_PG_2018/Aula6.R)  
 
