@@ -3,15 +3,20 @@ title: "Análise numérica de comunidades ecológicas (Oceanologia-2018)"
 output:
   html_document:
     toc: false
----
+x'---
 
 ----
+
+### Aula 11 (03/12/18)  
+
+Aula prática:  
+[Aula6.R](Curso_Comunidades_2018/Aula6.R)  
+[Aula7.R](Curso_Comunidades_2018/Aula7.R)  
 
 ### Aula 10 (01/11/18)  
 
 Arquivos para baixar:  
 [Abiot.xlsx](Curso_Comunidades_2018/Abiot.xlsx)
-
 
 ### Aula 9 (18/10/18)  
 
