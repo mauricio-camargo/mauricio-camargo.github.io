@@ -3,9 +3,10 @@ title: "Análise numérica de comunidades ecológicas (Oceanologia-2018)"
 output:
   html_document:
     toc: false
-x'---
+---
 
 ----
+
 
 ### Aula 11 (03/12/18)  
 
