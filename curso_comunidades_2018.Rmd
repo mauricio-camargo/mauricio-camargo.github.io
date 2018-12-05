@@ -8,7 +8,11 @@ output:
 ----
 
 
+
 ### Aula 11 (03/12/18)  
+
+Aula teórica  
+[Aula11.pdf](Curso_Comunidades_2018/Aula11.pdf)  
 
 Aula prática:  
 [Aula6.R](Curso_Comunidades_2018/Aula6.R)  
