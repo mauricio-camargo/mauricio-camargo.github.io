@@ -20,6 +20,9 @@ Aula prática:
 
 ### Aula 10 (01/11/18)  
 
+Aula teórica:  
+[Tabelas_Multivariadas.pptx](Curso_Comunidades_2018/Tabelas_Multivariadas.pptx)  
+
 Arquivos para baixar:  
 [Abiot.xlsx](Curso_Comunidades_2018/Abiot.xlsx)
 
