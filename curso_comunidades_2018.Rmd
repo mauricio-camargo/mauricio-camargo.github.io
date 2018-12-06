@@ -22,8 +22,8 @@ Aula teórica:
 
 Aula prática:  
 [AulaPCA.R](Curso_Comunidades_2018/AulaPCA.R)  
-[Capitais.r](Curso_Comunidades_2018/Capitais.R)  
-[cluster.r](Curso_Comunidades_2018/cluster.R)  
+[Capitais.r](Curso_Comunidades_2018/Capitais.r)  
+[cluster.r](Curso_Comunidades_2018/cluster.r)  
 
 Arquivos para baixar:  
 [Planilhas_PCA.xlsx](Curso_Comunidades_2018/Planilhas_PCA.xlsx)  
