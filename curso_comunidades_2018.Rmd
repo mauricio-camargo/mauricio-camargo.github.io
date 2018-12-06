@@ -8,10 +8,32 @@ output:
 ----
 
 
+### Trabalho Final  
 
-### Aula 11 (03/12/18)  
+[Trabalho_final.doc](Curso_Comunidades_2018/Trabalho_final.doc)  
+[DoubsSpe.xlsx](Curso_Comunidades_2018/DoubsSpe.xlsx)  
+[DoubsEnv.xlsx](Curso_Comunidades_2018/DoubsEnv.xlsx)  
 
-Aula teórica  
+### Aula 12 (06/12/18)  
+
+Aula teórica:  
+[Aula12.pdf](Curso_Comunidades_2018/Aula12.pdf)  
+[Aula12a.pptx](Curso_Comunidades_2018/Aula12a.pptx)  
+
+Aula prática:  
+[AulaPCA.R](Curso_Comunidades_2018/AulaPCA.R)  
+[Capitais.R](Curso_Comunidades_2018/Capitais.R)  
+[cluster.R](Curso_Comunidades_2018/cluster.R)  
+
+Arquivos para baixar:  
+[Planilhas_PCA.xlsx](Curso_Comunidades_2018/Planilhas_PCA.xlsx)  
+[Distancias_Cidades.xls](Curso_Comunidades_2018/Distancias_Cidades.xls)  
+[estuario.xlsx](Curso_Comunidades_2018/estuario.xlsx)
+
+
+### Aula extra 11 (03/12/18)  
+
+Aula teórica:  
 [Aula11.pdf](Curso_Comunidades_2018/Aula11.pdf)  
 
 Aula prática:  
