@@ -7,6 +7,9 @@ output:
 
 ---- 
 
+Planilha de notas:  
+[Notas Univariada 2018.xlsx](Curso_Univar_PG_2018/Notas Univariada 2018.xlsx)  
+
 ### **Semana 7 - (Aula em 27/11/2018)**  
 
 **Seminário: Artigos para escolher**  

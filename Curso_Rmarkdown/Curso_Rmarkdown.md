@@ -1,0 +1,146 @@
+Rmarkdown para relatórios, apresentações e criar sites
+========================================================
+autosize: false  
+font-family: 'times'
+transition-speed: fast
+css: mycss.css
+transition: none
+
+Maurício Garcia de Camargo<br>
+<small>camargofurg@gmail.com</small>
+<br>
+<p>Disponível online em<br>
+<small>http://mauricio-camargo.github.io<br></small>
+
+<div class="midright"><div style="margin-left:-0px;margin-top:-75px;"><img style="margin:0px; background-color:transparent; border:0px; box-shadow:none;" src="R.jpg"></img></div></div>
+
+<div class="footer" style="margin-top:-50px;background-color:transparent;"><SPAN STYLE="font-size:80%;font-weight:bold;"><a href="http://www.furg.br"> Universidade Federal do Rio Grande</a><br>31 de agosto de 2016</SPAN></div>
+
+PROGRAMAÇÃO
+========================================================
+class: small-code
+
+Programas necessários durante o curso:
+
+1. Versão atual do R  (https://cran.r-project.org)
+2. Rstudio versão preview (https://www.rstudio.com/products/rstudio/download/preview)  
+3. Instalar os pacotes no Rstudio: 
+    install.packages("rmarkdown", type = "source")
+    install.packages("knitr", type = "source")
+4. Compilador LaTeX para gerar arquivos PDF.
+    Para Windows: MikTex (http://miktex.org/download)
+    Para Linux: Toda distribuição traz um compilador LaTeX.
+    Para Mac OS X: http://www.tug.org/mactex/downloading.html
+5. Criar uma conta gratuita no site http://github.com
+
+Pesquisa reprodutível
+========================================================
+class: small-code
+incremental: true
+
+***Pesquisa reproduzível***: reprodutibilidade é um dos pilares da ciência. Para ser reproduzível, a pesquisa precisa fornecer descrições, dados, códigos, métodos computacionais e meios de divulgação. O Rstudio auxilia em todas essas etapas.
+
+**Duke clinical trial**
+
+Anil Potti *et al*, 2006. Genomic signatures to guide the use of chemotherapeutics. Nature Medicine.
+
+Publicou os resultados de um estudo que otimizava a quimiterapia em indivíduos com câncer. 
+
+Ninguém conseguir replicar o estudo.
+
+Reprodutibilidade: assunto de Nature em 2008. 
+
+Literate programming
+========================================================
+class: small-code
+incremental: true
+
+***Literate programming***: Programação literária (TeX) é um método que combina uma linguagem de programação com uma linguagem de documentação. Inventada em 1983 por Donald Knuth, liberta o usuário da formatação do documento, usando modelos. Permite controle total sobre o documento. 
+
+**LaTeX** é uma implementação do TeX.  
+**HTML** é outro exemplo de linguagem de marcação (markup)
+
+Ambas usam intensamente as marcações (markup).
+
+**Markdown** minimiza o uso de marcações.
+
+Evolução sobre as linguagens markup
+========================================================
+class: small-code
+incremental: true
+
+**Markdown**: linguagem muito simples e com poucas marcações, ao contrário de HTML e LaTeX, que são linguagens markup.
+
+**Rmarkdown**: implementação em R de Markdown através do Rstudio, permitindo a incorporação de códigos do R que são executados e os resultados (como gráficos) aparecem no documento final. 
+
+**Aplicações**: Um único arquivo Rmarkdown (.Rmd) pode gerar arquivos em PDF, HTML, DOCX, ODT, RTF, que podem ser usados para documentação, apresentação ou criação de sites da internet.
+
+Anatomia de um arquivo Rmarkdown (.Rmd)
+========================================================
+class: small-code
+
+Para criar um arquivo de Rmarkdown (.Rmd) no Rstudio, vá em:
+
+File>New file>R markdow
+
+Após, escolhe-se uma das opções de documento, entre HTML, PDF e DOC.
+
+**Metadados**: cabeçalho do arquivo.   
+Contêm informações para a compilação do arquivo Rmd. O único comando obrigatório nos metadados é output, que especifica um dos arquivos de saída (ex: output: html_document).  
+
+Metadados comuns são: tittle, author e date.
+
+========================================================
+Na folha tem um grande resumo da maioria das funções do Rmarkdown. 
+
+# Mãos à obra...
+
+Git e Github
+========================================================
+incremental: true
+
+Git é Sistema de controle de versões inventado por Linus Torvalds. Funciona mais como um repositório para nerds.
+
+Github é uma empresa, entre tantas, que criaram ferramentas para facilitar o uso do Git, e oferece serviços gratuítos e pagos.
+
+**githu.com** é o repositório de dados.
+
+**github.io** é o servidor de sites gratuítos da empresa.
+
+O Rstudio consegue se integrar com o Github e gerenciar todas as páginas do site, geradas com Rmarkdow. 
+
+E a velocidade. Bem, a velocidade de atualização é, digamos, fantástica.
+
+Git, Github e o Rstudio
+========================================================
+incremental: true
+
+A metodologia de trabalho do Github é baseada em projetos.
+
+Os projetos são, na verdade, uma série de arquivos que são mantidos no repositório e manejados pelo Rstudio.
+
+Para isso, é preciso Clonar o projeto do Github no Rstudio, escolhendo uma pasta que será sincronizada entre eles. Qualquer arquivo lá colocado será transferido para o Github.
+
+A filosofia é a seguinte: várias pessoas podem trabalhar simultaneamente no projeto. Quando começam a trabalhar, fazem um **PULL**, que é baixar os arquivos do Github.
+
+No andamento do trabalho, volta e meia é dado um **COMMIT**, para bloquear os arquivos em uso por os outros usuários.
+
+Git e Github
+========================================================
+incremental: true
+
+Quando o trabalho termina, é dado um **PUSH** para enviar os arquivos para o Github e esse processo todo é muito rápido.
+
+Esses projetos não servem somente para atualizar o site da internet. 
+
+Servem para armazenar qualquer coisa. Nós, que lidamos com planilhas, códigos, textos, figuras e mapas temos muito o que nos beneficiar.
+
+Um projeto para cada trabalho, aumentando muito a produtividade.
+
+A ideia é colaborar com outros projetos. Você pode clonar qualquer um dos milhões de projetos do Github.
+
+========================================================
+
+# Github + Rstudio = poder + velocidade
+
+# *Reprodutibilidade* é isso, tudo público, todos colaborando.
