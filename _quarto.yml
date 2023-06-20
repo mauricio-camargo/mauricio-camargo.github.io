@@ -36,8 +36,8 @@ website:
 #        icon: alexa
 
     tools:
-      - icon: twitter
-        href: https://twitter.com/CamargoFurg
+#      - icon: twitter
+#        href: https://twitter.com/CamargoFurg
       - icon: github
         menu:
           - text: Página principal

@@ -2,7 +2,10 @@
 #title: "Softwares"
 ---
 
-### Pacotes do R (Multiplataforma)
+## Pacotes do R (Multiplataforma)
+
+<br>
+
 - [**GAD**](https://cran.r-project.org/package=GAD): General Anova Design. Pacote para modelos mistos de ANOVA, baseado em Underwood (1997).  
 Autores: [Leonardo Sandrini Neto](http://lattes.cnpq.br/8490360283693098) e Maurício Camargo  
 Estágio: ativo  
@@ -35,7 +38,7 @@ Tutorial em vídeo: <https://youtu.be/GI8dnzxbOVk>
 Disponível em: <https://github.com/mauricio-camargo/Datractor>
 Estágio: ativo
 
-- **[GPProj - Gerenciador Pessoal de Projetos**: Programa para gerenciar projetos, com suporte para armazenamento remoto de arquivos, tarefas, links, agenda, anotações e contatos, com suporte aos serviços do Google (Gmail, Tasks, Agenda, People e Drive).  
+- **GPProj - Gerenciador Pessoal de Projetos**: Programa para gerenciar projetos, com suporte para armazenamento remoto de arquivos, tarefas, links, agenda, anotações e contatos, com suporte aos serviços do Google (Gmail, Tasks, Agenda, People e Drive).  
 Estágio: atualmente o programa está funcional e em fase final de empacotamento.
 
 - [**PDFtoTEXTgui**](https://github.com/mauricio-camargo/PDFtoTEXTgui): Interface Gráfica de Usuário (GUI) escrito em Lazarus Pascal do programa pdftotext para Linux, para transformar PDF em TXT.  
