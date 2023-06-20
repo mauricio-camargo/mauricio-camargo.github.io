@@ -31,9 +31,9 @@ website:
       - href: agenda.qmd
         text: Agenda pública
         icon: calendar
-      - href: hobbies.qmd
-        text: Hobbies
-        icon: alexa
+#      - href: hobbies.qmd
+#        text: Hobbies
+#        icon: alexa
 
     tools:
       - icon: twitter
