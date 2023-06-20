@@ -1,5 +1,6 @@
 ---
-#title: "mauricio-camargo.github.io"
+#title: "Maurício Camargo"
+lang: pt-br
 ---
 
 <br>
