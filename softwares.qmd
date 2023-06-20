@@ -1,0 +1,88 @@
+---
+#title: "Softwares"
+---
+
+### Pacotes do R (Multiplataforma)
+- [**GAD**](https://cran.r-project.org/package=GAD): General Anova Design. Pacote para modelos mistos de ANOVA, baseado em Underwood (1997).  
+Autores: [Leonardo Sandrini Neto](http://lattes.cnpq.br/8490360283693098) e Maurício Camargo  
+Estágio: ativo  
+Histórico: Este pacote foi pioneiro na utilização de modelos mistos de ANOVA segundo a notação de Underwood (1997), tendo sido resenhado no *task view* do CRAN sobre Experimental Design em https://cran.r-project.org/view=ExperimentalDesign  
+Disponível em <https://cran.r-project.org/web/packages/GAD/index.html>
+
+- **GAD2** (pacote experimental): Extensão do pacote GAD, com funcionalidades adicionais, como aproximações e pooling.  
+Autores: [Leonardo Sandrini Neto](http://lattes.cnpq.br/8490360283693098), [Eliandro Gilbert](http://lattes.cnpq.br/5433409191582743) e Maurício Camargo  
+Estágio: em construção
+
+- [**rysgran**](https://github.com/mauricio-camargo/rysgran): Estatísticas e gráficos para análise granulométrica do sedimento. Este é o porte do [SysGran](https://github.com/mauricio-camargo/SysGran) para o R.  
+Autores: Maurício Camargo, [Eliandro Gilbert](http://lattes.cnpq.br/5433409191582743) e [Leonardo Sandrini Neto](http://lattes.cnpq.br/8490360283693098)  
+Estágio: ativo  
+Histórico: O pacote rysgran implementa todas as funcionalidades do programa SysGran e mais algumas.  
+Disponível em: <https://github.com/mauricio-camargo/rysgran>  
+
+- **permanovaR** (pacote experimental): Análise variância multivariada permutacional.  
+Autores: [Eliandro Gilbert](http://lattes.cnpq.br/5433409191582743) e Maurício Camargo  
+Estágio: em construção
+
+----
+
+### Programas livres escrito em Lazarus (Windows e Linux)
+- [**sysgran4**](https://github.com/mauricio-camargo/sysgran4): esta é a evolução do [SysGran3](https://github.com/mauricio-camargo/sysgran3), rodando agora tanto em Windows quanto Linux.  
+Disponível em: <https://github.com/mauricio-camargo/sysgran4>
+Estágio: ativo
+
+- [**Datractor**](https://github.com/mauricio-camargo/Datractor): é um pequeno programa aberto escrito em Lazarus FreePascal para extrair valores de gráficos e mapas diretamente de PDFs e imagens (somente Windows).  
+Tutorial em vídeo: <https://youtu.be/GI8dnzxbOVk>  
+Disponível em: <https://github.com/mauricio-camargo/Datractor>
+Estágio: ativo
+
+- **[GPProj - Gerenciador Pessoal de Projetos**: Programa para gerenciar projetos, com suporte para armazenamento remoto de arquivos, tarefas, links, agenda, anotações e contatos, com suporte aos serviços do Google (Gmail, Tasks, Agenda, People e Drive).  
+Estágio: atualmente o programa está funcional e em fase final de empacotamento.
+
+- [**PDFtoTEXTgui**](https://github.com/mauricio-camargo/PDFtoTEXTgui): Interface Gráfica de Usuário (GUI) escrito em Lazarus Pascal do programa pdftotext para Linux, para transformar PDF em TXT.  
+Autor: Maurício Camargo  
+Estágio: ativo
+
+- [**Simetrox**](https://github.com/mauricio-camargo/Simetrox): Simetrógrafo digital, para avaliação postural, com entrada em imagens e vídeos. 
+Disponível em: <https://github.com/mauricio-camargo/Simetrox>
+Estágio: finalizando (falta implementar entrada por video pelo ffmpeg)
+
+
+---
+
+### Programas de código livre escritos em Delphi (Windows)
+- [**SysGran3**](https://github.com/mauricio-camargo/SysGran3): Sistema integrado de análise granulométrica para Windows, com análises estatísticas e gráficos para sedimentologia. 
+Autor: Maurício Camargo  
+Estágio: O SysGran foi criado em 1995 e se espalhou pelo mundo, inicialmente como um programa pago, até 2003. Em 2005 o SysGran deixou de ser atualizado e foi substituído pelo pacote rysgran do R. No entanto, até hoje existem cópias do SysGran funcionando em milhares de computadores.  
+Disponível em: <https://github.com/mauricio-camargo/SysGran3>
+
+- [**MaresDB**](https://github.com/mauricio-camargo/MaresDB): Sobreposição gráfica de linhas de maré para demonstração de longas séries temporais. Para Windows.  
+Autor: Maurício Camargo  
+Estágio: ativo (necessita atualização)
+Histórico: Este programa plota linhas de maré durante o período de 24h, sobrepondo centenas de linhas em poucos segundos, servindo para a demonstração de longas séries temporais.
+
+- **Spiro**: Software para visualização da direção e velocidade da corrente em um ou mais perfis verticais, para auxílio da navegação. 
+Autor: Maurício Camargo  
+Estágio: desaparecido
+
+- [**BGM**](https://github.com/mauricio-camargo/BGM): Rotinas usadas em Biogeoquímica marinha. Para Windows.  
+Autor: Maurício Camargo  
+Estágio: desaparecido.
+
+----
+
+
+### Programas comerciais escritos em Delphi (Windows)
+- **Pilots-Transf**: Programa de transferência de dados recebidos por porta serial de equipamentos oceanográficos como marégrafos, ondógrafos e CTDs para bancos de dados.  
+Autor: Maurício Camargo
+Estágio: ativo
+Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para processar os dados provenientes de equipamentos oceanográficos e armazená-los em bancos de dados relacionais.  
+
+- **Pilots-Maregrama**: Programa integrado de visualização dos dados oceanográficos armazenados nos banco de dados pelo programa Pilots-transf.  
+Autor: Maurício Camargo  
+Estágio: ativo
+Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para simular uma sala de controle de informações oceanográficas.
+
+- **Saci**: Programa para controle de vendas, estoque, caixa, fornecedores, clientes e pagamentos de uma loja de material de construção.  
+Autor: Maurício Camargo  
+Estágio: ativo
+Histórico: Programa criado em 1996 e mantido até 2015, mas funcionando até hoje!

@@ -1,5 +1,160 @@
 ---
-title: "Ensino"
+#title: "Ensino"
 ---
 
-Foi
+## Disciplinas - FURG
+
+<br>
+
+### **2023**
+
+#### Graduação
+
+- **Programação em Python e R**
+  - Cursos oferecidos: *Oceanologia*
+  - Período: Março a julho de 2023
+  - Plataforma: AVA da FURG.
+
+- [**Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**](https://mauricio-camargo.github.io/Biodiversidade2023/)
+  - Cursos oferecidos: *Oceanologia*
+  - Período: Março a julho de 2023
+
+#### Pós-graduação
+
+- [**Reprodutibilidade científica no R (em andamento**)](https://mauricio-camargo.github.io/reprodu2023/)
+  - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+  - Período: Outubro e novembro de 2023
+
+- **Delineamento Experimental em Ecologiac (Programada)**
+  - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+  - Período: Outubro e novembro de 2023
+
+### **2022**
+
+#### Graduação
+
+- **Programação em Python e R**
+  - Cursos oferecidos: *Oceanologia*
+  - Período: Março a julho de 2022
+
+#### Pós-graduação
+
+- **Delineamento Experimental em Ecologia**
+  - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+  - Período: Outubro e novembro de 2022
+
+### **2021**
+
+#### Graduação
+
+- **Programação em Python e R**
+  - Cursos oferecidos: *Oceanologia*
+  - Período: Março a julho de 2021
+
+#### Pós-graduação
+
+- **Delineamento Experimental em Ecologia**
+  - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+  - Período: Outubro e novembro de 2021
+
+### **2020**
+
+#### Graduação
+
+- **Programação em Python e R**
+  - Cursos oferecidos: *Oceanologia*
+  - Período: Março a julho de 2020
+
+#### Pós-graduação
+
+- **Delineamento Experimental em Ecologia**
+  - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+  - Período: Outubro e novembro de 2020
+
+### **2019**
+
+#### Pós-graduação
+
+- **Delineamento Experimental em Ecologia**
+  - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+  - Período: Outubro e novembro de 2019
+
+### **2018**
+
+#### Graduação
+
+- **Análise numérica de comunidades  ecológicas**
+  - Cursos oferecidos: *Oceanologia e ouvintes da pós-graduação*
+  - Período: Agosto a novembro de 2018
+
+  <!-- (curso_comunidades_2018.html) -->
+ 
+#### Pós-graduação
+
+- **Estatística univariada para estudos de distribuição espacial e temporal**
+  - Cursos oferecidos: *Pós-graduações diversas*
+  - Período: Outubro e novembro de 2018
+
+<!-- curso_univariada_2018.html) --> 
+
+
+### **2017**
+
+#### Graduação
+
+ - **Análise numérica de comunidades  ecológicas**   
+    + Cursos oferecidos: *Oceanologia e ouvintes da pós-graduação*
+    + Período: Agosto a novembro de 2017
+
+#### Pós-graduação
+
+- **Estatística univariada para estudos de distribuição espacial e temporal**  
+
+    + Cursos oferecidos: *Pós-graduações diversas*
+    + Período: Outubro e novembro de 2017
+
+### **2016**
+
+#### Graduação
+
+- **Estatística**  
+    + Curso oferecido: *Ciências Biológicas*  
+    + Período: Agosto a novembro de 2016
+
+- **Ciências do ambiente**
+    + Cursos oferecidos: *Engenharias*  
+    + Período: Agosto a novembro de 2016  
+
+ - **Análise numérica de comunidades  ecológicas**   
+    + Cursos oferecidos: *Oceanologia e ouvintes da pós-graduação*
+    + Período: Agosto a novembro de 2016
+
+#### Pós-graduação
+
+- **Estatística univariada para estudos de distribuição espacial e temporal**
+    + Cursos oferecidos: *Pós-graduações diversas*
+    + Período: Outubro e novembro de 2016
+
+### **2015**
+
+#### Pós-graduação
+
+- **Estatística univariada para estudos de distribuição espacial e temporal**
+    + Cursos oferecidos: *Pós-graduações diversas*
+    + Período: Outubro e novembro de 2015
+
+### **2014 - 2004**
+
+Disciplinas ministradas no Centro de Estudos do Mar da UFPR:  
+
+**Graduação**
+
+- Introdução à estatística
+- Inferência estatística
+- Análise multivariada
+- Planejamento amostral e experimental
+
+**Pós-graduação**
+
+- Ecologia numérica
+- Análise multivariada

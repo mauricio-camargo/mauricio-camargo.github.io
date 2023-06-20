@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Mauricio Camargo"
+#  title: "Mauricio Camargo"
   navbar:
 #    background: info
     left:
@@ -19,6 +19,19 @@ website:
       - href: extensao.qmd
         text: Extensão
         icon: people
+      - href: admin.qmd
+        text: Administração
+        icon: newspaper
+      - href: softwares.qmd
+        text: Softwares
+        icon: android2
+      - href: agenda.qmd
+        text: Agenda pública
+        icon: calendar
+      - href: hobbies.qmd
+        text: Hobbies
+        icon: alexa
+
     tools:
       - icon: twitter
         href: https://twitter.com
@@ -33,5 +46,5 @@ format:
   html:
     theme: cerulean
     css: styles.css
-    toc: true
+    toc: false
 

@@ -1,4 +1,69 @@
 ---
-title: "Extensão"
+#title: "Extensão"
 ---
+
+## 2019 e 2022
+
+### Expandindo o R
+
+Curso de extensão eventual  
+
+**Local:** FURG  
+**Carga horária:** até 24 horas  
+**Data**: Outubro/2015  
+**Conteúdo:** Funcionalidades não-estatísticas do RStudio, planilhagem, gráficos modernos, relatórios em html, pdf e doc, integração com Github, manipulação de arquivos LaTeX, criação de aplicativos no browser.
+
+## 2018
+
+### Análise estatística de comunidades ecológicas no R.
+**Local:** UERGS-Osório  
+**Evento:** Mini-curso no [VI Simpósio Acadêmico de Biologia Marinha](http://www.sabmar.com.br/).  
+**Carga horária:** 16 horas  
+**Data**: 18 e 19 de agosto/2018  
+**Conteúdo:** Análise multivariada aplicada a estudos de comunidades ecológicas.
+
+## 2017
+
+### R-cases: casos de sucesso no R (2017)
+**Local:** FURG  
+**Conteúdo: **  
+05/05 (sexta). R: por onde começar?  
+12/05. A gramática dos gráficos (ggplot e agregados)  
+19/05. A gramática dos dados (SQL, dplyr e agregados)  
+24/05. R-case: o pacote rysgran para granulometria  
+02/06. Reprodutibilidade da ciência no R  
+09/06 08:00h. Última aula. Encerramento.
+
+## 2016
+
+### Rmarkdown: um jeito simples de escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio  
+**Local:** FURG  
+**Data**: 31 de agosto/2016  
+**Hora:** 09:00h até 12:00h  
+**Conteúdo:** RMarkdown é uma linguagem de rápido aprendizado para criar documentos em PDF ou HTML que incluam textos, figuras, gráficos, tabelas e fórmulas. É capaz de inserir no arquivo gráficos criados no R. Arquivos profissionais em PDF podem ser criados, tanto para  relatórios de estudantes como para escrever artigos científicos. A partir dos arquivos em HTML podem ser criadas apresentações portáveis e simples, porém eficientes. Um site inteiro pode ser criado usando os arquivos HTML, que pode ser gerenciado facilmente usando as ferramentas que a nova versão do RStudio traz.  **Público:** Aberto a qualquer pessoa.  
+[Página do curso](Curso_Rmarkdown/Curso_Rmarkdown.html) 
+
+### Análise estatística de comunidades ecológicas no R.
+**Local:** UERGS-Osório  
+**Evento:** Mini-curso no [V Simpósio Acadêmico de Biologia Marinha](http://www.sabmar.com.br/).  
+**Carga horária:** 16 horas  
+**Data**: 13 e 14 de agosto/2016  
+**Conteúdo:** Análise multivariada aplicada a estudos de comunidades ecológicas.
+
+## 2015
+
+### Desvendando o R
+**Local:** FURG  
+**Carga horária:** 24 horas  
+**Data**: Agosto-Dezembro/2015  
+**Conteúdo:** Estatística descritiva e inferência básica no R.
+
+### Dominando o R
+Curso de extensão eventual  
+**Local:** FURG  
+**Carga horária:** 12 horas  
+**Data**: Outubro/2015  
+**Conteúdo:** Estatística inferencial multifatorial, análises multivariadas e mapas.
+
+----
 
