@@ -25,6 +25,9 @@ website:
       - href: softwares.qmd
         text: Softwares
         icon: android2
+      - href: R-eutilizavel.qmd
+        text: R-eutilizáveis
+        icon: r-circle
       - href: agenda.qmd
         text: Agenda pública
         icon: calendar
@@ -34,7 +37,7 @@ website:
 
     tools:
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/CamargoFurg
       - icon: github
         menu:
           - text: Página principal

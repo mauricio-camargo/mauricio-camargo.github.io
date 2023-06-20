@@ -1,0 +1,6 @@
+---
+#title: "R-eutilizável"
+---
+
+## Aqui você encontrará dicas do R e códigos reutilizáveis.
+
