@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "ensino.html",
+    "href": "ensino.html",
+    "title": "Ensino",
+    "section": "",
+    "text": "Foi"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -11,6 +18,13 @@
     "href": "index.html",
     "title": "mauricio-camargo.github.io",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Este é o meu site pessoal, onde concentro todas as minhas atividades profissionais como professor e pesquisador do Instituto de Oceanografia e do Instituto de Matemática, Estatística e Física da Universidade Federal do Rio Grande - FURG. Estou lotado no Laboratório de Ecologia de Invertebrados Bentônicos.   Todo o conteúdo do site é livre para uso não comercial."
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "mauricio-camargo.github.io",
+    "section": "",
+    "text": "Contato\n\nE-mail: camargofurg@gmail.com\nCurrículo Lattes\nGithub: http://www.github.com/mauricio-camargo \nEndereço: Laboratório de Invertebrados Bentônicos - Instituto de Oceanografia. Av. Itália, km 8. Campus Carreiros. Rio Grande - RS. CEP 96203-900.\nTelefone: (053) 3233-6750\n\n\n\n\n     \n\n  \n\n\n Conteúdo disponível através da Licença Creative Commons 4.0  Maurício Garcia de Camargo Número de hits desde 19 de Junho de 2023"
   }
 ]

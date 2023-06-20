@@ -3,18 +3,35 @@ project:
   output-dir: docs
 
 website:
-  title: "mauricio-camargo.github.io"
+  title: "Mauricio Camargo"
   navbar:
+#    background: info
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+        icon: house
+      - href: ensino.qmd
+        text: Ensino
+        icon: book
+      - href: pesquisa.qmd
+        text: Pesquisa
+        icon: bug
+      - href: extensao.qmd
+        text: Extensão
+        icon: people
+    tools:
+      - icon: twitter
+        href: https://twitter.com
+      - icon: github
+        menu:
+          - text: Página principal
+            url:  https://github.com/mauricio-camargo
+          - text: Página do site
+            url:  https://github.com/mauricio-camargo/mauricio-camargo.github.io
 
 format:
   html:
-    theme: cosmo
+    theme: cerulean
     css: styles.css
     toc: true
-
-
 

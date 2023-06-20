@@ -2,10 +2,70 @@
 title: "mauricio-camargo.github.io"
 ---
 
-This is a Quarto website.
+<br>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+![](img/img2.png)  
 
-```{r}
-1 + 1
-```
+----
+
+Este é o meu site  pessoal, onde concentro todas as minhas atividades profissionais como professor e pesquisador do [Instituto de Oceanografia](http://www.io.furg.br) e do [Instituto de Matemática, Estatística e Física](http://www.imef.furg.br) da [Universidade Federal do Rio Grande - FURG](http://www.furg.br). Estou lotado no [Laboratório de Ecologia de Invertebrados Bentônicos](https://io.furg.br/pesquisa/laboratorios).
+<br>
+<br>
+Todo o conteúdo do site é livre para uso [não comercial](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
+
+----
+
+### Disciplinas atuais
+Ministro disciplinas de estatística ambiental na graduação e na pós-graduação e também diversidade de anelídeos poliquetas e métodos da ciência na graduação. 
+
+**Disciplinas do primeiro semestre de 2023:**
+
+- [Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)](https://mauricio-camargo.github.io/Biodiversidade2023/)
+- [Reprodutibilidade científica no R](https://mauricio-camargo.github.io/reprodu2023/)
+- [Programação em Python e R]()
+
+
+<!--
+-----
+### Orientações em pesqisa
+Oriento alunos de graduação e de pós-graduação em ecologia de comunidades bentônicas com interesse em estatística ambiental e linguagens de programação.
+-->
+
+
+<!--
+-----
+### Atividades adminstrativas
+Atualmente sou coordenador substituto do curso de Oceanologia.
+-->
+
+------
+
+### Contato 
+
+- E-mail: [camargofurg@gmail.com](mailto:camargofurg@gmail.com)
+- [**Currículo Lattes**](http://lattes.cnpq.br/6674393714532464) 
+- Github: http://www.github.com/mauricio-camargo
+<!-- - Facebook: https://www.facebook.com/profile.php?id=100014050901446 -->
+- Endereço: Laboratório de Invertebrados Bentônicos - Instituto de Oceanografia. Av. Itália, km 8. Campus Carreiros. Rio Grande - RS. CEP 96203-900.
+- Telefone: (053) 3233-6750
+
+<center>
+  <hr width="100%" size="3px">
+  <p> <a href="http://www.furg.br"><img src="img/furg1.jpg"> </a>
+  <a href="http://www.io.furg.br"><img src="img/io1.png"> </a>
+  <a href="http://www.imef.furg.br"><img src="img/imef1.jpg"> </a>
+
+<p> 
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR">
+<img src="img/CC_by-nc-sa_88x31.png" alt="Licença Creative Commons 4.0"> </a>
+</p>
+<p>
+<font size="2"> Conteúdo disponível através da Licença Creative Commons 4.0 <br>
+Maurício Garcia de Camargo<br>
+Número de hits desde 19 de Junho de 2023
+<br>
+</font>
+
+<a href="http://www.webcontadores.com" title="contador de visitas para blog"><img src="http://counter7.01counter.com/private/webcontadores.php?c=aae54ceffc577de6f41508e54a80e1e7" border="0" title="contador de visitas" alt="contador de visitas"></a>
+
+</center>

@@ -1,0 +1,22 @@
+Sequencia para criar um website no R:
+- File>New Project>New Directory>Quarto website>NOME DO PROJETO 
+- O nome do projeto obrigatoriamente ter que ser mauricio-camargo.github.io
+- Se apresentar para o github.
+usethis::use_git_config(
+  user.name = "mauricio-camargo",
+  user.email = "camargofurg@gmail.com")
+ - Informar o token do Github.
+ usethis::git_sitrep()
+ - Iniciar o git para o projeto.
+ usethis::use_git()
+ - Criar o repositório do github.
+ usethis::use_github()
+ - Abrir _quarto.yml
+project:
+  type: website
+  output-dir: docs
+- Render website
+- Commit e push
+- No Gituhub, na página do projeto, entre em Settings e depois Pages.
+- Em Branch, coloque /docs
+
