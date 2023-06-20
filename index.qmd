@@ -43,8 +43,8 @@ Atualmente sou coordenador substituto do curso de Oceanologia.
 ### Contato 
 
 - E-mail: [camargofurg@gmail.com](mailto:camargofurg@gmail.com)
-- [**Currículo Lattes**](http://lattes.cnpq.br/6674393714532464) 
-- Github: http://www.github.com/mauricio-camargo
+- [Currículo Lattes](http://lattes.cnpq.br/6674393714532464) 
+- Github: <http://www.github.com/mauricio-camargo>
 <!-- - Facebook: https://www.facebook.com/profile.php?id=100014050901446 -->
 - Endereço: Laboratório de Invertebrados Bentônicos - Instituto de Oceanografia. Av. Itália, km 8. Campus Carreiros. Rio Grande - RS. CEP 96203-900.
 - Telefone: (053) 3233-6750
