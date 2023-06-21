@@ -1,0 +1,19 @@
+---
+title: "R-eutilizável"
+subtitle: "Códigos úteis e reutilizáveis em R."
+---
+
+**Tutoriais**
+
+##### Tutorias de reprodutibilidade
+
+
+<br>
+
+##### Tradução para o R de alguns tutoriais em Python do prof. [Guto Schettini](https://gutoschettini.github.io/Analise_Dados_Python/)
+
+[CTD](CTD/CTD.html)  
+[Hidroweb](Hidroweb/hidroweb.html)  
+[IBGE1](IBGE1/IBGE1.html)  
+[IBGE2](IBGE2/IBGE2.html)  
+
