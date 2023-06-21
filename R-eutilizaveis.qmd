@@ -1,5 +1,5 @@
 ---
-title: "R-eutilizável"
+title: "R-eutilizáveis"
 subtitle: "Códigos úteis e reutilizáveis em R."
 ---
 
