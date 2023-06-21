@@ -47,7 +47,7 @@ website:
 
 format:
   html:
-    theme: cerulean
+    theme: Simplex
     css: styles.css
     toc: false
 

@@ -1,0 +1,27 @@
+---
+title: Teste de solução
+format: html
+engine: knitr
+echo: false
+---
+
+```{css} 
+
+.justify {
+
+  text-align:
+justify !important
+}
+```
+
+## Testando
+
+:::{.justify}
+Teste de texto justificado Teste de texto justificado Teste de texto
+justificado Teste de texto justificado Teste de texto justificado Teste de
+texto justificado Teste de texto justificado Teste de texto justificado
+Teste de texto justificado Teste de texto justificado v Teste de texto
+justificado Teste de texto justificado Teste de texto justificado Teste de
+texto justificado Teste de texto justificado
+
+:::

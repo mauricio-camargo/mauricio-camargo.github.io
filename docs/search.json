@@ -63,6 +63,13 @@
     "text": "Clique aqui para preencher um formulário para agendar um atendimento."
   },
   {
+    "objectID": "temp.html#testando",
+    "href": "temp.html#testando",
+    "title": "Teste de solução",
+    "section": "Testando",
+    "text": "Testando\n\nTeste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado v Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado"
+  },
+  {
     "objectID": "admin.html",
     "href": "admin.html",
     "title": "",
@@ -340,7 +347,7 @@
     "href": "R-eutilizaveis.html",
     "title": "R-eutilizáveis",
     "section": "",
-    "text": "Tutoriais de reprodutibilidade\nComo configurar o Gituhub e RStudio para criação de páginas web\nTutotial do Quarto\nLinha mágica, que se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente.\ngit add -A && git commit -m \"staging all files\"\n\n\n\nTradução para o R de alguns tutoriais em Python do prof. Guto Schettini\nCTD\nHidroweb\nIBGE1\nIBGE2"
+    "text": "Tutoriais de reprodutibilidade\nComo configurar o Gituhub e RStudio para criação de páginas web\nTutotial do Quarto\nLinha mágica, que se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente.\n\nTruques do Quarto\ngit add -A && git commit -m \"staging all files\"\n\n\nTradução para o R de alguns tutoriais em Python do prof. Guto Schettini\nCTD\nHidroweb\nIBGE1\nIBGE2"
   },
   {
     "objectID": "softwares.html",
