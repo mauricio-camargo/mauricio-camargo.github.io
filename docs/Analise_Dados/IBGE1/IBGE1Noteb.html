@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ensino</title>
+<title>IBGE 1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -76,42 +110,42 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target=""><i class="bi bi-house" role="img">
+    <a class="nav-link" href="../../index.html" rel="" target=""><i class="bi bi-house" role="img">
 </i> 
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./ensino.html" rel="" target="" aria-current="page"><i class="bi bi-book" role="img">
+    <a class="nav-link" href="../../ensino.html" rel="" target=""><i class="bi bi-book" role="img">
 </i> 
  <span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pesquisa.html" rel="" target=""><i class="bi bi-bug" role="img">
+    <a class="nav-link" href="../../pesquisa.html" rel="" target=""><i class="bi bi-bug" role="img">
 </i> 
  <span class="menu-text">Pesquisa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./extensao.html" rel="" target=""><i class="bi bi-people" role="img">
+    <a class="nav-link" href="../../extensao.html" rel="" target=""><i class="bi bi-people" role="img">
 </i> 
  <span class="menu-text">Extensão</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./admin.html" rel="" target=""><i class="bi bi-newspaper" role="img">
+    <a class="nav-link" href="../../admin.html" rel="" target=""><i class="bi bi-newspaper" role="img">
 </i> 
  <span class="menu-text">Administração</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./softwares.html" rel="" target=""><i class="bi bi-android2" role="img">
+    <a class="nav-link" href="../../softwares.html" rel="" target=""><i class="bi bi-android2" role="img">
 </i> 
  <span class="menu-text">Softwares</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./R-eutilizaveis.html" rel="" target=""><i class="bi bi-r-circle" role="img">
+    <a class="nav-link" href="../../R-eutilizaveis.html" rel="" target=""><i class="bi bi-r-circle" role="img">
 </i> 
  <span class="menu-text">R-eutilizáveis</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./agenda.html" rel="" target=""><i class="bi bi-calendar" role="img">
+    <a class="nav-link" href="../../agenda.html" rel="" target=""><i class="bi bi-calendar" role="img">
 </i> 
  <span class="menu-text">Agenda pública</span></a>
   </li>  
@@ -145,242 +179,86 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">IBGE 1</h1>
+</div>
 
 
-<section id="disciplinas---furg" class="level2">
-<h2 class="anchored" data-anchor-id="disciplinas---furg">Disciplinas - FURG</h2>
-<p><br></p>
-<section id="section" class="level3">
-<h3 class="anchored" data-anchor-id="section"><strong>2023</strong></h3>
-<section id="graduação" class="level4">
-<h4 class="anchored" data-anchor-id="graduação">Graduação</h4>
-<ul>
-<li><strong>Programação em Python e R</strong>
-<ul>
-<li>Cursos oferecidos: <em>Oceanologia</em></li>
-<li>Período: Março a julho de 2023</li>
-<li>Plataforma: AVA da FURG.</li>
-</ul></li>
-<li><a href="https://mauricio-camargo.github.io/Biodiversidade2023/"><strong>Biodiversidade de invertebrados marinhos - Anelídeos poliquetas</strong></a>
-<ul>
-<li>Cursos oferecidos: <em>Oceanologia</em></li>
-<li>Período: Março a julho de 2023</li>
-</ul></li>
-</ul>
-</section>
-<section id="pós-graduação" class="level4">
-<h4 class="anchored" data-anchor-id="pós-graduação">Pós-graduação</h4>
-<ul>
-<li><a href="https://mauricio-camargo.github.io/reprodu2023/"><strong>Reprodutibilidade científica no R (em andamento</strong>)</a>
-<ul>
-<li>Cursos oferecidos: <em>Pós-graduações diversas (PPGAMB, PPGOB, PPGO)</em></li>
-<li>Período: Outubro e novembro de 2023</li>
-</ul></li>
-<li><strong>Delineamento Experimental em Ecologia (Programada)</strong>
-<ul>
-<li>Cursos oferecidos: <em>Pós-graduações diversas (PPGAMB, PPGOB, PPGO)</em></li>
-<li>Período: Outubro e novembro de 2023</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="section-1" class="level3">
-<h3 class="anchored" data-anchor-id="section-1"><strong>2022</strong></h3>
-<section id="graduação-1" class="level4">
-<h4 class="anchored" data-anchor-id="graduação-1">Graduação</h4>
-<ul>
-<li><strong>Programação em Python e R</strong>
-<ul>
-<li>Cursos oferecidos: <em>Oceanologia</em></li>
-<li>Período: Março a julho de 2022</li>
-</ul></li>
-</ul>
-</section>
-<section id="pós-graduação-1" class="level4">
-<h4 class="anchored" data-anchor-id="pós-graduação-1">Pós-graduação</h4>
-<ul>
-<li><strong>Delineamento Experimental em Ecologia</strong>
-<ul>
-<li>Cursos oferecidos: <em>Pós-graduações diversas (PPGAMB, PPGOB, PPGO)</em></li>
-<li>Período: Outubro e novembro de 2022</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="section-2" class="level3">
-<h3 class="anchored" data-anchor-id="section-2"><strong>2021</strong></h3>
-<section id="graduação-2" class="level4">
-<h4 class="anchored" data-anchor-id="graduação-2">Graduação</h4>
-<ul>
-<li><strong>Programação em Python e R</strong>
-<ul>
-<li>Cursos oferecidos: <em>Oceanologia</em></li>
-<li>Período: Março a julho de 2021</li>
-</ul></li>
-</ul>
-</section>
-<section id="pós-graduação-2" class="level4">
-<h4 class="anchored" data-anchor-id="pós-graduação-2">Pós-graduação</h4>
-<ul>
-<li><strong>Delineamento Experimental em Ecologia</strong>
-<ul>
-<li>Cursos oferecidos: <em>Pós-graduações diversas (PPGAMB, PPGOB, PPGO)</em></li>
-<li>Período: Outubro e novembro de 2021</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="section-3" class="level3">
-<h3 class="anchored" data-anchor-id="section-3"><strong>2020</strong></h3>
-<section id="graduação-3" class="level4">
-<h4 class="anchored" data-anchor-id="graduação-3">Graduação</h4>
-<ul>
-<li><strong>Programação em Python e R</strong>
-<ul>
-<li>Cursos oferecidos: <em>Oceanologia</em></li>
-<li>Período: Março a julho de 2020</li>
-</ul></li>
-</ul>
-</section>
-<section id="pós-graduação-3" class="level4">
-<h4 class="anchored" data-anchor-id="pós-graduação-3">Pós-graduação</h4>
-<ul>
-<li><strong>Delineamento Experimental em Ecologia</strong>
-<ul>
-<li>Cursos oferecidos: <em>Pós-graduações diversas (PPGAMB, PPGOB, PPGO)</em></li>
-<li>Período: Outubro e novembro de 2020</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="section-4" class="level3">
-<h3 class="anchored" data-anchor-id="section-4"><strong>2019</strong></h3>
-<section id="pós-graduação-4" class="level4">
-<h4 class="anchored" data-anchor-id="pós-graduação-4">Pós-graduação</h4>
-<ul>
-<li><strong>Delineamento Experimental em Ecologia</strong>
-<ul>
-<li>Cursos oferecidos: <em>Pós-graduações diversas (PPGAMB, PPGOB, PPGO)</em></li>
-<li>Período: Outubro e novembro de 2019</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="section-5" class="level3">
-<h3 class="anchored" data-anchor-id="section-5"><strong>2018</strong></h3>
-<section id="graduação-4" class="level4">
-<h4 class="anchored" data-anchor-id="graduação-4">Graduação</h4>
-<ul>
-<li><strong>Análise numérica de comunidades ecológicas</strong>
-<ul>
-<li>Cursos oferecidos: <em>Oceanologia e ouvintes da pós-graduação</em></li>
-<li>Período: Agosto a novembro de 2018</li>
-</ul>
-<!-- (curso_comunidades_2018.html) --></li>
-</ul>
-</section>
-<section id="pós-graduação-5" class="level4">
-<h4 class="anchored" data-anchor-id="pós-graduação-5">Pós-graduação</h4>
-<ul>
-<li><strong>Estatística univariada para estudos de distribuição espacial e temporal</strong>
-<ul>
-<li>Cursos oferecidos: <em>Pós-graduações diversas</em></li>
-<li>Período: Outubro e novembro de 2018</li>
-</ul></li>
-</ul>
-<!-- curso_univariada_2018.html) -->
-</section>
-</section>
-<section id="section-6" class="level3">
-<h3 class="anchored" data-anchor-id="section-6"><strong>2017</strong></h3>
-<section id="graduação-5" class="level4">
-<h4 class="anchored" data-anchor-id="graduação-5">Graduação</h4>
-<ul>
-<li><strong>Análise numérica de comunidades ecológicas</strong>
-<ul>
-<li>Cursos oferecidos: <em>Oceanologia e ouvintes da pós-graduação</em></li>
-<li>Período: Agosto a novembro de 2017</li>
-</ul></li>
-</ul>
-</section>
-<section id="pós-graduação-6" class="level4">
-<h4 class="anchored" data-anchor-id="pós-graduação-6">Pós-graduação</h4>
-<ul>
-<li><p><strong>Estatística univariada para estudos de distribuição espacial e temporal</strong></p>
-<ul>
-<li>Cursos oferecidos: <em>Pós-graduações diversas</em></li>
-<li>Período: Outubro e novembro de 2017</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="section-7" class="level3">
-<h3 class="anchored" data-anchor-id="section-7"><strong>2016</strong></h3>
-<section id="graduação-6" class="level4">
-<h4 class="anchored" data-anchor-id="graduação-6">Graduação</h4>
-<ul>
-<li><strong>Estatística</strong>
-<ul>
-<li>Curso oferecido: <em>Ciências Biológicas</em><br>
-</li>
-<li>Período: Agosto a novembro de 2016</li>
-</ul></li>
-<li><strong>Ciências do ambiente</strong>
-<ul>
-<li>Cursos oferecidos: <em>Engenharias</em><br>
-</li>
-<li>Período: Agosto a novembro de 2016</li>
-</ul></li>
-<li><strong>Análise numérica de comunidades ecológicas</strong>
-<ul>
-<li>Cursos oferecidos: <em>Oceanologia e ouvintes da pós-graduação</em></li>
-<li>Período: Agosto a novembro de 2016</li>
-</ul></li>
-</ul>
-</section>
-<section id="pós-graduação-7" class="level4">
-<h4 class="anchored" data-anchor-id="pós-graduação-7">Pós-graduação</h4>
-<ul>
-<li><strong>Estatística univariada para estudos de distribuição espacial e temporal</strong>
-<ul>
-<li>Cursos oferecidos: <em>Pós-graduações diversas</em></li>
-<li>Período: Outubro e novembro de 2016</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="section-8" class="level3">
-<h3 class="anchored" data-anchor-id="section-8"><strong>2015</strong></h3>
-<section id="pós-graduação-8" class="level4">
-<h4 class="anchored" data-anchor-id="pós-graduação-8">Pós-graduação</h4>
-<ul>
-<li><strong>Estatística univariada para estudos de distribuição espacial e temporal</strong>
-<ul>
-<li>Cursos oferecidos: <em>Pós-graduações diversas</em></li>
-<li>Período: Outubro e novembro de 2015</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="section-9" class="level3">
-<h3 class="anchored" data-anchor-id="section-9"><strong>2014 - 2004</strong></h3>
-<p>Disciplinas ministradas no Centro de Estudos do Mar da UFPR:</p>
-<p><strong>Graduação</strong></p>
-<ul>
-<li>Introdução à estatística</li>
-<li>Inferência estatística</li>
-<li>Análise multivariada</li>
-<li>Planejamento amostral e experimental</li>
-</ul>
-<p><strong>Pós-graduação</strong></p>
-<ul>
-<li>Ecologia numérica</li>
-<li>Análise multivariada</li>
-</ul>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<hr>
+<p>Farei aqui reproduções das análises do Guto usando o notebook do R.</p>
+<p>Pois é, o R também tem notebook que podem facilmente criar arquivos em PDF, HTML e DOC.</p>
+<p>Adeus editor de texto. Se o seu texto é um relatório que envolve análise de dados, é muito melhor fazer por aqui.</p>
+<p>Aqui vai a reprodução da análise IBGE 1.</p>
+<p>Primeiramente abrimos os dados baixados do site do IBGE, conforme explicado pelo Guto. Pode ser qualquer arquivo. O meu foi IMB201009.txt. Vamos guardar o arquivo na variável <code>dados</code>, que é do tipo <code>dataframe</code>.</p>
+<p>Adapte o caminho completo do arquivo para o seu computador. A função <code>read.csv2</code> lê dados separados por vírgulas.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>dados <span class="ot">=</span> <span class="fu">read.csv2</span>(        </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>   <span class="st">"/home/mauricio/Dropbox/Projetos/Programacao em Python e R - 2021/Analise Dados/IBGE1/IMB201009.txt"</span>,</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>   <span class="at">header=</span><span class="cn">FALSE</span>, </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>   <span class="at">sep=</span><span class="st">""</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Para ver os dados use <code>View(dados)</code> ou <code>print(dados)</code>.</p>
+<p>Os nomes das colunas (V1 a V4) foram dados automaticamente.</p>
+<p>Agora vamos executar os códigos para gerar um gráfico:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>n<span class="ot">=</span><span class="fu">length</span>(dados<span class="sc">$</span>V4)      <span class="co">#Número de linhas de V4</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="dv">1</span><span class="sc">:</span>n,                 <span class="co">#Plota x e y</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>   dados<span class="sc">$</span>V4) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="IBGE1Noteb_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Vamos plotar do novo mudando algumas características do gráfico.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(<span class="dv">1</span><span class="sc">:</span>n,               <span class="co">#Plota novamente em linha</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>   dados<span class="sc">$</span>V4,</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>   <span class="at">type=</span><span class="st">'line'</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>   <span class="at">xlab=</span><span class="st">''</span>,<span class="at">ylab=</span><span class="st">''</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="IBGE1Noteb_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>Agora vamos ajeitar o eixo x (tempo), que ainda não é do tipo datetime. Primeiro concatenamos as duas colunas de Data e Hora e depois transformamos para o tipo datetime.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>tempo<span class="ot">=</span><span class="fu">paste</span>(dados<span class="sc">$</span>V1,dados<span class="sc">$</span>V2) </span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>tempo<span class="ot">=</span><span class="fu">as.POSIXct</span>(tempo,<span class="at">format =</span> <span class="st">"%d/%m/%Y %H:%M:%S"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Cria o plot completo contendo a série V3 em azul e V4 em vermelho.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(tempo,                <span class="co">#Eixo x</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>     dados<span class="sc">$</span>V3,             <span class="co">#Eixo y</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>     <span class="at">type=</span><span class="st">'line'</span>,          <span class="co">#Tipo de linha</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>     <span class="at">col=</span><span class="st">'blue'</span>,           <span class="co">#Cor da linha</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">main=</span><span class="st">'IMB201009.txt'</span>,  <span class="co">#Título do gráfico</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>     <span class="at">ylab=</span><span class="st">'Nível (m)'</span>,     <span class="co">#Título do eixo y</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>     <span class="at">xlab=</span><span class="st">'Tempo'</span>)         <span class="co">#Título do eixo x</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="fu">lines</span>(tempo,         <span class="co">#Adiciona nova série (V4) em vermelho</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>      dados<span class="sc">$</span>V4,</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>      <span class="at">type=</span><span class="st">'line'</span>,</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>      <span class="at">col=</span><span class="st">'red'</span>)</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="fu">legend</span>(<span class="st">'topright'</span>,  <span class="co">#Adiciona legenda</span></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>       <span class="at">legend=</span><span class="fu">c</span>(<span class="st">'Var1'</span>,<span class="st">'Var2'</span>),</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>       <span class="at">lty=</span><span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">1</span>),</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>       <span class="at">col=</span><span class="fu">c</span>(<span class="st">'blue'</span>,<span class="st">'red'</span>),</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>       <span class="at">cex=</span><span class="fl">0.6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="IBGE1Noteb_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
