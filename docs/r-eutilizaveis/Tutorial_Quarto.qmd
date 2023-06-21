@@ -1,0 +1,350 @@
+---
+title: "Mini-tutorial do Quarto no RStudio"
+lang: pt-br
+author: "Maurício Garcia de Camargo"
+date: "`r Sys.Date()`"
+toc: true
+toc-depth: 4
+toc-location: left
+format:
+  html:
+    theme: default
+    html-math-method: katex
+    code-tools: true
+    code-line-numbers: false
+    self-contained: false
+execute:
+  warning: false
+---
+
+## Formatação básica 
+
+#### Comentários no Quarto
+``` r
+<!-- Aqui vai o comentário -->
+```
+::: {.column-margin}
+Esse estilo de comentário é herdado do HTML e é uma porcaria. 
+:::
+
+#### Novo parágrafo
+```{r}
+"Dois espaços no final da linha criam um novo parágrafo"
+```
+
+::: {.column-margin}
+`<br>` vem do HTML e também cria um parágrafo. 
+:::
+
+#### Texto:
+```r 
+*Itálico*
+**Negrito**
+***Negrito e itálico***
+superscript^2^ / subscript~2~
+~~strikethrough~~
+```
+
+## Cabeçalhos
+``` r
+# Header 1
+## Header 2
+## Header 3
+...
+###### Header 6
+```
+
+::: {.column-margin}
+Existem várias opções do revealjs para headers. Ver depois.
+:::
+
+## Links e imagens:
+``` r
+[Quarto](https://quarto.org) #Link
+![Elefante](elephant.png)    #Imagem
+[![Elefante](elephant.png)](https://quarto.org) #Link de Imagem
+![Elephant](elephant.png){width=300}
+![Elephant](elephant.png){width=80%}
+![Elephant](elephant.png){fig-align="left"}
+
+Posição absoluta:
+![](image1.png){.absolute top=200 left=0 width="350" height="300"}
+```
+
+## Literais
+
+#### Literais em uma linha entre crases:
+``` r
+`aqui vai literal`
+```
+
+#### Literais em mais de uma linha:
+```r
+Coloque 4 crases (````) no início e no final do texto. 
+```
+
+::: {.column-margin}
+Às vezes dá um resultado meio bizarro. Coisa chata.
+:::
+
+## Listas
+```r
+* unordered list
+    + sub-item 1
+    + sub-item 2
+        - sub-sub-item 1
+
+1. ordered list
+2. item 2
+    i) sub-item 1
+         A.  sub-sub-item 1
+```
+
+## Tabelas
+
+#### Tabelas simples
+
+```r
+| Right | Left | Default | Center |
+|------:|:-----|---------|:------:|
+|  12   |  12  |    12   |    12  |
+|  123  |  123 |   123   |   123  |
+|  1    |    1 |     1   |     1  |
+```
+
+#### Tabelas com grid 
+```r
++---------------+---------------+--------------------+
+| Fruit         | Price         | Advantages         |
++===============+===============+====================+
+| Bananas       | $1.34         | - built-in wrapper |
+|               |               | - bright color     |
++---------------+---------------+--------------------+
+| Oranges       | $2.10         | - cures scurvy     |
+|               |               | - tasty            |
++---------------+---------------+--------------------+
+
+: Sample grid table.
+```
+
+::: {.column-margin}
+Existem outras opções de tabelas. Esta é a mais simples.
+:::
+
+## Fórmulas
+````r
+$E = mc^{2}$ para inline
+ou
+$$E = mc^{2}$$ para centro da linha
+````
+
+::: {.column-margin}
+Estas são fórmulas do Markdown. Para fórmulas mais complexas, existe o LaTeX.
+:::
+
+## Notas de margem
+``` r
+::: {.column-margin}
+We know from *the first fundamental theorem of calculus* 
+:::
+```
+
+## Diagramas
+``` r
+{mermaid}
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+
+Veja em mermaid.js.org
+```
+
+::: {.column-margin}
+Mermaid é uma biblioteca JS para criar diagramas online baseado numa linguagem específica. 
+:::
+
+## Destaque de textos
+
+#### callout (avisos)
+``` r
+:::{.callout-note}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
+```
+#### Blockquote
+```r
+> Bloco destacado
+```
+
+#### Blockquote mais de uma linha.
+```r
+| Line Block
+|   Spaces and newlines
+|   are preserved
+```
+::: {.column-margin}
+Os espaços e formatação são todos preservados. 
+:::
+
+
+## Layouts
+
+#### Duas colunas
+```r
+::: {layout-ncol=2}
+asdasd  
+
+asdasd
+:::
+```
+
+#### Múltiplas colunas
+```r
+Duas linhas, a primeira com 2 e a segunda com 1 gráfico, todos com o mesmo tamanho.
+::: {layout="[[1,1], [1]]"}
+![Surus](surus.png)
+![Surus1](surus1.png)
+![Surus2](surus2.png)
+:::
+
+Para layout com percentuais:
+::: {layout="[[40,-20,40], [100]]"}
+```
+
+## HTML - cabeçalhos
+``` r
+- Antes do html
+toc: true
+toc-depth: 4
+toc-location: left
+- Depois do html
+theme: default (Outros em https://quarto.org/docs/output-formats/html-themes.html) 
+html-math-method: katex
+code-tools: true
+code-line-numbers: false
+self-contained: false
+```
+
+## Revealjs - Apresentações
+
+#### Nova página
+``` r
+--- #Três ou mais tracinhos
+## Header 2 também cria nova página
+```
+
+####hox
+::: Box ou info-box
+``` r
+asdasd
+```
+:::
+
+#### Incremental
+``` r
+- Para tudo ser incremental, no cabeçalho colocar incremental: true   
+- Para tornar uma lista particular incremental:
+::: {.incremental}
+- Eat spaghetti
+- Drink wine
+:::
+```
+
+#### Colunas múltiplas
+``` r
+:::: {.columns}
+
+::: {.column width="40%"}
+contents...
+:::
+
+::: {.column width="60%"}
+contents...
+:::
+
+::::
+```
+
+#### Footer global
+``` r
+No cabeçalho:
+footer: "`Mais bonitinho com crase`"
+```
+
+#### Footer por página
+``` r
+::: footer
+Custom footer text
+:::
+```
+
+#### Aside (tipo de footer sem referência)
+``` r
+::: aside
+Some additional commentary of more peripheral interest.
+:::
+```
+
+#### Aside (tipo de footer com referência)
+``` r
+Numera automaticamente
+- Green ^[Aqui a nota de rodapé]
+- Brown
+- Purple
+```
+
+#### Smaller fonts
+``` r
+## Slide Title {.smaller}
+```
+
+#### scrollable
+``` r
+## Slide Title {.scrollable}
+```
+
+#### Notas do apresentador
+``` r
+::: {.notes}
+Speaker notes go here.
+:::
+```
+#### Temas
+``` r
+theme: default
+Outros: https://quarto.org/docs/presentations/revealjs/
+```
+
+#### Slide com diferente background
+
+``` r
+## Título {background-color="aquamarine"}
+```
+
+#### Texto incremental num box
+```r
+::: columns
+::: {.column .box width="40%"}
+   MATERIALS AND METHODS
+
+   *Experimental design* **(condensed version)**
+
+   -   **Experimental plots were planted   with different plant communities spanning [plant diversity gradient of one, four, and 16 species]{.fragment .highlight-blue}, which were randomly chosen from the species listed (5 plant functional groups -- 19 species in total)**
+   -   [Plots were divided into three subplots]{.fragment .highlight-red}
+
+:::
+
+::: {.column width="56%"}
+::: fragment
+This is in fact a **split-plot design**!
+:::
+
+::: fragment
+:::
+:::
+:::
+```
+
