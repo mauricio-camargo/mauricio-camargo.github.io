@@ -347,7 +347,7 @@
     "href": "R-eutilizaveis.html",
     "title": "R-eutilizáveis",
     "section": "",
-    "text": "Tutoriais de reprodutibilidade\nComo configurar o Gituhub e RStudio para criação de páginas web\nTutotial do Quarto\nLinha mágica, que se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente.\n\nTruques do Quarto\ngit add -A && git commit -m \"staging all files\"\n\n\nTradução para o R de alguns tutoriais em Python do prof. Guto Schettini\nCTD\nHidroweb\nIBGE1\nIBGE2"
+    "text": "Tutoriais de reprodutibilidade\nComo configurar o Gituhub e RStudio para criação de páginas web\nTutotial do Quarto\nLinha mágica, que se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente.\n\nTruques do Quarto\ngit add -A && git commit -m \"staging all files\"\nSe o RStudio pedir para instalar o Python ou o Jupyter, informe no cabeçalho que a engine, que é a knitr.\n---\ntitle: \"Título\"\nengine: knitr\n---\n\n\nTradução para o R de alguns tutoriais em Python do prof. Guto Schettini\nCTD\nHidroweb\nIBGE1\nIBGE2"
   },
   {
     "objectID": "softwares.html",

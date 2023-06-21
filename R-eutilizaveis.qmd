@@ -20,6 +20,15 @@ git add -A && git commit -m "staging all files"
 ```
 
 
+Se o RStudio pedir para instalar o Python ou o Jupyter, informe no cabeçalho que a engine, que é a knitr.
+
+```
+---
+title: "Título"
+engine: knitr
+---
+```
+
 <!-- NÃO DEU CERTO.
 Não teve jeito de mostrar a primeira linha (```{css}) em markdow. A solução foi HTML
 
