@@ -1,0 +1,70 @@
+---
+title: "Como gerar templates para revistas da Elsevier"
+---
+
+Pessoal, o template da Elsevier que tentamos colocar no RStudio através do terminal deu problema para mim por causa da confusão entra as pastas criadas. Acredito que para muitos foi a mesma coisa. 
+
+No entanto, existe uma maneira muito prática no RStudio de trabalhar com pastas no terminal. 
+
+Ao invés de precisar escrever todo o caminho, tipo `c:\user\mauricio\projeto_aula`, podemos usar o gerenciador de arquivos do próprio RStudio.
+
+Observe a figura abaixo e localize o Terminal e o gerenciador de arquivos (Files). Os caminhos destacados devem ser os mesmos (este é o caminho do seu projeto). 
+
+![](img/template1.png)
+
+<br>
+
+As duas janelas inferiores podem ser maximizadas usando os botões destacados abaixo. Isso facilita o trabalho.
+
+![](img/template2.png)
+
+<br>
+
+É possível sincronizar os caminhos das duas janelas usando o gerenciador de arquivos, sem a necessidade de escrever o caminho inteiro no terminal. 
+
+A opção `Open New Terminal Here` abre um novo terminal apontando para o mesmo caminho do gerenciador de arquivos. Nesta pasta (=diretório) o template será instalado.
+
+![](img/template3.png)
+
+<br>
+
+Observe que um novo terminal foi criado, chamado de `Terminal2`.
+
+![](img/template4.png)
+
+<br>
+
+Agora é hora de incluir os comandos para baixar o template da Elsevier, que pode ser encontrado em <https://github.com/quarto-journals/elsevier#installation-for-existing-document>  
+
+<br>
+
+O comando é:
+
+````default
+quarto install extension quarto-journals/elsevier
+````
+
+
+![](img/template5.png)
+
+<br>
+
+Após confirmar que confia no autor do template, informe o nome do novo diretório onde será instalado o template (meu_dir).
+
+![](img/template6.png)
+
+<br>
+
+Observe no gerenciador de arquivos que o diretório `meu_dir` foi criado.
+
+![](img/template7.png)
+
+<br>
+
+Dentro deste diretório encontre o arquivo `meu_dir.qmd`. Este é o seu template. Clique ne e tente renderizar o pdf.
+
+![](img/template8.png)
+
+<br>
+
+Boa sorte!

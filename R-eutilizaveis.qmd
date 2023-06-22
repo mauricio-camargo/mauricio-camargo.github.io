@@ -1,28 +1,26 @@
 ---
-subtitle: "Códigos úteis e reutilizáveis em R."
 title: "R-eutilizáveis"
+subtitle: "Códigos úteis e reutilizáveis em R."
 engine: knitr
 ---
 
-**Tutoriais de reprodutibilidade**
+#### Tutoriais de reprodutibilidade
 
-[Como configurar o Gituhub e RStudio para criação de páginas web](r-eutilizaveis/Integrar_Git_RStudio.qmd)
+[Tutorial de configuração do Gituhub e do RStudio](r-eutilizaveis/Integrar_Git_RStudio.qmd)  
+[Tutotial do Quarto](r-eutilizaveis/Tutorial_Quarto.qmd)  
+[Tutotial de uso de templates para revistas da Elsevier](r-eutilizaveis/Como_gerar_template_.qmd)
 
-[Tutotial do Quarto](r-eutilizaveis/Tutorial_Quarto.qmd)
+#### Truques do Quarto
 
-Linha mágica, que se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente.
+- 1. Linha mágica, que se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente.
 
-
-##### Truques do Quarto
-
-```
+```default
 git add -A && git commit -m "staging all files"
 ```
 
+- 2. Se o RStudio pedir para instalar o Python ou o Jupyter, informe no cabeçalho que a engine é a knitr.
 
-Se o RStudio pedir para instalar o Python ou o Jupyter, informe no cabeçalho que a engine, que é a knitr.
-
-```
+```default
 ---
 title: "Título"
 engine: knitr
@@ -31,24 +29,38 @@ engine: knitr
 
 <!-- NÃO DEU CERTO.
 Não teve jeito de mostrar a primeira linha (```{css}) em markdow. A solução foi HTML
-
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{css,  echo=FALSE}</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">.</span><span class="fu">justify</span> <span class="op">{</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a> text<span class="op">-</span>align<span class="op">:</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>justify <span class="op">!</span>important</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<pre><code>
-
 -->
+
+
+````{default}
+```{css,  echo=FALSE}
+.justify {
+ text-align:
+justify !important
+}  
+````
+ ```
 
 
 
 <br>
 
-**Tradução para o R de alguns tutoriais em Python do prof. [Guto Schettini](https://gutoschettini.github.io/Analise_Dados_Python/)**
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{css,  echo=FALSE}</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">.</span><span class="fu">justify</span> <span class="op">{</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a> text<span class="op">-</span>align<span class="op">:</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>justify <span class="op">!</span>important</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span><br>```</code></pre></div>
+</div>
 
-[CTD](r-eutilizaveis/CTD/CTD.html)  
-[Hidroweb](r-eutilizaveis/hidroweb/hidroweb.html)  
-[IBGE1](r-eutilizaveis/IBGE1/IBGE1.html)  
-[IBGE2](r-eutilizaveis/IBGE2/IBGE2.html)  
+
+
+<br>
+
+#### Tradução para o R de alguns tutoriais em Python do prof. [Guto Schettini](https://gutoschettini.github.io/Analise_Dados_Python/)
+
+- [CTD](r-eutilizaveis/CTD/CTD.html)  
+- [Hidroweb](r-eutilizaveis/hidroweb/hidroweb.html)  
+- [IBGE1](r-eutilizaveis/IBGE1/IBGE1.html)  
+- [IBGE2](r-eutilizaveis/IBGE2/IBGE2.html)  
 
