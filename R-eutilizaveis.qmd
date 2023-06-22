@@ -6,7 +6,7 @@ engine: knitr
 
 #### Tutoriais de reprodutibilidade
 
-[Tutorial de configuração do Gituhub e do RStudio](r-eutilizaveis/tutorial_integrar_git_rstudio.qmd)  
+[Tutorial de configuração do Gituhub e do RStudio](r-eutilizaveis/tutorial_integrar_github_rstudio.qmd)  
 [Tutotial do Quarto](r-eutilizaveis/tutorial_quarto.qmd)  
 [Tutotial de uso de templates para revistas da Elsevier](r-eutilizaveis/tutorial_template_elsevier.qmd)
 
