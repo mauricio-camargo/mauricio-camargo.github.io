@@ -8,7 +8,7 @@ engine: knitr
 
 [Tutorial de configuração do Gituhub e do RStudio](r-eutilizaveis/tutorial_integrar_github_rstudio.qmd)  
 [Tutotial do Quarto](r-eutilizaveis/tutorial_quarto.qmd)  
-[Tutotial de uso de templates para revistas da Elsevier](r-eutilizaveis/tutorial_template_elsevier.qmd)
+[Tutotial de uso de templates para revistas científicas da Elsevier](r-eutilizaveis/tutorial_template_elsevier.qmd)
 
 #### Truques do Quarto
 
@@ -29,7 +29,6 @@ engine: knitr
 
 <!-- NÃO DEU CERTO.
 Não teve jeito de mostrar a primeira linha (```{css}) em markdow. A solução foi HTML
--->
 
 
 ````{default}
@@ -40,18 +39,15 @@ justify !important
 }  
 ````
  ```
-
-
+-->
 
 <br>
 
-<div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{css,  echo=FALSE}</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">.</span><span class="fu">justify</span> <span class="op">{</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a> text<span class="op">-</span>align<span class="op">:</span></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>justify <span class="op">!</span>important</span>
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span><br>```</code></pre></div>
-</div>
 
 
 

@@ -140,7 +140,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">Softwares</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./R-eutilizaveis.html" rel="" target="" aria-current="page"><i class="bi bi-r-circle" role="img">
+    <a class="nav-link active" href="./r-eutilizaveis.html" rel="" target="" aria-current="page"><i class="bi bi-r-circle" role="img">
 </i> 
  <span class="menu-text">R-eutilizáveis</span></a>
   </li>  
@@ -201,7 +201,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h4 class="anchored" data-anchor-id="tutoriais-de-reprodutibilidade">Tutoriais de reprodutibilidade</h4>
 <p><a href="./r-eutilizaveis/tutorial_integrar_github_rstudio.html">Tutorial de configuração do Gituhub e do RStudio</a><br>
 <a href="./r-eutilizaveis/tutorial_quarto.html">Tutotial do Quarto</a><br>
-<a href="./r-eutilizaveis/tutorial_template_elsevier.html">Tutotial de uso de templates para revistas da Elsevier</a></p>
+<a href="./r-eutilizaveis/tutorial_template_elsevier.html">Tutotial de uso de templates para revistas científicas da Elsevier</a></p>
 </section>
 <section id="truques-do-quarto" class="level4">
 <h4 class="anchored" data-anchor-id="truques-do-quarto">Truques do Quarto</h4>
@@ -222,24 +222,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>---</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <!-- NÃO DEU CERTO.
 Não teve jeito de mostrar a primeira linha (```{css}) em markdow. A solução foi HTML
+
+
+
+::: {.cell}
+
+```{.default .cell-code}
+```{css,  echo=FALSE}
+.justify {
+ text-align:
+justify !important
+}  
+```
+:::
+
+ ```
 -->
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>```{css,  echo=FALSE}</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>.justify {</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a> text-align:</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>justify !important</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>}  </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>```</p>
 <p><br></p>
-<div class="cell">
 <div id="cb4" class="sourceCode cell-code">
 <pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{css,  echo=FALSE}</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">.</span><span class="fu">justify</span> <span class="op">{</span></span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a> text<span class="op">-</span>align<span class="op">:</span></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>justify <span class="op">!</span>important</span>
 <span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="op">}</span></span><br>```</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre>
-</div>
 </div>
 <p><br></p>
 </section>

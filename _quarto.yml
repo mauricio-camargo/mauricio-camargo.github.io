@@ -25,7 +25,7 @@ website:
       - href: softwares.qmd
         text: Softwares
         icon: android2
-      - href: R-eutilizaveis.qmd
+      - href: r-eutilizaveis.qmd
         text: R-eutilizáveis
         icon: r-circle
       - href: agenda.qmd
