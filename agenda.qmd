@@ -1,5 +1,7 @@
 ---
 #title: "Agenda"
+lang: pt-br
+engine: knitr
 ---
 
 [Clique aqui](https://docs.google.com/forms/d/1V4fqkRzGsKWCG6WgzWe4-UUMrFSjUajp38oqIvlm6uQ/edit) para preencher um formulário para agendar um atendimento.

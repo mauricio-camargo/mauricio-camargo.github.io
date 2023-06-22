@@ -1,5 +1,7 @@
 ---
 title: "Administração"
+lang: pt-br
+engine: knitr
 ---
 
 ## Cargos e comissões

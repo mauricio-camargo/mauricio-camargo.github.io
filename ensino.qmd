@@ -1,5 +1,7 @@
 ---
 #title: "Ensino"
+lang: pt-br
+engine: knitr
 ---
 
 ## Disciplinas - FURG

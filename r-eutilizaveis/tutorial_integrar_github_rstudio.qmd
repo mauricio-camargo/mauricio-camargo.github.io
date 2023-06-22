@@ -1,9 +1,10 @@
 ---
 title: "Passos para integrar RStudio e Github"
-lang: pt
 format: html
 toc: TRUE
 toc-location: left
+lang: pt-br
+engine: knitr
 ---
 
 ---

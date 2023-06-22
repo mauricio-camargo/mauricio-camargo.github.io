@@ -1,5 +1,7 @@
 ---
 title: "Como gerar templates para revistas da Elsevier"
+lang: pt-br
+engine: knitr
 ---
 
 Pessoal, o template da Elsevier que tentamos colocar no RStudio através do terminal deu problema para mim por causa da confusão entre as pastas criadas. Acredito que para muitos foi a mesma coisa. 
