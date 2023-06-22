@@ -1,45 +1,17 @@
 [
   {
-    "objectID": "extensao.html",
-    "href": "extensao.html",
+    "objectID": "ensino.html",
+    "href": "ensino.html",
     "title": "",
     "section": "",
-    "text": "Curso de extensão eventual\nLocal: FURG\nCarga horária: até 24 horas\nData: Outubro/2015\nConteúdo: Funcionalidades não-estatísticas do RStudio, planilhagem, gráficos modernos, relatórios em html, pdf e doc, integração com Github, manipulação de arquivos LaTeX, criação de aplicativos no browser."
+    "text": "Programação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2023\nPlataforma: AVA da FURG.\n\nBiodiversidade de invertebrados marinhos - Anelídeos poliquetas\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2023\n\n\n\n\n\n\nReprodutibilidade científica no R (em andamento)\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2023\n\nDelineamento Experimental em Ecologia (Programada)\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2023\n\n\n\n\n\n\n\n\n\nProgramação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2022\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2022\n\n\n\n\n\n\n\n\n\nProgramação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2021\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2021\n\n\n\n\n\n\n\n\n\nProgramação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2020\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2020\n\n\n\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2019\n\n\n\n\n\n\n\n\n\nAnálise numérica de comunidades ecológicas\n\nCursos oferecidos: Oceanologia e ouvintes da pós-graduação\nPeríodo: Agosto a novembro de 2018\n\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2018\n\n\n\n\n\n\n\n\n\n\nAnálise numérica de comunidades ecológicas\n\nCursos oferecidos: Oceanologia e ouvintes da pós-graduação\nPeríodo: Agosto a novembro de 2017\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2017\n\n\n\n\n\n\n\n\n\nEstatística\n\nCurso oferecido: Ciências Biológicas\n\nPeríodo: Agosto a novembro de 2016\n\nCiências do ambiente\n\nCursos oferecidos: Engenharias\n\nPeríodo: Agosto a novembro de 2016\n\nAnálise numérica de comunidades ecológicas\n\nCursos oferecidos: Oceanologia e ouvintes da pós-graduação\nPeríodo: Agosto a novembro de 2016\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2016\n\n\n\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2015\n\n\n\n\n\n\nDisciplinas ministradas no Centro de Estudos do Mar da UFPR:\nGraduação\n\nIntrodução à estatística\nInferência estatística\nAnálise multivariada\nPlanejamento amostral e experimental\n\nPós-graduação\n\nEcologia numérica\nAnálise multivariada"
   },
   {
-    "objectID": "extensao.html#e-2022",
-    "href": "extensao.html#e-2022",
+    "objectID": "ensino.html#disciplinas---furg",
+    "href": "ensino.html#disciplinas---furg",
     "title": "",
     "section": "",
-    "text": "Curso de extensão eventual\nLocal: FURG\nCarga horária: até 24 horas\nData: Outubro/2015\nConteúdo: Funcionalidades não-estatísticas do RStudio, planilhagem, gráficos modernos, relatórios em html, pdf e doc, integração com Github, manipulação de arquivos LaTeX, criação de aplicativos no browser."
-  },
-  {
-    "objectID": "extensao.html#section",
-    "href": "extensao.html#section",
-    "title": "",
-    "section": "2018",
-    "text": "2018\n\nAnálise estatística de comunidades ecológicas no R.\nLocal: UERGS-Osório\nEvento: Mini-curso no VI Simpósio Acadêmico de Biologia Marinha.\nCarga horária: 16 horas\nData: 18 e 19 de agosto/2018\nConteúdo: Análise multivariada aplicada a estudos de comunidades ecológicas."
-  },
-  {
-    "objectID": "extensao.html#section-1",
-    "href": "extensao.html#section-1",
-    "title": "",
-    "section": "2017",
-    "text": "2017\n\nR-cases: casos de sucesso no R (2017)\nLocal: FURG\nConteúdo: \n05/05 (sexta). R: por onde começar?\n12/05. A gramática dos gráficos (ggplot e agregados)\n19/05. A gramática dos dados (SQL, dplyr e agregados)\n24/05. R-case: o pacote rysgran para granulometria\n02/06. Reprodutibilidade da ciência no R\n09/06 08:00h. Última aula. Encerramento."
-  },
-  {
-    "objectID": "extensao.html#section-2",
-    "href": "extensao.html#section-2",
-    "title": "",
-    "section": "2016",
-    "text": "2016\n\nRmarkdown: um jeito simples de escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio\nLocal: FURG\nData: 31 de agosto/2016\nHora: 09:00h até 12:00h\nConteúdo: RMarkdown é uma linguagem de rápido aprendizado para criar documentos em PDF ou HTML que incluam textos, figuras, gráficos, tabelas e fórmulas. É capaz de inserir no arquivo gráficos criados no R. Arquivos profissionais em PDF podem ser criados, tanto para relatórios de estudantes como para escrever artigos científicos. A partir dos arquivos em HTML podem ser criadas apresentações portáveis e simples, porém eficientes. Um site inteiro pode ser criado usando os arquivos HTML, que pode ser gerenciado facilmente usando as ferramentas que a nova versão do RStudio traz. Público: Aberto a qualquer pessoa.\nPágina do curso\n\n\nAnálise estatística de comunidades ecológicas no R.\nLocal: UERGS-Osório\nEvento: Mini-curso no V Simpósio Acadêmico de Biologia Marinha.\nCarga horária: 16 horas\nData: 13 e 14 de agosto/2016\nConteúdo: Análise multivariada aplicada a estudos de comunidades ecológicas."
-  },
-  {
-    "objectID": "extensao.html#section-3",
-    "href": "extensao.html#section-3",
-    "title": "",
-    "section": "2015",
-    "text": "2015\n\nDesvendando o R\nLocal: FURG\nCarga horária: 24 horas\nData: Agosto-Dezembro/2015\nConteúdo: Estatística descritiva e inferência básica no R.\n\n\nDominando o R\nCurso de extensão eventual\nLocal: FURG\nCarga horária: 12 horas\nData: Outubro/2015\nConteúdo: Estatística inferencial multifatorial, análises multivariadas e mapas."
+    "text": "Programação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2023\nPlataforma: AVA da FURG.\n\nBiodiversidade de invertebrados marinhos - Anelídeos poliquetas\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2023\n\n\n\n\n\n\nReprodutibilidade científica no R (em andamento)\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2023\n\nDelineamento Experimental em Ecologia (Programada)\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2023\n\n\n\n\n\n\n\n\n\nProgramação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2022\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2022\n\n\n\n\n\n\n\n\n\nProgramação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2021\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2021\n\n\n\n\n\n\n\n\n\nProgramação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2020\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2020\n\n\n\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2019\n\n\n\n\n\n\n\n\n\nAnálise numérica de comunidades ecológicas\n\nCursos oferecidos: Oceanologia e ouvintes da pós-graduação\nPeríodo: Agosto a novembro de 2018\n\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2018\n\n\n\n\n\n\n\n\n\n\nAnálise numérica de comunidades ecológicas\n\nCursos oferecidos: Oceanologia e ouvintes da pós-graduação\nPeríodo: Agosto a novembro de 2017\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2017\n\n\n\n\n\n\n\n\n\nEstatística\n\nCurso oferecido: Ciências Biológicas\n\nPeríodo: Agosto a novembro de 2016\n\nCiências do ambiente\n\nCursos oferecidos: Engenharias\n\nPeríodo: Agosto a novembro de 2016\n\nAnálise numérica de comunidades ecológicas\n\nCursos oferecidos: Oceanologia e ouvintes da pós-graduação\nPeríodo: Agosto a novembro de 2016\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2016\n\n\n\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2015\n\n\n\n\n\n\nDisciplinas ministradas no Centro de Estudos do Mar da UFPR:\nGraduação\n\nIntrodução à estatística\nInferência estatística\nAnálise multivariada\nPlanejamento amostral e experimental\n\nPós-graduação\n\nEcologia numérica\nAnálise multivariada"
   },
   {
     "objectID": "pesquisa.html",
@@ -63,27 +35,6 @@
     "text": "Clique aqui para preencher um formulário para agendar um atendimento."
   },
   {
-    "objectID": "temp.html#testando",
-    "href": "temp.html#testando",
-    "title": "Teste de solução",
-    "section": "Testando",
-    "text": "Testando\n\nTeste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado v Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado"
-  },
-  {
-    "objectID": "admin.html",
-    "href": "admin.html",
-    "title": "Administração",
-    "section": "",
-    "text": "Representante do IO na Comissão Própria de Avaliação (CPA)\n\n\n\n\n\nCoordenador do curso de Oceanologia\n\n\n\n\n\nCoordenador adjunto do curso de Oceanologia\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia.\n\n\n\n\n\nCoordenador adjunto do curso de Oceanologia\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia.\n\n\n\n\n\nRepresentante do Núcleo de Oceanografia Biológica (NOB) no Conselho do Instituto de Oceanografia (IO).\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia."
-  },
-  {
-    "objectID": "admin.html#cargos-e-comissões",
-    "href": "admin.html#cargos-e-comissões",
-    "title": "Administração",
-    "section": "",
-    "text": "Representante do IO na Comissão Própria de Avaliação (CPA)\n\n\n\n\n\nCoordenador do curso de Oceanologia\n\n\n\n\n\nCoordenador adjunto do curso de Oceanologia\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia.\n\n\n\n\n\nCoordenador adjunto do curso de Oceanologia\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia.\n\n\n\n\n\nRepresentante do Núcleo de Oceanografia Biológica (NOB) no Conselho do Instituto de Oceanografia (IO).\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia."
-  },
-  {
     "objectID": "hobbies.html",
     "href": "hobbies.html",
     "title": "",
@@ -105,207 +56,88 @@
     "text": "Música"
   },
   {
-    "objectID": "r-eutilizaveis/CTD/CTD.html",
-    "href": "r-eutilizaveis/CTD/CTD.html",
-    "title": "CTD",
-    "section": "",
-    "text": "Primeiramente, todos os arquivos devem ser salvos em uma pasta. \n\npasta_ctd=('./csv')\n\nDois pacotes devem ser carregados. Se der erro tem que instalar os pacotes. \n\nlibrary(readr)\nlibrary(lattice)\n\nArmazenando os caminhos dos arquivos na variável arquivos_csv \n\narquivos_csv=list.files(pasta_ctd,pattern = '*.Csv',full.names = T)\n\nCriando dataframes vazios. \n\narquivos_txt=c()\ndadosF=c()\n\nLendo cada arquivo Csv e escrevendo uma tabela com a datahora. \n\nfor (i in 1:length(arquivos_csv)) {\n   ArqCabeca=read_lines(arquivos_csv[i],skip=0,n_max=16)\n   datahora=substr(ArqCabeca[15],11,29) #Tira da linha 15 o valor\n   ArqDados=read_lines(arquivos_csv[i], skip=43)\n   arquivos_txt[i]=gsub('Csv','txt',arquivos_csv[i])\n   write_lines(ArqDados,arquivos_txt[i])\n   dados=read.csv(arquivos_txt[i], header = T)\n   dados$datahora=datahora\n   dados$tempo=as.POSIXct(dados$datahora,format = \"%Y/%m/%d %H:%M:%S\")\n   if (i==1) {\n      dadosF = dados\n   } else {\n      dadosF = rbind(dadosF,dados)\n   }  \n}\n\nQuem faz a mágica é o pacote Lattice. Há como melhorar a interpolação usando o próprio pacote. \n\nlevelplot(dadosF$Sal..... ~ as.numeric(format(dadosF$tempo,\"%H\"))*-dadosF$Depth..m., \n          data = dadosF,\n          xlab = \"X Coordinate (feet)\", ylab = \"Y Coordinate (feet)\",\n          main = \"Surface elevation data\",\n          col.regions = colorRampPalette(c(\"blue\",\"red\"))(30))\n\n\n\n\nPlotando gráficos de perfil de cada campanha. \n\ndados=subset(dadosF,\n     as.numeric(format(dadosF$tempo,'%H'))==10)\n\npar(mfrow=c(1,5))\nplot(dados$Sal.....,-dados$Depth..m.,ty='l',\n     xlab='Salinity (psu)',\n     ylab='Depth (m)')\nplot(dados$Temp...deg.C.,-dados$Depth..m.,ty='l',\n     xlab='Temperature (oC)',\n     ylab='')\nplot(dados$Chl.a..ug.l.,-dados$Depth..m.,ty='l',\n     xlab='Chlorophyl (ug/L)',\n     ylab='')\nplot(dados$Turb.M..FTU.,-dados$Depth..m.,ty='l',\n     xlab='Turbidity (FTU)',\n     ylab='')\nplot(dados$DO....,-dados$Depth..m.,ty='l',\n     xlab='Oxygen (%)',\n     ylab='')"
-  },
-  {
-    "objectID": "r-eutilizaveis/Integrar_Git_RStudio.html#instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r",
-    "href": "r-eutilizaveis/Integrar_Git_RStudio.html#instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r",
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r",
     "title": "Passos para integrar RStudio e Github",
     "section": "1.Instalar os programas do ecossistema de reprodutibilidade do R:",
     "text": "1.Instalar os programas do ecossistema de reprodutibilidade do R:\n\nR: https://cran.r-project.org\nRStudio: https://posit.co/download/rstudio-desktop/\nQuarto: https://quarto.org/docs/get-started/\nMini-tutorial do Quarto: https://rpubs.com/camargo/MiniTutorialQuarto"
   },
   {
-    "objectID": "r-eutilizaveis/Integrar_Git_RStudio.html#instalar-os-pacotes-no-r",
-    "href": "r-eutilizaveis/Integrar_Git_RStudio.html#instalar-os-pacotes-no-r",
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-pacotes-no-r",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-pacotes-no-r",
     "title": "Passos para integrar RStudio e Github",
     "section": "2.Instalar os pacotes no R:",
     "text": "2.Instalar os pacotes no R:\ninstall.packages('usethis','gitcreds','devtools', 'markdown','rmarkdown','knitr')\n\n\nEsta é uma maneira de instalar vários pacotes de uma só vez.\nO pacote tinytex do R serve para instalar toda a infra-estrutura do LaTeX para lidar com PDFs.\ninstall.packages('tinytex')\ntinytex::install_tinytex()\n\n\nAntes do pacote tinytex a instalação do LaTeX era um inferno!"
   },
   {
-    "objectID": "r-eutilizaveis/Integrar_Git_RStudio.html#desativar-.rdata-e-.-rhistory-no-rstudio",
-    "href": "r-eutilizaveis/Integrar_Git_RStudio.html#desativar-.rdata-e-.-rhistory-no-rstudio",
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#desativar-.rdata-e-.-rhistory-no-rstudio",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#desativar-.rdata-e-.-rhistory-no-rstudio",
     "title": "Passos para integrar RStudio e Github",
     "section": "3. Desativar .RData e . Rhistory no RStudio",
     "text": "3. Desativar .RData e . Rhistory no RStudio\nO RStudio grava todos os objetos (incluindo datasets) no arquivo oculto .RData e todos os comandos usados na IDE no arquivo .Rhistory.\nEstes arquivos podem chegar a tamanhos de muitos gigabytes e por isso devem ser desativados.\nPara isso, é preciso entrar nas configurações do RStudio e fazer as seguintes modificações:\nTools &lt; Global Options &lt; General"
   },
   {
-    "objectID": "r-eutilizaveis/Integrar_Git_RStudio.html#criar-uma-conta-gratuita-no-github",
-    "href": "r-eutilizaveis/Integrar_Git_RStudio.html#criar-uma-conta-gratuita-no-github",
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-uma-conta-gratuita-no-github",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-uma-conta-gratuita-no-github",
     "title": "Passos para integrar RStudio e Github",
     "section": "4. Criar uma conta gratuita no Github",
     "text": "4. Criar uma conta gratuita no Github\nhttps://github.com/\nGuarde muito bem seu nome de usuário e senha do Github."
   },
   {
-    "objectID": "r-eutilizaveis/Integrar_Git_RStudio.html#instalar-o-git",
-    "href": "r-eutilizaveis/Integrar_Git_RStudio.html#instalar-o-git",
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-o-git",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-o-git",
     "title": "Passos para integrar RStudio e Github",
     "section": "5. Instalar o Git",
     "text": "5. Instalar o Git\nGit: https://git-scm.com/download/\nTeste a instalação do Git no terminal do Windows.\nPara abrir o terminal, clique no botão Iniciar do Windows e digite cmd. Quando a tela do terminal abrir, digite:\n\n\ncmd é o terminal de comando do Windows, ou seja, a janela onde se digitam comandos ao sistema operacional. Em Linux e Mac é conhecido só como Terminal\ngit --version"
   },
   {
-    "objectID": "r-eutilizaveis/Integrar_Git_RStudio.html#configurar-o-git",
-    "href": "r-eutilizaveis/Integrar_Git_RStudio.html#configurar-o-git",
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#configurar-o-git",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#configurar-o-git",
     "title": "Passos para integrar RStudio e Github",
     "section": "6. Configurar o Git",
     "text": "6. Configurar o Git\n\nGravar no Git o nome de usuário e email\n\nAtravés do pacote usethis podemos configurar o Git diretamente do RStudio.\n\n\nAntes do pacote usethis a configuração do Git era um sofrimento!\nVamos agora informar seu nome do usuário no Github e seu email usado para abrir a conta. Isso só é feito uma vez.\nusethis::use_git_config(\n  user.name = \"SEU NOME NO GITHUB\",\n  user.email = \"seu_email_no@gmail.com\")\n\nCrie um Personal Access Token (PAT)\n\nDe uns tempos para cá o Github aperfeiçoou o método de autenticação no site, de modo que a senha do usuário foi substituída por um token chamado PAT.\n\n\nLembre-se sempre que a senha pode ser substituído pelo token. Se em algum momento o Rstudio pedir a senha do Git, use o token.\nO PAT também pode ser criado dentro do RStudio usando o pacote usethis.\n\n\nVocê pode acessar diretamente a página do Github para criar um PAT, mas usando o pacote usethis as configurações do PAT são pré-fixadas.\nusethis::create_github_token()\nUma janela do navegador irá se abrir e você precisará informar o nome do usuário do Github e a senha.\n\nEscreva um nome para o token e escolha uma data de validade para ele. Deixe todo o resto das opções como estão e pressione o botão Generate token.\n\n\n\n\n\n\nCuidado\n\n\n\n\nATENÇÃO:\n\nCopie e guarde o token AGORA. Você não terá outra chance! Em nenhum lugar você vai achá-lo novamente.\n\n\n\n\nNo entanto, um novo token pode ser criado e utilizado a qualquer momento.\n\nAtribuir o PAT ao Git para sempre\n\nUsando o pacote gitcreds, você pode informar o Git seu recém-criado PAT e você não mais precisará informá-lo toda vez que atualizar o Github.\ngitcreds::gitcreds_set()\nUm prompt na janela de console do R dentro do RStudio vai pedir:\n? Enter password or token:\nPara responder, clique na janela e cole (ctrl-V) o token recém-copiado e pronto, estamos quase lá!\nPara conferir se está tudo certo, digite:\nusethis::git_sitrep()\n\n\n\n\n\n\nCuidado\n\n\n\n\nPRONTO!\n\nO seu RStudio está configurado para manipular arquivos do Github e criar sites inteiros usando o Quarto."
   },
   {
-    "objectID": "r-eutilizaveis/Integrar_Git_RStudio.html#criar-um-novo-repositório-do-github",
-    "href": "r-eutilizaveis/Integrar_Git_RStudio.html#criar-um-novo-repositório-do-github",
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-um-novo-repositório-do-github",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-um-novo-repositório-do-github",
     "title": "Passos para integrar RStudio e Github",
     "section": "7. Criar um novo repositório do Github",
     "text": "7. Criar um novo repositório do Github\nEntre na página inicial do Github e na parte superior da tela à esquerda pressione o botão NEW.\nDê um nome para o novo repositório e pressione Add a README file. Mantenha o repositório como público para que posteriormente possamos transformá-lo num site (sites privados não podem).\n\nPronto! O novo repositório foi criado e já pode ser acessado pelo RStudio, por um processo chamado clonagem. Para clonar qualquer repositório no RStudio, pressione o botão &lt; &gt; Code e depois o botão Copiar.\n\n\nExistem dois métodos para clonar um repositório, usando HTTPS e SSH. Aqui usaremos HTTPS, que é mais simples. SSH é usado em outros sistemas (Linux e Mac), mas é muito mais complicado."
   },
   {
-    "objectID": "r-eutilizaveis/Integrar_Git_RStudio.html#criar-um-novo-projeto-no-rstudio",
-    "href": "r-eutilizaveis/Integrar_Git_RStudio.html#criar-um-novo-projeto-no-rstudio",
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-um-novo-projeto-no-rstudio",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-um-novo-projeto-no-rstudio",
     "title": "Passos para integrar RStudio e Github",
     "section": "8. Criar um novo projeto no RStudio",
     "text": "8. Criar um novo projeto no RStudio\nUm projeto no RStudio serve para agregar vários arquivos em um único diretório, que poderão ser manipulados mais facilmente.\nNo RStudio, entre em File&lt;New project.\nNa próxima tela, você poderá escolher entre criar um novo projeto num novo diretório, num diretório existente ou usando controle de versões, no caso, o Git.\n\n\n\nHoje em dia eu guardo absolutamente tudo o que é produzido em R ou Python no Github.\nEm Repository URL, cole o a URL copiada lá no Github. O nome do novo diretório sugerido irá aparecer no outro campo. Por fim, escolha uma pasta onde uma cópia local do repositório será copiado.\n\nO que aconteceu foi que o RStudio baixou todos os arquivos do repositório recém-criado no Github e agora você pode modificá-los localmente a atualizá-los remotamente.\nPronto! Você está com tudo pronto para começar a criar conteúdo para o seu repositório do Github.\nNa aba Files do RStudio, clique no arquivo README.md.\nEste é um arquivo Markdown e portanto aceita toda a formatação do RMarkdown que já vimos.\n## Teste de repositório\n\n### Autor\n\nEste é apenas um repositório de test.\nPara testá-lo, pressione Preview ou Ctrl+Shift+K."
   },
   {
-    "objectID": "r-eutilizaveis/Integrar_Git_RStudio.html#sincronizar-os-arquivos-locais-com-os-arquivos-remotos-do-github.",
-    "href": "r-eutilizaveis/Integrar_Git_RStudio.html#sincronizar-os-arquivos-locais-com-os-arquivos-remotos-do-github.",
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#sincronizar-os-arquivos-locais-com-os-arquivos-remotos-do-github.",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#sincronizar-os-arquivos-locais-com-os-arquivos-remotos-do-github.",
     "title": "Passos para integrar RStudio e Github",
     "section": "9. Sincronizar os arquivos locais com os arquivos remotos do Github.",
     "text": "9. Sincronizar os arquivos locais com os arquivos remotos do Github.\nA sincronização dos arquivos não é tão simples quanto poderia ser, mas lembre-se que estamos lidando com um sistema (Git) que serve para versionamento de programas que podem ser manipulados por muitas pessoas, e por isso temos que aprender o seu funcionamento.\nQuando estamos com um projeto aberto no RStudio, aparece uma aba chamada Git, que é a partir de onde faremos as transferências dos arquivos.\nTodos os arquivos modificados aparecem ali. Clique em todos eles.\n\n\n\nPROBLEMA: quando existem muitos arquivos para fazer um Commit, o RStudio pode travar. Isso acontece principalmente para apresentações do Quarto usando revealjs, que instalam a biblioteca inteira e isso representam dezenas de arquivos.\n Para solucionar isso, procure pela aba Terminal dentro do RStudio e digite o seguinte comando, que vai fazer um Commit sem passar pelo RStudio:\ngit add -A && git commit -m \"staging all files\"\nDepois pressione o botão Commit. Na nomenclatura Git, Commit significa gravar no disco as modificações, de forma preparar todos os arquivos para serem enviados ao Github.\nA seguinte tela vai aparecer:\n\nAntes de pressionar o botão Commit, você é obrigado a escreve alguma coisa em Commit message, caso contrário o processo será abortado. Isso é uma forma de obrigá-lo a documentar toda e qualquer mudança nos códigos.\nDepois de pressionar o botão Commit, uma tela de comando vai aparecer e pode ser fechada.\nA operação de enviar os arquivos para o Github, ou seja, fazer um upload, é chamada no linguajar do Git de PUSH. PULL seria a operação oposta, de download de uma versão o site, e é muito importante baixar as versões modificadas antes de começar a trabalhar localmente quando existem muitas pessoas modificando o arquivo simultaneamente.\nPressione então o botão Push e verifique lá na página do seu repositório do Github se as modificações foram efetuadas.\n\nÀs vezes pode demorar alguns minutos até que as alterações apareçam online no site. Outros vezes a atualização é muito rápida."
   },
   {
-    "objectID": "r-eutilizaveis/Integrar_Git_RStudio.html#criando-um-site-completo-usange-github-pages",
-    "href": "r-eutilizaveis/Integrar_Git_RStudio.html#criando-um-site-completo-usange-github-pages",
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criando-um-site-completo-usange-github-pages",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criando-um-site-completo-usange-github-pages",
     "title": "Passos para integrar RStudio e Github",
     "section": "10. Criando um site completo usange Github pages",
     "text": "10. Criando um site completo usange Github pages\nInicialmente, crie um arquivo novo do tipo Quarto document, em File&lt;New file&lt;Quarto document.... O documento vem com o template padrão do Quarto, então você precisa fazer algumas modificações.\nSalve este arquivo OBRIGATORIAMENTE com o nome de index.qmd no diretório do projeto.\nPressione o botão Render ou Ctrl+Shift+K para renderizar o arquivo index.qmd e criar o arquivo index.html. Este será o arquivo da primeira página do seu site. Outras páginas são criadas da mesma maneira.\nFaça um Commit e depois um Push, conforme explicado anteriormente."
   },
   {
-    "objectID": "r-eutilizaveis/Integrar_Git_RStudio.html#habilitando-o-github-pages",
-    "href": "r-eutilizaveis/Integrar_Git_RStudio.html#habilitando-o-github-pages",
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#habilitando-o-github-pages",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#habilitando-o-github-pages",
     "title": "Passos para integrar RStudio e Github",
     "section": "11. Habilitando o Github Pages",
     "text": "11. Habilitando o Github Pages\nNa página do repositório, clique em Settings e depois em Pages. Em Branch, escolha Main e pressione Save.\nPronto, em alguns segundos o site estará no ar."
   },
   {
-    "objectID": "r-eutilizaveis/Integrar_Git_RStudio.html#referências",
-    "href": "r-eutilizaveis/Integrar_Git_RStudio.html#referências",
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#referências",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#referências",
     "title": "Passos para integrar RStudio e Github",
     "section": "12. Referências:",
     "text": "12. Referências:\n\nCurso-r: https://curso-r.github.io/zen-do-r/\nR for data science: https://r4ds.had.co.nz/\n\n\n\n\n\nPrecisei adaptar muita coisa desses sites, que foram criados há apenas alguns meses e já estão ligeiramente desatualizados."
-  },
-  {
-    "objectID": "r-eutilizaveis/hidroweb/hidroweb.html",
-    "href": "r-eutilizaveis/hidroweb/hidroweb.html",
-    "title": "Hidroweb",
-    "section": "",
-    "text": "Vamos primeiramente abrir o arquivo vazoes_T_87905000.txt, que foi baixado do site hidroweb. \n\nlibrary(readr)\nArqTxtPath='vazoes_T_87905000.txt'\nArqTxt=read_lines(ArqTxtPath,skip=13)\nArqTxt[1]=paste0(ArqTxt[1],';') #Inserindo \";\" na primeira linha para evitar problemas com row.names\nArqCsvPath=gsub('txt','csv',ArqTxtPath)\nwrite_lines(ArqTxt,ArqCsvPath)\ndados=read.table(ArqCsvPath,header=T,sep=';',dec=',')\ncat('Imprimindo parte dos dados...')\n\nImprimindo parte dos dados...\n\nprint(dados[1:5,1:5])\n\n  EstacaoCodigo NivelConsistencia       Data Hora MediaDiaria\n1      87905000                 1 01/04/2021   NA           1\n2      87905000                 1 01/01/2021   NA           1\n3      87905000                 1 01/12/2020   NA           1\n4      87905000                 1 01/11/2020   NA           1\n5      87905000                 1 01/10/2020   NA           1\n\n\nCriando coluna com tipo datetime e plotando:\n\ndados$dataN=as.POSIXct(dados$Data,format = \"%d/%m/%Y\")\nplot(dados$Maxima~dados$dataN,type='line')\n\n\n\n\nCriando coluna dos meses:\n\ndados$mes = format(dados$dataN,format='%m')\n\nExtraindo a media e dp:\n\nmedia=aggregate(dados$Maxima,list(Mes=dados$mes),mean,na.rm=T)\ndp=aggregate(dados$Maxima,list(dados$mes),sd,na.rm=T)\n\nCalculando desvio superior e inferior:\n\nmediaMais=media$x+dp$x\nmediaMenos=media$x-dp$x\n\nPlot final:\n\nplot(media$Mes,media$x, ty=\"l\", col=\"blue\", \n     ylab='Vazão', \n     xlab='Meses',\n     lty=1,lwd=3,\n     ylim=c(-1000,3000))\nlines(media$Mes, mediaMais, col='gray')\nlines(media$Mes, mediaMenos, col='gray')\npolygon(x=c(media$Mes, rev(media$Mes)), y=c(mediaMais, rev(mediaMenos)), col=\"lightblue\", density = 40, angle=60)\nlines(media$Mes, media$x)\npoints(media$Mes, media$x,pch=19)"
-  },
-  {
-    "objectID": "r-eutilizaveis/IBGE1/IBGE1.html",
-    "href": "r-eutilizaveis/IBGE1/IBGE1.html",
-    "title": "IBGE1",
-    "section": "",
-    "text": "Farei aqui reproduções das análises do Guto usando o notebook do R.\nPois é, o R também tem notebook que podem facilmente criar arquivos em PDF, HTML e DOC.\nAdeus editor de texto. Se o seu texto é um relatório que envolve análise de dados, é muito melhor fazer por aqui.\nAqui vai a reprodução da análise IBGE 1.\nPrimeiramente abrimos os dados baixados do site do IBGE, conforme explicado pelo Guto. Pode ser qualquer arquivo. O meu foi IMB201009.txt. Vamos guardar o arquivo na variável dados, que é do tipo dataframe.\nAdapte o caminho completo do arquivo para o seu computador. A função read.csv2 lê dados separados por vírgulas.\n\ndados = read.csv2(        \n   \"IMB201009.txt\",\n   header=FALSE, \n   sep=\"\")\n\nPara ver os dados use View(dados) ou print(dados).\nOs nomes das colunas (V1 a V4) foram dados automaticamente.\nAgora vamos executar os códigos para gerar um gráfico:\n\nn=length(dados$V4)      #Número de linhas de V4\nplot(1:n,                 #Plota x e y\n   dados$V4) \n\n\n\n\nVamos plotar do novo mudando algumas características do gráfico.\n\nplot(1:n,               #Plota novamente em linha\n   dados$V4,\n   type='line',\n   xlab='',ylab='') \n\n\n\n\nAgora vamos ajeitar o eixo x (tempo), que ainda não é do tipo datetime. Primeiro concatenamos as duas colunas de Data e Hora e depois transformamos para o tipo datetime.\n\ntempo=paste(dados$V1,dados$V2) \ntempo=as.POSIXct(tempo,format = \"%d/%m/%Y %H:%M:%S\")\n\nCria o plot completo contendo a série V3 em azul e V4 em vermelho.\n\nplot(tempo,                #Eixo x\n     dados$V3,             #Eixo y\n     type='line',          #Tipo de linha\n     col='blue',           #Cor da linha\n     main='IMB201009.txt',  #Título do gráfico\n     ylab='Nível (m)',     #Título do eixo y\n     xlab='Tempo')         #Título do eixo x\nlines(tempo,         #Adiciona nova série (V4) em vermelho\n      dados$V4,\n      type='line',\n      col='red')\nlegend('topright',  #Adiciona legenda\n       legend=c('Var1','Var2'),\n       lty=c(1,1),\n       col=c('blue','red'),\n       cex=0.6)"
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "",
-    "text": "&lt;!-- Aqui vai o comentário --&gt;\n\n\nEsse estilo de comentário é herdado do HTML e é uma porcaria.\n\n\n\n\n\"Dois espaços no final da linha criam um novo parágrafo\"\n\n[1] \"Dois espaços no final da linha criam um novo parágrafo\"\n\n\n\n\n&lt;br&gt; vem do HTML e também cria um parágrafo.\n\n\n\n*Itálico*\n**Negrito**\n***Negrito e itálico***\nsuperscript^2^ / subscript~2~\n~~strikethrough~~"
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html#formatação-básica",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html#formatação-básica",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "",
-    "text": "&lt;!-- Aqui vai o comentário --&gt;\n\n\nEsse estilo de comentário é herdado do HTML e é uma porcaria.\n\n\n\n\n\"Dois espaços no final da linha criam um novo parágrafo\"\n\n[1] \"Dois espaços no final da linha criam um novo parágrafo\"\n\n\n\n\n&lt;br&gt; vem do HTML e também cria um parágrafo.\n\n\n\n*Itálico*\n**Negrito**\n***Negrito e itálico***\nsuperscript^2^ / subscript~2~\n~~strikethrough~~"
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html#cabeçalhos",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html#cabeçalhos",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "Cabeçalhos",
-    "text": "Cabeçalhos\n# Header 1\n## Header 2\n## Header 3\n...\n###### Header 6\n\n\nExistem várias opções do revealjs para headers. Ver depois."
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html#links-e-imagens",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html#links-e-imagens",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "Links e imagens:",
-    "text": "Links e imagens:\n[Quarto](https://quarto.org) #Link\n![Elefante](elephant.png)    #Imagem\n[![Elefante](elephant.png)](https://quarto.org) #Link de Imagem\n![Elephant](elephant.png){width=300}\n![Elephant](elephant.png){width=80%}\n![Elephant](elephant.png){fig-align=\"left\"}\n\nPosição absoluta:\n![](image1.png){.absolute top=200 left=0 width=\"350\" height=\"300\"}"
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html#literais",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html#literais",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "Literais",
-    "text": "Literais\n\nLiterais em uma linha entre crases:\n`aqui vai literal`\n\n\nLiterais em mais de uma linha:\nColoque 4 crases (````) no início e no final do texto. \n\n\nÀs vezes dá um resultado meio bizarro. Coisa chata."
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html#listas",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html#listas",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "Listas",
-    "text": "Listas\n* unordered list\n    + sub-item 1\n    + sub-item 2\n        - sub-sub-item 1\n\n1. ordered list\n2. item 2\n    i) sub-item 1\n         A.  sub-sub-item 1"
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html#tabelas",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html#tabelas",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "Tabelas",
-    "text": "Tabelas\n\nTabelas simples\n| Right | Left | Default | Center |\n|------:|:-----|---------|:------:|\n|  12   |  12  |    12   |    12  |\n|  123  |  123 |   123   |   123  |\n|  1    |    1 |     1   |     1  |\n\n\nTabelas com grid\n+---------------+---------------+--------------------+\n| Fruit         | Price         | Advantages         |\n+===============+===============+====================+\n| Bananas       | $1.34         | - built-in wrapper |\n|               |               | - bright color     |\n+---------------+---------------+--------------------+\n| Oranges       | $2.10         | - cures scurvy     |\n|               |               | - tasty            |\n+---------------+---------------+--------------------+\n\n: Sample grid table.\n\n\nExistem outras opções de tabelas. Esta é a mais simples."
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html#fórmulas",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html#fórmulas",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "Fórmulas",
-    "text": "Fórmulas\n$E = mc^{2}$ para inline\nou\n$$E = mc^{2}$$ para centro da linha\n\n\nEstas são fórmulas do Markdown. Para fórmulas mais complexas, existe o LaTeX."
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html#notas-de-margem",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html#notas-de-margem",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "Notas de margem",
-    "text": "Notas de margem\n::: {.column-margin}\nWe know from *the first fundamental theorem of calculus* \n:::"
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html#diagramas",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html#diagramas",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "Diagramas",
-    "text": "Diagramas\n{mermaid}\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\nVeja em mermaid.js.org\n\n\nMermaid é uma biblioteca JS para criar diagramas online baseado numa linguagem específica."
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html#destaque-de-textos",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html#destaque-de-textos",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "Destaque de textos",
-    "text": "Destaque de textos\n\ncallout (avisos)\n:::{.callout-note}\nNote that there are five types of callouts, including: \n`note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\n\nBlockquote\n&gt; Bloco destacado\n\n\nBlockquote mais de uma linha.\n| Line Block\n|   Spaces and newlines\n|   are preserved\n\n\nOs espaços e formatação são todos preservados."
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html#layouts",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html#layouts",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "Layouts",
-    "text": "Layouts\n\nDuas colunas\n::: {layout-ncol=2}\nasdasd  \n\nasdasd\n:::\n\n\nMúltiplas colunas\nDuas linhas, a primeira com 2 e a segunda com 1 gráfico, todos com o mesmo tamanho.\n::: {layout=\"[[1,1], [1]]\"}\n![Surus](surus.png)\n![Surus1](surus1.png)\n![Surus2](surus2.png)\n:::\n\nPara layout com percentuais:\n::: {layout=\"[[40,-20,40], [100]]\"}"
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html#html---cabeçalhos",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html#html---cabeçalhos",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "HTML - cabeçalhos",
-    "text": "HTML - cabeçalhos\n- Antes do html\ntoc: true\ntoc-depth: 4\ntoc-location: left\n- Depois do html\ntheme: default (Outros em https://quarto.org/docs/output-formats/html-themes.html) \nhtml-math-method: katex\ncode-tools: true\ncode-line-numbers: false\nself-contained: false"
-  },
-  {
-    "objectID": "r-eutilizaveis/Tutorial_Quarto.html#revealjs---apresentações",
-    "href": "r-eutilizaveis/Tutorial_Quarto.html#revealjs---apresentações",
-    "title": "Mini-tutorial do Quarto no RStudio",
-    "section": "Revealjs - Apresentações",
-    "text": "Revealjs - Apresentações\n\nNova página\n--- #Três ou mais tracinhos\n## Header 2 também cria nova página\n####hox ::: Box ou info-box\nasdasd\n:::\n\n\nIncremental\n- Para tudo ser incremental, no cabeçalho colocar incremental: true   \n- Para tornar uma lista particular incremental:\n::: {.incremental}\n- Eat spaghetti\n- Drink wine\n:::\n\n\nColunas múltiplas\n:::: {.columns}\n\n::: {.column width=\"40%\"}\ncontents...\n:::\n\n::: {.column width=\"60%\"}\ncontents...\n:::\n\n::::\n\n\nFooter global\nNo cabeçalho:\nfooter: \"`Mais bonitinho com crase`\"\n\n\nFooter por página\n::: footer\nCustom footer text\n:::\n\n\nAside (tipo de footer sem referência)\n::: aside\nSome additional commentary of more peripheral interest.\n:::\n\n\nAside (tipo de footer com referência)\nNumera automaticamente\n- Green ^[Aqui a nota de rodapé]\n- Brown\n- Purple\n\n\nSmaller fonts\n## Slide Title {.smaller}\n\n\nscrollable\n## Slide Title {.scrollable}\n\n\nNotas do apresentador\n::: {.notes}\nSpeaker notes go here.\n:::\n\n\nTemas\ntheme: default\nOutros: https://quarto.org/docs/presentations/revealjs/\n\n\nSlide com diferente background\n## Título {background-color=\"aquamarine\"}\n\n\nTexto incremental num box\n::: columns\n::: {.column .box width=\"40%\"}\n   MATERIALS AND METHODS\n\n   *Experimental design* **(condensed version)**\n\n   -   **Experimental plots were planted   with different plant communities spanning [plant diversity gradient of one, four, and 16 species]{.fragment .highlight-blue}, which were randomly chosen from the species listed (5 plant functional groups -- 19 species in total)**\n   -   [Plots were divided into three subplots]{.fragment .highlight-red}\n\n:::\n\n::: {.column width=\"56%\"}\n::: fragment\nThis is in fact a **split-plot design**!\n:::\n\n::: fragment\n:::\n:::\n:::"
   },
   {
     "objectID": "r-eutilizaveis/IBGE2/IBGE2.html",
@@ -315,67 +147,11 @@
     "text": "Primeiramente, os arquivos zip baixados devem ser salvos em uma pasta. Os códigos abaixo extraem os arquivos dos zips e salvam em outra pasta.\n\n\npasta_zip='./zips/'\narquivos=list.files(pasta_zip)\npasta_unzip='./unzip/'\nfor (i in arquivos) \n   unzip(paste0(pasta_zip,i),exdir=pasta_unzip)\n\nAqui os arquivos são separados e juntados novamente. É feito um looping em cada estação, que são armazenadas em na variável estacoes, e todos os arquivos de cada uma são juntados. \n\nestacoes = c('IMB','ARC','SAL','FOR','SAN') #1..5\nDTS=list()\nj=0\nfor (i in estacoes) {\n   files = list.files(pasta_unzip,pattern=i,full.names = TRUE)\n   dt = lapply(files, function(x) {read.csv2(file=x, header=F,          sep=\"\")})\n   j=j+1\n   DTS[[j]] = do.call(\"rbind\", lapply(dt, as.data.frame)) \n   tempo=paste0(DTS[[j]]$V1,DTS[[j]]$V2) #concatena as duas colunas de Data e Hora\n   DTS[[j]]$tempo=as.POSIXct(tempo,format = \"%d/%m/%Y %H:%M:%S\")\n}\n\nPlots únicos de cada estação. \n\ndt=DTS[[1]]     #Plot de IMB\ndt=DTS[[3]]     #Plot de SAL\nplot(dt$tempo, dt$V3,ty='l',\n     xlab='', ylab='', main='SAL', xaxt='n')\naxis(1, dt$tempo, format(dt$tempo,\"%d\"), tick=F)\n\n\n\n\nE aqui o plot múltiplo, com as variáveis padronizadas. \n\ndt=DTS[[3]]\nplot(dt$tempo, dt$V3-mean(dt$V3),\n     ty='l', xlab='', ylim=c(-2,2),\n     ylab='', col='blue', xaxt='n')\nlines(dt$tempo, dt$V3-mean(dt$V3), col='red')\ndt=DTS[[1]]\nlines(dt$tempo, dt$V3-mean(dt$V3), col='black')\ndt=DTS[[4]]\nlines(dt$tempo,dt$V3-mean(dt$V3),col='gray')\ndt=DTS[[5]]\nlines(dt$tempo, dt$V3-mean(dt$V3), col='blue')\naxis(1, dt$tempo, tick=F, format(dt$tempo,\"%d\"))\nlegend('topright', \n       legend=c('IMB','ARC','SAL','FOR','SAN'),\n       lty=c(1,1,1,1,1),\n       col=c('blue','red','black','gray','coral'),\n       cex=0.5, ncol = 5)"
   },
   {
-    "objectID": "ensino.html",
-    "href": "ensino.html",
-    "title": "",
+    "objectID": "r-eutilizaveis/hidroweb/hidroweb.html",
+    "href": "r-eutilizaveis/hidroweb/hidroweb.html",
+    "title": "Hidroweb",
     "section": "",
-    "text": "Programação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2023\nPlataforma: AVA da FURG.\n\nBiodiversidade de invertebrados marinhos - Anelídeos poliquetas\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2023\n\n\n\n\n\n\nReprodutibilidade científica no R (em andamento)\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2023\n\nDelineamento Experimental em Ecologia (Programada)\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2023\n\n\n\n\n\n\n\n\n\nProgramação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2022\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2022\n\n\n\n\n\n\n\n\n\nProgramação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2021\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2021\n\n\n\n\n\n\n\n\n\nProgramação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2020\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2020\n\n\n\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2019\n\n\n\n\n\n\n\n\n\nAnálise numérica de comunidades ecológicas\n\nCursos oferecidos: Oceanologia e ouvintes da pós-graduação\nPeríodo: Agosto a novembro de 2018\n\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2018\n\n\n\n\n\n\n\n\n\n\nAnálise numérica de comunidades ecológicas\n\nCursos oferecidos: Oceanologia e ouvintes da pós-graduação\nPeríodo: Agosto a novembro de 2017\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2017\n\n\n\n\n\n\n\n\n\nEstatística\n\nCurso oferecido: Ciências Biológicas\n\nPeríodo: Agosto a novembro de 2016\n\nCiências do ambiente\n\nCursos oferecidos: Engenharias\n\nPeríodo: Agosto a novembro de 2016\n\nAnálise numérica de comunidades ecológicas\n\nCursos oferecidos: Oceanologia e ouvintes da pós-graduação\nPeríodo: Agosto a novembro de 2016\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2016\n\n\n\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2015\n\n\n\n\n\n\nDisciplinas ministradas no Centro de Estudos do Mar da UFPR:\nGraduação\n\nIntrodução à estatística\nInferência estatística\nAnálise multivariada\nPlanejamento amostral e experimental\n\nPós-graduação\n\nEcologia numérica\nAnálise multivariada"
-  },
-  {
-    "objectID": "ensino.html#disciplinas---furg",
-    "href": "ensino.html#disciplinas---furg",
-    "title": "",
-    "section": "",
-    "text": "Programação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2023\nPlataforma: AVA da FURG.\n\nBiodiversidade de invertebrados marinhos - Anelídeos poliquetas\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2023\n\n\n\n\n\n\nReprodutibilidade científica no R (em andamento)\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2023\n\nDelineamento Experimental em Ecologia (Programada)\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2023\n\n\n\n\n\n\n\n\n\nProgramação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2022\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2022\n\n\n\n\n\n\n\n\n\nProgramação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2021\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2021\n\n\n\n\n\n\n\n\n\nProgramação em Python e R\n\nCursos oferecidos: Oceanologia\nPeríodo: Março a julho de 2020\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2020\n\n\n\n\n\n\n\n\n\nDelineamento Experimental em Ecologia\n\nCursos oferecidos: Pós-graduações diversas (PPGAMB, PPGOB, PPGO)\nPeríodo: Outubro e novembro de 2019\n\n\n\n\n\n\n\n\n\nAnálise numérica de comunidades ecológicas\n\nCursos oferecidos: Oceanologia e ouvintes da pós-graduação\nPeríodo: Agosto a novembro de 2018\n\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2018\n\n\n\n\n\n\n\n\n\n\nAnálise numérica de comunidades ecológicas\n\nCursos oferecidos: Oceanologia e ouvintes da pós-graduação\nPeríodo: Agosto a novembro de 2017\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2017\n\n\n\n\n\n\n\n\n\nEstatística\n\nCurso oferecido: Ciências Biológicas\n\nPeríodo: Agosto a novembro de 2016\n\nCiências do ambiente\n\nCursos oferecidos: Engenharias\n\nPeríodo: Agosto a novembro de 2016\n\nAnálise numérica de comunidades ecológicas\n\nCursos oferecidos: Oceanologia e ouvintes da pós-graduação\nPeríodo: Agosto a novembro de 2016\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2016\n\n\n\n\n\n\n\n\n\nEstatística univariada para estudos de distribuição espacial e temporal\n\nCursos oferecidos: Pós-graduações diversas\nPeríodo: Outubro e novembro de 2015\n\n\n\n\n\n\nDisciplinas ministradas no Centro de Estudos do Mar da UFPR:\nGraduação\n\nIntrodução à estatística\nInferência estatística\nAnálise multivariada\nPlanejamento amostral e experimental\n\nPós-graduação\n\nEcologia numérica\nAnálise multivariada"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "",
-    "section": "",
-    "text": "Este é o meu site pessoal, onde concentro todas as minhas atividades profissionais como professor e pesquisador do Instituto de Oceanografia e do Instituto de Matemática, Estatística e Física da Universidade Federal do Rio Grande - FURG. Estou lotado no Laboratório de Ecologia de Invertebrados Bentônicos.   Todo o conteúdo do site é livre para uso não comercial."
-  },
-  {
-    "objectID": "index.html#section",
-    "href": "index.html#section",
-    "title": "",
-    "section": "",
-    "text": "Contato\n\nE-mail: camargofurg@gmail.com\nCurrículo Lattes\nGithub: http://www.github.com/mauricio-camargo \nEndereço: Laboratório de Invertebrados Bentônicos - Instituto de Oceanografia. Av. Itália, km 8. Campus Carreiros. Rio Grande - RS. CEP 96203-900.\nTelefone: (053) 3233-6750\n\n\n\n\n     \n\n  \n\n\n Conteúdo disponível através da Licença Creative Commons 4.0  Maurício Garcia de Camargo Número de hits desde 19 de Junho de 2023"
-  },
-  {
-    "objectID": "R-eutilizaveis.html",
-    "href": "R-eutilizaveis.html",
-    "title": "R-eutilizáveis",
-    "section": "",
-    "text": "Tutoriais de reprodutibilidade\nTutorial de configuração do Gituhub e do RStudio\nTutotial do Quarto\nTutotial de uso de templates para revistas da Elsevier\n\n\nTruques do Quarto\n\n\nLinha mágica, que se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente.\n\n\ngit add -A && git commit -m \"staging all files\"\n\n\nSe o RStudio pedir para instalar o Python ou o Jupyter, informe no cabeçalho que a engine é a knitr.\n\n\n---\ntitle: \"Título\"\nengine: knitr\n---\n\n\n```{css,  echo=FALSE}\n.justify {\n text-align:\njustify !important\n}  \n\n```\n\n\n\n```{css,  echo=FALSE}\n.justify {\n text-align:\njustify !important\n}```\n\n\n\n\n\nTradução para o R de alguns tutoriais em Python do prof. Guto Schettini\n\nCTD\n\nHidroweb\n\nIBGE1\n\nIBGE2"
-  },
-  {
-    "objectID": "softwares.html",
-    "href": "softwares.html",
-    "title": "",
-    "section": "",
-    "text": "GAD: General Anova Design. Pacote para modelos mistos de ANOVA, baseado em Underwood (1997).\nAutores: Leonardo Sandrini Neto e Maurício Camargo\nEstágio: ativo\nHistórico: Este pacote foi pioneiro na utilização de modelos mistos de ANOVA segundo a notação de Underwood (1997), tendo sido resenhado no task view do CRAN sobre Experimental Design em https://cran.r-project.org/view=ExperimentalDesign\nDisponível em https://cran.r-project.org/web/packages/GAD/index.html\nGAD2 (pacote experimental): Extensão do pacote GAD, com funcionalidades adicionais, como aproximações e pooling.\nAutores: Leonardo Sandrini Neto, Eliandro Gilbert e Maurício Camargo\nEstágio: em construção\nrysgran: Estatísticas e gráficos para análise granulométrica do sedimento. Este é o porte do SysGran para o R.\nAutores: Maurício Camargo, Eliandro Gilbert e Leonardo Sandrini Neto\nEstágio: ativo\nHistórico: O pacote rysgran implementa todas as funcionalidades do programa SysGran e mais algumas.\nDisponível em: https://github.com/mauricio-camargo/rysgran\npermanovaR (pacote experimental): Análise variância multivariada permutacional.\nAutores: Eliandro Gilbert e Maurício Camargo\nEstágio: em construção\n\n\n\n\n\nsysgran4: esta é a evolução do SysGran3, rodando agora tanto em Windows quanto Linux.\nDisponível em: https://github.com/mauricio-camargo/sysgran4 Estágio: ativo\nDatractor: é um pequeno programa aberto escrito em Lazarus FreePascal para extrair valores de gráficos e mapas diretamente de PDFs e imagens (somente Windows).\nTutorial em vídeo: https://youtu.be/GI8dnzxbOVk\nDisponível em: https://github.com/mauricio-camargo/Datractor Estágio: ativo\nGPProj - Gerenciador Pessoal de Projetos: Programa para gerenciar projetos, com suporte para armazenamento remoto de arquivos, tarefas, links, agenda, anotações e contatos, com suporte aos serviços do Google (Gmail, Tasks, Agenda, People e Drive).\nEstágio: atualmente o programa está funcional e em fase final de empacotamento.\nPDFtoTEXTgui: Interface Gráfica de Usuário (GUI) escrito em Lazarus Pascal do programa pdftotext para Linux, para transformar PDF em TXT.\nAutor: Maurício Camargo\nEstágio: ativo\nSimetrox: Simetrógrafo digital, para avaliação postural, com entrada em imagens e vídeos. Disponível em: https://github.com/mauricio-camargo/Simetrox Estágio: finalizando (falta implementar entrada por video pelo ffmpeg)\n\n\n\n\n\n\nSysGran3: Sistema integrado de análise granulométrica para Windows, com análises estatísticas e gráficos para sedimentologia. Autor: Maurício Camargo\nEstágio: O SysGran foi criado em 1995 e se espalhou pelo mundo, inicialmente como um programa pago, até 2003. Em 2005 o SysGran deixou de ser atualizado e foi substituído pelo pacote rysgran do R. No entanto, até hoje existem cópias do SysGran funcionando em milhares de computadores.\nDisponível em: https://github.com/mauricio-camargo/SysGran3\nMaresDB: Sobreposição gráfica de linhas de maré para demonstração de longas séries temporais. Para Windows.\nAutor: Maurício Camargo\nEstágio: ativo (necessita atualização) Histórico: Este programa plota linhas de maré durante o período de 24h, sobrepondo centenas de linhas em poucos segundos, servindo para a demonstração de longas séries temporais.\nSpiro: Software para visualização da direção e velocidade da corrente em um ou mais perfis verticais, para auxílio da navegação. Autor: Maurício Camargo\nEstágio: desaparecido\nBGM: Rotinas usadas em Biogeoquímica marinha. Para Windows.\nAutor: Maurício Camargo\nEstágio: desaparecido.\n\n\n\n\n\n\nPilots-Transf: Programa de transferência de dados recebidos por porta serial de equipamentos oceanográficos como marégrafos, ondógrafos e CTDs para bancos de dados.\nAutor: Maurício Camargo Estágio: ativo Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para processar os dados provenientes de equipamentos oceanográficos e armazená-los em bancos de dados relacionais.\nPilots-Maregrama: Programa integrado de visualização dos dados oceanográficos armazenados nos banco de dados pelo programa Pilots-transf.\nAutor: Maurício Camargo\nEstágio: ativo Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para simular uma sala de controle de informações oceanográficas.\nSaci: Programa para controle de vendas, estoque, caixa, fornecedores, clientes e pagamentos de uma loja de material de construção.\nAutor: Maurício Camargo\nEstágio: ativo Histórico: Programa criado em 1996 e mantido até 2015, mas funcionando até hoje!"
-  },
-  {
-    "objectID": "softwares.html#pacotes-do-r-multiplataforma",
-    "href": "softwares.html#pacotes-do-r-multiplataforma",
-    "title": "",
-    "section": "",
-    "text": "GAD: General Anova Design. Pacote para modelos mistos de ANOVA, baseado em Underwood (1997).\nAutores: Leonardo Sandrini Neto e Maurício Camargo\nEstágio: ativo\nHistórico: Este pacote foi pioneiro na utilização de modelos mistos de ANOVA segundo a notação de Underwood (1997), tendo sido resenhado no task view do CRAN sobre Experimental Design em https://cran.r-project.org/view=ExperimentalDesign\nDisponível em https://cran.r-project.org/web/packages/GAD/index.html\nGAD2 (pacote experimental): Extensão do pacote GAD, com funcionalidades adicionais, como aproximações e pooling.\nAutores: Leonardo Sandrini Neto, Eliandro Gilbert e Maurício Camargo\nEstágio: em construção\nrysgran: Estatísticas e gráficos para análise granulométrica do sedimento. Este é o porte do SysGran para o R.\nAutores: Maurício Camargo, Eliandro Gilbert e Leonardo Sandrini Neto\nEstágio: ativo\nHistórico: O pacote rysgran implementa todas as funcionalidades do programa SysGran e mais algumas.\nDisponível em: https://github.com/mauricio-camargo/rysgran\npermanovaR (pacote experimental): Análise variância multivariada permutacional.\nAutores: Eliandro Gilbert e Maurício Camargo\nEstágio: em construção\n\n\n\n\n\nsysgran4: esta é a evolução do SysGran3, rodando agora tanto em Windows quanto Linux.\nDisponível em: https://github.com/mauricio-camargo/sysgran4 Estágio: ativo\nDatractor: é um pequeno programa aberto escrito em Lazarus FreePascal para extrair valores de gráficos e mapas diretamente de PDFs e imagens (somente Windows).\nTutorial em vídeo: https://youtu.be/GI8dnzxbOVk\nDisponível em: https://github.com/mauricio-camargo/Datractor Estágio: ativo\nGPProj - Gerenciador Pessoal de Projetos: Programa para gerenciar projetos, com suporte para armazenamento remoto de arquivos, tarefas, links, agenda, anotações e contatos, com suporte aos serviços do Google (Gmail, Tasks, Agenda, People e Drive).\nEstágio: atualmente o programa está funcional e em fase final de empacotamento.\nPDFtoTEXTgui: Interface Gráfica de Usuário (GUI) escrito em Lazarus Pascal do programa pdftotext para Linux, para transformar PDF em TXT.\nAutor: Maurício Camargo\nEstágio: ativo\nSimetrox: Simetrógrafo digital, para avaliação postural, com entrada em imagens e vídeos. Disponível em: https://github.com/mauricio-camargo/Simetrox Estágio: finalizando (falta implementar entrada por video pelo ffmpeg)\n\n\n\n\n\n\nSysGran3: Sistema integrado de análise granulométrica para Windows, com análises estatísticas e gráficos para sedimentologia. Autor: Maurício Camargo\nEstágio: O SysGran foi criado em 1995 e se espalhou pelo mundo, inicialmente como um programa pago, até 2003. Em 2005 o SysGran deixou de ser atualizado e foi substituído pelo pacote rysgran do R. No entanto, até hoje existem cópias do SysGran funcionando em milhares de computadores.\nDisponível em: https://github.com/mauricio-camargo/SysGran3\nMaresDB: Sobreposição gráfica de linhas de maré para demonstração de longas séries temporais. Para Windows.\nAutor: Maurício Camargo\nEstágio: ativo (necessita atualização) Histórico: Este programa plota linhas de maré durante o período de 24h, sobrepondo centenas de linhas em poucos segundos, servindo para a demonstração de longas séries temporais.\nSpiro: Software para visualização da direção e velocidade da corrente em um ou mais perfis verticais, para auxílio da navegação. Autor: Maurício Camargo\nEstágio: desaparecido\nBGM: Rotinas usadas em Biogeoquímica marinha. Para Windows.\nAutor: Maurício Camargo\nEstágio: desaparecido.\n\n\n\n\n\n\nPilots-Transf: Programa de transferência de dados recebidos por porta serial de equipamentos oceanográficos como marégrafos, ondógrafos e CTDs para bancos de dados.\nAutor: Maurício Camargo Estágio: ativo Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para processar os dados provenientes de equipamentos oceanográficos e armazená-los em bancos de dados relacionais.\nPilots-Maregrama: Programa integrado de visualização dos dados oceanográficos armazenados nos banco de dados pelo programa Pilots-transf.\nAutor: Maurício Camargo\nEstágio: ativo Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para simular uma sala de controle de informações oceanográficas.\nSaci: Programa para controle de vendas, estoque, caixa, fornecedores, clientes e pagamentos de uma loja de material de construção.\nAutor: Maurício Camargo\nEstágio: ativo Histórico: Programa criado em 1996 e mantido até 2015, mas funcionando até hoje!"
-  },
-  {
-    "objectID": "r-eutilizaveis/Como_gerar_template_eselvier.html",
-    "href": "r-eutilizaveis/Como_gerar_template_eselvier.html",
-    "title": "Como gerar templates para revistas da Elsevier",
-    "section": "",
-    "text": "Pessoal, o template da Elsevier que tentamos colocar no RStudio através do terminal deu problema para mim por causa da confusão entra as pastas criadas. Acredito que para muitos foi a mesma coisa.\nNo entanto, existe uma maneira muito prática no RStudio de trabalhar com pastas no terminal.\nAo invés de precisar escrever todo o caminho, tipo c:\\user\\mauricio\\projeto_aula, podemos usar o gerenciador de arquivos do próprio RStudio.\nObserve a figura abaixo e localize o Terminal e o gerenciador de arquivos (Files). Os caminhos destacados devem ser os mesmos (este é o caminho do seu projeto).\n\n\nAs duas janelas inferiores podem ser maximizadas usando os botões destacados abaixo. Isso facilita o trabalho.\n\n\nÉ possível sincronizar os caminhos das duas janelas usando o gerenciador de arquivos, sem a necessidade de escrever o caminho inteiro no terminal.\nA opção Open New Terminal Here abre um novo terminal apontando para o mesmo caminho do gerenciador de arquivos. Nesta pasta (=diretório) o template será instalado.\n\n\nObserve que um novo terminal foi criado, chamado de Terminal2.\n\n\nAgora é hora de incluir os comandos para baixar o template da Elsevier, que pode ser encontrado em https://github.com/quarto-journals/elsevier#installation-for-existing-document\n\nO comando é:\nquarto install extension quarto-journals/elsevier\n\n\nApós confirmar que confia no autor do template, informe o nome do novo diretório onde será instalado o template (meu_dir).\n\n\nObserve no gerenciador de arquivos que o diretório meu_dir foi criado.\n\n\nDentro deste diretório encontre o arquivo meu_dir.qmd. Este é o seu template. Clique ne e tente renderizar o pdf.\n\n\nBoa sorte!"
-  },
-  {
-    "objectID": "R-eutilizaveis.html#truques-do-quarto",
-    "href": "R-eutilizaveis.html#truques-do-quarto",
-    "title": "R-eutilizáveis",
-    "section": "Truques do Quarto",
-    "text": "Truques do Quarto\nLinha mágica, que se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente.\ngit add -A && git commit -m \"staging all files\"\nSe o RStudio pedir para instalar o Python ou o Jupyter, informe no cabeçalho que a engine é a knitr.\n---\ntitle: \"Título\"\nengine: knitr\n---\n\n\nTradução para o R de alguns tutoriais em Python do prof. Guto Schettini\nCTD\nHidroweb\nIBGE1\nIBGE2"
+    "text": "Vamos primeiramente abrir o arquivo vazoes_T_87905000.txt, que foi baixado do site hidroweb. \n\nlibrary(readr)\nArqTxtPath='vazoes_T_87905000.txt'\nArqTxt=read_lines(ArqTxtPath,skip=13)\nArqTxt[1]=paste0(ArqTxt[1],';') #Inserindo \";\" na primeira linha para evitar problemas com row.names\nArqCsvPath=gsub('txt','csv',ArqTxtPath)\nwrite_lines(ArqTxt,ArqCsvPath)\ndados=read.table(ArqCsvPath,header=T,sep=';',dec=',')\ncat('Imprimindo parte dos dados...')\n\nImprimindo parte dos dados...\n\nprint(dados[1:5,1:5])\n\n  EstacaoCodigo NivelConsistencia       Data Hora MediaDiaria\n1      87905000                 1 01/04/2021   NA           1\n2      87905000                 1 01/01/2021   NA           1\n3      87905000                 1 01/12/2020   NA           1\n4      87905000                 1 01/11/2020   NA           1\n5      87905000                 1 01/10/2020   NA           1\n\n\nCriando coluna com tipo datetime e plotando:\n\ndados$dataN=as.POSIXct(dados$Data,format = \"%d/%m/%Y\")\nplot(dados$Maxima~dados$dataN,type='line')\n\n\n\n\nCriando coluna dos meses:\n\ndados$mes = format(dados$dataN,format='%m')\n\nExtraindo a media e dp:\n\nmedia=aggregate(dados$Maxima,list(Mes=dados$mes),mean,na.rm=T)\ndp=aggregate(dados$Maxima,list(dados$mes),sd,na.rm=T)\n\nCalculando desvio superior e inferior:\n\nmediaMais=media$x+dp$x\nmediaMenos=media$x-dp$x\n\nPlot final:\n\nplot(media$Mes,media$x, ty=\"l\", col=\"blue\", \n     ylab='Vazão', \n     xlab='Meses',\n     lty=1,lwd=3,\n     ylim=c(-1000,3000))\nlines(media$Mes, mediaMais, col='gray')\nlines(media$Mes, mediaMenos, col='gray')\npolygon(x=c(media$Mes, rev(media$Mes)), y=c(mediaMais, rev(mediaMenos)), col=\"lightblue\", density = 40, angle=60)\nlines(media$Mes, media$x)\npoints(media$Mes, media$x,pch=19)"
   },
   {
     "objectID": "r-eutilizaveis/tutorial_template_elsevier.html",
@@ -383,6 +159,20 @@
     "title": "Como gerar templates para revistas da Elsevier",
     "section": "",
     "text": "Pessoal, o template da Elsevier que tentamos colocar no RStudio através do terminal deu problema para mim por causa da confusão entra as pastas criadas. Acredito que para muitos foi a mesma coisa.\nNo entanto, existe uma maneira muito prática no RStudio de trabalhar com pastas no terminal.\nAo invés de precisar escrever todo o caminho, tipo c:\\user\\mauricio\\projeto_aula, podemos usar o gerenciador de arquivos do próprio RStudio.\nObserve a figura abaixo e localize o Terminal e o gerenciador de arquivos (Files). Os caminhos destacados devem ser os mesmos (este é o caminho do seu projeto).\n\n\nAs duas janelas inferiores podem ser maximizadas usando os botões destacados abaixo. Isso facilita o trabalho.\n\n\nÉ possível sincronizar os caminhos das duas janelas usando o gerenciador de arquivos, sem a necessidade de escrever o caminho inteiro no terminal.\nA opção Open New Terminal Here abre um novo terminal apontando para o mesmo caminho do gerenciador de arquivos. Nesta pasta (=diretório) o template será instalado.\n\n\nObserve que um novo terminal foi criado, chamado de Terminal2.\n\n\nAgora é hora de incluir os comandos para baixar o template da Elsevier, que pode ser encontrado em https://github.com/quarto-journals/elsevier#installation-for-existing-document\n\nO comando é:\nquarto install extension quarto-journals/elsevier\n\n\nApós confirmar que confia no autor do template, informe o nome do novo diretório onde será instalado o template (meu_dir).\n\n\nObserve no gerenciador de arquivos que o diretório meu_dir foi criado.\n\n\nDentro deste diretório encontre o arquivo meu_dir.qmd. Este é o seu template. Clique ne e tente renderizar o pdf.\n\n\nBoa sorte!"
+  },
+  {
+    "objectID": "r-eutilizaveis/CTD/CTD.html",
+    "href": "r-eutilizaveis/CTD/CTD.html",
+    "title": "CTD",
+    "section": "",
+    "text": "Primeiramente, todos os arquivos devem ser salvos em uma pasta. \n\npasta_ctd=('./csv')\n\nDois pacotes devem ser carregados. Se der erro tem que instalar os pacotes. \n\nlibrary(readr)\nlibrary(lattice)\n\nArmazenando os caminhos dos arquivos na variável arquivos_csv \n\narquivos_csv=list.files(pasta_ctd,pattern = '*.Csv',full.names = T)\n\nCriando dataframes vazios. \n\narquivos_txt=c()\ndadosF=c()\n\nLendo cada arquivo Csv e escrevendo uma tabela com a datahora. \n\nfor (i in 1:length(arquivos_csv)) {\n   ArqCabeca=read_lines(arquivos_csv[i],skip=0,n_max=16)\n   datahora=substr(ArqCabeca[15],11,29) #Tira da linha 15 o valor\n   ArqDados=read_lines(arquivos_csv[i], skip=43)\n   arquivos_txt[i]=gsub('Csv','txt',arquivos_csv[i])\n   write_lines(ArqDados,arquivos_txt[i])\n   dados=read.csv(arquivos_txt[i], header = T)\n   dados$datahora=datahora\n   dados$tempo=as.POSIXct(dados$datahora,format = \"%Y/%m/%d %H:%M:%S\")\n   if (i==1) {\n      dadosF = dados\n   } else {\n      dadosF = rbind(dadosF,dados)\n   }  \n}\n\nQuem faz a mágica é o pacote Lattice. Há como melhorar a interpolação usando o próprio pacote. \n\nlevelplot(dadosF$Sal..... ~ as.numeric(format(dadosF$tempo,\"%H\"))*-dadosF$Depth..m., \n          data = dadosF,\n          xlab = \"X Coordinate (feet)\", ylab = \"Y Coordinate (feet)\",\n          main = \"Surface elevation data\",\n          col.regions = colorRampPalette(c(\"blue\",\"red\"))(30))\n\n\n\n\nPlotando gráficos de perfil de cada campanha. \n\ndados=subset(dadosF,\n     as.numeric(format(dadosF$tempo,'%H'))==10)\n\npar(mfrow=c(1,5))\nplot(dados$Sal.....,-dados$Depth..m.,ty='l',\n     xlab='Salinity (psu)',\n     ylab='Depth (m)')\nplot(dados$Temp...deg.C.,-dados$Depth..m.,ty='l',\n     xlab='Temperature (oC)',\n     ylab='')\nplot(dados$Chl.a..ug.l.,-dados$Depth..m.,ty='l',\n     xlab='Chlorophyl (ug/L)',\n     ylab='')\nplot(dados$Turb.M..FTU.,-dados$Depth..m.,ty='l',\n     xlab='Turbidity (FTU)',\n     ylab='')\nplot(dados$DO....,-dados$Depth..m.,ty='l',\n     xlab='Oxygen (%)',\n     ylab='')"
+  },
+  {
+    "objectID": "r-eutilizaveis/IBGE1/IBGE1.html",
+    "href": "r-eutilizaveis/IBGE1/IBGE1.html",
+    "title": "IBGE1",
+    "section": "",
+    "text": "Farei aqui reproduções das análises do Guto usando o notebook do R.\nPois é, o R também tem notebook que podem facilmente criar arquivos em PDF, HTML e DOC.\nAdeus editor de texto. Se o seu texto é um relatório que envolve análise de dados, é muito melhor fazer por aqui.\nAqui vai a reprodução da análise IBGE 1.\nPrimeiramente abrimos os dados baixados do site do IBGE, conforme explicado pelo Guto. Pode ser qualquer arquivo. O meu foi IMB201009.txt. Vamos guardar o arquivo na variável dados, que é do tipo dataframe.\nAdapte o caminho completo do arquivo para o seu computador. A função read.csv2 lê dados separados por vírgulas.\n\ndados = read.csv2(        \n   \"IMB201009.txt\",\n   header=FALSE, \n   sep=\"\")\n\nPara ver os dados use View(dados) ou print(dados).\nOs nomes das colunas (V1 a V4) foram dados automaticamente.\nAgora vamos executar os códigos para gerar um gráfico:\n\nn=length(dados$V4)      #Número de linhas de V4\nplot(1:n,                 #Plota x e y\n   dados$V4) \n\n\n\n\nVamos plotar do novo mudando algumas características do gráfico.\n\nplot(1:n,               #Plota novamente em linha\n   dados$V4,\n   type='line',\n   xlab='',ylab='') \n\n\n\n\nAgora vamos ajeitar o eixo x (tempo), que ainda não é do tipo datetime. Primeiro concatenamos as duas colunas de Data e Hora e depois transformamos para o tipo datetime.\n\ntempo=paste(dados$V1,dados$V2) \ntempo=as.POSIXct(tempo,format = \"%d/%m/%Y %H:%M:%S\")\n\nCria o plot completo contendo a série V3 em azul e V4 em vermelho.\n\nplot(tempo,                #Eixo x\n     dados$V3,             #Eixo y\n     type='line',          #Tipo de linha\n     col='blue',           #Cor da linha\n     main='IMB201009.txt',  #Título do gráfico\n     ylab='Nível (m)',     #Título do eixo y\n     xlab='Tempo')         #Título do eixo x\nlines(tempo,         #Adiciona nova série (V4) em vermelho\n      dados$V4,\n      type='line',\n      col='red')\nlegend('topright',  #Adiciona legenda\n       legend=c('Var1','Var2'),\n       lty=c(1,1),\n       col=c('blue','red'),\n       cex=0.6)"
   },
   {
     "objectID": "r-eutilizaveis/tutorial_quarto.html",
@@ -483,87 +273,101 @@
     "text": "Revealjs - Apresentações\n\nNova página\n--- #Três ou mais tracinhos\n## Header 2 também cria nova página\n####hox ::: Box ou info-box\nasdasd\n:::\n\n\nIncremental\n- Para tudo ser incremental, no cabeçalho colocar incremental: true   \n- Para tornar uma lista particular incremental:\n::: {.incremental}\n- Eat spaghetti\n- Drink wine\n:::\n\n\nColunas múltiplas\n:::: {.columns}\n\n::: {.column width=\"40%\"}\ncontents...\n:::\n\n::: {.column width=\"60%\"}\ncontents...\n:::\n\n::::\n\n\nFooter global\nNo cabeçalho:\nfooter: \"`Mais bonitinho com crase`\"\n\n\nFooter por página\n::: footer\nCustom footer text\n:::\n\n\nAside (tipo de footer sem referência)\n::: aside\nSome additional commentary of more peripheral interest.\n:::\n\n\nAside (tipo de footer com referência)\nNumera automaticamente\n- Green ^[Aqui a nota de rodapé]\n- Brown\n- Purple\n\n\nSmaller fonts\n## Slide Title {.smaller}\n\n\nscrollable\n## Slide Title {.scrollable}\n\n\nNotas do apresentador\n::: {.notes}\nSpeaker notes go here.\n:::\n\n\nTemas\ntheme: default\nOutros: https://quarto.org/docs/presentations/revealjs/\n\n\nSlide com diferente background\n## Título {background-color=\"aquamarine\"}\n\n\nTexto incremental num box\n::: columns\n::: {.column .box width=\"40%\"}\n   MATERIALS AND METHODS\n\n   *Experimental design* **(condensed version)**\n\n   -   **Experimental plots were planted   with different plant communities spanning [plant diversity gradient of one, four, and 16 species]{.fragment .highlight-blue}, which were randomly chosen from the species listed (5 plant functional groups -- 19 species in total)**\n   -   [Plots were divided into three subplots]{.fragment .highlight-red}\n\n:::\n\n::: {.column width=\"56%\"}\n::: fragment\nThis is in fact a **split-plot design**!\n:::\n\n::: fragment\n:::\n:::\n:::"
   },
   {
-    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r",
-    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r",
-    "title": "Passos para integrar RStudio e Github",
-    "section": "1.Instalar os programas do ecossistema de reprodutibilidade do R:",
-    "text": "1.Instalar os programas do ecossistema de reprodutibilidade do R:\n\nR: https://cran.r-project.org\nRStudio: https://posit.co/download/rstudio-desktop/\nQuarto: https://quarto.org/docs/get-started/\nMini-tutorial do Quarto: https://rpubs.com/camargo/MiniTutorialQuarto"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Este é o meu site pessoal, onde concentro todas as minhas atividades profissionais como professor e pesquisador do Instituto de Oceanografia e do Instituto de Matemática, Estatística e Física da Universidade Federal do Rio Grande - FURG. Estou lotado no Laboratório de Ecologia de Invertebrados Bentônicos.   Todo o conteúdo do site é livre para uso não comercial."
   },
   {
-    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-pacotes-no-r",
-    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-pacotes-no-r",
-    "title": "Passos para integrar RStudio e Github",
-    "section": "2.Instalar os pacotes no R:",
-    "text": "2.Instalar os pacotes no R:\ninstall.packages('usethis','gitcreds','devtools', 'markdown','rmarkdown','knitr')\n\n\nEsta é uma maneira de instalar vários pacotes de uma só vez.\nO pacote tinytex do R serve para instalar toda a infra-estrutura do LaTeX para lidar com PDFs.\ninstall.packages('tinytex')\ntinytex::install_tinytex()\n\n\nAntes do pacote tinytex a instalação do LaTeX era um inferno!"
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "",
+    "section": "",
+    "text": "Contato\n\nE-mail: camargofurg@gmail.com\nCurrículo Lattes\nGithub: http://www.github.com/mauricio-camargo \nEndereço: Laboratório de Invertebrados Bentônicos - Instituto de Oceanografia. Av. Itália, km 8. Campus Carreiros. Rio Grande - RS. CEP 96203-900.\nTelefone: (053) 3233-6750\n\n\n\n\n     \n\n  \n\n\n Conteúdo disponível através da Licença Creative Commons 4.0  Maurício Garcia de Camargo Número de hits desde 19 de Junho de 2023"
   },
   {
-    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#desativar-.rdata-e-.-rhistory-no-rstudio",
-    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#desativar-.rdata-e-.-rhistory-no-rstudio",
-    "title": "Passos para integrar RStudio e Github",
-    "section": "3. Desativar .RData e . Rhistory no RStudio",
-    "text": "3. Desativar .RData e . Rhistory no RStudio\nO RStudio grava todos os objetos (incluindo datasets) no arquivo oculto .RData e todos os comandos usados na IDE no arquivo .Rhistory.\nEstes arquivos podem chegar a tamanhos de muitos gigabytes e por isso devem ser desativados.\nPara isso, é preciso entrar nas configurações do RStudio e fazer as seguintes modificações:\nTools &lt; Global Options &lt; General"
+    "objectID": "admin.html",
+    "href": "admin.html",
+    "title": "Administração",
+    "section": "",
+    "text": "Representante do IO na Comissão Própria de Avaliação (CPA)\n\n\n\n\n\nCoordenador do curso de Oceanologia\n\n\n\n\n\nCoordenador adjunto do curso de Oceanologia\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia.\n\n\n\n\n\nCoordenador adjunto do curso de Oceanologia\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia.\n\n\n\n\n\nRepresentante do Núcleo de Oceanografia Biológica (NOB) no Conselho do Instituto de Oceanografia (IO).\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia."
   },
   {
-    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-uma-conta-gratuita-no-github",
-    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-uma-conta-gratuita-no-github",
-    "title": "Passos para integrar RStudio e Github",
-    "section": "4. Criar uma conta gratuita no Github",
-    "text": "4. Criar uma conta gratuita no Github\nhttps://github.com/\nGuarde muito bem seu nome de usuário e senha do Github."
+    "objectID": "admin.html#cargos-e-comissões",
+    "href": "admin.html#cargos-e-comissões",
+    "title": "Administração",
+    "section": "",
+    "text": "Representante do IO na Comissão Própria de Avaliação (CPA)\n\n\n\n\n\nCoordenador do curso de Oceanologia\n\n\n\n\n\nCoordenador adjunto do curso de Oceanologia\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia.\n\n\n\n\n\nCoordenador adjunto do curso de Oceanologia\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia.\n\n\n\n\n\nRepresentante do Núcleo de Oceanografia Biológica (NOB) no Conselho do Instituto de Oceanografia (IO).\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia."
   },
   {
-    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-o-git",
-    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-o-git",
-    "title": "Passos para integrar RStudio e Github",
-    "section": "5. Instalar o Git",
-    "text": "5. Instalar o Git\nGit: https://git-scm.com/download/\nTeste a instalação do Git no terminal do Windows.\nPara abrir o terminal, clique no botão Iniciar do Windows e digite cmd. Quando a tela do terminal abrir, digite:\n\n\ncmd é o terminal de comando do Windows, ou seja, a janela onde se digitam comandos ao sistema operacional. Em Linux e Mac é conhecido só como Terminal\ngit --version"
+    "objectID": "temp.html#testando",
+    "href": "temp.html#testando",
+    "title": "Teste de solução",
+    "section": "Testando",
+    "text": "Testando\n\nTeste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado v Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado"
   },
   {
-    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#configurar-o-git",
-    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#configurar-o-git",
-    "title": "Passos para integrar RStudio e Github",
-    "section": "6. Configurar o Git",
-    "text": "6. Configurar o Git\n\nGravar no Git o nome de usuário e email\n\nAtravés do pacote usethis podemos configurar o Git diretamente do RStudio.\n\n\nAntes do pacote usethis a configuração do Git era um sofrimento!\nVamos agora informar seu nome do usuário no Github e seu email usado para abrir a conta. Isso só é feito uma vez.\nusethis::use_git_config(\n  user.name = \"SEU NOME NO GITHUB\",\n  user.email = \"seu_email_no@gmail.com\")\n\nCrie um Personal Access Token (PAT)\n\nDe uns tempos para cá o Github aperfeiçoou o método de autenticação no site, de modo que a senha do usuário foi substituída por um token chamado PAT.\n\n\nLembre-se sempre que a senha pode ser substituído pelo token. Se em algum momento o Rstudio pedir a senha do Git, use o token.\nO PAT também pode ser criado dentro do RStudio usando o pacote usethis.\n\n\nVocê pode acessar diretamente a página do Github para criar um PAT, mas usando o pacote usethis as configurações do PAT são pré-fixadas.\nusethis::create_github_token()\nUma janela do navegador irá se abrir e você precisará informar o nome do usuário do Github e a senha.\n\nEscreva um nome para o token e escolha uma data de validade para ele. Deixe todo o resto das opções como estão e pressione o botão Generate token.\n\n\n\n\n\n\nCuidado\n\n\n\n\nATENÇÃO:\n\nCopie e guarde o token AGORA. Você não terá outra chance! Em nenhum lugar você vai achá-lo novamente.\n\n\n\n\nNo entanto, um novo token pode ser criado e utilizado a qualquer momento.\n\nAtribuir o PAT ao Git para sempre\n\nUsando o pacote gitcreds, você pode informar o Git seu recém-criado PAT e você não mais precisará informá-lo toda vez que atualizar o Github.\ngitcreds::gitcreds_set()\nUm prompt na janela de console do R dentro do RStudio vai pedir:\n? Enter password or token:\nPara responder, clique na janela e cole (ctrl-V) o token recém-copiado e pronto, estamos quase lá!\nPara conferir se está tudo certo, digite:\nusethis::git_sitrep()\n\n\n\n\n\n\nCuidado\n\n\n\n\nPRONTO!\n\nO seu RStudio está configurado para manipular arquivos do Github e criar sites inteiros usando o Quarto."
+    "objectID": "extensao.html",
+    "href": "extensao.html",
+    "title": "",
+    "section": "",
+    "text": "Curso de extensão eventual\nLocal: FURG\nCarga horária: até 24 horas\nData: Outubro/2015\nConteúdo: Funcionalidades não-estatísticas do RStudio, planilhagem, gráficos modernos, relatórios em html, pdf e doc, integração com Github, manipulação de arquivos LaTeX, criação de aplicativos no browser."
   },
   {
-    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-um-novo-repositório-do-github",
-    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-um-novo-repositório-do-github",
-    "title": "Passos para integrar RStudio e Github",
-    "section": "7. Criar um novo repositório do Github",
-    "text": "7. Criar um novo repositório do Github\nEntre na página inicial do Github e na parte superior da tela à esquerda pressione o botão NEW.\nDê um nome para o novo repositório e pressione Add a README file. Mantenha o repositório como público para que posteriormente possamos transformá-lo num site (sites privados não podem).\n\nPronto! O novo repositório foi criado e já pode ser acessado pelo RStudio, por um processo chamado clonagem. Para clonar qualquer repositório no RStudio, pressione o botão &lt; &gt; Code e depois o botão Copiar.\n\n\nExistem dois métodos para clonar um repositório, usando HTTPS e SSH. Aqui usaremos HTTPS, que é mais simples. SSH é usado em outros sistemas (Linux e Mac), mas é muito mais complicado."
+    "objectID": "extensao.html#e-2022",
+    "href": "extensao.html#e-2022",
+    "title": "",
+    "section": "",
+    "text": "Curso de extensão eventual\nLocal: FURG\nCarga horária: até 24 horas\nData: Outubro/2015\nConteúdo: Funcionalidades não-estatísticas do RStudio, planilhagem, gráficos modernos, relatórios em html, pdf e doc, integração com Github, manipulação de arquivos LaTeX, criação de aplicativos no browser."
   },
   {
-    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-um-novo-projeto-no-rstudio",
-    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-um-novo-projeto-no-rstudio",
-    "title": "Passos para integrar RStudio e Github",
-    "section": "8. Criar um novo projeto no RStudio",
-    "text": "8. Criar um novo projeto no RStudio\nUm projeto no RStudio serve para agregar vários arquivos em um único diretório, que poderão ser manipulados mais facilmente.\nNo RStudio, entre em File&lt;New project.\nNa próxima tela, você poderá escolher entre criar um novo projeto num novo diretório, num diretório existente ou usando controle de versões, no caso, o Git.\n\n\n\nHoje em dia eu guardo absolutamente tudo o que é produzido em R ou Python no Github.\nEm Repository URL, cole o a URL copiada lá no Github. O nome do novo diretório sugerido irá aparecer no outro campo. Por fim, escolha uma pasta onde uma cópia local do repositório será copiado.\n\nO que aconteceu foi que o RStudio baixou todos os arquivos do repositório recém-criado no Github e agora você pode modificá-los localmente a atualizá-los remotamente.\nPronto! Você está com tudo pronto para começar a criar conteúdo para o seu repositório do Github.\nNa aba Files do RStudio, clique no arquivo README.md.\nEste é um arquivo Markdown e portanto aceita toda a formatação do RMarkdown que já vimos.\n## Teste de repositório\n\n### Autor\n\nEste é apenas um repositório de test.\nPara testá-lo, pressione Preview ou Ctrl+Shift+K."
+    "objectID": "extensao.html#section",
+    "href": "extensao.html#section",
+    "title": "",
+    "section": "2018",
+    "text": "2018\n\nAnálise estatística de comunidades ecológicas no R.\nLocal: UERGS-Osório\nEvento: Mini-curso no VI Simpósio Acadêmico de Biologia Marinha.\nCarga horária: 16 horas\nData: 18 e 19 de agosto/2018\nConteúdo: Análise multivariada aplicada a estudos de comunidades ecológicas."
   },
   {
-    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#sincronizar-os-arquivos-locais-com-os-arquivos-remotos-do-github.",
-    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#sincronizar-os-arquivos-locais-com-os-arquivos-remotos-do-github.",
-    "title": "Passos para integrar RStudio e Github",
-    "section": "9. Sincronizar os arquivos locais com os arquivos remotos do Github.",
-    "text": "9. Sincronizar os arquivos locais com os arquivos remotos do Github.\nA sincronização dos arquivos não é tão simples quanto poderia ser, mas lembre-se que estamos lidando com um sistema (Git) que serve para versionamento de programas que podem ser manipulados por muitas pessoas, e por isso temos que aprender o seu funcionamento.\nQuando estamos com um projeto aberto no RStudio, aparece uma aba chamada Git, que é a partir de onde faremos as transferências dos arquivos.\nTodos os arquivos modificados aparecem ali. Clique em todos eles.\n\n\n\nPROBLEMA: quando existem muitos arquivos para fazer um Commit, o RStudio pode travar. Isso acontece principalmente para apresentações do Quarto usando revealjs, que instalam a biblioteca inteira e isso representam dezenas de arquivos.\n Para solucionar isso, procure pela aba Terminal dentro do RStudio e digite o seguinte comando, que vai fazer um Commit sem passar pelo RStudio:\ngit add -A && git commit -m \"staging all files\"\nDepois pressione o botão Commit. Na nomenclatura Git, Commit significa gravar no disco as modificações, de forma preparar todos os arquivos para serem enviados ao Github.\nA seguinte tela vai aparecer:\n\nAntes de pressionar o botão Commit, você é obrigado a escreve alguma coisa em Commit message, caso contrário o processo será abortado. Isso é uma forma de obrigá-lo a documentar toda e qualquer mudança nos códigos.\nDepois de pressionar o botão Commit, uma tela de comando vai aparecer e pode ser fechada.\nA operação de enviar os arquivos para o Github, ou seja, fazer um upload, é chamada no linguajar do Git de PUSH. PULL seria a operação oposta, de download de uma versão o site, e é muito importante baixar as versões modificadas antes de começar a trabalhar localmente quando existem muitas pessoas modificando o arquivo simultaneamente.\nPressione então o botão Push e verifique lá na página do seu repositório do Github se as modificações foram efetuadas.\n\nÀs vezes pode demorar alguns minutos até que as alterações apareçam online no site. Outros vezes a atualização é muito rápida."
+    "objectID": "extensao.html#section-1",
+    "href": "extensao.html#section-1",
+    "title": "",
+    "section": "2017",
+    "text": "2017\n\nR-cases: casos de sucesso no R (2017)\nLocal: FURG\nConteúdo: \n05/05 (sexta). R: por onde começar?\n12/05. A gramática dos gráficos (ggplot e agregados)\n19/05. A gramática dos dados (SQL, dplyr e agregados)\n24/05. R-case: o pacote rysgran para granulometria\n02/06. Reprodutibilidade da ciência no R\n09/06 08:00h. Última aula. Encerramento."
   },
   {
-    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criando-um-site-completo-usange-github-pages",
-    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criando-um-site-completo-usange-github-pages",
-    "title": "Passos para integrar RStudio e Github",
-    "section": "10. Criando um site completo usange Github pages",
-    "text": "10. Criando um site completo usange Github pages\nInicialmente, crie um arquivo novo do tipo Quarto document, em File&lt;New file&lt;Quarto document.... O documento vem com o template padrão do Quarto, então você precisa fazer algumas modificações.\nSalve este arquivo OBRIGATORIAMENTE com o nome de index.qmd no diretório do projeto.\nPressione o botão Render ou Ctrl+Shift+K para renderizar o arquivo index.qmd e criar o arquivo index.html. Este será o arquivo da primeira página do seu site. Outras páginas são criadas da mesma maneira.\nFaça um Commit e depois um Push, conforme explicado anteriormente."
+    "objectID": "extensao.html#section-2",
+    "href": "extensao.html#section-2",
+    "title": "",
+    "section": "2016",
+    "text": "2016\n\nRmarkdown: um jeito simples de escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio\nLocal: FURG\nData: 31 de agosto/2016\nHora: 09:00h até 12:00h\nConteúdo: RMarkdown é uma linguagem de rápido aprendizado para criar documentos em PDF ou HTML que incluam textos, figuras, gráficos, tabelas e fórmulas. É capaz de inserir no arquivo gráficos criados no R. Arquivos profissionais em PDF podem ser criados, tanto para relatórios de estudantes como para escrever artigos científicos. A partir dos arquivos em HTML podem ser criadas apresentações portáveis e simples, porém eficientes. Um site inteiro pode ser criado usando os arquivos HTML, que pode ser gerenciado facilmente usando as ferramentas que a nova versão do RStudio traz. Público: Aberto a qualquer pessoa.\nPágina do curso\n\n\nAnálise estatística de comunidades ecológicas no R.\nLocal: UERGS-Osório\nEvento: Mini-curso no V Simpósio Acadêmico de Biologia Marinha.\nCarga horária: 16 horas\nData: 13 e 14 de agosto/2016\nConteúdo: Análise multivariada aplicada a estudos de comunidades ecológicas."
   },
   {
-    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#habilitando-o-github-pages",
-    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#habilitando-o-github-pages",
-    "title": "Passos para integrar RStudio e Github",
-    "section": "11. Habilitando o Github Pages",
-    "text": "11. Habilitando o Github Pages\nNa página do repositório, clique em Settings e depois em Pages. Em Branch, escolha Main e pressione Save.\nPronto, em alguns segundos o site estará no ar."
+    "objectID": "extensao.html#section-3",
+    "href": "extensao.html#section-3",
+    "title": "",
+    "section": "2015",
+    "text": "2015\n\nDesvendando o R\nLocal: FURG\nCarga horária: 24 horas\nData: Agosto-Dezembro/2015\nConteúdo: Estatística descritiva e inferência básica no R.\n\n\nDominando o R\nCurso de extensão eventual\nLocal: FURG\nCarga horária: 12 horas\nData: Outubro/2015\nConteúdo: Estatística inferencial multifatorial, análises multivariadas e mapas."
   },
   {
-    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#referências",
-    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#referências",
-    "title": "Passos para integrar RStudio e Github",
-    "section": "12. Referências:",
-    "text": "12. Referências:\n\nCurso-r: https://curso-r.github.io/zen-do-r/\nR for data science: https://r4ds.had.co.nz/\n\n\n\n\n\nPrecisei adaptar muita coisa desses sites, que foram criados há apenas alguns meses e já estão ligeiramente desatualizados."
+    "objectID": "softwares.html",
+    "href": "softwares.html",
+    "title": "",
+    "section": "",
+    "text": "GAD: General Anova Design. Pacote para modelos mistos de ANOVA, baseado em Underwood (1997).\nAutores: Leonardo Sandrini Neto e Maurício Camargo\nEstágio: ativo\nHistórico: Este pacote foi pioneiro na utilização de modelos mistos de ANOVA segundo a notação de Underwood (1997), tendo sido resenhado no task view do CRAN sobre Experimental Design em https://cran.r-project.org/view=ExperimentalDesign\nDisponível em https://cran.r-project.org/web/packages/GAD/index.html\nGAD2 (pacote experimental): Extensão do pacote GAD, com funcionalidades adicionais, como aproximações e pooling.\nAutores: Leonardo Sandrini Neto, Eliandro Gilbert e Maurício Camargo\nEstágio: em construção\nrysgran: Estatísticas e gráficos para análise granulométrica do sedimento. Este é o porte do SysGran para o R.\nAutores: Maurício Camargo, Eliandro Gilbert e Leonardo Sandrini Neto\nEstágio: ativo\nHistórico: O pacote rysgran implementa todas as funcionalidades do programa SysGran e mais algumas.\nDisponível em: https://github.com/mauricio-camargo/rysgran\npermanovaR (pacote experimental): Análise variância multivariada permutacional.\nAutores: Eliandro Gilbert e Maurício Camargo\nEstágio: em construção\n\n\n\n\n\nsysgran4: esta é a evolução do SysGran3, rodando agora tanto em Windows quanto Linux.\nDisponível em: https://github.com/mauricio-camargo/sysgran4 Estágio: ativo\nDatractor: é um pequeno programa aberto escrito em Lazarus FreePascal para extrair valores de gráficos e mapas diretamente de PDFs e imagens (somente Windows).\nTutorial em vídeo: https://youtu.be/GI8dnzxbOVk\nDisponível em: https://github.com/mauricio-camargo/Datractor Estágio: ativo\nGPProj - Gerenciador Pessoal de Projetos: Programa para gerenciar projetos, com suporte para armazenamento remoto de arquivos, tarefas, links, agenda, anotações e contatos, com suporte aos serviços do Google (Gmail, Tasks, Agenda, People e Drive).\nEstágio: atualmente o programa está funcional e em fase final de empacotamento.\nPDFtoTEXTgui: Interface Gráfica de Usuário (GUI) escrito em Lazarus Pascal do programa pdftotext para Linux, para transformar PDF em TXT.\nAutor: Maurício Camargo\nEstágio: ativo\nSimetrox: Simetrógrafo digital, para avaliação postural, com entrada em imagens e vídeos. Disponível em: https://github.com/mauricio-camargo/Simetrox Estágio: finalizando (falta implementar entrada por video pelo ffmpeg)\n\n\n\n\n\n\nSysGran3: Sistema integrado de análise granulométrica para Windows, com análises estatísticas e gráficos para sedimentologia. Autor: Maurício Camargo\nEstágio: O SysGran foi criado em 1995 e se espalhou pelo mundo, inicialmente como um programa pago, até 2003. Em 2005 o SysGran deixou de ser atualizado e foi substituído pelo pacote rysgran do R. No entanto, até hoje existem cópias do SysGran funcionando em milhares de computadores.\nDisponível em: https://github.com/mauricio-camargo/SysGran3\nMaresDB: Sobreposição gráfica de linhas de maré para demonstração de longas séries temporais. Para Windows.\nAutor: Maurício Camargo\nEstágio: ativo (necessita atualização) Histórico: Este programa plota linhas de maré durante o período de 24h, sobrepondo centenas de linhas em poucos segundos, servindo para a demonstração de longas séries temporais.\nSpiro: Software para visualização da direção e velocidade da corrente em um ou mais perfis verticais, para auxílio da navegação. Autor: Maurício Camargo\nEstágio: desaparecido\nBGM: Rotinas usadas em Biogeoquímica marinha. Para Windows.\nAutor: Maurício Camargo\nEstágio: desaparecido.\n\n\n\n\n\n\nPilots-Transf: Programa de transferência de dados recebidos por porta serial de equipamentos oceanográficos como marégrafos, ondógrafos e CTDs para bancos de dados.\nAutor: Maurício Camargo Estágio: ativo Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para processar os dados provenientes de equipamentos oceanográficos e armazená-los em bancos de dados relacionais.\nPilots-Maregrama: Programa integrado de visualização dos dados oceanográficos armazenados nos banco de dados pelo programa Pilots-transf.\nAutor: Maurício Camargo\nEstágio: ativo Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para simular uma sala de controle de informações oceanográficas.\nSaci: Programa para controle de vendas, estoque, caixa, fornecedores, clientes e pagamentos de uma loja de material de construção.\nAutor: Maurício Camargo\nEstágio: ativo Histórico: Programa criado em 1996 e mantido até 2015, mas funcionando até hoje!"
+  },
+  {
+    "objectID": "softwares.html#pacotes-do-r-multiplataforma",
+    "href": "softwares.html#pacotes-do-r-multiplataforma",
+    "title": "",
+    "section": "",
+    "text": "GAD: General Anova Design. Pacote para modelos mistos de ANOVA, baseado em Underwood (1997).\nAutores: Leonardo Sandrini Neto e Maurício Camargo\nEstágio: ativo\nHistórico: Este pacote foi pioneiro na utilização de modelos mistos de ANOVA segundo a notação de Underwood (1997), tendo sido resenhado no task view do CRAN sobre Experimental Design em https://cran.r-project.org/view=ExperimentalDesign\nDisponível em https://cran.r-project.org/web/packages/GAD/index.html\nGAD2 (pacote experimental): Extensão do pacote GAD, com funcionalidades adicionais, como aproximações e pooling.\nAutores: Leonardo Sandrini Neto, Eliandro Gilbert e Maurício Camargo\nEstágio: em construção\nrysgran: Estatísticas e gráficos para análise granulométrica do sedimento. Este é o porte do SysGran para o R.\nAutores: Maurício Camargo, Eliandro Gilbert e Leonardo Sandrini Neto\nEstágio: ativo\nHistórico: O pacote rysgran implementa todas as funcionalidades do programa SysGran e mais algumas.\nDisponível em: https://github.com/mauricio-camargo/rysgran\npermanovaR (pacote experimental): Análise variância multivariada permutacional.\nAutores: Eliandro Gilbert e Maurício Camargo\nEstágio: em construção\n\n\n\n\n\nsysgran4: esta é a evolução do SysGran3, rodando agora tanto em Windows quanto Linux.\nDisponível em: https://github.com/mauricio-camargo/sysgran4 Estágio: ativo\nDatractor: é um pequeno programa aberto escrito em Lazarus FreePascal para extrair valores de gráficos e mapas diretamente de PDFs e imagens (somente Windows).\nTutorial em vídeo: https://youtu.be/GI8dnzxbOVk\nDisponível em: https://github.com/mauricio-camargo/Datractor Estágio: ativo\nGPProj - Gerenciador Pessoal de Projetos: Programa para gerenciar projetos, com suporte para armazenamento remoto de arquivos, tarefas, links, agenda, anotações e contatos, com suporte aos serviços do Google (Gmail, Tasks, Agenda, People e Drive).\nEstágio: atualmente o programa está funcional e em fase final de empacotamento.\nPDFtoTEXTgui: Interface Gráfica de Usuário (GUI) escrito em Lazarus Pascal do programa pdftotext para Linux, para transformar PDF em TXT.\nAutor: Maurício Camargo\nEstágio: ativo\nSimetrox: Simetrógrafo digital, para avaliação postural, com entrada em imagens e vídeos. Disponível em: https://github.com/mauricio-camargo/Simetrox Estágio: finalizando (falta implementar entrada por video pelo ffmpeg)\n\n\n\n\n\n\nSysGran3: Sistema integrado de análise granulométrica para Windows, com análises estatísticas e gráficos para sedimentologia. Autor: Maurício Camargo\nEstágio: O SysGran foi criado em 1995 e se espalhou pelo mundo, inicialmente como um programa pago, até 2003. Em 2005 o SysGran deixou de ser atualizado e foi substituído pelo pacote rysgran do R. No entanto, até hoje existem cópias do SysGran funcionando em milhares de computadores.\nDisponível em: https://github.com/mauricio-camargo/SysGran3\nMaresDB: Sobreposição gráfica de linhas de maré para demonstração de longas séries temporais. Para Windows.\nAutor: Maurício Camargo\nEstágio: ativo (necessita atualização) Histórico: Este programa plota linhas de maré durante o período de 24h, sobrepondo centenas de linhas em poucos segundos, servindo para a demonstração de longas séries temporais.\nSpiro: Software para visualização da direção e velocidade da corrente em um ou mais perfis verticais, para auxílio da navegação. Autor: Maurício Camargo\nEstágio: desaparecido\nBGM: Rotinas usadas em Biogeoquímica marinha. Para Windows.\nAutor: Maurício Camargo\nEstágio: desaparecido.\n\n\n\n\n\n\nPilots-Transf: Programa de transferência de dados recebidos por porta serial de equipamentos oceanográficos como marégrafos, ondógrafos e CTDs para bancos de dados.\nAutor: Maurício Camargo Estágio: ativo Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para processar os dados provenientes de equipamentos oceanográficos e armazená-los em bancos de dados relacionais.\nPilots-Maregrama: Programa integrado de visualização dos dados oceanográficos armazenados nos banco de dados pelo programa Pilots-transf.\nAutor: Maurício Camargo\nEstágio: ativo Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para simular uma sala de controle de informações oceanográficas.\nSaci: Programa para controle de vendas, estoque, caixa, fornecedores, clientes e pagamentos de uma loja de material de construção.\nAutor: Maurício Camargo\nEstágio: ativo Histórico: Programa criado em 1996 e mantido até 2015, mas funcionando até hoje!"
+  },
+  {
+    "objectID": "R-eutilizaveis.html",
+    "href": "R-eutilizaveis.html",
+    "title": "R-eutilizáveis",
+    "section": "",
+    "text": "Tutoriais de reprodutibilidade\nTutorial de configuração do Gituhub e do RStudio\nTutotial do Quarto\nTutotial de uso de templates para revistas da Elsevier\n\n\nTruques do Quarto\n\n\nLinha mágica, que se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente.\n\n\ngit add -A && git commit -m \"staging all files\"\n\n\nSe o RStudio pedir para instalar o Python ou o Jupyter, informe no cabeçalho que a engine é a knitr.\n\n\n---\ntitle: \"Título\"\nengine: knitr\n---\n\n\n```{css,  echo=FALSE}\n.justify {\n text-align:\njustify !important\n}  \n\n```\n\n\n\n```{css,  echo=FALSE}\n.justify {\n text-align:\njustify !important\n}```\n\n\n\n\n\nTradução para o R de alguns tutoriais em Python do prof. Guto Schettini\n\nCTD\n\nHidroweb\n\nIBGE1\n\nIBGE2"
   }
 ]
