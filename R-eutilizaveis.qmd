@@ -6,9 +6,9 @@ engine: knitr
 
 #### Tutoriais de reprodutibilidade
 
-[Tutorial de configuração do Gituhub e do RStudio](r-eutilizaveis/Integrar_Git_RStudio.qmd)  
-[Tutotial do Quarto](r-eutilizaveis/Tutorial_Quarto.qmd)  
-[Tutotial de uso de templates para revistas da Elsevier](r-eutilizaveis/Como_gerar_template_.qmd)
+[Tutorial de configuração do Gituhub e do RStudio](r-eutilizaveis/tutorial_integrar_git_rstudio.qmd)  
+[Tutotial do Quarto](r-eutilizaveis/tutorial_quarto.qmd)  
+[Tutotial de uso de templates para revistas da Elsevier](r-eutilizaveis/tutorial_template_elsevier.qmd)
 
 #### Truques do Quarto
 
