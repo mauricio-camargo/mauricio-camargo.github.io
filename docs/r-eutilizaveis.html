@@ -219,15 +219,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="truques-do-quarto" class="level3 page-columns page-full">
 <h3 class="anchored" data-anchor-id="truques-do-quarto">Truques do Quarto</h3>
 <ul>
-<li><ol type="1">
-<li>Linha mágica, que se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente.</li>
-</ol></li>
+<li><strong>1. Quando seu <em>commit</em> não vai de jeito nenhum!</strong><br>
+Esta linha mágica se executada no terminal dentro do RStudio faz um <strong><em>commit</em></strong> de todos os arquivos instantaneamente. O <strong><em>push</em></strong> que devemos fazer depois é bem menos propenso a travar.</li>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>git add -A &amp;&amp; git commit -m "staging all files"</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li><ol start="2" type="1">
-<li>Se o RStudio pedir para instalar o Python ou o Jupyter, informe no cabeçalho que a engine é a knitr.</li>
-</ol></li>
+<li><strong>2. Quando o RStudio pede para instalar o Python ou o Jupyter, do nada?</strong><br>
+Informe no cabeçalho que a engine é a <strong>knitr</strong>, usando <code>engine: knitr</code>.</li>
 </ul>
 <div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>title: "Título"</span>
@@ -253,18 +251,18 @@ justify !important
  ```
 -->
 <div class="no-row-height column-margin column-container"><div class="">
-<p>“Engine” é o motor de renderização (que transforma script em HTML), que pode ser o knitr (do RStudio) ou Jupyter (do Python). O padrão (default) é knitr, mas não sei porque de vez em quando tem que informar manualmente.</p>
+<p>“Engine” é o motor de renderização (que transforma script em HTML), que pode ser o knitr (do RStudio) ou Jupyter (do Python). O padrão (default) é knitr, mas não sei porque de vez em quando temos que informar manualmente.</p>
 </div></div><p><br></p>
 <ul>
-<li><ol start="3" type="1">
-<li>Para justificar o texto, pode-se usar:</li>
-</ol></li>
+<li><strong>3. E se eu quiser justificar um texto longo?</strong><br>
+Para justificar um texto, pode-se usar:</li>
 </ul>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>:::{.justify}</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>Testo a ser justificado. Claro que precisa ser um texto longo para testar se justifica ou não, então aqui vai um texto longo: asdasdasd sdfsdfg fghfgh rtertert dfg f fgh sd sdf sdf sd gdfgdfg serw er fgh fg hfg h sdf sdf dfg gfhjfghfg sdfsdfgdrfghdh dfgdfhgfghfghfghgf sdfsdfgfghfghgfh </span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p>No entanto, há um bug no RStudio e o texto não é justificado nunca.</p>
 <p>Se não funcionar, coloque o seguinte código em qualquer parte do seu script:</p>
 <div id="cb4" class="sourceCode cell-code">
 <pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{css,  echo=FALSE}</span></span>

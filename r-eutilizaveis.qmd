@@ -15,13 +15,15 @@ lang: pt
 
 ### Truques do Quarto
 
-- 1. Linha mágica, que se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente.
+- **1. Quando seu *commit* não vai de jeito nenhum!**  
+Esta linha mágica se executada no terminal dentro do RStudio faz um ***commit*** de todos os arquivos instantaneamente. O ***push*** que devemos fazer depois é bem menos propenso a travar.
 
 ```default
 git add -A && git commit -m "staging all files"
 ```
 
-- 2. Se o RStudio pedir para instalar o Python ou o Jupyter, informe no cabeçalho que a engine é a knitr.
+- **2. Quando o RStudio pede para instalar o Python ou o Jupyter, do nada?**  
+Informe no cabeçalho que a engine é a **knitr**, usando `engine: knitr`.
 
 
 ```default
@@ -31,7 +33,7 @@ engine: knitr
 ---
 ```
 :::aside
-"Engine" é o motor de renderização (que transforma script em HTML), que pode ser o knitr (do RStudio) ou Jupyter (do Python). O padrão (default) é knitr, mas não sei porque de vez em quando tem que informar manualmente.
+"Engine" é o motor de renderização (que transforma script em HTML), que pode ser o knitr (do RStudio) ou Jupyter (do Python). O padrão (default) é knitr, mas não sei porque de vez em quando temos que informar manualmente.
 :::
 
 
@@ -51,13 +53,16 @@ justify !important
 
 <br>
 
-- 3. Para justificar o texto, pode-se usar:
+- **3. E se eu quiser justificar um texto longo?**  
+Para justificar um texto, pode-se usar:
 
 ```{markdown}
 :::{.justify}
 Testo a ser justificado. Claro que precisa ser um texto longo para testar se justifica ou não, então aqui vai um texto longo: asdasdasd sdfsdfg fghfgh rtertert dfg f fgh sd sdf sdf sd gdfgdfg serw er fgh fg hfg h sdf sdf dfg gfhjfghfg sdfsdfgdrfghdh dfgdfhgfghfghfghgf sdfsdfgfghfghgfh 
 :::
 ```
+
+No entanto, há um bug no RStudio e o texto não é justificado nunca.
 
 Se não funcionar, coloque o seguinte código em qualquer parte do seu script:
 
