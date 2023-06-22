@@ -5,13 +5,10 @@ engine: knitr
 echo: false
 ---
 
-```{css} 
-
+```{css,  echo=FALSE}
 .justify {
-
-  text-align:
-justify !important
-}
+ text-align:
+justify !important}
 ```
 
 ## Testando
