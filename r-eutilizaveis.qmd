@@ -4,6 +4,7 @@ subtitle: "Códigos úteis e reutilizáveis em R."
 engine: knitr
 toc: TRUE
 toc-location: left
+lang: pt
 ---
 
 ### Tutoriais de reprodutibilidade
