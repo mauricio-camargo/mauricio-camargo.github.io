@@ -97,7 +97,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="floating nav-fixed slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -174,10 +174,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tutoriais-de-reprodutibilidade" id="toc-tutoriais-de-reprodutibilidade" class="nav-link active" data-scroll-target="#tutoriais-de-reprodutibilidade">Tutoriais de reprodutibilidade</a></li>
+  <li><a href="#truques-do-quarto" id="toc-truques-do-quarto" class="nav-link" data-scroll-target="#truques-do-quarto">Truques do Quarto</a></li>
+  <li><a href="#tradução-para-o-r-de-alguns-tutoriais-em-python-do-prof.-guto-schettini" id="toc-tradução-para-o-r-de-alguns-tutoriais-em-python-do-prof.-guto-schettini" class="nav-link" data-scroll-target="#tradução-para-o-r-de-alguns-tutoriais-em-python-do-prof.-guto-schettini">Tradução para o R de alguns tutoriais em Python do prof. Guto Schettini</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -197,14 +210,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="tutoriais-de-reprodutibilidade" class="level4">
-<h4 class="anchored" data-anchor-id="tutoriais-de-reprodutibilidade">Tutoriais de reprodutibilidade</h4>
+<section id="tutoriais-de-reprodutibilidade" class="level3">
+<h3 class="anchored" data-anchor-id="tutoriais-de-reprodutibilidade">Tutoriais de reprodutibilidade</h3>
 <p><a href="./r-eutilizaveis/tutorial_integrar_github_rstudio.html">Tutorial de configuração do Gituhub e do RStudio</a><br>
 <a href="./r-eutilizaveis/tutorial_quarto.html">Tutotial do Quarto</a><br>
 <a href="./r-eutilizaveis/tutorial_template_elsevier.html">Tutotial de uso de templates para revistas científicas da Elsevier</a></p>
 </section>
-<section id="truques-do-quarto" class="level4">
-<h4 class="anchored" data-anchor-id="truques-do-quarto">Truques do Quarto</h4>
+<section id="truques-do-quarto" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="truques-do-quarto">Truques do Quarto</h3>
 <ul>
 <li><ol type="1">
 <li>Linha mágica, que se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente.</li>
@@ -220,6 +233,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>title: "Título"</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>engine: knitr</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>---</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
 <!-- NÃO DEU CERTO.
 Não teve jeito de mostrar a primeira linha (```{css}) em markdow. A solução foi HTML
 
@@ -238,7 +252,9 @@ justify !important
 
  ```
 -->
-<p><br></p>
+<div class="no-row-height column-margin column-container"><div class="">
+<p>“Engine” é o motor de renderização (que transforma script em HTML), que pode ser o knitr (do RStudio) ou Jupyter (do Python). O padrão (default) é knitr, mas não sei porque de vez em quando tem que informar manualmente.</p>
+</div></div><p><br></p>
 <ul>
 <li><ol start="3" type="1">
 <li>Para justificar o texto, pode-se usar:</li>
@@ -260,8 +276,8 @@ justify !important
 <p>
 </p><p><br></p>
 </section>
-<section id="tradução-para-o-r-de-alguns-tutoriais-em-python-do-prof.-guto-schettini" class="level4">
-<h4 class="anchored" data-anchor-id="tradução-para-o-r-de-alguns-tutoriais-em-python-do-prof.-guto-schettini">Tradução para o R de alguns tutoriais em Python do prof. <a href="https://gutoschettini.github.io/Analise_Dados_Python/">Guto Schettini</a></h4>
+<section id="tradução-para-o-r-de-alguns-tutoriais-em-python-do-prof.-guto-schettini" class="level3">
+<h3 class="anchored" data-anchor-id="tradução-para-o-r-de-alguns-tutoriais-em-python-do-prof.-guto-schettini">Tradução para o R de alguns tutoriais em Python do prof. <a href="https://gutoschettini.github.io/Analise_Dados_Python/">Guto Schettini</a></h3>
 <ul>
 <li><a href="r-eutilizaveis/CTD/CTD.html">CTD</a><br>
 </li>

@@ -2,15 +2,17 @@
 title: "R-eutilizáveis"
 subtitle: "Códigos úteis e reutilizáveis em R."
 engine: knitr
+toc: TRUE
+toc-location: left
 ---
 
-#### Tutoriais de reprodutibilidade
+### Tutoriais de reprodutibilidade
 
 [Tutorial de configuração do Gituhub e do RStudio](r-eutilizaveis/tutorial_integrar_github_rstudio.qmd)  
 [Tutotial do Quarto](r-eutilizaveis/tutorial_quarto.qmd)  
 [Tutotial de uso de templates para revistas científicas da Elsevier](r-eutilizaveis/tutorial_template_elsevier.qmd)
 
-#### Truques do Quarto
+### Truques do Quarto
 
 - 1. Linha mágica, que se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente.
 
@@ -20,12 +22,17 @@ git add -A && git commit -m "staging all files"
 
 - 2. Se o RStudio pedir para instalar o Python ou o Jupyter, informe no cabeçalho que a engine é a knitr.
 
+
 ```default
 ---
 title: "Título"
 engine: knitr
 ---
 ```
+:::aside
+"Engine" é o motor de renderização (que transforma script em HTML), que pode ser o knitr (do RStudio) ou Jupyter (do Python). O padrão (default) é knitr, mas não sei porque de vez em quando tem que informar manualmente.
+:::
+
 
 <!-- NÃO DEU CERTO.
 Não teve jeito de mostrar a primeira linha (```{css}) em markdow. A solução foi HTML
@@ -62,7 +69,7 @@ Se não funcionar, coloque o seguinte código em qualquer parte do seu script:
 
 <br>
 
-#### Tradução para o R de alguns tutoriais em Python do prof. [Guto Schettini](https://gutoschettini.github.io/Analise_Dados_Python/)
+### Tradução para o R de alguns tutoriais em Python do prof. [Guto Schettini](https://gutoschettini.github.io/Analise_Dados_Python/)
 
 - [CTD](r-eutilizaveis/CTD/CTD.html)  
 - [Hidroweb](r-eutilizaveis/hidroweb/hidroweb.html)  
