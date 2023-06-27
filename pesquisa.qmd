@@ -1,12 +1,17 @@
 ---
 #title: "Pesquisa"
+lang: pt-br
+engine: knitr
 ---
 
-## Publicações 
+```{css,  echo=FALSE}
+.justify {
+ text-align:
+justify !important}
+```
 
-<br>
-
-- [BORDIN, LUÍS HENRIQUE ; MACHADO, EUNICE DA C. ; MENDES, CARLOS R.B. ; FERNANDES, ELISA H.L. ; Camargo, Maurício G. ; KERR, RODRIGO ; SCHETTINI, CARLOS A. . Daily variability of pelagic metabolism in a subtropical lagoonal estuary. JOURNAL OF MARINE SYSTEMS, v. 240, p. 103861. 2023](http://dx.doi.org/10.1016/j.jmarsys.2023.103861)
+:::{.justify}
+- [BORDIN, LUÍS HENRIQUE ; MACHADO, EUNICE DA C. ; MENDES, CARLOS R.B. ; FERNANDES, ELISA H.L. ; Camargo, Maurício G. ; KERR, RODRIGO ; SCHETTINI, CARLOS A. Daily variability of pelagic metabolism in a subtropical lagoonal estuary. JOURNAL OF MARINE SYSTEMS, v. 240, p. 103861. 2023](http://dx.doi.org/10.1016/j.jmarsys.2023.103861)  
 
 - [SOUZA, FERNANDA M. ; GILBERT, ELIANDRO R. ; BRAUKO, KALINA M. ; LORENZI, LUCIANO ; MACHADO, EUNICE ; Camargo, Mauricio G. . Macrobenthic community responses to multiple environmental stressors in a subtropical estuary. PeerJ, v. 9, p. e12427. 2021](http://dx.doi.org/10.7717/peerj.12427)
 
@@ -22,6 +27,7 @@
 
 - [SOUZA, F.M. ; BRAUKO, K.M. ; Gilbert, E.R. ; MARTINS, C.C. ; LANA, P.C. ; CAMARGO, M.G. . Complex spatial and temporal variation of subtropical benthic macrofauna under sewage impact. Marine Environmental Research, v. 116, p. 61-70, 2016.](http://dx.doi.org/10.1016/j.marenvres.2016.02.008)
 
+- [Parizzi, R.A. ; MACHADO, E. C. ; Tavares, C.P.S. ; FERNANDES, L. F. ; MAFRA JUNIOR, L. L. ; CAMARGO, M.G. Primary productivity and phytoplankton dynamics in a subtropical estuary: a multiple time-scale approach. SCIENTIA MARINA, v. 80, p. 291-303, 2016.](http://dx.doi.org/10.3989/scimar.04358.26A)
 - [BRAUKO, K.M. ; SOUZA, F. M. ; MACIEL, P. M. ; Camargo, Mauricio G. ; LANA, PAULO CUNHA . Spatial variability of three benthic indices for marine quality assessment in a subtropical estuary of Southern Brazil. Marine Pollution Bulletin., v. 91, p. 454-460, 2015.](http://dx.doi.org/10.1016/j.marpolbul.2014.10.025)
 
 - [PAGLIOSA, P. R. ; DORIA, J. G. ; MISTURINI, D. ; OTEGUI, M. B. P. ; OORTMAN, M. S. ; WEIS, W. A. ; FARONI-PEREZ, L. ; ALVES, A. P. ; CAMARGO, M. G. ; AMARAL, A. C. Z. ; MARQUES, A. C. ; LANA, P. C. . NONATObase: a database for Polychaeta (Annelida) from the Southwestern Atlantic Ocean. DATABASE-OXFORD, v. 2014, p. bau002-bau002, 2014.](http://dx.doi.org/10.1093/database/bau002)
@@ -33,6 +39,11 @@
 - [SOUZA, FERNANDA M. DE ; GILBERT, ELIANDRO R. ; CAMARGO, MAURÍCIO G. DE ; PIEPER, WAGNER W. . The spatial distribution of the subtidal benthic macrofauna and its relationship with environmental factors using geostatistical tools: a case study in Trapandé Bay, southern Brazil. Zoologia (Curitiba): an international journal for zoology, v. 30, p. 55-65, 2013.](http://dx.doi.org/10.1590/s1984-46702013000100007)
 
 - [SOUZA, F.M. ; BRAUKO, K.M. ; LANA, P.C. ; MUNIZ, P. ; CAMARGO, M.G. . The effect of urban sewage on benthic macrofauna: A multiple spatial scale approach. Marine Pollution Bulletin., v. 1, p. 1-7, 2012.](http://dx.doi.org/10.1016/j.marpolbul.2012.10.021)
+
+- [MANGO, MARIA SILVIA MARTINS ; CARILHO, MÔNICA KOPPLIN ; DRABOVSKI, BIANCA ; JOUCOSKI, EMERSON ; GARCIA, MAURÍCIO CAMARGO ; GOMES, ANNA RAQUEL SILVEIRA . Análise dos sintomas osteomusculares de professores do ensino fundamental em Matinhos (PR). Fiosterapia em Movimento (on-line), v. 25, p. 785-794, 2012.](http://dx.doi.org/10.1590/S0103-51502012000400011)
+
+- [LOCKS, RAFAELLA R. ; COSTA, TATIANA C. ; KOPPE, SORAIA ; YAMAGUTI, ANELIZE M. ; GARCIA, MAURÍCIO C. ; GOMES, ANNA R. S. Effects of strength and flexibility training on functional performance of healthy older people. Revista Brasileira de Fisioterapia (Impresso), v. 16, p. 184-190, 2012.] (http://dx.doi.org/10.1590/S1413-35552012000300003)
+
 
 - BRAUKO, K. M. ; CAMARGO, M. G. ; LANA, P. C. . A new method to assess herbivory levels on Rhizophora mangle L. fruits in mangroves with different degrees of forest complexity. Pan-American Journal of Aquatic Sciences, v. 6, p. 9-15, 2011.
 
@@ -60,3 +71,6 @@ Citações:13
 - YUNES, J. S. ; SUZUKI, M. T. ; CAMARGO, M. G. ; SILVEIRA, A. G. ; WERNER, V. R. . Diazothrophic Growth and Nitrogenase Activity of Cyanobacteria from the Patos lagoon estuary-Southern Brazil.. Vittale, Rio Grande - RS, v. 6, p. 25-36, 1994.
 
 - YUNES, J. S. ; SUZUKI, M. T. ; CAMARGO, M. G. ; SILVEIRA, A. G. ; WERNER, V. R. . Cianobactérias fixadoras de nitrogênio do estuário da Lagoa dos Patos, RS: Nostoc muscorum. Ciência e Cultura (SBPC), v. 42, n.5/6, p. 375-383, 1990.
+
+:::
+

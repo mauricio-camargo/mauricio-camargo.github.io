@@ -1,7 +1,9 @@
 ---
 #title: "Maurício Camargo"
 lang: pt-br
+engine: knitr
 ---
+
 
 <br>
 
@@ -9,7 +11,17 @@ lang: pt-br
 
 ----
 
-Este é o meu site  pessoal, onde concentro todas as minhas atividades profissionais como professor e pesquisador do [Instituto de Oceanografia](http://www.io.furg.br) e do [Instituto de Matemática, Estatística e Física](http://www.imef.furg.br) da [Universidade Federal do Rio Grande - FURG](http://www.furg.br). Estou lotado no [Laboratório de Ecologia de Invertebrados Bentônicos](https://io.furg.br/pesquisa/laboratorios).
+```{css,  echo=FALSE}
+.justify {
+ text-align:
+justify !important}
+```
+
+:::{.justify}
+Este é o meu site  pessoal, onde concentro todas as minhas atividades profissionais como professor e pesquisador do [Instituto de Oceanografia](http://www.io.furg.br) e do [Instituto de Matemática, Estatística e Física](http://www.imef.furg.br) da [Universidade Federal do Rio Grande - FURG](http://www.furg.br). Estou lotado no [Laboratório de Ecologia de Invertebrados Bentônicos](https://io.furg.br/pesquisa/laboratorios). 
+:::
+
+
 <br>
 <br>
 Todo o conteúdo do site é livre para uso [não comercial](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
@@ -17,7 +29,7 @@ Todo o conteúdo do site é livre para uso [não comercial](https://creativecomm
 ----
 
 ### Disciplinas atuais
-Ministro disciplinas de estatística ambiental na graduação e na pós-graduação e também diversidade de anelídeos poliquetas e métodos da ciência na graduação. 
+Ministro disciplinas de estatística ambiental na graduação e na pós-graduação e também programação, diversidade de anelídeos poliquetas e metodologia da ciência na graduação. 
 
 **Disciplinas do primeiro semestre de 2023:**
 
@@ -70,3 +82,4 @@ Número de hits desde 19 de Junho de 2023
 <a href="http://www.webcontadores.com" title="contador de visitas para blog"><img src="http://counter7.01counter.com/private/webcontadores.php?c=aae54ceffc577de6f41508e54a80e1e7" border="0" title="contador de visitas" alt="contador de visitas"></a>
 
 </center>
+

@@ -64,6 +64,8 @@ Testo a ser justificado. Claro que precisa ser um texto longo para testar se jus
 
 No entanto, há um bug no RStudio e o texto não é justificado nunca.
 
+Primeiro, é necessário usar `engine: knitr`, como mostrado no item 2.
+
 Se não funcionar, coloque o seguinte código em qualquer parte do seu script:
 
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{css,  echo=FALSE}</span></span>
