@@ -4,18 +4,24 @@ lang: pt-br
 engine: knitr
 ---
 
-
-<br>
-
-![](img/img2.png)  
-
-----
-
 ```{css,  echo=FALSE}
 .justify {
  text-align:
 justify !important}
 ```
+
+:::: {.columns}
+::: {.column width="20%"}
+![](img/Eu4.jpg){width=80}
+:::
+::: {.column width="80%"}
+**Maurício Garcia de Camargo**  
+<br>
+Professor da Universidade Federal do Rio Grande (FURG)
+:::
+::::
+
+----
 
 :::{.justify}
 Este é o meu site  pessoal, onde concentro todas as minhas atividades profissionais como professor e pesquisador do [Instituto de Oceanografia](http://www.io.furg.br) e do [Instituto de Matemática, Estatística e Física](http://www.imef.furg.br) da [Universidade Federal do Rio Grande - FURG](http://www.furg.br). Estou lotado no [Laboratório de Ecologia de Invertebrados Bentônicos](https://io.furg.br/pesquisa/laboratorios). 

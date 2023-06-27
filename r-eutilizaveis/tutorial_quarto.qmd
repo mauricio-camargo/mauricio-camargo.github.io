@@ -194,11 +194,14 @@ Os espaços e formatação são todos preservados.
 
 #### Duas colunas
 ```r
-::: {layout-ncol=2}
-asdasd  
-
-asdasd
+:::: {.columns}
+::: {.column width="40%"}
+contents...
 :::
+::: {.column width="60%"}
+contents...
+:::
+::::
 ```
 
 #### Múltiplas colunas

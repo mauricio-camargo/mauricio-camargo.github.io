@@ -221,7 +221,7 @@
     "href": "r-eutilizaveis/tutorial_quarto.html#layouts",
     "title": "Mini-tutorial do Quarto no RStudio",
     "section": "Layouts",
-    "text": "Layouts\n\nDuas colunas\n::: {layout-ncol=2}\nasdasd  \n\nasdasd\n:::\n\n\nMúltiplas colunas\nDuas linhas, a primeira com 2 e a segunda com 1 gráfico, todos com o mesmo tamanho.\n::: {layout=\"[[1,1], [1]]\"}\n![Surus](surus.png)\n![Surus1](surus1.png)\n![Surus2](surus2.png)\n:::\n\nPara layout com percentuais:\n::: {layout=\"[[40,-20,40], [100]]\"}"
+    "text": "Layouts\n\nDuas colunas\n:::: {.columns}\n::: {.column width=\"40%\"}\ncontents...\n:::\n::: {.column width=\"60%\"}\ncontents...\n:::\n::::\n\n\nMúltiplas colunas\nDuas linhas, a primeira com 2 e a segunda com 1 gráfico, todos com o mesmo tamanho.\n::: {layout=\"[[1,1], [1]]\"}\n![Surus](surus.png)\n![Surus1](surus1.png)\n![Surus2](surus2.png)\n:::\n\nPara layout com percentuais:\n::: {layout=\"[[40,-20,40], [100]]\"}"
   },
   {
     "objectID": "r-eutilizaveis/tutorial_quarto.html#html---cabeçalhos",
