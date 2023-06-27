@@ -196,6 +196,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
+<p>Antes de mais nada, é preciso instalar o pacote <code>tinytex</code>, que serve para instalar toda a infra-estrutura do LaTeX para lidar com PDFs.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">'tinytex'</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>tinytex<span class="sc">::</span><span class="fu">install_tinytex</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Pessoal, o template da Elsevier que tentamos colocar no RStudio através do terminal deu problema para mim por causa da confusão entre as pastas criadas. Acredito que para muitos foi a mesma coisa.</p>
 <p>No entanto, existe uma maneira muito prática no RStudio de trabalhar com pastas no terminal.</p>
 <p>Ao invés de precisar escrever todo o caminho, tipo <code>c:\user\mauricio\projeto_aula</code>, podemos usar o gerenciador de arquivos do próprio RStudio.</p>
@@ -215,7 +218,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Agora é hora de incluir os comandos para baixar o template da Elsevier, que pode ser encontrado em <a href="https://github.com/quarto-journals/elsevier#installation-for-existing-document" class="uri">https://github.com/quarto-journals/elsevier#installation-for-existing-document</a></p>
 <p><br></p>
 <p>O comando é:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>quarto install extension quarto-journals/elsevier</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>quarto use template quarto-journals/elsevier</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><img src="img/template5.png" class="img-fluid"></p>
 <p><br></p>
 <p>Após confirmar que confia no autor do template, informe o nome do novo diretório onde será instalado o template (meu_dir).</p>

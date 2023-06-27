@@ -4,6 +4,13 @@ lang: pt-br
 engine: knitr
 ---
 
+Antes de mais nada, é preciso instalar o pacote `tinytex`, que serve para instalar toda a infra-estrutura do LaTeX para lidar com PDFs.
+
+```r
+install.packages('tinytex')
+tinytex::install_tinytex()
+```
+
 Pessoal, o template da Elsevier que tentamos colocar no RStudio através do terminal deu problema para mim por causa da confusão entre as pastas criadas. Acredito que para muitos foi a mesma coisa. 
 
 No entanto, existe uma maneira muito prática no RStudio de trabalhar com pastas no terminal. 
@@ -43,7 +50,7 @@ Agora é hora de incluir os comandos para baixar o template da Elsevier, que pod
 O comando é:
 
 ````default
-quarto install extension quarto-journals/elsevier
+quarto use template quarto-journals/elsevier
 ````
 
 
