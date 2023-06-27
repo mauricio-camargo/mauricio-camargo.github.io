@@ -10,6 +10,8 @@ engine: knitr
 justify !important}
 ```
 
+## Publicações
+
 :::{.justify}
 - [BORDIN, LUÍS HENRIQUE ; MACHADO, EUNICE DA C. ; MENDES, CARLOS R.B. ; FERNANDES, ELISA H.L. ; Camargo, Maurício G. ; KERR, RODRIGO ; SCHETTINI, CARLOS A. Daily variability of pelagic metabolism in a subtropical lagoonal estuary. JOURNAL OF MARINE SYSTEMS, v. 240, p. 103861. 2023](http://dx.doi.org/10.1016/j.jmarsys.2023.103861)  
 
