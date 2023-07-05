@@ -6,6 +6,7 @@ toc-location: left
 lang: pt
 ---
 
+---
 
 - Mágica para dar Commit quando trava com muitos arquivos 
 
