@@ -1,0 +1,62 @@
+---
+#title: ""
+---
+
+# ***Tutorial de Kivy***
+
+## Preâmbulo
+
+Vamos analisar duas plataformas para criar GUI (Graphic User Interface) usando Python como linguagem:  
+
+> - `PyQt5`: excelente para executável desktop em qualquer SO (Windows, Linux, Mac)
+> - `Kivy`: possibilita a criação de app para mobile.
+
+## PyQt5
+
+Entre com os seguintes comandos no prompt do `Anaconda`:
+
+- 1. Primeiro, atualize o `conda`.
+
+```python
+conda update conda
+```
+
+- 2. Verique as versões instaladas do Python
+
+```python
+conda search "^python$"
+```
+
+- 3. Crie um ambiente virtual para o seu projeto:
+
+```python
+conda create -n meu_env
+```
+
+- 4. Ativar o ambiente virtual
+
+```python
+activate meu_env
+```
+
+- 5. Criar um arquivo Python (.py) contendo o seguinte código (salve em qualquer lugar):
+
+
+```python
+from kivy.app import App
+from kivy.uix.gridlayout import GridLayout
+from kivy.uix.label import Label
+from kivy.uix.image import Image
+from kivy.uix.button import Button
+from kivy.uix.textinput import TextInput
+
+class SayHello(App):
+    def build(self):
+        self.window = GridLayout()
+        #add widgets to window
+
+        return self.window
+
+if _name_ == "__main__":
+    SayHello().run()
+```
