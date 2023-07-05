@@ -1,0 +1,14 @@
+{
+  "hash": "9d988157573628b14ee1a66720c72b89",
+  "result": {
+    "markdown": "---\ntitle: \"Truques de git e githib\"\nengine: knitr\ntoc: TRUE\ntoc-location: left\nlang: pt\n---",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
