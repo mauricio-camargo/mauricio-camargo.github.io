@@ -6,3 +6,9 @@ toc-location: left
 lang: pt
 ---
 
+
+- Mágica para dar Commit quando trava com muitos arquivos 
+
+```r
+git add -A && git commit -m "staging all files"
+```
