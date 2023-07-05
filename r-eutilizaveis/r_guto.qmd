@@ -1,0 +1,19 @@
+---
+title: "R-eutilizáveis"
+subtitle: "Códigos reutilizáveis e muito úteis em R."
+engine: knitr
+toc: FALSE
+toc-location: left
+lang: pt
+---
+
+### Tradução para o R de alguns tutoriais em Python do prof. [Guto Schettini](https://gutoschettini.github.io/Analise_Dados_Python/)
+
+- [CTD](r-eutilizaveis/CTD/CTD.html)  
+- [Hidroweb](r-eutilizaveis/hidroweb/hidroweb.html)  
+- [IBGE1](r-eutilizaveis/IBGE1/IBGE1.html)  
+- [IBGE2](r-eutilizaveis/IBGE2/IBGE2.html)  
+
+:::aside
+Há outros tutorias na página que podem ser traduzidos para o R. Algum voluntário?
+:::

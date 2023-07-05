@@ -1,0 +1,7 @@
+---
+title: "Truques de git e githib"
+engine: knitr
+toc: TRUE
+toc-location: left
+lang: pt
+---
