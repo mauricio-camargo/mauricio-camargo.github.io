@@ -11,7 +11,7 @@ lang: pt
   - [Tutorial de configuração do Gituhub e do RStudio para uso do Quarto](r-eutilizaveis/tutorial_integrar_github_rstudio.qmd)
   - [Tutotial do Quarto](r-eutilizaveis/tutorial_quarto.qmd)  
   - [Tutotial de uso de templates para revistas científicas da Elsevier](r-eutilizaveis/tutorial_template_elsevier.qmd)
-- [Truques do Quarto](truq_quarto)  
-- [Truques do git](truq_git)  
-- [Tradução para o R de alguns tutoriais em Python do prof. Guto](r_guto)
+- [Truques do Quarto](truq_quarto.qmd)  
+- [Truques do git](truq_git.qmd)  
+- [Tradução para o R de alguns tutoriais em Python do prof. Guto](r_guto.qmd)
 
