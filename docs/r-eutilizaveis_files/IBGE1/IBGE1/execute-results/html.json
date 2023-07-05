@@ -1,0 +1,16 @@
+{
+  "hash": "b00d3b597316b5d126d958835bef176b",
+  "result": {
+    "markdown": "---\ntitle: \"IBGE1\"\n---\n\n\n***\n\nFarei aqui reproduções das análises do Guto usando o notebook do R.\n\nPois é, o R também tem notebook que podem facilmente criar arquivos em PDF, HTML e DOC.\n\nAdeus editor de texto. Se o seu texto é um relatório que envolve análise de dados, é muito melhor fazer por aqui.\n\nAqui vai a reprodução da análise IBGE 1.\n\n\nPrimeiramente abrimos os dados baixados do site do IBGE, conforme explicado pelo Guto. Pode ser qualquer arquivo. O meu foi IMB201009.txt. Vamos guardar o arquivo na variável `dados`, que é do tipo `dataframe`.\n\nAdapte o caminho completo do arquivo para o seu computador. A função `read.csv2` lê dados separados por vírgulas.\n\n\n::: {.cell}\n\n```{.r .cell-code}\ndados = read.csv2(        \n   \"IMB201009.txt\",\n   header=FALSE, \n   sep=\"\")\n```\n:::\n\n\nPara ver os dados use `View(dados)` ou `print(dados)`. \n\nOs nomes das colunas (V1 a V4) foram dados automaticamente.\n\nAgora vamos executar os códigos para gerar um gráfico:\n\n\n::: {.cell}\n\n```{.r .cell-code}\nn=length(dados$V4)      #Número de linhas de V4\nplot(1:n,                 #Plota x e y\n   dados$V4) \n```\n\n::: {.cell-output-display}\n![](IBGE1_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::\n\n\n\nVamos plotar do novo mudando algumas características do gráfico.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(1:n,               #Plota novamente em linha\n   dados$V4,\n   type='line',\n   xlab='',ylab='') \n```\n\n::: {.cell-output-display}\n![](IBGE1_files/figure-html/unnamed-chunk-3-1.png){width=672}\n:::\n:::\n\n\nAgora vamos ajeitar o eixo x (tempo), que ainda não é do tipo datetime. Primeiro concatenamos as duas colunas de Data e Hora e depois transformamos para o tipo datetime.\n\n\n::: {.cell}\n\n```{.r .cell-code}\ntempo=paste(dados$V1,dados$V2) \ntempo=as.POSIXct(tempo,format = \"%d/%m/%Y %H:%M:%S\")\n```\n:::\n\n\nCria o plot completo contendo a série V3 em azul e V4 em vermelho.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nplot(tempo,                #Eixo x\n     dados$V3,             #Eixo y\n     type='line',          #Tipo de linha\n     col='blue',           #Cor da linha\n     main='IMB201009.txt',  #Título do gráfico\n     ylab='Nível (m)',     #Título do eixo y\n     xlab='Tempo')         #Título do eixo x\nlines(tempo,         #Adiciona nova série (V4) em vermelho\n      dados$V4,\n      type='line',\n      col='red')\nlegend('topright',  #Adiciona legenda\n       legend=c('Var1','Var2'),\n       lty=c(1,1),\n       col=c('blue','red'),\n       cex=0.6)\n```\n\n::: {.cell-output-display}\n![](IBGE1_files/figure-html/unnamed-chunk-5-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "IBGE1_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>R-eutilizáveis</title>
+<title>Truques do Quarto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,25 +20,59 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,10 +94,10 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="floating nav-fixed fullcontent">
+<body class="floating nav-fixed slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -76,42 +110,42 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target=""><i class="bi bi-house" role="img">
+    <a class="nav-link" href="../index.html" rel="" target=""><i class="bi bi-house" role="img">
 </i> 
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./ensino.html" rel="" target=""><i class="bi bi-book" role="img">
+    <a class="nav-link" href="../ensino.html" rel="" target=""><i class="bi bi-book" role="img">
 </i> 
  <span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pesquisa.html" rel="" target=""><i class="bi bi-bug" role="img">
+    <a class="nav-link" href="../pesquisa.html" rel="" target=""><i class="bi bi-bug" role="img">
 </i> 
  <span class="menu-text">Pesquisa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./extensao.html" rel="" target=""><i class="bi bi-people" role="img">
+    <a class="nav-link" href="../extensao.html" rel="" target=""><i class="bi bi-people" role="img">
 </i> 
  <span class="menu-text">Extensão</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./admin.html" rel="" target=""><i class="bi bi-newspaper" role="img">
+    <a class="nav-link" href="../admin.html" rel="" target=""><i class="bi bi-newspaper" role="img">
 </i> 
  <span class="menu-text">Administração</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./softwares.html" rel="" target=""><i class="bi bi-android2" role="img">
+    <a class="nav-link" href="../softwares.html" rel="" target=""><i class="bi bi-android2" role="img">
 </i> 
  <span class="menu-text">Softwares</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./r-eutilizaveis.html" rel="" target="" aria-current="page"><i class="bi bi-r-circle" role="img">
+    <a class="nav-link" href="../r-eutilizaveis.html" rel="" target=""><i class="bi bi-r-circle" role="img">
 </i> 
  <span class="menu-text">R-eutilizáveis</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./agenda.html" rel="" target=""><i class="bi bi-calendar" role="img">
+    <a class="nav-link" href="../agenda.html" rel="" target=""><i class="bi bi-calendar" role="img">
 </i> 
  <span class="menu-text">Agenda pública</span></a>
   </li>  
@@ -141,18 +175,26 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#quando-seu-commit-não-vai-de-jeito-nenhum" id="toc-quando-seu-commit-não-vai-de-jeito-nenhum" class="nav-link active" data-scroll-target="#quando-seu-commit-não-vai-de-jeito-nenhum">1. Quando seu <em>commit</em> não vai de jeito nenhum!</a></li>
+  <li><a href="#quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada" id="toc-quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada" class="nav-link" data-scroll-target="#quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada">2. Quando o RStudio pede para instalar o Python ou o Jupyter, do nada?</a></li>
+  <li><a href="#e-se-eu-quiser-justificar-um-texto-longo" id="toc-e-se-eu-quiser-justificar-um-texto-longo" class="nav-link" data-scroll-target="#e-se-eu-quiser-justificar-um-texto-longo">3. E se eu quiser justificar um texto longo?</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">R-eutilizáveis</h1>
-<p class="subtitle lead">Códigos reutilizáveis e muito úteis em R.</p>
+<h1 class="title">Truques do Quarto</h1>
 </div>
 
 
@@ -167,22 +209,64 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<ul>
-<li>Tutoriais de reprodutibilidade (RMarkdown, Quarto, LaTeX etc)
-<ul>
-<li><a href="./r-eutilizaveis/tutorial_integrar_github_rstudio.html">Tutorial de configuração do Gituhub e do RStudio para uso do Quarto</a></li>
-<li><a href="./r-eutilizaveis/tutorial_quarto.html">Tutotial do Quarto</a><br>
-</li>
-<li><a href="./r-eutilizaveis/tutorial_template_elsevier.html">Tutotial de uso de templates para revistas científicas da Elsevier</a></li>
-</ul></li>
-<li><a href="truq_quarto">Truques do Quarto</a><br>
-</li>
-<li><a href="truq_git">Truques do git</a><br>
-</li>
-<li><a href="r_guto">Tradução para o R de alguns tutoriais em Python do prof. Guto</a></li>
-</ul>
+<section id="quando-seu-commit-não-vai-de-jeito-nenhum" class="level3">
+<h3 class="anchored" data-anchor-id="quando-seu-commit-não-vai-de-jeito-nenhum">1. Quando seu <em>commit</em> não vai de jeito nenhum!</h3>
+<p>Esta linha mágica se executada no terminal dentro do RStudio faz um <strong><em>commit</em></strong> de todos os arquivos instantaneamente. O <strong><em>push</em></strong> que devemos fazer depois é bem menos propenso a travar.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>git add -A &amp;&amp; git commit -m "staging all files"</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Informe no cabeçalho que a engine é a <strong>knitr</strong>, usando <code>engine: knitr</code>.</p>
+</section>
+<section id="quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada">2. Quando o RStudio pede para instalar o Python ou o Jupyter, do nada?</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>---</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>title: "Título"</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>engine: knitr</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>---</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+<!-- NÃO DEU CERTO.
+Não teve jeito de mostrar a primeira linha (```{css}) em markdow. A solução foi HTML
+
+Assim não dá certo:
+
+::: {.cell}
+
+```{.default .cell-code}
+```{css,  echo=FALSE}
+.justify {
+ text-align:
+justify !important
+}  
+```
+:::
+
+ ```
+-->
+<div class="no-row-height column-margin column-container"><div class="">
+<p>“Engine” é o motor de renderização (que transforma script em HTML), que pode ser o knitr (do RStudio) ou Jupyter (do Python). O padrão (default) é knitr, mas não sei porque de vez em quando temos que informar manualmente.</p>
+</div></div><p><br></p>
+</section>
+<section id="e-se-eu-quiser-justificar-um-texto-longo" class="level2">
+<h2 class="anchored" data-anchor-id="e-se-eu-quiser-justificar-um-texto-longo">3. E se eu quiser justificar um texto longo?</h2>
+<p>Para justificar um texto, pode-se usar:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>:::{.justify}</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>Testo a ser justificado. Claro que precisa ser um texto longo para testar se justifica ou não, então aqui vai um texto longo: asdasdasd sdfsdfg fghfgh rtertert dfg f fgh sd sdf sdf sd gdfgdfg serw er fgh fg hfg h sdf sdf dfg gfhjfghfg sdfsdfgdrfghdh dfgdfhgfghfghfghgf sdfsdfgfghfghgfh </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>:::</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>No entanto, há um bug no RStudio e o texto não é justificado nunca.</p>
+<p>Primeiro, é necessário usar <code>engine: knitr</code>, como mostrado no item 2.</p>
+<p>Se não funcionar, coloque o seguinte código em qualquer parte do seu script:</p>
+<div id="cb4" class="sourceCode cell-code">
+<pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{css,  echo=FALSE}</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">.</span><span class="fu">justify</span> <span class="op">{</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a> text<span class="op">-</span>align<span class="op">:</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>justify <span class="op">!</span>important}</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="op">```</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre>
+</div>
+<p>
+</p><p><br></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
