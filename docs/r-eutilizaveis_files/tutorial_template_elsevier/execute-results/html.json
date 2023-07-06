@@ -1,0 +1,14 @@
+{
+  "hash": "37ca692b62e327be4bb565340d77c364",
+  "result": {
+    "markdown": "---\ntitle: \"Como gerar templates para revistas da Elsevier\"\nlang: pt-br\nengine: knitr\n---\n\n\nAntes de mais nada, é preciso instalar o pacote `tinytex`, que serve para instalar toda a infra-estrutura do LaTeX para lidar com PDFs.\n\n```r\ninstall.packages('tinytex')\ntinytex::install_tinytex()\n```\n\nPessoal, o template da Elsevier que tentamos colocar no RStudio através do terminal deu problema para mim por causa da confusão entre as pastas criadas. Acredito que para muitos foi a mesma coisa. \n\nNo entanto, existe uma maneira muito prática no RStudio de trabalhar com pastas no terminal. \n\nAo invés de precisar escrever todo o caminho, tipo `c:\\user\\mauricio\\projeto_aula`, podemos usar o gerenciador de arquivos do próprio RStudio.\n\nObserve a figura abaixo e localize o Terminal e o gerenciador de arquivos (Files). Os caminhos destacados devem ser os mesmos (este é o caminho do seu projeto). \n\n![](img/template1.png)\n\n<br>\n\nAs duas janelas inferiores podem ser maximizadas usando os botões destacados abaixo. Isso facilita o trabalho.\n\n![](img/template2.png)\n\n<br>\n\nÉ possível sincronizar os caminhos das duas janelas usando o gerenciador de arquivos, sem a necessidade de escrever o caminho inteiro no terminal. \n\nA opção `Open New Terminal Here` abre um novo terminal apontando para o mesmo caminho do gerenciador de arquivos. Nesta pasta (=diretório) o template será instalado.\n\n![](img/template3.png)\n\n<br>\n\nObserve que um novo terminal foi criado, chamado de `Terminal2`.\n\n![](img/template4.png)\n\n<br>\n\nAgora é hora de incluir os comandos para baixar o template da Elsevier, que pode ser encontrado em <https://github.com/quarto-journals/elsevier#installation-for-existing-document>  \n\n<br>\n\nO comando é:\n\n````default\nquarto use template quarto-journals/elsevier\n````\n\n\n![](img/template5.png)\n\n<br>\n\nApós confirmar que confia no autor do template, informe o nome do novo diretório onde será instalado o template (meu_dir).\n\n![](img/template6.png)\n\n<br>\n\nObserve no gerenciador de arquivos que o diretório `meu_dir` foi criado.\n\n![](img/template7.png)\n\n<br>\n\nDentro deste diretório encontre o arquivo `meu_dir.qmd`. Este é o seu template. Clique ne e tente renderizar o pdf.\n\n![](img/template8.png)\n\n<br>\n\nBoa sorte!",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
