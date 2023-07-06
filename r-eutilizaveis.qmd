@@ -15,5 +15,5 @@ lang: pt
   - [Tutotial de uso de templates para revistas científicas da Elsevier](r-eutilizaveis/tutorial_template_elsevier.qmd)
 - [Truques do Quarto](r-eutilizaveis/truq_quarto.qmd)  
 - [Truques do git](r-eutilizaveis/truq_git.qmd)  
-- [Tradução para o R de alguns tutoriais em Python do prof. Guto](r_guto.qmd)
+- [Tradução para o R de alguns tutoriais em Python do prof. Guto](r-eutilizaveis/r_guto.qmd)
 
