@@ -8,8 +8,14 @@ lang: pt
 
 ---
 
-- Mágica para dar Commit quando trava com muitos arquivos..... 
+## Linha mágica para dar um `Commit`.
+
+No RStudio, ao selecionar os arquivos para dar um `Commit`, pode acontecer de travar o programa.   
+
+Quando não for possível dar um `Commit`, tente a seguinte linha mágica no terminal do RStudio:
 
 ```r
 git add -A && git commit -m "staging all files"
 ```
+
+

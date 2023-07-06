@@ -175,7 +175,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#linha-mágica-para-dar-um-commit." id="toc-linha-mágica-para-dar-um-commit." class="nav-link active" data-scroll-target="#linha-mágica-para-dar-um-commit.">Linha mágica para dar um <code>Commit</code>.</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
@@ -202,12 +208,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 <hr>
-<ul>
-<li>Mágica para dar Commit quando trava com muitos arquivos…..</li>
-</ul>
+<section id="linha-mágica-para-dar-um-commit." class="level2">
+<h2 class="anchored" data-anchor-id="linha-mágica-para-dar-um-commit.">Linha mágica para dar um <code>Commit</code>.</h2>
+<p>No RStudio, ao selecionar os arquivos para dar um <code>Commit</code>, pode acontecer de travar o programa.</p>
+<p>Quando não for possível dar um <code>Commit</code>, tente a seguinte linha mágica no terminal do RStudio:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>git add <span class="sc">-</span>A <span class="sc">&amp;&amp;</span> git commit <span class="sc">-</span>m <span class="st">"staging all files"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
