@@ -25,7 +25,7 @@ install.packages('usethis','gitcreds','devtools', 'markdown','rmarkdown','knitr'
 Esta é uma maneira de instalar vários pacotes de uma só vez.
 :::
 
-O pacote `tinytex` do R serve para instalar toda a infra-estrutura do LaTeX para lidar com PDFs.  
+O pacote `tinytex` do R serve para instalar toda a infra-estrutura do $\LaTeX$ para lidar com PDFs.  
 
 
 ```{.r}
@@ -88,18 +88,18 @@ usethis::use_git_config(
   user.email = "seu_email_no@gmail.com")
 ```
 
-- Crie um **Personal Access Token** (PAT)
+- Crie um **Personal Access *Token*** (PAT)
 
-De uns tempos para cá o Github aperfeiçoou o método de autenticação no site, de modo que a senha do usuário foi substituída por um `token` chamado PAT.
+De uns tempos para cá o Github aperfeiçoou o método de autenticação no site, de modo que a senha do usuário foi substituída por um `token`.
 
 ::: aside
 Lembre-se sempre que a senha pode ser substituído pelo token. Se em algum momento o Rstudio pedir a senha do Git, use o token.
 :::
 
-O PAT também pode ser criado dentro do RStudio usando o pacote `usethis`. 
+O token também pode ser criado dentro do RStudio usando o pacote `usethis`. 
 
 ::: aside
-Você pode acessar diretamente a página do Github para criar um PAT, mas usando o pacote `usethis` as configurações do PAT são pré-fixadas.
+Você pode acessar diretamente a página do Github para criar um token, mas usando o pacote `usethis` as configurações são pré-fixadas.
 :::
 
 
@@ -124,9 +124,9 @@ Copie e guarde o token `AGORA`. Você não terá outra chance! Em nenhum lugar v
 No entanto, um novo token pode ser criado e utilizado a qualquer momento. 
 :::
 
-- Atribuir o PAT ao Git para sempre
+- Atribuir o token ao Git para sempre.
 
-Usando o pacote `gitcreds`, você pode informar o Git seu recém-criado PAT e você não mais precisará informá-lo toda vez que atualizar o Github. 
+Usando o pacote `gitcreds`, você pode informar o Git seu recém-criado token e você não mais precisará informá-lo toda vez que entrar o Github. 
 
 ```{.r}
 gitcreds::gitcreds_set()

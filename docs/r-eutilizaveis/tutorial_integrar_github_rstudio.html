@@ -93,6 +93,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -233,7 +235,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div class="no-row-height column-margin column-container"><div class="">
 <p>Esta é uma maneira de instalar vários pacotes de uma só vez.</p>
-</div></div><p>O pacote <code>tinytex</code> do R serve para instalar toda a infra-estrutura do LaTeX para lidar com PDFs.</p>
+</div></div><p>O pacote <code>tinytex</code> do R serve para instalar toda a infra-estrutura do <span class="math inline">\(\LaTeX\)</span> para lidar com PDFs.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">'tinytex'</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>tinytex<span class="sc">::</span><span class="fu">install_tinytex</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
@@ -277,16 +279,16 @@ Para abrir o terminal, clique no botão Iniciar do Windows e digite <code>cmd</c
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">user.name =</span> <span class="st">"SEU NOME NO GITHUB"</span>,</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">user.email =</span> <span class="st">"seu_email_no@gmail.com"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>Crie um <strong>Personal Access Token</strong> (PAT)</li>
+<li>Crie um <strong>Personal Access <em>Token</em></strong> (PAT)</li>
 </ul>
-<p>De uns tempos para cá o Github aperfeiçoou o método de autenticação no site, de modo que a senha do usuário foi substituída por um <code>token</code> chamado PAT.</p>
+<p>De uns tempos para cá o Github aperfeiçoou o método de autenticação no site, de modo que a senha do usuário foi substituída por um <code>token</code>.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
 <p>Lembre-se sempre que a senha pode ser substituído pelo token. Se em algum momento o Rstudio pedir a senha do Git, use o token.</p>
-</div></div><p>O PAT também pode ser criado dentro do RStudio usando o pacote <code>usethis</code>.</p>
+</div></div><p>O token também pode ser criado dentro do RStudio usando o pacote <code>usethis</code>.</p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<p>Você pode acessar diretamente a página do Github para criar um PAT, mas usando o pacote <code>usethis</code> as configurações do PAT são pré-fixadas.</p>
+<p>Você pode acessar diretamente a página do Github para criar um token, mas usando o pacote <code>usethis</code> as configurações são pré-fixadas.</p>
 </div></div><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">create_github_token</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Uma janela do navegador irá se abrir e você precisará informar o nome do usuário do Github e a senha.</p>
 <p><img src="img/Novo_PAT_do_Github.png" class="img-fluid"></p>
@@ -311,9 +313,9 @@ Cuidado
 <div class="no-row-height column-margin column-container"><div class="">
 <p>No entanto, um novo token pode ser criado e utilizado a qualquer momento.</p>
 </div></div><ul>
-<li>Atribuir o PAT ao Git para sempre</li>
+<li>Atribuir o token ao Git para sempre.</li>
 </ul>
-<p>Usando o pacote <code>gitcreds</code>, você pode informar o Git seu recém-criado PAT e você não mais precisará informá-lo toda vez que atualizar o Github.</p>
+<p>Usando o pacote <code>gitcreds</code>, você pode informar o Git seu recém-criado token e você não mais precisará informá-lo toda vez que entrar o Github.</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>gitcreds<span class="sc">::</span><span class="fu">gitcreds_set</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Um prompt na janela de console do R dentro do RStudio vai pedir:</p>
 <p><code>? Enter password or token:</code></p>
