@@ -151,7 +151,7 @@
     "href": "r-eutilizaveis/truq_git.html",
     "title": "Truques de git e githib",
     "section": "",
-    "text": "Mágica para dar Commit quando trava com muitos arquivos\n\ngit add -A && git commit -m \"staging all files\""
+    "text": "Mágica para dar Commit quando trava com muitos arquivos…..\n\ngit add -A && git commit -m \"staging all files\""
   },
   {
     "objectID": "r-eutilizaveis/r_guto.html",
