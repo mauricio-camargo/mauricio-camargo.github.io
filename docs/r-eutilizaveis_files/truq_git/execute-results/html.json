@@ -1,7 +1,7 @@
 {
-  "hash": "3b5ca821cefa64e086e183599719146c",
+  "hash": "0cea5287e02787fc687497c6d182586d",
   "result": {
-    "markdown": "---\ntitle: \"Truques de git e githib\"\nengine: knitr\ntoc: TRUE\ntoc-location: left\nlang: pt\n---\n\n\n---\n\n- Mágica para dar Commit quando trava com muitos arquivos \n\n```r\ngit add -A && git commit -m \"staging all files\"\n```\n",
+    "markdown": "---\ntitle: \"Truques de git e githib\"\nengine: knitr\ntoc: TRUE\ntoc-location: left\nlang: pt\n---\n\n\n---\n\n## Linha mágica para dar um `Commit`.\n\nNo RStudio, ao selecionar os arquivos para dar um `Commit`, pode acontecer de travar o programa.   \n\nQuando não for possível dar um `Commit`, tente a seguinte linha mágica no terminal do RStudio:\n\n```r\ngit add -A && git commit -m \"staging all files\"\n```\n\n\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

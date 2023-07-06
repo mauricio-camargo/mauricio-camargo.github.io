@@ -81,7 +81,7 @@
     "href": "r-eutilizaveis.html",
     "title": "R-eutilizáveis",
     "section": "",
-    "text": "Tutoriais de reprodutibilidade (RMarkdown, Quarto, LaTeX etc)\n\nTutorial de configuração do Gituhub e do RStudio para uso do Quarto\nTutotial do Quarto\n\nTutotial de uso de templates para revistas científicas da Elsevier\n\nTruques do Quarto\n\nTruques do git\n\nTradução para o R de alguns tutoriais em Python do prof. Guto"
+    "text": "Tutoriais de reprodutibilidade (RMarkdown, Quarto, LaTeX etc)\n\nTutorial de configuração do Gituhub e do RStudio para uso do Quarto\nTutotial do Quarto\n\nTutotial de uso de templates para revistas científicas da Elsevier\nTruques do Quarto\n\nTruques do git\n\n\nTradução para o R de alguns tutoriais em Python do prof. Guto"
   },
   {
     "objectID": "hobbies.html",
@@ -298,7 +298,7 @@
     "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r",
     "title": "Passos para integrar RStudio e Github",
     "section": "1.Instalar os programas do ecossistema de reprodutibilidade do R:",
-    "text": "1.Instalar os programas do ecossistema de reprodutibilidade do R:\n\nR: https://cran.r-project.org\nRStudio: https://posit.co/download/rstudio-desktop/\nQuarto: https://quarto.org/docs/get-started/\nMini-tutorial do Quarto: https://rpubs.com/camargo/MiniTutorialQuarto"
+    "text": "1.Instalar os programas do ecossistema de reprodutibilidade do R:\n\nR: https://cran.r-project.org\nRStudio: https://posit.co/download/rstudio-desktop/\nQuarto: https://quarto.org/docs/get-started/"
   },
   {
     "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-pacotes-no-r",

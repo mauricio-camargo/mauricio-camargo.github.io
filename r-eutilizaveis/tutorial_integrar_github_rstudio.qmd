@@ -14,7 +14,6 @@ engine: knitr
 -   R: <https://cran.r-project.org>
 -   RStudio: <https://posit.co/download/rstudio-desktop/>
 -   Quarto: <https://quarto.org/docs/get-started/>  
-Mini-tutorial do Quarto:   <https://rpubs.com/camargo/MiniTutorialQuarto>
 
 ## 2.Instalar os pacotes no R:
 
