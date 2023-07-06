@@ -81,7 +81,7 @@
     "href": "r-eutilizaveis.html",
     "title": "R-eutilizáveis",
     "section": "",
-    "text": "Tutoriais de reprodutibilidade (RMarkdown, Quarto, LaTeX, Github  etc)\n\nTutorial de configuração do Gituhub e do RStudio para uso do Quarto\nReferência de RMarkdown e Quarto\n\nTutotial de uso de templates para revistas científicas da Elsevier\nTruques do Quarto e Github\n\n\nTradução para o R de alguns tutoriais em Python do prof. Guto"
+    "text": "Tutoriais de reprodutibilidade (RMarkdown, Quarto, LaTeX, Github  etc)\n\nTutorial de configuração do Gituhub e do RStudio para uso do Quarto\nReferência de RMarkdown e Quarto\n\nTutotial de uso de templates para revistas científicas da Elsevier\nTutorial de uso de CSS e temas no Quarto\n\nTruques do Quarto e Github\n\n\nTradução para o R de alguns tutoriais em Python do prof. Guto"
   },
   {
     "objectID": "hobbies.html",
@@ -131,6 +131,20 @@
     "title": "Tutorial de Kivy",
     "section": "",
     "text": "Entre com os seguintes comandos no prompt do Anaconda:\n\n\nPrimeiro, atualize o conda.\n\n\nconda update conda\n\n\nVerique as versões instaladas do Python\n\n\nconda search \"^python$\"\n\n\nCrie um ambiente virtual para o seu projeto:\n\n\nconda create -n meu_env\n\n\nAtivar o ambiente virtual\n\n\nactivate meu_env\n\n\nCriar um arquivo Python (.py) contendo o seguinte código (salve em qualquer lugar):\n\n\nfrom kivy.app import App\nfrom kivy.uix.gridlayout import GridLayout\nfrom kivy.uix.label import Label\nfrom kivy.uix.image import Image\nfrom kivy.uix.button import Button\nfrom kivy.uix.textinput import TextInput\n\nclass SayHello(App):\n    def build(self):\n        self.window = GridLayout()\n        #add widgets to window\n\n        return self.window\n\nif _name_ == \"__main__\":\n    SayHello().run()"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_css_temas.html",
+    "href": "r-eutilizaveis/tutorial_css_temas.html",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "",
+    "text": "Se as capacidades gráficas do Quarto não são suficientes para um layout mais avançado, então podemos usar os temas fornecidos pelo Quarto ou, de maneira mais avançada ainda, manipular arquivos css, que definem o formato das publicações html."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_css_temas.html#css",
+    "href": "r-eutilizaveis/tutorial_css_temas.html#css",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "2. CSS",
+    "text": "2. CSS\nCSS (Cascading Style Sheet) é uma linguagem para estilizar elementos escritos em uma linguagem de marcação como HTML. Conteúdo e representação visual da página são separados usando CSS.\nCom CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos e usar variações de layouts.\nUsar CSS no Quarto é muito simples, bastando criar um arquivo com extensão .scss e especificar o nome dele logo abaixo do tema. O arquivo .scss precisa esta no mesmo diretório do arquivo .qmd.\n---\ntitle: Meu título\nformat:\n  html:\n    theme: [cosmo, custom.scss]\nO conteúdo do arquivo deve estar escrito em linguagem css. PAra aprender sobre esta linguagem, recorra à página do Quarto.\nO conteúdo dos arquivos .scss que são usados em cada um dos 25 temas do Quarto estão aqui.\nUm exemplo de arquivo .scss que eu uso neste site para a apresentações está aqui:\n\n/*-- scss:defaults --*/\n\n$font-family-sans-serif: Helvetica;\n$presentation-h2-font-size: 1.2em;\n$presentation-h4-font-size: 1.2em;\n$presentation-heading-color: #e0020c;\n$presentation-font-smaller: 0.8;\n$presentation-line-height: 1;\n\n/*-- scss:rules --*/\n\n.reveal .slide-logo {\n  height: 120px !important;\n  width: 120px!important;\n  max-width: unset !important;\n  max-height: unset !important;\n}\n\n.reveal .slide blockquote {\n  border-left: 3px solid $text-muted;\n  padding-left: 0.5em;\n}"
   },
   {
     "objectID": "r-eutilizaveis/hidroweb/hidroweb.html",

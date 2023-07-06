@@ -1,0 +1,97 @@
+---
+title: Passos para integrar RStudio e Github
+format: html
+toc: TRUE
+toc-location: left
+lang: pt-br
+engine: knitr
+---
+
+---
+
+Se as capacidades gráficas do `Quarto` não são suficientes para um layout mais avançado, então podemos usar os temas fornecidos pelo Quarto ou, de maneira mais avançada ainda, manipular arquivos css, que definem o formato das publicações html.
+
+### 1. Temas do `Quarto`
+
+Uma descrição detalhada sobre a utilização de temas no Quarto pode ser encontrada no site oficial sobre 
+[Temas do Quarto](https://quarto.org/docs/output-formats/html-themes.html).  
+
+Use os temas da seguinte forma:
+
+```r
+---
+title: Meu título
+format:
+  html:
+    theme: default
+---
+```
+
+Uma lista de temas é encontrada no site do [Quarto](https://quarto.org/docs/output-formats/html-themes.html#overview), como `cosmo`, `darkly`, `litera` e `lumen`.  
+
+Os temas modificam o formato da página ou do slide, incluindo cores e tamnhos de background, fontes e links.
+
+Algumas opções básicas dos temas podem ser modificadas pelo `Quarto`, como para mudar o tamanho da fonte (`fontsize`) e altura entre as linhas (`linestretch`), assim: 
+
+```r
+---
+title: Meu título
+format:
+  html:
+    theme: cosmo
+    fontsize: 1.1em
+    linestretch: 1.7
+---
+```
+
+Uma lista destas opções podem ser encontradas [aqui](https://quarto.org/docs/output-formats/html-themes.html#basic-options).  
+
+## 2. CSS
+
+CSS (*Cascading Style Sheet*) é uma linguagem para estilizar elementos escritos em uma linguagem de marcação como HTML. Conteúdo e representação visual da página são separados usando CSS.  
+
+Com CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos e usar variações de layouts.
+
+Usar CSS no Quarto é muito simples, bastando criar um arquivo com extensão `.scss` e especificar o nome dele logo abaixo do tema. O arquivo `.scss` precisa esta no mesmo diretório do arquivo `.qmd`.
+
+
+```r
+---
+title: Meu título
+format:
+  html:
+    theme: [cosmo, custom.scss]
+```
+
+O conteúdo do arquivo deve estar escrito em linguagem `css`. PAra aprender sobre esta linguagem, recorra à página do [Quarto](https://quarto.org/docs/output-formats/html-themes.html#custom-themes).
+
+O conteúdo dos arquivos `.scss` que são usados em cada um dos 25 temas do Quarto estão [aqui](https://github.com/quarto-dev/quarto-cli/tree/main/src/resources/formats/html/bootstrap/themes).  
+
+Um exemplo de arquivo `.scss` que eu uso neste site para a apresentações está aqui:
+
+
+```{css}
+/*-- scss:defaults --*/
+
+$font-family-sans-serif: Helvetica;
+$presentation-h2-font-size:	1.2em;
+$presentation-h4-font-size:	1.2em;
+$presentation-heading-color: #e0020c;
+$presentation-font-smaller:	0.8;
+$presentation-line-height: 1;
+
+/*-- scss:rules --*/
+
+.reveal .slide-logo {
+  height: 120px !important;
+  width: 120px!important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}
+```
+
