@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Truques do Quarto</title>
+<title>Truques do Quarto e Github</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -179,7 +179,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#quando-seu-commit-não-vai-de-jeito-nenhum" id="toc-quando-seu-commit-não-vai-de-jeito-nenhum" class="nav-link active" data-scroll-target="#quando-seu-commit-não-vai-de-jeito-nenhum">1. Quando seu <em>commit</em> não vai de jeito nenhum!</a></li>
+  <li><a href="#linha-mágica-para-dar-um-commit-quando-o-rstudio-trava." id="toc-linha-mágica-para-dar-um-commit-quando-o-rstudio-trava." class="nav-link active" data-scroll-target="#linha-mágica-para-dar-um-commit-quando-o-rstudio-trava.">1. Linha mágica para dar um <code>Commit</code> quando o RStudio trava.</a></li>
   <li><a href="#quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada" id="toc-quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada" class="nav-link" data-scroll-target="#quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada">2. Quando o RStudio pede para instalar o Python ou o Jupyter, do nada?</a></li>
   <li><a href="#e-se-eu-quiser-justificar-um-texto-longo" id="toc-e-se-eu-quiser-justificar-um-texto-longo" class="nav-link" data-scroll-target="#e-se-eu-quiser-justificar-um-texto-longo">3. E se eu quiser justificar um texto longo?</a></li>
   </ul>
@@ -194,7 +194,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Truques do Quarto</h1>
+<h1 class="title">Truques do Quarto e Github</h1>
 </div>
 
 
@@ -209,14 +209,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="quando-seu-commit-não-vai-de-jeito-nenhum" class="level3">
-<h3 class="anchored" data-anchor-id="quando-seu-commit-não-vai-de-jeito-nenhum">1. Quando seu <em>commit</em> não vai de jeito nenhum!</h3>
-<p>Esta linha mágica se executada no terminal dentro do RStudio faz um <strong><em>commit</em></strong> de todos os arquivos instantaneamente. O <strong><em>push</em></strong> que devemos fazer depois é bem menos propenso a travar.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>git add -A &amp;&amp; git commit -m "staging all files"</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Informe no cabeçalho que a engine é a <strong>knitr</strong>, usando <code>engine: knitr</code>.</p>
+<section id="linha-mágica-para-dar-um-commit-quando-o-rstudio-trava." class="level3">
+<h3 class="anchored" data-anchor-id="linha-mágica-para-dar-um-commit-quando-o-rstudio-trava.">1. Linha mágica para dar um <code>Commit</code> quando o RStudio trava.</h3>
+<p>No RStudio, ao selecionar os arquivos para dar um <code>Commit</code>, pode acontecer de travar o programa ou a seleção não funcionar.</p>
+<p>Quando não for possível dar um <code>Commit</code>, tente a seguinte linha mágica no terminal do RStudio:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>git add <span class="sc">-</span>A <span class="sc">&amp;&amp;</span> git commit <span class="sc">-</span>m <span class="st">"staging all files"</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada">2. Quando o RStudio pede para instalar o Python ou o Jupyter, do nada?</h2>
+<section id="quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada">2. Quando o RStudio pede para instalar o Python ou o Jupyter, do nada?</h3>
+<p>Informe no cabeçalho que a engine é a <strong>knitr</strong>, usando <code>engine: knitr</code>.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode default code-with-copy"><code class="sourceCode default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>---</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>title: "Título"</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>engine: knitr</span>
@@ -244,8 +245,8 @@ justify !important
 <p>“Engine” é o motor de renderização (que transforma script em HTML), que pode ser o knitr (do RStudio) ou Jupyter (do Python). O padrão (default) é knitr, mas não sei porque de vez em quando temos que informar manualmente.</p>
 </div></div><p><br></p>
 </section>
-<section id="e-se-eu-quiser-justificar-um-texto-longo" class="level2">
-<h2 class="anchored" data-anchor-id="e-se-eu-quiser-justificar-um-texto-longo">3. E se eu quiser justificar um texto longo?</h2>
+<section id="e-se-eu-quiser-justificar-um-texto-longo" class="level3">
+<h3 class="anchored" data-anchor-id="e-se-eu-quiser-justificar-um-texto-longo">3. E se eu quiser justificar um texto longo?</h3>
 <p>Para justificar um texto, pode-se usar:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>:::{.justify}</span>
@@ -254,7 +255,7 @@ justify !important
 </div>
 <p>No entanto, há um bug no RStudio e o texto não é justificado nunca.</p>
 <p>Primeiro, é necessário usar <code>engine: knitr</code>, como mostrado no item 2.</p>
-<p>Se não funcionar, coloque o seguinte código em qualquer parte do seu script:</p>
+<p>Se não funcionar, adicione também o seguinte código em qualquer parte do seu script:</p>
 <div id="cb4" class="sourceCode cell-code">
 <pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{css,  echo=FALSE}</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">.</span><span class="fu">justify</span> <span class="op">{</span></span>

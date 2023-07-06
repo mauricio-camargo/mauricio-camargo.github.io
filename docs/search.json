@@ -81,7 +81,7 @@
     "href": "r-eutilizaveis.html",
     "title": "R-eutilizáveis",
     "section": "",
-    "text": "Tutoriais de reprodutibilidade (RMarkdown, Quarto, LaTeX etc)\n\nTutorial de configuração do Gituhub e do RStudio para uso do Quarto\nTutotial do Quarto\n\nTutotial de uso de templates para revistas científicas da Elsevier\nTruques do Quarto\n\nTruques do git\n\n\nTradução para o R de alguns tutoriais em Python do prof. Guto"
+    "text": "Tutoriais de reprodutibilidade (RMarkdown, Quarto, LaTeX, Github  etc)\n\nTutorial de configuração do Gituhub e do RStudio para uso do Quarto\nTutotial do Quarto e RMarkdown\n\nTutotial de uso de templates para revistas científicas da Elsevier\nTruques do Quarto e Github\n\n\nTradução para o R de alguns tutoriais em Python do prof. Guto"
   },
   {
     "objectID": "hobbies.html",
@@ -145,13 +145,6 @@
     "title": "Como gerar templates para revistas da Elsevier",
     "section": "",
     "text": "Antes de mais nada, é preciso instalar o pacote tinytex, que serve para instalar toda a infra-estrutura do LaTeX para lidar com PDFs.\ninstall.packages('tinytex')\ntinytex::install_tinytex()\nPessoal, o template da Elsevier que tentamos colocar no RStudio através do terminal deu problema para mim por causa da confusão entre as pastas criadas. Acredito que para muitos foi a mesma coisa.\nNo entanto, existe uma maneira muito prática no RStudio de trabalhar com pastas no terminal.\nAo invés de precisar escrever todo o caminho, tipo c:\\user\\mauricio\\projeto_aula, podemos usar o gerenciador de arquivos do próprio RStudio.\nObserve a figura abaixo e localize o Terminal e o gerenciador de arquivos (Files). Os caminhos destacados devem ser os mesmos (este é o caminho do seu projeto).\n\n\nAs duas janelas inferiores podem ser maximizadas usando os botões destacados abaixo. Isso facilita o trabalho.\n\n\nÉ possível sincronizar os caminhos das duas janelas usando o gerenciador de arquivos, sem a necessidade de escrever o caminho inteiro no terminal.\nA opção Open New Terminal Here abre um novo terminal apontando para o mesmo caminho do gerenciador de arquivos. Nesta pasta (=diretório) o template será instalado.\n\n\nObserve que um novo terminal foi criado, chamado de Terminal2.\n\n\nAgora é hora de incluir os comandos para baixar o template da Elsevier, que pode ser encontrado em https://github.com/quarto-journals/elsevier#installation-for-existing-document\n\nO comando é:\nquarto use template quarto-journals/elsevier\n\n\nApós confirmar que confia no autor do template, informe o nome do novo diretório onde será instalado o template (meu_dir).\n\n\nObserve no gerenciador de arquivos que o diretório meu_dir foi criado.\n\n\nDentro deste diretório encontre o arquivo meu_dir.qmd. Este é o seu template. Clique ne e tente renderizar o pdf.\n\n\nBoa sorte!"
-  },
-  {
-    "objectID": "r-eutilizaveis/truq_git.html",
-    "href": "r-eutilizaveis/truq_git.html",
-    "title": "Truques de git e githib",
-    "section": "",
-    "text": "Mágica para dar Commit quando trava com muitos arquivos…..\n\ngit add -A && git commit -m \"staging all files\""
   },
   {
     "objectID": "r-eutilizaveis/r_guto.html",
@@ -268,23 +261,9 @@
   {
     "objectID": "r-eutilizaveis/truq_quarto.html",
     "href": "r-eutilizaveis/truq_quarto.html",
-    "title": "Truques do Quarto",
+    "title": "Truques do Quarto e Github",
     "section": "",
-    "text": "Esta linha mágica se executada no terminal dentro do RStudio faz um commit de todos os arquivos instantaneamente. O push que devemos fazer depois é bem menos propenso a travar.\ngit add -A && git commit -m \"staging all files\"\nInforme no cabeçalho que a engine é a knitr, usando engine: knitr."
-  },
-  {
-    "objectID": "r-eutilizaveis/truq_quarto.html#quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada",
-    "href": "r-eutilizaveis/truq_quarto.html#quando-o-rstudio-pede-para-instalar-o-python-ou-o-jupyter-do-nada",
-    "title": "Truques do Quarto",
-    "section": "2. Quando o RStudio pede para instalar o Python ou o Jupyter, do nada?",
-    "text": "2. Quando o RStudio pede para instalar o Python ou o Jupyter, do nada?\n---\ntitle: \"Título\"\nengine: knitr\n---\n\n\n\n“Engine” é o motor de renderização (que transforma script em HTML), que pode ser o knitr (do RStudio) ou Jupyter (do Python). O padrão (default) é knitr, mas não sei porque de vez em quando temos que informar manualmente."
-  },
-  {
-    "objectID": "r-eutilizaveis/truq_quarto.html#e-se-eu-quiser-justificar-um-texto-longo",
-    "href": "r-eutilizaveis/truq_quarto.html#e-se-eu-quiser-justificar-um-texto-longo",
-    "title": "Truques do Quarto",
-    "section": "3. E se eu quiser justificar um texto longo?",
-    "text": "3. E se eu quiser justificar um texto longo?\nPara justificar um texto, pode-se usar:\n\n:::{.justify}\nTesto a ser justificado. Claro que precisa ser um texto longo para testar se justifica ou não, então aqui vai um texto longo: asdasdasd sdfsdfg fghfgh rtertert dfg f fgh sd sdf sdf sd gdfgdfg serw er fgh fg hfg h sdf sdf dfg gfhjfghfg sdfsdfgdrfghdh dfgdfhgfghfghfghgf sdfsdfgfghfghgfh \n:::\n\nNo entanto, há um bug no RStudio e o texto não é justificado nunca.\nPrimeiro, é necessário usar engine: knitr, como mostrado no item 2.\nSe não funcionar, coloque o seguinte código em qualquer parte do seu script:\n\n```{css,  echo=FALSE}\n.justify {\n text-align:\njustify !important}\n```"
+    "text": "1. Linha mágica para dar um Commit quando o RStudio trava.\nNo RStudio, ao selecionar os arquivos para dar um Commit, pode acontecer de travar o programa ou a seleção não funcionar.\nQuando não for possível dar um Commit, tente a seguinte linha mágica no terminal do RStudio:\ngit add -A && git commit -m \"staging all files\"\n\n\n2. Quando o RStudio pede para instalar o Python ou o Jupyter, do nada?\nInforme no cabeçalho que a engine é a knitr, usando engine: knitr.\n---\ntitle: \"Título\"\nengine: knitr\n---\n\n\n\n“Engine” é o motor de renderização (que transforma script em HTML), que pode ser o knitr (do RStudio) ou Jupyter (do Python). O padrão (default) é knitr, mas não sei porque de vez em quando temos que informar manualmente.\n\n\n\n3. E se eu quiser justificar um texto longo?\nPara justificar um texto, pode-se usar:\n\n:::{.justify}\nTesto a ser justificado. Claro que precisa ser um texto longo para testar se justifica ou não, então aqui vai um texto longo: asdasdasd sdfsdfg fghfgh rtertert dfg f fgh sd sdf sdf sd gdfgdfg serw er fgh fg hfg h sdf sdf dfg gfhjfghfg sdfsdfgdrfghdh dfgdfhgfghfghfghgf sdfsdfgfghfghgfh \n:::\n\nNo entanto, há um bug no RStudio e o texto não é justificado nunca.\nPrimeiro, é necessário usar engine: knitr, como mostrado no item 2.\nSe não funcionar, adicione também o seguinte código em qualquer parte do seu script:\n\n```{css,  echo=FALSE}\n.justify {\n text-align:\njustify !important}\n```"
   },
   {
     "objectID": "r-eutilizaveis/IBGE2/IBGE2.html",
@@ -418,19 +397,5 @@
     "title": "",
     "section": "",
     "text": "GAD: General Anova Design. Pacote para modelos mistos de ANOVA, baseado em Underwood (1997).\nAutores: Leonardo Sandrini Neto e Maurício Camargo\nEstágio: ativo\nHistórico: Este pacote foi pioneiro na utilização de modelos mistos de ANOVA segundo a notação de Underwood (1997), tendo sido resenhado no task view do CRAN sobre Experimental Design em https://cran.r-project.org/view=ExperimentalDesign\nDisponível em https://cran.r-project.org/web/packages/GAD/index.html\nGAD2 (pacote experimental): Extensão do pacote GAD, com funcionalidades adicionais, como aproximações e pooling.\nAutores: Leonardo Sandrini Neto, Eliandro Gilbert e Maurício Camargo\nEstágio: em construção\nrysgran: Estatísticas e gráficos para análise granulométrica do sedimento. Este é o porte do SysGran para o R.\nAutores: Maurício Camargo, Eliandro Gilbert e Leonardo Sandrini Neto\nEstágio: ativo\nHistórico: O pacote rysgran implementa todas as funcionalidades do programa SysGran e mais algumas.\nDisponível em: https://github.com/mauricio-camargo/rysgran\npermanovaR (pacote experimental): Análise variância multivariada permutacional.\nAutores: Eliandro Gilbert e Maurício Camargo\nEstágio: em construção\n\n\n\n\n\nsysgran4: esta é a evolução do SysGran3, rodando agora tanto em Windows quanto Linux.\nDisponível em: https://github.com/mauricio-camargo/sysgran4 Estágio: ativo\nDatractor: é um pequeno programa aberto escrito em Lazarus FreePascal para extrair valores de gráficos e mapas diretamente de PDFs e imagens (somente Windows).\nTutorial em vídeo: https://youtu.be/GI8dnzxbOVk\nDisponível em: https://github.com/mauricio-camargo/Datractor Estágio: ativo\nGPProj - Gerenciador Pessoal de Projetos: Programa para gerenciar projetos, com suporte para armazenamento remoto de arquivos, tarefas, links, agenda, anotações e contatos, com suporte aos serviços do Google (Gmail, Tasks, Agenda, People e Drive).\nEstágio: atualmente o programa está funcional e em fase final de empacotamento.\nPDFtoTEXTgui: Interface Gráfica de Usuário (GUI) escrito em Lazarus Pascal do programa pdftotext para Linux, para transformar PDF em TXT.\nAutor: Maurício Camargo\nEstágio: ativo\nSimetrox: Simetrógrafo digital, para avaliação postural, com entrada em imagens e vídeos. Disponível em: https://github.com/mauricio-camargo/Simetrox Estágio: finalizando (falta implementar entrada por video pelo ffmpeg)\n\n\n\n\n\n\nSysGran3: Sistema integrado de análise granulométrica para Windows, com análises estatísticas e gráficos para sedimentologia. Autor: Maurício Camargo\nEstágio: O SysGran foi criado em 1995 e se espalhou pelo mundo, inicialmente como um programa pago, até 2003. Em 2005 o SysGran deixou de ser atualizado e foi substituído pelo pacote rysgran do R. No entanto, até hoje existem cópias do SysGran funcionando em milhares de computadores.\nDisponível em: https://github.com/mauricio-camargo/SysGran3\nMaresDB: Sobreposição gráfica de linhas de maré para demonstração de longas séries temporais. Para Windows.\nAutor: Maurício Camargo\nEstágio: ativo (necessita atualização) Histórico: Este programa plota linhas de maré durante o período de 24h, sobrepondo centenas de linhas em poucos segundos, servindo para a demonstração de longas séries temporais.\nSpiro: Software para visualização da direção e velocidade da corrente em um ou mais perfis verticais, para auxílio da navegação. Autor: Maurício Camargo\nEstágio: desaparecido\nBGM: Rotinas usadas em Biogeoquímica marinha. Para Windows.\nAutor: Maurício Camargo\nEstágio: desaparecido.\n\n\n\n\n\n\nPilots-Transf: Programa de transferência de dados recebidos por porta serial de equipamentos oceanográficos como marégrafos, ondógrafos e CTDs para bancos de dados.\nAutor: Maurício Camargo Estágio: ativo Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para processar os dados provenientes de equipamentos oceanográficos e armazená-los em bancos de dados relacionais.\nPilots-Maregrama: Programa integrado de visualização dos dados oceanográficos armazenados nos banco de dados pelo programa Pilots-transf.\nAutor: Maurício Camargo\nEstágio: ativo Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para simular uma sala de controle de informações oceanográficas.\nSaci: Programa para controle de vendas, estoque, caixa, fornecedores, clientes e pagamentos de uma loja de material de construção.\nAutor: Maurício Camargo\nEstágio: ativo Histórico: Programa criado em 1996 e mantido até 2015, mas funcionando até hoje!"
-  },
-  {
-    "objectID": "r-eutilizaveis/truq_git.html#linha-mágica-para-dar-um-commit.",
-    "href": "r-eutilizaveis/truq_git.html#linha-mágica-para-dar-um-commit.",
-    "title": "Truques de git e githib",
-    "section": "Linha mágica para dar um Commit.",
-    "text": "Linha mágica para dar um Commit.\nNo RStudio, ao selecionar os arquivos para dar um Commit, pode acontecer de travar o programa.\nQuando não for possível dar um Commit, tente a seguinte linha mágica no terminal do RStudio:\ngit add -A && git commit -m \"staging all files\""
-  },
-  {
-    "objectID": "r-eutilizaveis/truq_git.html#no-rstudio-quando-há-muitos-arquivos-para-dar-um-commit-acontece-do-programa-travar.-não-é-possível-selecionar-os-arquivos-para-o-commit.",
-    "href": "r-eutilizaveis/truq_git.html#no-rstudio-quando-há-muitos-arquivos-para-dar-um-commit-acontece-do-programa-travar.-não-é-possível-selecionar-os-arquivos-para-o-commit.",
-    "title": "Truques de git e githib",
-    "section": "No RStudio, quando há muitos arquivos para dar um Commit, acontece do programa travar. Não é possível selecionar os arquivos para o Commit.",
-    "text": "No RStudio, quando há muitos arquivos para dar um Commit, acontece do programa travar. Não é possível selecionar os arquivos para o Commit.\nMágica para dar Commit quando trava com muitos arquivos….."
   }
 ]

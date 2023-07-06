@@ -1,21 +1,24 @@
 ---
-title: "Truques do Quarto"
+title: "Truques do Quarto e Github"
 engine: knitr
 toc: TRUE
 toc-location: left
 lang: pt
 ---
 
-### 1. Quando seu *commit* não vai de jeito nenhum!  
-Esta linha mágica se executada no terminal dentro do RStudio faz um ***commit*** de todos os arquivos instantaneamente. O ***push*** que devemos fazer depois é bem menos propenso a travar.
+### 1. Linha mágica para dar um `Commit` quando o RStudio trava.
 
-```default
+No RStudio, ao selecionar os arquivos para dar um `Commit`, pode acontecer de travar o programa ou a seleção não funcionar.   
+
+Quando não for possível dar um `Commit`, tente a seguinte linha mágica no terminal do RStudio:
+
+```r
 git add -A && git commit -m "staging all files"
-
 ```
-Informe no cabeçalho que a engine é a **knitr**, usando `engine: knitr`.
 
-## 2. Quando o RStudio pede para instalar o Python ou o Jupyter, do nada?
+### 2. Quando o RStudio pede para instalar o Python ou o Jupyter, do nada?
+
+Informe no cabeçalho que a engine é a **knitr**, usando `engine: knitr`.
 
 
 ```default
@@ -45,7 +48,7 @@ justify !important
 
 <br>
 
-## 3. E se eu quiser justificar um texto longo?
+### 3. E se eu quiser justificar um texto longo?
 Para justificar um texto, pode-se usar:
 
 ```{markdown}
@@ -58,7 +61,7 @@ No entanto, há um bug no RStudio e o texto não é justificado nunca.
 
 Primeiro, é necessário usar `engine: knitr`, como mostrado no item 2.
 
-Se não funcionar, coloque o seguinte código em qualquer parte do seu script:
+Se não funcionar, adicione também o seguinte código em qualquer parte do seu script:
 
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{css,  echo=FALSE}</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="op">.</span><span class="fu">justify</span> <span class="op">{</span></span>
