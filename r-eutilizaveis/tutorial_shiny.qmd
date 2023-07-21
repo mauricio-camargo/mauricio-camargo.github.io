@@ -116,8 +116,8 @@ Não é necessário instalar nada no RStudio para usar o Shiny atualmente. Vers�
 
 ::: fragment
 No RStudio, para criar novo app da web, use:
-```default
-File>New file>Shiny web app
+```r
+# File>New file>Shiny web app
 ```
 :::
 
@@ -126,7 +126,7 @@ File>New file>Shiny web app
 ::: fragment
 A estrutura do novo arquivo vem com um exemplo de app pronto. No entanto, a estrutura mais básica de um app é a seguinte: 
 
-```r
+```default
 library(shiny)
 ui <- fluidPage(
    'Hello, world!'
@@ -174,8 +174,6 @@ A seguir, aplicatitivos da web feitos no RStudio e exemplos de utilização.
 
 
 -  [Gráfico de bolhas](https://gallery.shinyapps.io/182-google-charts/)
-
-<br>
 
 Referência do Shiny
 

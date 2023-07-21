@@ -112,25 +112,32 @@
     "text": "Primeiramente, todos os arquivos devem ser salvos em uma pasta. \n\npasta_ctd=('./csv')\n\nDois pacotes devem ser carregados. Se der erro tem que instalar os pacotes. \n\nlibrary(readr)\nlibrary(lattice)\n\nArmazenando os caminhos dos arquivos na variável arquivos_csv \n\narquivos_csv=list.files(pasta_ctd,pattern = '*.Csv',full.names = T)\n\nCriando dataframes vazios. \n\narquivos_txt=c()\ndadosF=c()\n\nLendo cada arquivo Csv e escrevendo uma tabela com a datahora. \n\nfor (i in 1:length(arquivos_csv)) {\n   ArqCabeca=read_lines(arquivos_csv[i],skip=0,n_max=16)\n   datahora=substr(ArqCabeca[15],11,29) #Tira da linha 15 o valor\n   ArqDados=read_lines(arquivos_csv[i], skip=43)\n   arquivos_txt[i]=gsub('Csv','txt',arquivos_csv[i])\n   write_lines(ArqDados,arquivos_txt[i])\n   dados=read.csv(arquivos_txt[i], header = T)\n   dados$datahora=datahora\n   dados$tempo=as.POSIXct(dados$datahora,format = \"%Y/%m/%d %H:%M:%S\")\n   if (i==1) {\n      dadosF = dados\n   } else {\n      dadosF = rbind(dadosF,dados)\n   }  \n}\n\nQuem faz a mágica é o pacote Lattice. Há como melhorar a interpolação usando o próprio pacote. \n\nlevelplot(dadosF$Sal..... ~ as.numeric(format(dadosF$tempo,\"%H\"))*-dadosF$Depth..m., \n          data = dadosF,\n          xlab = \"X Coordinate (feet)\", ylab = \"Y Coordinate (feet)\",\n          main = \"Surface elevation data\",\n          col.regions = colorRampPalette(c(\"blue\",\"red\"))(30))\n\n\n\n\nPlotando gráficos de perfil de cada campanha. \n\ndados=subset(dadosF,\n     as.numeric(format(dadosF$tempo,'%H'))==10)\n\npar(mfrow=c(1,5))\nplot(dados$Sal.....,-dados$Depth..m.,ty='l',\n     xlab='Salinity (psu)',\n     ylab='Depth (m)')\nplot(dados$Temp...deg.C.,-dados$Depth..m.,ty='l',\n     xlab='Temperature (oC)',\n     ylab='')\nplot(dados$Chl.a..ug.l.,-dados$Depth..m.,ty='l',\n     xlab='Chlorophyl (ug/L)',\n     ylab='')\nplot(dados$Turb.M..FTU.,-dados$Depth..m.,ty='l',\n     xlab='Turbidity (FTU)',\n     ylab='')\nplot(dados$DO....,-dados$Depth..m.,ty='l',\n     xlab='Oxygen (%)',\n     ylab='')"
   },
   {
-    "objectID": "r-eutilizaveis/kivy _tutorial.html",
-    "href": "r-eutilizaveis/kivy _tutorial.html",
-    "title": "Tutorial de kivy",
-    "section": "",
-    "text": "kivy é uma plataforma para criação de GUI (Graphic User Interface) usando Python como linguagem.\nA grande vantagem do Kivy é a facilidade de criar aplicativos para Android e IPhone.\nPara criar programas com GUI apenas para desktop (Windows, Linux e Mac), prefira o PyQt, que em breve terá um tutorial.\nVamos analisar duas plataformas para criar GUI (Graphic User Interface) usando Python como linguagem:\n\n\nPyQt5: excelente para executável desktop em qualquer SO (Windows, Linux, Mac)\nKivy: possibilita a criação de app para mobile."
+    "objectID": "r-eutilizaveis/kivy _tutorial.html#o-que-é-o-kivy",
+    "href": "r-eutilizaveis/kivy _tutorial.html#o-que-é-o-kivy",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "O que é o kivy?",
+    "text": "O que é o kivy?\nkivy é uma plataforma para criação de GUI (Graphic User Interface) usando Python como linguagem.\nA grande vantagem do Kivy é a facilidade de criar aplicativos para Android e IPhone.\nPara criar programas com GUI para desktop (Windows, Linux e Mac), prefira o PyQt, que em breve terá aqui um tutorial.\nKivy funciona em qualquer sistema operacional, mas as ferramentas para criar um app de celular funciona apenas no LINUX. O exemplo que darei aqui será a criação de um arquivo .apk que pode ser instalado em celulares rodando Android.\nVocê vai precisar do Python3, que já vem instalado com o Linux, e do pip.\nEntre com os seguintes comandos no terminal do Linux:"
   },
   {
-    "objectID": "r-eutilizaveis/kivy _tutorial.html#preâmbulo",
-    "href": "r-eutilizaveis/kivy _tutorial.html#preâmbulo",
-    "title": "Tutorial de Kivy",
-    "section": "",
-    "text": "Vamos analisar duas plataformas para criar GUI (Graphic User Interface) usando Python como linguagem:\n\n\nPyQt5: excelente para executável desktop em qualquer SO (Windows, Linux, Mac)\nKivy: possibilita a criação de app para mobile."
+    "objectID": "r-eutilizaveis/kivy _tutorial.html#instalando-e-testando-kivy",
+    "href": "r-eutilizaveis/kivy _tutorial.html#instalando-e-testando-kivy",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "Instalando e testando kivy",
+    "text": "Instalando e testando kivy\n\n\nPrimeiro, instale o pip.\n\n\nsudo apt install python3-pip\n\n\nAtualize o pip.\n\n\npython3 -m pip install --upgrade pip setuptools\n\n\nInstale o kivy e os exemplos.\n\n\npython3 -m pip install \"kivy[base]\" kivy_examples\n\n\nCriar um arquivo Python (obrigatoriamente com o nome main.py) contendo o seguinte código (salve em qualquer lugar):\n\n\nimport kivy\n\nfrom kivy.app import App\nfrom kivy.uix.label import Label\n\nclass MyApp(App):\n\n    def build(self):\n        return Label(text='Hello world')\n\nif __name__ == '__main__':\n    MyApp().run()\nO código acima contém a estrutura mínima para um programa em kivy. Layouts e widgets podem ser adicionados à janela, que serão os mesmos em todos os SO. Mais informações em:\nDocumentação oficial do kivy ( muito rica)\n\n\nExecute o aplicativo para testar. Abra o terminal na pasta onde salvou o arquivo main.py e digiter:\n\n\npython3 main.py"
   },
   {
-    "objectID": "r-eutilizaveis/kivy _tutorial.html#pyqt5",
-    "href": "r-eutilizaveis/kivy _tutorial.html#pyqt5",
-    "title": "Tutorial de kivy",
-    "section": "PyQt5",
-    "text": "PyQt5\nEntre com os seguintes comandos no prompt do Anaconda:\n\n\nPrimeiro, atualize o conda.\n\n\nconda update conda\n\n\nVerique as versões instaladas do Python\n\n\nconda search \"^python$\"\n\n\nCrie um ambiente virtual para o seu projeto:\n\n\nconda create -n meu_env\n\n\nAtivar o ambiente virtual\n\n\nactivate meu_env\n\n\nCriar um arquivo Python (.py) contendo o seguinte código (salve em qualquer lugar):\n\n\nfrom kivy.app import App\nfrom kivy.uix.gridlayout import GridLayout\nfrom kivy.uix.label import Label\nfrom kivy.uix.image import Image\nfrom kivy.uix.button import Button\nfrom kivy.uix.textinput import TextInput\n\nclass SayHello(App):\n    def build(self):\n        self.window = GridLayout()\n        #add widgets to window\n\n        return self.window\n\nif _name_ == \"__main__\":\n    SayHello().run()"
+    "objectID": "r-eutilizaveis/kivy _tutorial.html#criando-um-arquivo-.apk-para-android.",
+    "href": "r-eutilizaveis/kivy _tutorial.html#criando-um-arquivo-.apk-para-android.",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "Criando um arquivo .apk para Android.",
+    "text": "Criando um arquivo .apk para Android.\nPara criar um arquivo .apk a partir de um arquivo .py usando kivy, usaremos uma ferramenta chamada buildozer, que automatiza todo o processo e elimina toda a complexidade da interação com o Android."
+  },
+  {
+    "objectID": "r-eutilizaveis/kivy _tutorial.html#buildozer-ferramenta-para-criação-do-.apk-android-e-ios-iphone",
+    "href": "r-eutilizaveis/kivy _tutorial.html#buildozer-ferramenta-para-criação-do-.apk-android-e-ios-iphone",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "Buildozer: ferramenta para criação do .apk (Android) e iOS (IPhone)",
+    "text": "Buildozer: ferramenta para criação do .apk (Android) e iOS (IPhone)\n\n\nInstalando o buildozer.\n\n\nNo terminal, linha por linha:\npip3 install --user --upgrade buildozer\nsudo apt update\nsudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev\npip3 install --user --upgrade Cython==0.29.33 \nApós isso, entre no Nautilus pelo modo Admin:\nsudo nautilus\nHabilite a opção de mostrar arquivos ocultos no Nautilus.\nDentro da pasta root abra o aquivo .bashrc e inclua a seguinte linha:\nexport PATH=$PATH:~/.local/bin/\n\n\nCriando o aqruivo .apk\n\n\nNo terminal, executa na mesma pasta que o arquivo main.py o seguinte comando:\nbuildozer init\nUm arquivo chamado buildozer.spec será criado e pode ser editado para mudar as especicações do app.\nFinalmente, para construir um .apk, entre no terminal:\nbuildozer android debug\nNa primeira execução, o comando demora muito, mas nas posteriores é bem rápido!\nBons app!"
   },
   {
     "objectID": "r-eutilizaveis/tutorial_css_temas.html",
@@ -159,6 +166,69 @@
     "title": "Como gerar templates para revistas da Elsevier",
     "section": "",
     "text": "Antes de mais nada, é preciso instalar o pacote tinytex, que serve para instalar toda a infra-estrutura do LaTeX para lidar com PDFs.\ninstall.packages('tinytex')\ntinytex::install_tinytex()\nPessoal, o template da Elsevier que tentamos colocar no RStudio através do terminal deu problema para mim por causa da confusão entre as pastas criadas. Acredito que para muitos foi a mesma coisa.\nNo entanto, existe uma maneira muito prática no RStudio de trabalhar com pastas no terminal.\nAo invés de precisar escrever todo o caminho, tipo c:\\user\\mauricio\\projeto_aula, podemos usar o gerenciador de arquivos do próprio RStudio.\nObserve a figura abaixo e localize o Terminal e o gerenciador de arquivos (Files). Os caminhos destacados devem ser os mesmos (este é o caminho do seu projeto).\n\n\nAs duas janelas inferiores podem ser maximizadas usando os botões destacados abaixo. Isso facilita o trabalho.\n\n\nÉ possível sincronizar os caminhos das duas janelas usando o gerenciador de arquivos, sem a necessidade de escrever o caminho inteiro no terminal.\nA opção Open New Terminal Here abre um novo terminal apontando para o mesmo caminho do gerenciador de arquivos. Nesta pasta (=diretório) o template será instalado.\n\n\nObserve que um novo terminal foi criado, chamado de Terminal2.\n\n\nAgora é hora de incluir os comandos para baixar o template da Elsevier, que pode ser encontrado em https://github.com/quarto-journals/elsevier#installation-for-existing-document\n\nO comando é:\nquarto use template quarto-journals/elsevier\n\n\nApós confirmar que confia no autor do template, informe o nome do novo diretório onde será instalado o template (meu_dir).\n\n\nObserve no gerenciador de arquivos que o diretório meu_dir foi criado.\n\n\nDentro deste diretório encontre o arquivo meu_dir.qmd. Este é o seu template. Clique ne e tente renderizar o pdf.\n\n\nBoa sorte!"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#resumo-da-aula-de-hoje",
+    "href": "r-eutilizaveis/tutorial_shiny.html#resumo-da-aula-de-hoje",
+    "title": "Reprodutibilidade científica",
+    "section": "Resumo da aula de hoje",
+    "text": "Resumo da aula de hoje\n\n\n\n\nMomento 1: O que é um aplicativo para web.\nMomento 2: O que é Shiny?\n\nMomento 3: Quais recursos o Shiny possui?\n\nMomento 4: Construindo um aplicativo Shiny.\n\nMomento 5: UI (User Interface).\nMomento 6: Códigos do server e outputs.\nMomento 7: Exemplos complexos de aplicativos em Shiny.\nMomento 8: Comnunidades de Shiny na internet."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#o-que-é-um-aplicativo-da-web",
+    "href": "r-eutilizaveis/tutorial_shiny.html#o-que-é-um-aplicativo-da-web",
+    "title": "Reprodutibilidade científica",
+    "section": "1. O que é um aplicativo da web?",
+    "text": "1. O que é um aplicativo da web?\n\n\nUm aplicativo da web é um software que roda em um servidor remoto e interage com o usuário através de um browser.\n\n\n\nO software é dividido entre UI (User Interface), que corresponde ao frontend, e códigos do servidor, que corresponde ao backend.\n\n\n\nUma das vantagens de um aplicativo web é que não há a necessidade de instalação do software na máquina do usuário. Todo o processamento é feito remotamente e devolvido para o browser."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#o-que-é-shiny",
+    "href": "r-eutilizaveis/tutorial_shiny.html#o-que-é-shiny",
+    "title": "Reprodutibilidade científica",
+    "section": "2. O que é Shiny?",
+    "text": "2. O que é Shiny?\n\n\nShiny é um framework para a criação de aplicativos da web que usa códigos do R, que são interativos e reativos, ou seja, obedecem a controles manipulados pelo usuário e mostram um output na tela.\n\n\n\nShiny é capaz de criar aplicativos complexos de forma muito simples, que de outra maneira demandaria muito tempo para serem construídos em JavaScript e HTML.\n\n\n\nPara aprender Shiny, basta ter uma boa noção de códigos em R."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#quais-recursos-o-shiny-possui",
+    "href": "r-eutilizaveis/tutorial_shiny.html#quais-recursos-o-shiny-possui",
+    "title": "Reprodutibilidade científica",
+    "section": "3. Quais recursos o Shiny possui?",
+    "text": "3. Quais recursos o Shiny possui?\n\n\nFácil de usar e aprender.\nO tempo do desenvolvimento é minimizado.\nExcelente ferramenta para visualização de dados.\nTem um apoio forte da linguagem R.\nCria aplicativos da web úteis com apenas algumas linhas de códigos.\nFunciona em qualquer ambiente R (Console do R ou RStudio).\nÉ possível enriquecer o layout dos aplicativos usando HTML ou CSS.\nOs aplicativos Shiny são “ativos” automaticamente. As saídas mudam instantaneamente conforme os usuários modificam as entradas, sem a necessidade de recarregar o navegador."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#construindo-um-aplicativo-shiny.",
+    "href": "r-eutilizaveis/tutorial_shiny.html#construindo-um-aplicativo-shiny.",
+    "title": "Reprodutibilidade científica",
+    "section": "4. Construindo um aplicativo Shiny.",
+    "text": "4. Construindo um aplicativo Shiny.\nNão é necessário instalar nada no RStudio para usar o Shiny atualmente. Versões mais antigas do RStudio precisam instalar o pacote e carregá-lo:\n\n# install.packages('shiny')\n# library(shiny)\n\n\nNo RStudio, para criar novo app da web, use:\n# File&gt;New file&gt;Shiny web app\n\n\n\nA estrutura do novo arquivo vem com um exemplo de app pronto. No entanto, a estrutura mais básica de um app é a seguinte:\nlibrary(shiny)\nui &lt;- fluidPage(\n   'Hello, world!'\n)\nserver &lt;- function(input, output, session) {\n}\nshinyApp(ui = ui, server = server)"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#ui-user-interface",
+    "href": "r-eutilizaveis/tutorial_shiny.html#ui-user-interface",
+    "title": "Reprodutibilidade científica",
+    "section": "5. UI (User Interface)",
+    "text": "5. UI (User Interface)\nShiny traz uma série de controles (widgets) para a construção de UI:"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#códigos-do-server-e-outputs.",
+    "href": "r-eutilizaveis/tutorial_shiny.html#códigos-do-server-e-outputs.",
+    "title": "Reprodutibilidade científica",
+    "section": "6. Códigos do server e outputs.",
+    "text": "6. Códigos do server e outputs.\n\nOs códigos do server são usados para capturar os inputs da UI e realizar os cáculos necessários, que serão devolvidos ao usuário na seção output.\n\nNesta parte entram basicamente códigos do R e qualquer background poderá aproveitado."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#exemplos-em-shiny-no-rstudio.",
+    "href": "r-eutilizaveis/tutorial_shiny.html#exemplos-em-shiny-no-rstudio.",
+    "title": "Reprodutibilidade científica",
+    "section": "8. Exemplos em Shiny no RStudio.",
+    "text": "8. Exemplos em Shiny no RStudio.\n\nA seguir, aplicatitivos da web feitos no RStudio e exemplos de utilização."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#exemplos-mais-complexos-de-aplicativos-em-shiny-e-referências.",
+    "href": "r-eutilizaveis/tutorial_shiny.html#exemplos-mais-complexos-de-aplicativos-em-shiny-e-referências.",
+    "title": "Reprodutibilidade científica",
+    "section": "8. Exemplos mais complexos de aplicativos em Shiny e referências.",
+    "text": "8. Exemplos mais complexos de aplicativos em Shiny e referências.\n\n\nTabela básica\nGaleria de widgets\nWidgets dinÂmicos\nMúltiplas distribuições\nGráfico de bolhas\n\nReferência do Shiny\n\nShiny - livro Oficial"
   },
   {
     "objectID": "r-eutilizaveis/r_guto.html",
@@ -411,103 +481,5 @@
     "title": "",
     "section": "",
     "text": "GAD: General Anova Design. Pacote para modelos mistos de ANOVA, baseado em Underwood (1997).\nAutores: Leonardo Sandrini Neto e Maurício Camargo\nEstágio: ativo\nHistórico: Este pacote foi pioneiro na utilização de modelos mistos de ANOVA segundo a notação de Underwood (1997), tendo sido resenhado no task view do CRAN sobre Experimental Design em https://cran.r-project.org/view=ExperimentalDesign\nDisponível em https://cran.r-project.org/web/packages/GAD/index.html\nGAD2 (pacote experimental): Extensão do pacote GAD, com funcionalidades adicionais, como aproximações e pooling.\nAutores: Leonardo Sandrini Neto, Eliandro Gilbert e Maurício Camargo\nEstágio: em construção\nrysgran: Estatísticas e gráficos para análise granulométrica do sedimento. Este é o porte do SysGran para o R.\nAutores: Maurício Camargo, Eliandro Gilbert e Leonardo Sandrini Neto\nEstágio: ativo\nHistórico: O pacote rysgran implementa todas as funcionalidades do programa SysGran e mais algumas.\nDisponível em: https://github.com/mauricio-camargo/rysgran\npermanovaR (pacote experimental): Análise variância multivariada permutacional.\nAutores: Eliandro Gilbert e Maurício Camargo\nEstágio: em construção\n\n\n\n\n\nsysgran4: esta é a evolução do SysGran3, rodando agora tanto em Windows quanto Linux.\nDisponível em: https://github.com/mauricio-camargo/sysgran4 Estágio: ativo\nDatractor: é um pequeno programa aberto escrito em Lazarus FreePascal para extrair valores de gráficos e mapas diretamente de PDFs e imagens (somente Windows).\nTutorial em vídeo: https://youtu.be/GI8dnzxbOVk\nDisponível em: https://github.com/mauricio-camargo/Datractor Estágio: ativo\nGPProj - Gerenciador Pessoal de Projetos: Programa para gerenciar projetos, com suporte para armazenamento remoto de arquivos, tarefas, links, agenda, anotações e contatos, com suporte aos serviços do Google (Gmail, Tasks, Agenda, People e Drive).\nEstágio: atualmente o programa está funcional e em fase final de empacotamento.\nPDFtoTEXTgui: Interface Gráfica de Usuário (GUI) escrito em Lazarus Pascal do programa pdftotext para Linux, para transformar PDF em TXT.\nAutor: Maurício Camargo\nEstágio: ativo\nSimetrox: Simetrógrafo digital, para avaliação postural, com entrada em imagens e vídeos. Disponível em: https://github.com/mauricio-camargo/Simetrox Estágio: finalizando (falta implementar entrada por video pelo ffmpeg)\n\n\n\n\n\n\nSysGran3: Sistema integrado de análise granulométrica para Windows, com análises estatísticas e gráficos para sedimentologia. Autor: Maurício Camargo\nEstágio: O SysGran foi criado em 1995 e se espalhou pelo mundo, inicialmente como um programa pago, até 2003. Em 2005 o SysGran deixou de ser atualizado e foi substituído pelo pacote rysgran do R. No entanto, até hoje existem cópias do SysGran funcionando em milhares de computadores.\nDisponível em: https://github.com/mauricio-camargo/SysGran3\nMaresDB: Sobreposição gráfica de linhas de maré para demonstração de longas séries temporais. Para Windows.\nAutor: Maurício Camargo\nEstágio: ativo (necessita atualização) Histórico: Este programa plota linhas de maré durante o período de 24h, sobrepondo centenas de linhas em poucos segundos, servindo para a demonstração de longas séries temporais.\nSpiro: Software para visualização da direção e velocidade da corrente em um ou mais perfis verticais, para auxílio da navegação. Autor: Maurício Camargo\nEstágio: desaparecido\nBGM: Rotinas usadas em Biogeoquímica marinha. Para Windows.\nAutor: Maurício Camargo\nEstágio: desaparecido.\n\n\n\n\n\n\nPilots-Transf: Programa de transferência de dados recebidos por porta serial de equipamentos oceanográficos como marégrafos, ondógrafos e CTDs para bancos de dados.\nAutor: Maurício Camargo Estágio: ativo Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para processar os dados provenientes de equipamentos oceanográficos e armazená-los em bancos de dados relacionais.\nPilots-Maregrama: Programa integrado de visualização dos dados oceanográficos armazenados nos banco de dados pelo programa Pilots-transf.\nAutor: Maurício Camargo\nEstágio: ativo Hitórico: Programa ciado em 1999 e mantido até 2015 (mas ainda em funcionamento) para simular uma sala de controle de informações oceanográficas.\nSaci: Programa para controle de vendas, estoque, caixa, fornecedores, clientes e pagamentos de uma loja de material de construção.\nAutor: Maurício Camargo\nEstágio: ativo Histórico: Programa criado em 1996 e mantido até 2015, mas funcionando até hoje!"
-  },
-  {
-    "objectID": "r-eutilizaveis/tutorial_Shiny.html",
-    "href": "r-eutilizaveis/tutorial_Shiny.html",
-    "title": "Reprodutibilidade científica",
-    "section": "",
-    "text": "Momento 1: O que é um aplicativo para web.\nMomento 2: O que é Shiny?\n\nMomento 3: Quais recursos o Shiny possui?\n\nMomento 4: Construindo um aplicativo Shiny.\n\nMomento 5: UI (User Interface).\nMomento 6: Códigos do server e outputs.\nMomento 7: Exemplos complexos de aplicativos em Shiny.\nMomento 8: Comnunidades de Shiny na internet."
-  },
-  {
-    "objectID": "r-eutilizaveis/tutorial_Shiny.html#resumo-da-aula-de-hoje",
-    "href": "r-eutilizaveis/tutorial_Shiny.html#resumo-da-aula-de-hoje",
-    "title": "Reprodutibilidade científica",
-    "section": "",
-    "text": "Momento 1: O que é um aplicativo para web.\nMomento 2: O que é Shiny?\n\nMomento 3: Quais recursos o Shiny possui?\n\nMomento 4: Construindo um aplicativo Shiny.\n\nMomento 5: UI (User Interface).\nMomento 6: Códigos do server e outputs.\nMomento 7: Exemplos complexos de aplicativos em Shiny.\nMomento 8: Comnunidades de Shiny na internet."
-  },
-  {
-    "objectID": "r-eutilizaveis/tutorial_Shiny.html#o-que-é-um-aplicativo-da-web",
-    "href": "r-eutilizaveis/tutorial_Shiny.html#o-que-é-um-aplicativo-da-web",
-    "title": "Reprodutibilidade científica",
-    "section": "1. O que é um aplicativo da web?",
-    "text": "1. O que é um aplicativo da web?\n\n\nUm aplicativo da web é um software que roda em um servidor remoto e interage com o usuário através de um browser.\n\n\n\nO software é dividido entre UI (User Interface), que corresponde ao frontend, e códigos do servidor, que corresponde ao backend.\n\n\n\nUma das vantagens de um aplicativo web é que não há a necessidade de instalação do software na máquina do usuário. Todo o processamento é feito remotamente e devolvido para o browser."
-  },
-  {
-    "objectID": "r-eutilizaveis/tutorial_Shiny.html#o-que-é-shiny",
-    "href": "r-eutilizaveis/tutorial_Shiny.html#o-que-é-shiny",
-    "title": "Reprodutibilidade científica",
-    "section": "2. O que é Shiny?",
-    "text": "2. O que é Shiny?\n\n\nShiny é um framework para a criação de aplicativos da web que usa códigos do R, que são interativos e reativos, ou seja, obedecem a controles manipulados pelo usuário e mostram um output na tela.\n\n\n\nShiny é capaz de criar aplicativos complexos de forma muito simples, que de outra maneira demandaria muito tempo para serem construídos em JavaScript e HTML.\n\n\n\nPara aprender Shiny, basta ter uma boa noção de códigos em R."
-  },
-  {
-    "objectID": "r-eutilizaveis/tutorial_Shiny.html#quais-recursos-o-shiny-possui",
-    "href": "r-eutilizaveis/tutorial_Shiny.html#quais-recursos-o-shiny-possui",
-    "title": "Reprodutibilidade científica",
-    "section": "3. Quais recursos o Shiny possui?",
-    "text": "3. Quais recursos o Shiny possui?\n\n\nFácil de usar e aprender.\nO tempo do desenvolvimento é minimizado.\nExcelente ferramenta para visualização de dados.\nTem um apoio forte da linguagem R.\nCria aplicativos da web úteis com apenas algumas linhas de códigos.\nFunciona em qualquer ambiente R (Console do R ou RStudio).\nÉ possível enriquecer o layout dos aplicativos usando HTML ou CSS.\nOs aplicativos Shiny são “ativos” automaticamente. As saídas mudam instantaneamente conforme os usuários modificam as entradas, sem a necessidade de recarregar o navegador."
-  },
-  {
-    "objectID": "r-eutilizaveis/tutorial_Shiny.html#construindo-um-aplicativo-shiny.",
-    "href": "r-eutilizaveis/tutorial_Shiny.html#construindo-um-aplicativo-shiny.",
-    "title": "Reprodutibilidade científica",
-    "section": "4. Construindo um aplicativo Shiny.",
-    "text": "4. Construindo um aplicativo Shiny.\nNão é necessário instalar nada no RStudio para usar o Shiny atualmente. Versões mais antigas do RStudio precisam instalar o pacote e carregá-lo:\n\n# install.packages('shiny')\n# library(shiny)\n\n\nNo RStudio, para criar novo app da web, use:\nFile&gt;New file&gt;Shiny web app\n\n\n\nA estrutura do novo arquivo vem com um exemplo de app pronto. No entanto, a estrutura mais básica de um app é a seguinte:\nlibrary(shiny)\nui &lt;- fluidPage(\n   'Hello, world!'\n)\nserver &lt;- function(input, output, session) {\n}\nshinyApp(ui = ui, server = server)"
-  },
-  {
-    "objectID": "r-eutilizaveis/tutorial_Shiny.html#ui-user-interface",
-    "href": "r-eutilizaveis/tutorial_Shiny.html#ui-user-interface",
-    "title": "Reprodutibilidade científica",
-    "section": "5. UI (User Interface)",
-    "text": "5. UI (User Interface)\nShiny traz uma série de controles (widgets) para a construção de UI:"
-  },
-  {
-    "objectID": "r-eutilizaveis/tutorial_Shiny.html#códigos-do-server-e-outputs.",
-    "href": "r-eutilizaveis/tutorial_Shiny.html#códigos-do-server-e-outputs.",
-    "title": "Reprodutibilidade científica",
-    "section": "6. Códigos do server e outputs.",
-    "text": "6. Códigos do server e outputs.\n\nOs códigos do server são usados para capturar os inputs da UI e realizar os cáculos necessários, que serão devolvidos ao usuário na seção output.\n\nNesta parte entram basicamente códigos do R e qualquer background poderá aproveitado."
-  },
-  {
-    "objectID": "r-eutilizaveis/tutorial_Shiny.html#exemplos-em-shiny-no-rstudio.",
-    "href": "r-eutilizaveis/tutorial_Shiny.html#exemplos-em-shiny-no-rstudio.",
-    "title": "Reprodutibilidade científica",
-    "section": "8. Exemplos em Shiny no RStudio.",
-    "text": "8. Exemplos em Shiny no RStudio.\n\nA seguir, aplicatitivos da web feitos no RStudio e exemplos de utilização."
-  },
-  {
-    "objectID": "r-eutilizaveis/tutorial_Shiny.html#exemplos-mais-complexos-de-aplicativos-em-shiny-e-referências.",
-    "href": "r-eutilizaveis/tutorial_Shiny.html#exemplos-mais-complexos-de-aplicativos-em-shiny-e-referências.",
-    "title": "Reprodutibilidade científica",
-    "section": "8. Exemplos mais complexos de aplicativos em Shiny e referências.",
-    "text": "8. Exemplos mais complexos de aplicativos em Shiny e referências.\n\n\nTabela básica\nGaleria de widgets\nWidgets dinÂmicos\nMúltiplas distribuições\nGráfico de bolhas\n\n\nReferência do Shiny\n\nShiny - livro Oficial"
-  },
-  {
-    "objectID": "r-eutilizaveis/kivy _tutorial.html#o-que-é-o-kivy",
-    "href": "r-eutilizaveis/kivy _tutorial.html#o-que-é-o-kivy",
-    "title": "Tutorial de kivy para criação de app de celular",
-    "section": "O que é o kivy?",
-    "text": "O que é o kivy?\nkivy é uma plataforma para criação de GUI (Graphic User Interface) usando Python como linguagem.\nA grande vantagem do Kivy é a facilidade de criar aplicativos para Android e IPhone.\nPara criar programas com GUI para desktop (Windows, Linux e Mac), prefira o PyQt, que em breve terá aqui um tutorial.\nKivy funciona em qualquer sistema operacional, mas as ferramentas para criar um app de celular funciona apenas no LINUX. O exemplo que darei aqui será a criação de um arquivo .apk que pode ser instalado em celulares rodando Android.\nVocê vai precisar do Python3, que já vem instalado com o Linux, e do pip.\nEntre com os seguintes comandos no terminal do Linux:"
-  },
-  {
-    "objectID": "r-eutilizaveis/kivy _tutorial.html#instalando-e-testando-kivy",
-    "href": "r-eutilizaveis/kivy _tutorial.html#instalando-e-testando-kivy",
-    "title": "Tutorial de kivy para criação de app de celular",
-    "section": "Instalando e testando kivy",
-    "text": "Instalando e testando kivy\n\n\nPrimeiro, instale o pip.\n\n\nsudo apt install python3-pip\n\n\nAtualize o pip.\n\n\npython3 -m pip install --upgrade pip setuptools\n\n\nInstale o kivy e os exemplos.\n\n\npython3 -m pip install \"kivy[base]\" kivy_examples\n\n\nCriar um arquivo Python (obrigatoriamente com o nome main.py) contendo o seguinte código (salve em qualquer lugar):\n\n\nimport kivy\n\nfrom kivy.app import App\nfrom kivy.uix.label import Label\n\nclass MyApp(App):\n\n    def build(self):\n        return Label(text='Hello world')\n\nif __name__ == '__main__':\n    MyApp().run()\nO código acima contém a estrutura mínima para um programa em kivy. Layouts e widgets podem ser adicionados à janela, que serão os mesmos em todos os SO. Mais informações em:\nDocumentação oficial do kivy ( muito rica)\n\n\nExecute o aplicativo para testar. Abra o terminal na pasta onde salvou o arquivo main.py e digiter:\n\n\npython3 main.py"
-  },
-  {
-    "objectID": "r-eutilizaveis/kivy _tutorial.html#criando-um-arquivo-.apk-para-android.",
-    "href": "r-eutilizaveis/kivy _tutorial.html#criando-um-arquivo-.apk-para-android.",
-    "title": "Tutorial de kivy para criação de app de celular",
-    "section": "Criando um arquivo .apk para Android.",
-    "text": "Criando um arquivo .apk para Android.\nPara criar um arquivo .apk a partir de um arquivo .py usando kivy, usaremos uma ferramenta chamada buildozer, que automatiza todo o processo e elimina toda a complexidade da interação com o Android."
-  },
-  {
-    "objectID": "r-eutilizaveis/kivy _tutorial.html#buildozer-ferramenta-para-criação-do-.apk-android-e-ios-iphone",
-    "href": "r-eutilizaveis/kivy _tutorial.html#buildozer-ferramenta-para-criação-do-.apk-android-e-ios-iphone",
-    "title": "Tutorial de kivy para criação de app de celular",
-    "section": "Buildozer: ferramenta para criação do .apk (Android) e iOS (IPhone)",
-    "text": "Buildozer: ferramenta para criação do .apk (Android) e iOS (IPhone)\n\n\nInstalando o buildozer.\n\n\nNo terminal, linha por linha:\npip3 install --user --upgrade buildozer\nsudo apt update\nsudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev\npip3 install --user --upgrade Cython==0.29.33 \nApós isso, entre no Nautilus pelo modo Admin:\nsudo nautilus\nHabilite a opção de mostrar arquivos ocultos no Nautilus.\nDentro da pasta root abra o aquivo .bashrc e inclua a seguinte linha:\nexport PATH=$PATH:~/.local/bin/\n\n\nCriando o aqruivo .apk\n\n\nNo terminal, executa na mesma pasta que o arquivo main.py o seguinte comando:\nbuildozer init\nUm arquivo chamado buildozer.spec será criado e pode ser editado para mudar as especicações do app.\nFinalmente, para construir um .apk, entre no terminal:\nbuildozer android debug\nNa primeira execução, o comando demora muito, mas nas posteriores é bem rápido!\nBons app!"
   }
 ]
