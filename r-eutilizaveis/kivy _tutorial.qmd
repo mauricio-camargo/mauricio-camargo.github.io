@@ -125,4 +125,6 @@ buildozer android debug
 
 Na primeira execução, o comando demora muito, mas nas posteriores é bem rápido!
 
+O arquivo `.apk` estará na pasta `Bin`. Basta copiá-lo para o celular e instalar (em cada celular é um processo diferente, mas normalmente deve-se habilitar a instalação de programas não veridicados ou hobilitar o modo desenvolvedor).
+
 Bons app!
