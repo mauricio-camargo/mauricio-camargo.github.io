@@ -14,5 +14,9 @@ lang: pt
   - [Referência de RMarkdown e Quarto](r-eutilizaveis/tutorial_quarto.qmd)  
   - [Tutotial de uso de templates para revistas científicas da Elsevier](r-eutilizaveis/tutorial_template_elsevier.qmd)
   - [Tutorial de uso de CSS e temas no Quarto](r-eutilizaveis/tutorial_css_temas.qmd)  
-  - [`Truques do Quarto e Github`](r-eutilizaveis/truq_quarto.qmd)  
+  - [Tutorial de Shiny]()
+  - [Truques do Quarto e Github](r-eutilizaveis/truq_quarto.qmd)  
+- [Tutorial de `kivy` para criação de app de celular](r-eutilizaveis/kivy_tutorial.qmd)
+
 - [Tradução para o R de alguns tutoriais em Python do prof. Guto](r-eutilizaveis/r_guto.qmd)
+

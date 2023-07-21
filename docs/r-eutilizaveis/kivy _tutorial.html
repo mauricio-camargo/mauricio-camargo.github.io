@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>kivy-_tutorial</title>
+<title>Tutorial de kivy para criação de app de celular</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -179,71 +179,114 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Tutorial de <code>kivy</code> para criação de app de celular</h1>
+</div>
 
 
-<section id="tutorial-de-kivy" class="level1">
-<h1><strong><em>Tutorial de Kivy</em></strong></h1>
-<section id="preâmbulo" class="level2">
-<h2 class="anchored" data-anchor-id="preâmbulo">Preâmbulo</h2>
-<p>Vamos analisar duas plataformas para criar GUI (Graphic User Interface) usando Python como linguagem:</p>
-<blockquote class="blockquote">
-<ul>
-<li><code>PyQt5</code>: excelente para executável desktop em qualquer SO (Windows, Linux, Mac)</li>
-<li><code>Kivy</code>: possibilita a criação de app para mobile.</li>
-</ul>
-</blockquote>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<hr>
+<section id="o-que-é-o-kivy" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-é-o-kivy">O que é o kivy?</h2>
+<p><code>kivy</code> é uma plataforma para criação de GUI (Graphic User Interface) usando Python como linguagem.</p>
+<p>A grande vantagem do <code>Kivy</code> é a facilidade de criar aplicativos para Android e IPhone.</p>
+<p>Para criar programas com GUI para desktop (Windows, Linux e Mac), prefira o PyQt, que em breve terá aqui um tutorial.</p>
+<p><code>Kivy</code> funciona em qualquer sistema operacional, mas as ferramentas para criar um app de celular funciona apenas no <code>LINUX</code>. O exemplo que darei aqui será a criação de um arquivo <code>.apk</code> que pode ser instalado em celulares rodando Android.</p>
+<p>Você vai precisar do Python3, que já vem instalado com o Linux, e do pip.</p>
+<p>Entre com os seguintes comandos no terminal do Linux:</p>
 </section>
-<section id="pyqt5" class="level2">
-<h2 class="anchored" data-anchor-id="pyqt5">PyQt5</h2>
-<p>Entre com os seguintes comandos no prompt do <code>Anaconda</code>:</p>
+<section id="instalando-e-testando-kivy" class="level2">
+<h2 class="anchored" data-anchor-id="instalando-e-testando-kivy">Instalando e testando <code>kivy</code></h2>
 <ul>
 <li><ol type="1">
-<li>Primeiro, atualize o <code>conda</code>.</li>
+<li>Primeiro, instale o <code>pip</code>.</li>
 </ol></li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>conda update conda</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install python3-pip</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><ol start="2" type="1">
-<li>Verique as versões instaladas do Python</li>
+<li>Atualize o pip.</li>
 </ol></li>
 </ul>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>conda search <span class="st">"^python$"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">-m</span> pip install <span class="at">--upgrade</span> pip setuptools</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><ol start="3" type="1">
-<li>Crie um ambiente virtual para o seu projeto:</li>
+<li>Instale o kivy e os exemplos.</li>
 </ol></li>
 </ul>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>conda create <span class="op">-</span>n meu_env</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> <span class="at">-m</span> pip install <span class="st">"kivy[base]"</span> kivy_examples</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><ol start="4" type="1">
-<li>Ativar o ambiente virtual</li>
+<li>Criar um arquivo Python (obrigatoriamente com o nome <code>main.py</code>) contendo o seguinte código (salve em qualquer lugar):</li>
 </ol></li>
 </ul>
-<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>activate meu_env</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> kivy</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> kivy.app <span class="im">import</span> App</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> kivy.uix.label <span class="im">import</span> Label</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> MyApp(App):</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> build(<span class="va">self</span>):</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> Label(text<span class="op">=</span><span class="st">'Hello world'</span>)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">'__main__'</span>:</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    MyApp().run()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>O código acima contém a estrutura mínima para um programa em kivy. Layouts e widgets podem ser adicionados à janela, que serão os mesmos em todos os SO. Mais informações em:</p>
+<p><a href="https://kivy.org/doc/stable/">Documentação oficial do <em>kivy</em> ( muito rica)</a></p>
 <ul>
 <li><ol start="5" type="1">
-<li>Criar um arquivo Python (.py) contendo o seguinte código (salve em qualquer lugar):</li>
+<li>Execute o aplicativo para testar. Abra o terminal na pasta onde salvou o arquivo main.py e digiter:</li>
 </ol></li>
 </ul>
-<div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> kivy.app <span class="im">import</span> App</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> kivy.uix.gridlayout <span class="im">import</span> GridLayout</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> kivy.uix.label <span class="im">import</span> Label</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> kivy.uix.image <span class="im">import</span> Image</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> kivy.uix.button <span class="im">import</span> Button</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> kivy.uix.textinput <span class="im">import</span> TextInput</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> SayHello(App):</span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> build(<span class="va">self</span>):</span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.window <span class="op">=</span> GridLayout()</span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>        <span class="co">#add widgets to window</span></span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">self</span>.window</span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> _name_ <span class="op">==</span> <span class="st">"__main__"</span>:</span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>    SayHello().run()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-
-
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> main.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
+<section id="criando-um-arquivo-.apk-para-android." class="level2">
+<h2 class="anchored" data-anchor-id="criando-um-arquivo-.apk-para-android.">Criando um arquivo <code>.apk</code> para Android.</h2>
+<p>Para criar um arquivo .apk a partir de um arquivo .py usando kivy, usaremos uma ferramenta chamada <code>buildozer</code>, que automatiza todo o processo e elimina toda a complexidade da interação com o Android.</p>
+</section>
+<section id="buildozer-ferramenta-para-criação-do-.apk-android-e-ios-iphone" class="level2">
+<h2 class="anchored" data-anchor-id="buildozer-ferramenta-para-criação-do-.apk-android-e-ios-iphone">Buildozer: ferramenta para criação do .apk (Android) e iOS (IPhone)</h2>
+<ul>
+<li><ol type="1">
+<li>Instalando o <code>buildozer</code>.</li>
+</ol></li>
+</ul>
+<p>No terminal, linha por linha:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip3</span> install <span class="at">--user</span> <span class="at">--upgrade</span> buildozer</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt update</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install <span class="at">-y</span> git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip3</span> install <span class="at">--user</span> <span class="at">--upgrade</span> Cython==0.29.33 </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Após isso, entre no Nautilus pelo modo Admin:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> nautilus</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Habilite a opção de mostrar arquivos ocultos no Nautilus.</p>
+<p>Dentro da pasta <code>root</code> abra o aquivo <code>.bashrc</code> e inclua a seguinte linha:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="bu">export</span> <span class="va">PATH</span><span class="op">=</span><span class="va">$PATH</span>:~/.local/bin/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li><ol start="2" type="1">
+<li>Criando o aqruivo <code>.apk</code></li>
+</ol></li>
+</ul>
+<p>No terminal, executa na mesma pasta que o arquivo <code>main.py</code> o seguinte comando:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="ex">buildozer</span> init</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Um arquivo chamado <code>buildozer.spec</code> será criado e pode ser editado para mudar as especicações do app.</p>
+<p>Finalmente, para construir um <code>.apk</code>, entre no terminal:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="ex">buildozer</span> android debug</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Na primeira execução, o comando demora muito, mas nas posteriores é bem rápido!</p>
+<p>Bons app!</p>
+
+
 </section>
 
 </main> <!-- /main -->

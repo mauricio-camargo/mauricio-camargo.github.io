@@ -1,0 +1,185 @@
+---
+title: "Reprodutibilidade científica"
+subtitle: "Aplicativos para web com Shiny"
+author: "Prof. Maurício Garcia de Camargo"
+institute: "Instituto de Oceanografia - FURG" 
+date: "`r Sys.Date()`" #Para funcionar tem que ter o `r Sys.Date()` em qualquer lugar do corpo (atualmente está no footer do primeiro slide)
+lang: pt-br
+title-slide-attributes:
+  data-background-color: "#6b5a59"
+format: 
+  revealjs:
+    #Veja outros temas em https://quarto.org/docs/presentations/revealjs/themes.html
+    theme: [serif, MeuCustom.scss]
+#    logo: img/furg4.png
+#    footer: "`Reprodutibilidade científica`"
+    slide-number: true
+    chalkboard: true #Muito bom para aula
+#    multiplex: false #Os alunos podem seguir com smartfone. ToDo.
+#    show-slide-number: all
+    controls: true #Não é menu. ToDo.
+#    css: [assets/sydney.css, assets/sydney-fonts.css]
+    #Sem estes css o :::box não funciona
+    css: [assets/syntax-highlight.css,assets/sydney.css, assets/custom.css,assets/sydney-fonts.css]
+
+---
+
+## Resumo da aula de hoje
+
+<br><br>
+
+::: box
+::: incremental
+- Momento 1: O que é um aplicativo para web.
+- Momento 2: O que é `Shiny`?  
+- Momento 3: Quais recursos o `Shiny` possui?  
+- Momento 4: Construindo um aplicativo `Shiny`.  
+- Momento 5: UI (User Interface).
+- Momento 6: Códigos do server e outputs.
+- Momento 7: Exemplos complexos de aplicativos em `Shiny`.
+- Momento 8: Comnunidades de `Shiny` na internet.
+:::
+:::
+
+::: footer
+```{r}
+# Fake: serve só para que a data apareça no primeiro slide
+ss=Sys.Date()
+```
+:::
+
+## 1. O que é um aplicativo da web?
+
+<br>
+
+::: fragment
+Um aplicativo da web é um software que roda em um servidor remoto e interage com o usuário através de um browser.  
+:::
+
+<br>
+
+::: fragment
+O software é dividido entre UI (User Interface), que corresponde ao frontend, e códigos do servidor, que corresponde ao backend.
+:::
+
+<br>
+
+::: fragment
+Uma das vantagens de um aplicativo web é que não há a necessidade de instalação do software na máquina do usuário. Todo o processamento é feito remotamente e devolvido para o browser.
+:::
+
+## 2. O que é `Shiny`?
+
+<br>
+
+::: fragment
+`Shiny` é um framework para a criação de aplicativos da web que usa códigos do R, que são interativos e reativos, ou seja, obedecem a controles manipulados pelo usuário e mostram um output na tela.
+:::
+
+<br>
+
+::: fragment
+`Shiny` é capaz de criar aplicativos complexos de forma muito simples, que de outra maneira demandaria muito tempo para serem construídos em JavaScript e HTML.
+:::
+
+<br>
+
+::: fragment
+Para aprender `Shiny`, basta ter uma boa noção de códigos em R.
+:::
+
+## 3. Quais recursos o `Shiny` possui? {.smaller}
+
+::: incremental
+- Fácil de usar e aprender.
+- O tempo do desenvolvimento é minimizado.
+- Excelente ferramenta para visualização de dados.
+- Tem um apoio forte da linguagem R.
+- Cria aplicativos da web úteis com apenas algumas linhas de códigos.
+- Funciona em qualquer ambiente R (Console do R ou RStudio).
+- É possível enriquecer o layout dos aplicativos usando HTML ou CSS.
+- Os aplicativos `Shiny` são “ativos” automaticamente. As saídas mudam instantaneamente conforme os usuários modificam as entradas, sem a necessidade de recarregar o navegador.
+:::
+
+## 4. Construindo um aplicativo Shiny. {.smaller}
+
+Não é necessário instalar nada no RStudio para usar o Shiny atualmente. Versões mais antigas do RStudio precisam instalar o pacote e carregá-lo:
+
+<br>
+
+```r
+# install.packages('shiny')
+# library(shiny)
+```
+
+<br>
+
+::: fragment
+No RStudio, para criar novo app da web, use:
+```default
+File>New file>Shiny web app
+```
+:::
+
+<br>
+
+::: fragment
+A estrutura do novo arquivo vem com um exemplo de app pronto. No entanto, a estrutura mais básica de um app é a seguinte: 
+
+```r
+library(shiny)
+ui <- fluidPage(
+   'Hello, world!'
+)
+server <- function(input, output, session) {
+}
+shinyApp(ui = ui, server = server)
+```
+:::
+
+## 5. UI (User Interface)
+
+Shiny traz uma série de controles (widgets) para a construção de UI:
+
+![](img/shiny1.png)
+
+
+## 6. Códigos do server e outputs.
+
+<br>
+
+Os códigos do server são usados para capturar os inputs da UI e realizar os cáculos necessários, que serão devolvidos ao usuário na seção output.
+
+::: fragment
+Nesta parte entram basicamente códigos do R e qualquer background poderá aproveitado.
+:::
+
+## 8. Exemplos em `Shiny` no RStudio.
+
+<br>
+
+A seguir, aplicatitivos da web feitos no RStudio e exemplos de utilização.
+
+## 8. Exemplos mais complexos de aplicativos em `Shiny` e referências.
+
+<br>
+
+- [Tabela básica](https://shiny.posit.co/r/gallery/widgets/basic-datatable/)
+
+- [Galeria de widgets](https://shiny.posit.co/r/gallery/widgets/widget-gallery/)
+
+- [Widgets dinÂmicos](https://shiny.posit.co/r/gallery/dynamic-user-interface/dynamic-ui/)
+
+- [Múltiplas distribuições](https://shiny.posit.co/r/gallery/application-layout/tabsets/)
+
+
+-  [Gráfico de bolhas](https://gallery.shinyapps.io/182-google-charts/)
+
+<br>
+
+Referência do Shiny
+
+
+- [Shiny - livro Oficial](https://docs.posit.co/shinyapps.io/?_gl=1*1o9vcl2*_ga*MzkxOTEwNC4xNjg5MTIxMDMx*_ga_HXP006LBGY*MTY4OTY0Mzc2NC41LjEuMTY4OTY0Mzg5NC4wLjAuMA..)
+
+

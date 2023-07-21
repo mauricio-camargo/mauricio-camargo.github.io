@@ -1,62 +1,128 @@
 ---
-#title: ""
+title: Tutorial de `kivy` para criação de app de celular
 ---
 
-# ***Tutorial de Kivy***
+---
 
-## Preâmbulo
+## O que é o kivy?
 
-Vamos analisar duas plataformas para criar GUI (Graphic User Interface) usando Python como linguagem:  
+`kivy` é uma plataforma para criação de GUI (Graphic User Interface) usando Python como linguagem.  
 
-> - `PyQt5`: excelente para executável desktop em qualquer SO (Windows, Linux, Mac)
-> - `Kivy`: possibilita a criação de app para mobile.
+A grande vantagem do `Kivy` é a facilidade de criar aplicativos para Android e IPhone.  
 
-## PyQt5
+Para criar programas com GUI para desktop (Windows, Linux e Mac), prefira o PyQt, que em breve terá aqui um tutorial.
 
-Entre com os seguintes comandos no prompt do `Anaconda`:
+`Kivy` funciona em qualquer sistema operacional, mas as ferramentas para criar um app de celular funciona apenas no `LINUX`. O exemplo que darei aqui será a criação de um arquivo `.apk` que pode ser instalado em celulares rodando Android. 
 
-- 1. Primeiro, atualize o `conda`.
+Você vai precisar do Python3, que já vem instalado com o Linux, e do pip.
 
-```python
-conda update conda
+Entre com os seguintes comandos no terminal do Linux:
+
+## Instalando e testando `kivy`
+
+- 1. Primeiro, instale o `pip`.
+
+```bash
+sudo apt install python3-pip
 ```
 
-- 2. Verique as versões instaladas do Python
+- 2. Atualize o pip.
 
-```python
-conda search "^python$"
+```bash
+python3 -m pip install --upgrade pip setuptools
 ```
 
-- 3. Crie um ambiente virtual para o seu projeto:
+- 3. Instale o kivy e os exemplos.
 
-```python
-conda create -n meu_env
+```bash
+python3 -m pip install "kivy[base]" kivy_examples
 ```
 
-- 4. Ativar o ambiente virtual
+- 4. Criar um arquivo Python (obrigatoriamente com o nome `main.py`) contendo o seguinte código (salve em qualquer lugar):
 
 ```python
-activate meu_env
-```
+import kivy
 
-- 5. Criar um arquivo Python (.py) contendo o seguinte código (salve em qualquer lugar):
-
-
-```python
 from kivy.app import App
-from kivy.uix.gridlayout import GridLayout
 from kivy.uix.label import Label
-from kivy.uix.image import Image
-from kivy.uix.button import Button
-from kivy.uix.textinput import TextInput
 
-class SayHello(App):
+class MyApp(App):
+
     def build(self):
-        self.window = GridLayout()
-        #add widgets to window
+        return Label(text='Hello world')
 
-        return self.window
-
-if _name_ == "__main__":
-    SayHello().run()
+if __name__ == '__main__':
+    MyApp().run()
 ```
+
+O código acima contém a estrutura mínima para um programa em kivy. Layouts e widgets podem ser adicionados à janela, que serão os mesmos em todos os SO. Mais informações em:
+
+[Documentação oficial do *kivy* ( muito rica) ](https://kivy.org/doc/stable/)
+
+- 5. Execute o aplicativo para testar. Abra o terminal na pasta onde salvou o arquivo main.py e digiter:
+
+```bash
+python3 main.py
+```
+
+## Criando um arquivo `.apk` para Android.
+
+Para criar um arquivo .apk a partir de um arquivo .py usando kivy, usaremos uma ferramenta chamada `buildozer`, que automatiza todo o processo e elimina toda a complexidade da interação com o Android.
+
+
+
+## Buildozer: ferramenta para criação do .apk (Android) e iOS (IPhone)
+
+- 1. Instalando o `buildozer`.
+
+No terminal, linha por linha:
+
+```bash
+pip3 install --user --upgrade buildozer
+```
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev
+```
+
+```bash
+pip3 install --user --upgrade Cython==0.29.33 
+```
+
+Após isso, entre no Nautilus pelo modo Admin:
+
+```bash
+sudo nautilus
+```
+
+Habilite a opção de mostrar arquivos ocultos no Nautilus.  
+
+Dentro da pasta `root` abra o aquivo `.bashrc` e inclua a seguinte linha:
+
+```bash
+export PATH=$PATH:~/.local/bin/
+```
+
+- 2. Criando o aqruivo `.apk`
+
+No terminal, executa na mesma pasta que o arquivo `main.py` o seguinte comando: 
+
+```bash
+buildozer init
+```
+
+Um arquivo chamado `buildozer.spec` será criado e pode ser editado para mudar as especicações do app.
+
+Finalmente, para construir um `.apk`, entre no terminal:
+
+```bash
+buildozer android debug
+```
+
+Na primeira execução, o comando demora muito, mas nas posteriores é bem rápido!
+
+Bons app!
