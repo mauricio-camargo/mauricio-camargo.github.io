@@ -1,7 +1,9 @@
 ---
 title: Tutorial de `kivy` para criação de app de celular
----
-
+engine: knitr
+toc: TRUE
+toc-location: left
+lang: pt
 ---
 
 ## O que é o kivy?

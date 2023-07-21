@@ -1,0 +1,14 @@
+{
+  "hash": "dbedf9c3c517b8eada94a44132b39a24",
+  "result": {
+    "markdown": "---\ntitle: \"R-eutilizáveis\"\nsubtitle: \"Códigos reutilizáveis e muito úteis em R.\"\nengine: knitr\ntoc: FALSE\ntoc-location: left\nlang: pt\n---\n\n\n### Tradução para o R de alguns tutoriais em Python do prof. [Guto Schettini](https://gutoschettini.github.io/Analise_Dados_Python/)\n\n- [CTD](CTD/CTD.html)  \n- [Hidroweb](hidroweb/hidroweb.html)  \n- [IBGE1](IBGE1/IBGE1.html)  \n- [IBGE2](IBGE2/IBGE2.html)  \n\n:::aside\nHá outros tutorias na página que podem ser traduzidos para o R. Algum voluntário?\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

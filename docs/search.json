@@ -112,34 +112,6 @@
     "text": "Primeiramente, todos os arquivos devem ser salvos em uma pasta. \n\npasta_ctd=('./csv')\n\nDois pacotes devem ser carregados. Se der erro tem que instalar os pacotes. \n\nlibrary(readr)\nlibrary(lattice)\n\nArmazenando os caminhos dos arquivos na variável arquivos_csv \n\narquivos_csv=list.files(pasta_ctd,pattern = '*.Csv',full.names = T)\n\nCriando dataframes vazios. \n\narquivos_txt=c()\ndadosF=c()\n\nLendo cada arquivo Csv e escrevendo uma tabela com a datahora. \n\nfor (i in 1:length(arquivos_csv)) {\n   ArqCabeca=read_lines(arquivos_csv[i],skip=0,n_max=16)\n   datahora=substr(ArqCabeca[15],11,29) #Tira da linha 15 o valor\n   ArqDados=read_lines(arquivos_csv[i], skip=43)\n   arquivos_txt[i]=gsub('Csv','txt',arquivos_csv[i])\n   write_lines(ArqDados,arquivos_txt[i])\n   dados=read.csv(arquivos_txt[i], header = T)\n   dados$datahora=datahora\n   dados$tempo=as.POSIXct(dados$datahora,format = \"%Y/%m/%d %H:%M:%S\")\n   if (i==1) {\n      dadosF = dados\n   } else {\n      dadosF = rbind(dadosF,dados)\n   }  \n}\n\nQuem faz a mágica é o pacote Lattice. Há como melhorar a interpolação usando o próprio pacote. \n\nlevelplot(dadosF$Sal..... ~ as.numeric(format(dadosF$tempo,\"%H\"))*-dadosF$Depth..m., \n          data = dadosF,\n          xlab = \"X Coordinate (feet)\", ylab = \"Y Coordinate (feet)\",\n          main = \"Surface elevation data\",\n          col.regions = colorRampPalette(c(\"blue\",\"red\"))(30))\n\n\n\n\nPlotando gráficos de perfil de cada campanha. \n\ndados=subset(dadosF,\n     as.numeric(format(dadosF$tempo,'%H'))==10)\n\npar(mfrow=c(1,5))\nplot(dados$Sal.....,-dados$Depth..m.,ty='l',\n     xlab='Salinity (psu)',\n     ylab='Depth (m)')\nplot(dados$Temp...deg.C.,-dados$Depth..m.,ty='l',\n     xlab='Temperature (oC)',\n     ylab='')\nplot(dados$Chl.a..ug.l.,-dados$Depth..m.,ty='l',\n     xlab='Chlorophyl (ug/L)',\n     ylab='')\nplot(dados$Turb.M..FTU.,-dados$Depth..m.,ty='l',\n     xlab='Turbidity (FTU)',\n     ylab='')\nplot(dados$DO....,-dados$Depth..m.,ty='l',\n     xlab='Oxygen (%)',\n     ylab='')"
   },
   {
-    "objectID": "r-eutilizaveis/kivy _tutorial.html#o-que-é-o-kivy",
-    "href": "r-eutilizaveis/kivy _tutorial.html#o-que-é-o-kivy",
-    "title": "Tutorial de kivy para criação de app de celular",
-    "section": "O que é o kivy?",
-    "text": "O que é o kivy?\nkivy é uma plataforma para criação de GUI (Graphic User Interface) usando Python como linguagem.\nA grande vantagem do Kivy é a facilidade de criar aplicativos para Android e IPhone.\nPara criar programas com GUI para desktop (Windows, Linux e Mac), prefira o PyQt, que em breve terá aqui um tutorial.\nKivy funciona em qualquer sistema operacional, mas as ferramentas para criar um app de celular funciona apenas no LINUX. O exemplo que darei aqui será a criação de um arquivo .apk que pode ser instalado em celulares rodando Android.\nVocê vai precisar do Python3, que já vem instalado com o Linux, e do pip.\nEntre com os seguintes comandos no terminal do Linux:"
-  },
-  {
-    "objectID": "r-eutilizaveis/kivy _tutorial.html#instalando-e-testando-kivy",
-    "href": "r-eutilizaveis/kivy _tutorial.html#instalando-e-testando-kivy",
-    "title": "Tutorial de kivy para criação de app de celular",
-    "section": "Instalando e testando kivy",
-    "text": "Instalando e testando kivy\n\n\nPrimeiro, instale o pip.\n\n\nsudo apt install python3-pip\n\n\nAtualize o pip.\n\n\npython3 -m pip install --upgrade pip setuptools\n\n\nInstale o kivy e os exemplos.\n\n\npython3 -m pip install \"kivy[base]\" kivy_examples\n\n\nCriar um arquivo Python (obrigatoriamente com o nome main.py) contendo o seguinte código (salve em qualquer lugar):\n\n\nimport kivy\n\nfrom kivy.app import App\nfrom kivy.uix.label import Label\n\nclass MyApp(App):\n\n    def build(self):\n        return Label(text='Hello world')\n\nif __name__ == '__main__':\n    MyApp().run()\nO código acima contém a estrutura mínima para um programa em kivy. Layouts e widgets podem ser adicionados à janela, que serão os mesmos em todos os SO. Mais informações em:\nDocumentação oficial do kivy ( muito rica)\n\n\nExecute o aplicativo para testar. Abra o terminal na pasta onde salvou o arquivo main.py e digiter:\n\n\npython3 main.py"
-  },
-  {
-    "objectID": "r-eutilizaveis/kivy _tutorial.html#criando-um-arquivo-.apk-para-android.",
-    "href": "r-eutilizaveis/kivy _tutorial.html#criando-um-arquivo-.apk-para-android.",
-    "title": "Tutorial de kivy para criação de app de celular",
-    "section": "Criando um arquivo .apk para Android.",
-    "text": "Criando um arquivo .apk para Android.\nPara criar um arquivo .apk a partir de um arquivo .py usando kivy, usaremos uma ferramenta chamada buildozer, que automatiza todo o processo e elimina toda a complexidade da interação com o Android."
-  },
-  {
-    "objectID": "r-eutilizaveis/kivy _tutorial.html#buildozer-ferramenta-para-criação-do-.apk-android-e-ios-iphone",
-    "href": "r-eutilizaveis/kivy _tutorial.html#buildozer-ferramenta-para-criação-do-.apk-android-e-ios-iphone",
-    "title": "Tutorial de kivy para criação de app de celular",
-    "section": "Buildozer: ferramenta para criação do .apk (Android) e iOS (IPhone)",
-    "text": "Buildozer: ferramenta para criação do .apk (Android) e iOS (IPhone)\n\n\nInstalando o buildozer.\n\n\nNo terminal, linha por linha:\npip3 install --user --upgrade buildozer\nsudo apt update\nsudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev\npip3 install --user --upgrade Cython==0.29.33 \nApós isso, entre no Nautilus pelo modo Admin:\nsudo nautilus\nHabilite a opção de mostrar arquivos ocultos no Nautilus.\nDentro da pasta root abra o aquivo .bashrc e inclua a seguinte linha:\nexport PATH=$PATH:~/.local/bin/\n\n\nCriando o aqruivo .apk\n\n\nNo terminal, executa na mesma pasta que o arquivo main.py o seguinte comando:\nbuildozer init\nUm arquivo chamado buildozer.spec será criado e pode ser editado para mudar as especicações do app.\nFinalmente, para construir um .apk, entre no terminal:\nbuildozer android debug\nNa primeira execução, o comando demora muito, mas nas posteriores é bem rápido!\nO arquivo .apk estará na pasta Bin. Basta copiá-lo para o celular e instalar (em cada celular é um processo diferente, mas normalmente deve-se habilitar a instalação de programas não veridicados ou hobilitar o modo desenvolvedor).\nBons app!"
-  },
-  {
     "objectID": "r-eutilizaveis/tutorial_css_temas.html",
     "href": "r-eutilizaveis/tutorial_css_temas.html",
     "title": "Passos para integrar RStudio e Github",
@@ -341,6 +313,41 @@
     "title": "Mini-tutorial do Quarto no RStudio",
     "section": "Revealjs - Apresentações",
     "text": "Revealjs - Apresentações\n\nNova página\n--- #Três ou mais tracinhos\n## Header 2 também cria nova página\n####hox ::: Box ou info-box\nasdasd\n:::\n\n\nIncremental\n- Para tudo ser incremental, no cabeçalho colocar incremental: true   \n- Para tornar uma lista particular incremental:\n::: {.incremental}\n- Eat spaghetti\n- Drink wine\n:::\n\n\nColunas múltiplas\n:::: {.columns}\n\n::: {.column width=\"40%\"}\ncontents...\n:::\n\n::: {.column width=\"60%\"}\ncontents...\n:::\n\n::::\n\n\nFooter global\nNo cabeçalho:\nfooter: \"`Mais bonitinho com crase`\"\n\n\nFooter por página\n::: footer\nCustom footer text\n:::\n\n\nAside (tipo de footer sem referência)\n::: aside\nSome additional commentary of more peripheral interest.\n:::\n\n\nAside (tipo de footer com referência)\nNumera automaticamente\n- Green ^[Aqui a nota de rodapé]\n- Brown\n- Purple\n\n\nSmaller fonts\n## Slide Title {.smaller}\n\n\nscrollable\n## Slide Title {.scrollable}\n\n\nNotas do apresentador\n::: {.notes}\nSpeaker notes go here.\n:::\n\n\nTemas\ntheme: default\nOutros: https://quarto.org/docs/presentations/revealjs/\n\n\nSlide com diferente background\n## Título {background-color=\"aquamarine\"}\n\n\nTexto incremental num box\n::: columns\n::: {.column .box width=\"40%\"}\n   MATERIALS AND METHODS\n\n   *Experimental design* **(condensed version)**\n\n   -   **Experimental plots were planted   with different plant communities spanning [plant diversity gradient of one, four, and 16 species]{.fragment .highlight-blue}, which were randomly chosen from the species listed (5 plant functional groups -- 19 species in total)**\n   -   [Plots were divided into three subplots]{.fragment .highlight-red}\n\n:::\n\n::: {.column width=\"56%\"}\n::: fragment\nThis is in fact a **split-plot design**!\n:::\n\n::: fragment\n:::\n:::\n:::"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_kivy.html",
+    "href": "r-eutilizaveis/tutorial_kivy.html",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "",
+    "text": "kivy é uma plataforma para criação de GUI (Graphic User Interface) usando Python como linguagem.\nA grande vantagem do Kivy é a facilidade de criar aplicativos para Android e IPhone.\nPara criar programas com GUI para desktop (Windows, Linux e Mac), prefira o PyQt, que em breve terá aqui um tutorial.\nKivy funciona em qualquer sistema operacional, mas as ferramentas para criar um app de celular funciona apenas no LINUX. O exemplo que darei aqui será a criação de um arquivo .apk que pode ser instalado em celulares rodando Android.\nVocê vai precisar do Python3, que já vem instalado com o Linux, e do pip.\nEntre com os seguintes comandos no terminal do Linux:"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_kivy.html#o-que-é-o-kivy",
+    "href": "r-eutilizaveis/tutorial_kivy.html#o-que-é-o-kivy",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "",
+    "text": "kivy é uma plataforma para criação de GUI (Graphic User Interface) usando Python como linguagem.\nA grande vantagem do Kivy é a facilidade de criar aplicativos para Android e IPhone.\nPara criar programas com GUI para desktop (Windows, Linux e Mac), prefira o PyQt, que em breve terá aqui um tutorial.\nKivy funciona em qualquer sistema operacional, mas as ferramentas para criar um app de celular funciona apenas no LINUX. O exemplo que darei aqui será a criação de um arquivo .apk que pode ser instalado em celulares rodando Android.\nVocê vai precisar do Python3, que já vem instalado com o Linux, e do pip.\nEntre com os seguintes comandos no terminal do Linux:"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_kivy.html#instalando-e-testando-kivy",
+    "href": "r-eutilizaveis/tutorial_kivy.html#instalando-e-testando-kivy",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "Instalando e testando kivy",
+    "text": "Instalando e testando kivy\n\n\nPrimeiro, instale o pip.\n\n\nsudo apt install python3-pip\n\n\nAtualize o pip.\n\n\npython3 -m pip install --upgrade pip setuptools\n\n\nInstale o kivy e os exemplos.\n\n\npython3 -m pip install \"kivy[base]\" kivy_examples\n\n\nCriar um arquivo Python (obrigatoriamente com o nome main.py) contendo o seguinte código (salve em qualquer lugar):\n\n\nimport kivy\n\nfrom kivy.app import App\nfrom kivy.uix.label import Label\n\nclass MyApp(App):\n\n    def build(self):\n        return Label(text='Hello world')\n\nif __name__ == '__main__':\n    MyApp().run()\nO código acima contém a estrutura mínima para um programa em kivy. Layouts e widgets podem ser adicionados à janela, que serão os mesmos em todos os SO. Mais informações em:\nDocumentação oficial do kivy ( muito rica)\n\n\nExecute o aplicativo para testar. Abra o terminal na pasta onde salvou o arquivo main.py e digiter:\n\n\npython3 main.py"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_kivy.html#criando-um-arquivo-.apk-para-android.",
+    "href": "r-eutilizaveis/tutorial_kivy.html#criando-um-arquivo-.apk-para-android.",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "Criando um arquivo .apk para Android.",
+    "text": "Criando um arquivo .apk para Android.\nPara criar um arquivo .apk a partir de um arquivo .py usando kivy, usaremos uma ferramenta chamada buildozer, que automatiza todo o processo e elimina toda a complexidade da interação com o Android."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_kivy.html#buildozer-ferramenta-para-criação-do-.apk-android-e-ios-iphone",
+    "href": "r-eutilizaveis/tutorial_kivy.html#buildozer-ferramenta-para-criação-do-.apk-android-e-ios-iphone",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "Buildozer: ferramenta para criação do .apk (Android) e iOS (IPhone)",
+    "text": "Buildozer: ferramenta para criação do .apk (Android) e iOS (IPhone)\n\n\nInstalando o buildozer.\n\n\nNo terminal, linha por linha:\npip3 install --user --upgrade buildozer\nsudo apt update\nsudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev\npip3 install --user --upgrade Cython==0.29.33 \nApós isso, entre no Nautilus pelo modo Admin:\nsudo nautilus\nHabilite a opção de mostrar arquivos ocultos no Nautilus.\nDentro da pasta root abra o aquivo .bashrc e inclua a seguinte linha:\nexport PATH=$PATH:~/.local/bin/\n\n\nCriando o aqruivo .apk\n\n\nNo terminal, executa na mesma pasta que o arquivo main.py o seguinte comando:\nbuildozer init\nUm arquivo chamado buildozer.spec será criado e pode ser editado para mudar as especicações do app.\nFinalmente, para construir um .apk, entre no terminal:\nbuildozer android debug\nNa primeira execução, o comando demora muito, mas nas posteriores é bem rápido!\nO arquivo .apk estará na pasta Bin. Basta copiá-lo para o celular e instalar (em cada celular é um processo diferente, mas normalmente deve-se habilitar a instalação de programas não veridicados ou hobilitar o modo desenvolvedor).\nBons app!"
   },
   {
     "objectID": "r-eutilizaveis/truq_quarto.html",
