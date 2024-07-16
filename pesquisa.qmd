@@ -10,9 +10,13 @@ engine: knitr
 justify !important}
 ```
 
-## Publicações--
+## Publicações
 
 :::{.justify}
+- [VASCONCELLOS, DAVI M ; BAINY, MARA CRS ; CAMARGO, MAURÍCIO G ; TEIXEIRA BONECKER, ANA CRISTINA ; COSTA BONECKER, SÉRGIO LUIS ; HAIMOVICI, MANUEL . Cephalopod paralarvae in a tropical Brazilian basin: distribution throughout oceanographic features and water masses. BULLETIN OF MARINE SCIENCE, v. xxx, p. 1, 2024.](http://dx.doi.org/10.5343/bms.2023.0171)
+
+- [BORDIN, LUÍS HENRIQUE ; DA COSTA MACHADO, EUNICE ; MENDES, CARLOS RAFAEL BORGES ; FERNANDES, ELISA HELENA LEÃO ; DE CAMARGO, MAURÍCIO GARCIA . Total Ecosystem Metabolism Variability in a Subtropical Lagoonal Estuary Channel-Site. Estuaries and Coasts, v. 1, p. 1, 2023.](http://dx.doi.org/10.1007/s12237-023-01270-2)
+
 - [BORDIN, LUÍS HENRIQUE ; MACHADO, EUNICE DA C. ; MENDES, CARLOS R.B. ; FERNANDES, ELISA H.L. ; Camargo, Maurício G. ; KERR, RODRIGO ; SCHETTINI, CARLOS A. Daily variability of pelagic metabolism in a subtropical lagoonal estuary. JOURNAL OF MARINE SYSTEMS, v. 240, p. 103861. 2023](http://dx.doi.org/10.1016/j.jmarsys.2023.103861)  
 
 - [SOUZA, FERNANDA M. ; GILBERT, ELIANDRO R. ; BRAUKO, KALINA M. ; LORENZI, LUCIANO ; MACHADO, EUNICE ; Camargo, Mauricio G. . Macrobenthic community responses to multiple environmental stressors in a subtropical estuary. PeerJ, v. 9, p. e12427. 2021](http://dx.doi.org/10.7717/peerj.12427)
