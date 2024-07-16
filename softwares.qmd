@@ -2,7 +2,7 @@
 #title: "Softwares"
 ---
 
-## Pacotes do R (Multiplataforma)
+## Pacotes do R (Multiplataforma)--
 
 <br>
 
