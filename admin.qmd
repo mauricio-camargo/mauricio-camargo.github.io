@@ -8,7 +8,7 @@ engine: knitr
 
 <br>
 
-### 2023
+### 2023-24
 - Representante do IO na Comissão Própria de Avaliação (CPA)
 
 ### 2019-2021
