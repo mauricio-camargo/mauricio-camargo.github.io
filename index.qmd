@@ -44,7 +44,7 @@ dade2023/) -->
 
 - [Reprodutibilidade científica no R](https://mauricio-camargo.github.io/reprodu2023/)
 
-
+- Biodiversidade de invertebrados marinhos (Annelida): será ministrada em Agosto/2024.
 
 <!--
 -----
