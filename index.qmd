@@ -24,7 +24,7 @@ Professor da Universidade Federal do Rio Grande (FURG)
 ----
 
 :::{.justify}
-Este é o meu site . pessoal, onde concentro todas as minhas atividades profissionais como professor e pesquisador do [Instituto de Oceanografia (IO)](http://www.io.furg.br) e do [Instituto de Matemática, Estatística e Física](http://www.imef.furg.br) da [Universidade Federal do Rio Grande - FURG](http://www.furg.br). Estou lotado no [Laboratório de Ecologia de Invertebrados Bentônicos](https://io.furg.br/pesquisa/laboratorios) do [IO](http://www.io.furg.br). 
+Este é o meu site pessoal, onde concentro todas as minhas atividades profissionais como professor e pesquisador do [Instituto de Oceanografia (IO)](http://www.io.furg.br) e do [Instituto de Matemática, Estatística e Física](http://www.imef.furg.br) da [Universidade Federal do Rio Grande - FURG](http://www.furg.br). Estou lotado no [Laboratório de Ecologia de Invertebrados Bentônicos](https://io.furg.br/pesquisa/laboratorios) do [IO](http://www.io.furg.br). 
 :::
 
 
@@ -36,11 +36,14 @@ Todo o conteúdo do site é livre para uso [não comercial](https://creativecomm
 ### Disciplinas atuais
 Ministro disciplinas de estatística ambiental na graduação e na pós-graduação e também programação, diversidade de anelídeos poliquetas e metodologia da ciência na graduação. 
 
-**Disciplinas do primeiro semestre de 2023:**
+**Disciplinas do primeiro semestre de 2024:**
 
-- [Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)](https://mauricio-camargo.github.io/Biodiversidade2023/)
+<!--
+- [Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)](https://mauricio-camargo.github.io/Biodiversi
+dade2023/) -->
+
 - [Reprodutibilidade científica no R](https://mauricio-camargo.github.io/reprodu2023/)
-- [Programação em Python e R]()
+
 
 
 <!--
