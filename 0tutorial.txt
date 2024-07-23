@@ -1,3 +1,4 @@
+teste
 Sequencia para criar um website no R:
 - File>New Project>New Directory>Quarto website>NOME DO PROJETO 
 - O nome do projeto obrigatoriamente ter que ser mauricio-camargo.github.io
