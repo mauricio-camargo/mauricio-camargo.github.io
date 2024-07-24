@@ -14,11 +14,17 @@ engine: knitr
 -   R: <https://cran.r-project.org>
 -   RStudio: <https://posit.co/download/rstudio-desktop/>
 -   Quarto: <https://quarto.org/docs/get-started/>  
+-   Git: Veja instruções abaixo.
 
 ## 2.Instalar os pacotes no R:
 
 ```{.r}
-install.packages('usethis','gitcreds','devtools', 'markdown','rmarkdown','knitr')
+install.packages('usethis')
+install.packages('gitcreds')
+install.packages('devtools')
+install.packages('markdown')
+install.packages('rmarkdown')
+install.packages('knitr')
 ```
 
 ::: aside
@@ -49,13 +55,7 @@ Para isso, é preciso entrar nas configurações do RStudio e fazer as seguintes
 
 ![](img/RStudio1.png)
 
-## 4. Criar uma conta gratuita no Github
-
-<https://github.com/>
-
-`Guarde muito bem seu nome de usuário e senha do Github.`
-
-## 5. Instalar o Git
+## 4. Instalar o Git
 
 Git: <https://git-scm.com/download/>
 
@@ -69,6 +69,14 @@ cmd é o terminal de comando do Windows, ou seja, a janela onde se digitam coman
 ```{.r}
 git --version
 ```
+
+## 5. Criar uma conta gratuita no Github
+
+<https://github.com/>
+
+`Você vai precisar de um e-mail @furg.br`
+
+Para criar páginas HTML e hospedá-las no Github, você vai precisar criar uma conta de estudante. A maneira mais fácil de fazer isso é usando seu e-mail da FURG.
 
 ## 6. Configurar o Git
 
@@ -117,7 +125,7 @@ Escreva um nome para o token e escolha uma data de validade para ele. Deixe todo
 :::{.callout-caution}
 > ATENÇÃO:   
 
-Copie e guarde o token `AGORA`. Você não terá outra chance! Em nenhum lugar você vai achá-lo novamente.
+Copie e guarde o token `AGORA`. Você não terá outra chance `fácil` de achá-lo novamente.
 :::
 
 ::: aside
@@ -145,6 +153,7 @@ usethis::git_sitrep()
 ```
 
 :::{.callout-caution}
+
 > PRONTO!   
 
 O seu RStudio está configurado para manipular arquivos do Github e criar sites inteiros usando o **Quarto**.
@@ -170,15 +179,17 @@ Existem dois métodos para clonar um repositório, usando HTTPS e SSH. Aqui usar
 
 Um projeto no RStudio serve para agregar vários arquivos em um único diretório, que poderão ser manipulados mais facilmente.
 
-No RStudio, entre em `File<New project`.
+No RStudio, entre em `File<New project>`.
 
-Na próxima tela, você poderá escolher entre criar um novo projeto num novo diretório, num diretório existente ou usando `controle de versões`, no caso, o Git. 
+Na próxima tela, você poderá escolher entre criar um novo projeto num novo diretório, num diretório existente ou usando `controle de versões`.
+
+Escolha `Version Control.` 
 
 
 ![](img/Novo_Proj.png)
 
 ::: aside
-Hoje em dia eu guardo absolutamente tudo o que é produzido em R ou Python no Github.
+Hoje em dia eu guardo absolutamente tudo o que é produzido em R ou Python no Github. Mas na prática você pode criar qualquer tipo de arquivo.
 :::
 
 Em `Repository URL`, cole o a URL copiada lá no Github. O nome do novo diretório sugerido irá aparecer no outro campo. Por fim, escolha uma pasta onde uma cópia local do repositório será copiado.
@@ -192,7 +203,7 @@ Pronto! Você está com tudo pronto para começar a criar conteúdo para o seu r
 
 Na aba `Files` do RStudio, clique  no arquivo `README.md`.
 
-Este é um arquivo Markdown e portanto aceita toda a formatação do RMarkdown que já vimos.
+Este é um arquivo Markdown (.md) e portanto aceita toda a formatação do RMarkdown que já vimos. Mas este não um arquivo RMarkdown (.rmd) e portanto não aceita os comandos específicos do R, como chuncks.
 
 
 ```{.r}
@@ -200,7 +211,7 @@ Este é um arquivo Markdown e portanto aceita toda a formatação do RMarkdown q
 
 ### Autor
 
-Este é apenas um repositório de test.
+Este é apenas um repositório de teste.
 ```
 
 Para testá-lo, pressione `Preview` ou Ctrl+Shift+K.

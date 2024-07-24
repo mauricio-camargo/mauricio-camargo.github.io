@@ -40,5 +40,89 @@
     "title": "Administração",
     "section": "",
     "text": "Representante do IO na Comissão Própria de Avaliação (CPA)\n\n\n\n\n\nCoordenador do curso de Oceanologia\n\n\n\n\n\nCoordenador adjunto do curso de Oceanologia\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia.\n\n\n\n\n\nCoordenador adjunto do curso de Oceanologia\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia.\n\n\n\n\n\nRepresentante do Núcleo de Oceanografia Biológica (NOB) no Conselho do Instituto de Oceanografia (IO).\nSuplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "1.Instalar os programas do ecossistema de reprodutibilidade do R:",
+    "text": "1.Instalar os programas do ecossistema de reprodutibilidade do R:\n\nR: https://cran.r-project.org\nRStudio: https://posit.co/download/rstudio-desktop/\nQuarto: https://quarto.org/docs/get-started/\n\nGit: Veja instruções abaixo."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-pacotes-no-r",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-os-pacotes-no-r",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "2.Instalar os pacotes no R:",
+    "text": "2.Instalar os pacotes no R:\ninstall.packages('usethis')\ninstall.packages('gitcreds')\ninstall.packages('devtools')\ninstall.packages('markdown')\ninstall.packages('rmarkdown')\ninstall.packages('knitr')\n\n\nEsta é uma maneira de instalar vários pacotes de uma só vez.\nO pacote tinytex do R serve para instalar toda a infra-estrutura do \\(\\LaTeX\\) para lidar com PDFs.\ninstall.packages('tinytex')\ntinytex::install_tinytex()\n\n\nAntes do pacote tinytex a instalação do LaTeX era um inferno!"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#desativar-.rdata-e-.-rhistory-no-rstudio",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#desativar-.rdata-e-.-rhistory-no-rstudio",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "3. Desativar .RData e . Rhistory no RStudio",
+    "text": "3. Desativar .RData e . Rhistory no RStudio\nO RStudio grava todos os objetos (incluindo datasets) no arquivo oculto .RData e todos os comandos usados na IDE no arquivo .Rhistory.\nEstes arquivos podem chegar a tamanhos de muitos gigabytes e por isso devem ser desativados.\nPara isso, é preciso entrar nas configurações do RStudio e fazer as seguintes modificações:\nTools &lt; Global Options &lt; General"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-o-git",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-o-git",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "4. Instalar o Git",
+    "text": "4. Instalar o Git\nGit: https://git-scm.com/download/\nTeste a instalação do Git no terminal do Windows.\nPara abrir o terminal, clique no botão Iniciar do Windows e digite cmd. Quando a tela do terminal abrir, digite:\n\n\ncmd é o terminal de comando do Windows, ou seja, a janela onde se digitam comandos ao sistema operacional. Em Linux e Mac é conhecido só como Terminal\ngit --version"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-uma-conta-gratuita-no-github",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-uma-conta-gratuita-no-github",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "5. Criar uma conta gratuita no Github",
+    "text": "5. Criar uma conta gratuita no Github\nhttps://github.com/\nVocê vai precisar de um e-mail @furg.br\nPara criar páginas HTML e hospedá-las no Github, você vai precisar criar uma conta de estudante. A maneira mais fácil de fazer isso é usando seu e-mail da FURG."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#configurar-o-git",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#configurar-o-git",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "6. Configurar o Git",
+    "text": "6. Configurar o Git\n\nGravar no Git o nome de usuário e email\n\nAtravés do pacote usethis podemos configurar o Git diretamente do RStudio.\n\n\nAntes do pacote usethis a configuração do Git era um sofrimento!\nVamos agora informar seu nome do usuário no Github e seu email usado para abrir a conta. Isso só é feito uma vez.\nusethis::use_git_config(\n  user.name = \"SEU NOME NO GITHUB\",\n  user.email = \"seu_email_no@gmail.com\")\n\nCrie um Personal Access Token (PAT)\n\nDe uns tempos para cá o Github aperfeiçoou o método de autenticação no site, de modo que a senha do usuário foi substituída por um token.\n\n\nLembre-se sempre que a senha pode ser substituído pelo token. Se em algum momento o Rstudio pedir a senha do Git, use o token.\nO token também pode ser criado dentro do RStudio usando o pacote usethis.\n\n\nVocê pode acessar diretamente a página do Github para criar um token, mas usando o pacote usethis as configurações são pré-fixadas.\nusethis::create_github_token()\nUma janela do navegador irá se abrir e você precisará informar o nome do usuário do Github e a senha.\n\nEscreva um nome para o token e escolha uma data de validade para ele. Deixe todo o resto das opções como estão e pressione o botão Generate token.\n\n\n\n\n\n\nCuidado\n\n\n\n\nATENÇÃO:\n\nCopie e guarde o token AGORA. Você não terá outra chance fácil de achá-lo novamente.\n\n\n\n\nNo entanto, um novo token pode ser criado e utilizado a qualquer momento.\n\nAtribuir o token ao Git para sempre.\n\nUsando o pacote gitcreds, você pode informar o Git seu recém-criado token e você não mais precisará informá-lo toda vez que entrar o Github.\ngitcreds::gitcreds_set()\nUm prompt na janela de console do R dentro do RStudio vai pedir:\n? Enter password or token:\nPara responder, clique na janela e cole (ctrl-V) o token recém-copiado e pronto, estamos quase lá!\nPara conferir se está tudo certo, digite:\nusethis::git_sitrep()\n\n\n\n\n\n\nCuidado\n\n\n\n\nPRONTO!\n\nO seu RStudio está configurado para manipular arquivos do Github e criar sites inteiros usando o Quarto."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-um-novo-repositório-do-github",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-um-novo-repositório-do-github",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "7. Criar um novo repositório do Github",
+    "text": "7. Criar um novo repositório do Github\nEntre na página inicial do Github e na parte superior da tela à esquerda pressione o botão NEW.\nDê um nome para o novo repositório e pressione Add a README file. Mantenha o repositório como público para que posteriormente possamos transformá-lo num site (sites privados não podem).\n\nPronto! O novo repositório foi criado e já pode ser acessado pelo RStudio, por um processo chamado clonagem. Para clonar qualquer repositório no RStudio, pressione o botão &lt; &gt; Code e depois o botão Copiar.\n\n\nExistem dois métodos para clonar um repositório, usando HTTPS e SSH. Aqui usaremos HTTPS, que é mais simples. SSH é usado em outros sistemas (Linux e Mac), mas é muito mais complicado."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-um-novo-projeto-no-rstudio",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-um-novo-projeto-no-rstudio",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "8. Criar um novo projeto no RStudio",
+    "text": "8. Criar um novo projeto no RStudio\nUm projeto no RStudio serve para agregar vários arquivos em um único diretório, que poderão ser manipulados mais facilmente.\nNo RStudio, entre em File&lt;New project&gt;.\nNa próxima tela, você poderá escolher entre criar um novo projeto num novo diretório, num diretório existente ou usando controle de versões.\nEscolha Version Control.\n\n\n\nHoje em dia eu guardo absolutamente tudo o que é produzido em R ou Python no Github.\nEm Repository URL, cole o a URL copiada lá no Github. O nome do novo diretório sugerido irá aparecer no outro campo. Por fim, escolha uma pasta onde uma cópia local do repositório será copiado.\n\nO que aconteceu foi que o RStudio baixou todos os arquivos do repositório recém-criado no Github e agora você pode modificá-los localmente a atualizá-los remotamente.\nPronto! Você está com tudo pronto para começar a criar conteúdo para o seu repositório do Github.\nNa aba Files do RStudio, clique no arquivo README.md.\nEste é um arquivo Markdown e portanto aceita toda a formatação do RMarkdown que já vimos.\n## Teste de repositório\n\n### Autor\n\nEste é apenas um repositório de test.\nPara testá-lo, pressione Preview ou Ctrl+Shift+K."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#sincronizar-os-arquivos-locais-com-os-arquivos-remotos-do-github.",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#sincronizar-os-arquivos-locais-com-os-arquivos-remotos-do-github.",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "9. Sincronizar os arquivos locais com os arquivos remotos do Github.",
+    "text": "9. Sincronizar os arquivos locais com os arquivos remotos do Github.\nA sincronização dos arquivos não é tão simples quanto poderia ser, mas lembre-se que estamos lidando com um sistema (Git) que serve para versionamento de programas que podem ser manipulados por muitas pessoas, e por isso temos que aprender o seu funcionamento.\nQuando estamos com um projeto aberto no RStudio, aparece uma aba chamada Git, que é a partir de onde faremos as transferências dos arquivos.\nTodos os arquivos modificados aparecem ali. Clique em todos eles.\n\n\n\nPROBLEMA: quando existem muitos arquivos para fazer um Commit, o RStudio pode travar. Isso acontece principalmente para apresentações do Quarto usando revealjs, que instalam a biblioteca inteira e isso representam dezenas de arquivos.\n Para solucionar isso, procure pela aba Terminal dentro do RStudio e digite o seguinte comando, que vai fazer um Commit sem passar pelo RStudio:\ngit add -A && git commit -m \"staging all files\"\nDepois pressione o botão Commit. Na nomenclatura Git, Commit significa gravar no disco as modificações, de forma preparar todos os arquivos para serem enviados ao Github.\nA seguinte tela vai aparecer:\n\nAntes de pressionar o botão Commit, você é obrigado a escreve alguma coisa em Commit message, caso contrário o processo será abortado. Isso é uma forma de obrigá-lo a documentar toda e qualquer mudança nos códigos.\nDepois de pressionar o botão Commit, uma tela de comando vai aparecer e pode ser fechada.\nA operação de enviar os arquivos para o Github, ou seja, fazer um upload, é chamada no linguajar do Git de PUSH. PULL seria a operação oposta, de download de uma versão o site, e é muito importante baixar as versões modificadas antes de começar a trabalhar localmente quando existem muitas pessoas modificando o arquivo simultaneamente.\nPressione então o botão Push e verifique lá na página do seu repositório do Github se as modificações foram efetuadas.\n\nÀs vezes pode demorar alguns minutos até que as alterações apareçam online no site. Outros vezes a atualização é muito rápida."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criando-um-site-completo-usange-github-pages",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criando-um-site-completo-usange-github-pages",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "10. Criando um site completo usange Github pages",
+    "text": "10. Criando um site completo usange Github pages\nInicialmente, crie um arquivo novo do tipo Quarto document, em File&lt;New file&lt;Quarto document.... O documento vem com o template padrão do Quarto, então você precisa fazer algumas modificações.\nSalve este arquivo OBRIGATORIAMENTE com o nome de index.qmd no diretório do projeto.\nPressione o botão Render ou Ctrl+Shift+K para renderizar o arquivo index.qmd e criar o arquivo index.html. Este será o arquivo da primeira página do seu site. Outras páginas são criadas da mesma maneira.\nFaça um Commit e depois um Push, conforme explicado anteriormente."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#habilitando-o-github-pages",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#habilitando-o-github-pages",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "11. Habilitando o Github Pages",
+    "text": "11. Habilitando o Github Pages\nNa página do repositório, clique em Settings e depois em Pages. Em Branch, escolha Main e pressione Save.\nPronto, em alguns segundos o site estará no ar."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#referências",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#referências",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "12. Referências:",
+    "text": "12. Referências:\n\nCurso-r: https://curso-r.github.io/zen-do-r/\nR for data science: https://r4ds.had.co.nz/\n\n\n\n\n\nPrecisei adaptar muita coisa desses sites, que foram criados há apenas alguns meses e já estão ligeiramente desatualizados."
   }
 ]
