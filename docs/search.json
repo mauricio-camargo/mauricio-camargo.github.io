@@ -95,7 +95,7 @@
     "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-um-novo-projeto-no-rstudio",
     "title": "Passos para integrar RStudio e Github",
     "section": "8. Criar um novo projeto no RStudio",
-    "text": "8. Criar um novo projeto no RStudio\nUm projeto no RStudio serve para agregar vários arquivos em um único diretório, que poderão ser manipulados mais facilmente.\nNo RStudio, entre em File&lt;New project&gt;.\nNa próxima tela, você poderá escolher entre criar um novo projeto num novo diretório, num diretório existente ou usando controle de versões.\nEscolha Version Control.\n\n\n\nHoje em dia eu guardo absolutamente tudo o que é produzido em R ou Python no Github.\nEm Repository URL, cole o a URL copiada lá no Github. O nome do novo diretório sugerido irá aparecer no outro campo. Por fim, escolha uma pasta onde uma cópia local do repositório será copiado.\n\nO que aconteceu foi que o RStudio baixou todos os arquivos do repositório recém-criado no Github e agora você pode modificá-los localmente a atualizá-los remotamente.\nPronto! Você está com tudo pronto para começar a criar conteúdo para o seu repositório do Github.\nNa aba Files do RStudio, clique no arquivo README.md.\nEste é um arquivo Markdown e portanto aceita toda a formatação do RMarkdown que já vimos.\n## Teste de repositório\n\n### Autor\n\nEste é apenas um repositório de test.\nPara testá-lo, pressione Preview ou Ctrl+Shift+K."
+    "text": "8. Criar um novo projeto no RStudio\nUm projeto no RStudio serve para agregar vários arquivos em um único diretório, que poderão ser manipulados mais facilmente.\nNo RStudio, entre em File&lt;New project&gt;.\nNa próxima tela, você poderá escolher entre criar um novo projeto num novo diretório, num diretório existente ou usando controle de versões.\nEscolha Version Control.\n\n\n\nHoje em dia eu guardo absolutamente tudo o que é produzido em R ou Python no Github. Mas na prática você pode criar qualquer tipo de arquivo.\nEm Repository URL, cole o a URL copiada lá no Github. O nome do novo diretório sugerido irá aparecer no outro campo. Por fim, escolha uma pasta onde uma cópia local do repositório será copiado.\n\nO que aconteceu foi que o RStudio baixou todos os arquivos do repositório recém-criado no Github e agora você pode modificá-los localmente a atualizá-los remotamente.\nPronto! Você está com tudo pronto para começar a criar conteúdo para o seu repositório do Github.\nNa aba Files do RStudio, clique no arquivo README.md.\nEste é um arquivo Markdown (.md) e portanto aceita toda a formatação do RMarkdown que já vimos. Mas este não um arquivo RMarkdown (.rmd) e portanto não aceita os comandos específicos do R, como chuncks.\n## Teste de repositório\n\n### Autor\n\nEste é apenas um repositório de teste.\nPara testá-lo, pressione Preview ou Ctrl+Shift+K."
   },
   {
     "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#sincronizar-os-arquivos-locais-com-os-arquivos-remotos-do-github.",
@@ -123,6 +123,13 @@
     "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#referências",
     "title": "Passos para integrar RStudio e Github",
     "section": "12. Referências:",
-    "text": "12. Referências:\n\nCurso-r: https://curso-r.github.io/zen-do-r/\nR for data science: https://r4ds.had.co.nz/\n\n\n\n\n\nPrecisei adaptar muita coisa desses sites, que foram criados há apenas alguns meses e já estão ligeiramente desatualizados."
+    "text": "12. Referências:\n\nCurso-r: https://curso-r.github.io/zen-do-r/\nR for data science: https://r4ds.had.co.nz/\n\n\n\n\n\nPrecisei adaptar muita coisa desses dois sites, que foram criados há um tempo e já estão ligeiramente desatualizados."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criando-um-site-completo-usando-o-github-pages",
+    "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criando-um-site-completo-usando-o-github-pages",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "10. Criando um site completo usando o Github pages",
+    "text": "10. Criando um site completo usando o Github pages\nInicialmente, crie um arquivo novo do tipo Quarto document, em File&lt;New file&lt;Quarto document.... O documento vem com o template padrão do Quarto, então você precisa fazer algumas modificações.\nSalve este arquivo OBRIGATORIAMENTE com o nome de index.qmd no diretório do projeto.\nPressione o botão Render ou Ctrl+Shift+K para renderizar o arquivo index.qmd e criar o arquivo index.html. Este será o arquivo da primeira página do seu site. Outras páginas são criadas da mesma maneira.\nFaça um Commit e depois um Push, conforme explicado anteriormente."
   }
 ]

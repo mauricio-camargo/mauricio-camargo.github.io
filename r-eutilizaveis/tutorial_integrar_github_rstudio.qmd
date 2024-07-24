@@ -257,7 +257,7 @@ Pressione então o botão `Push` e verifique lá na página do seu repositório 
 
 ![](img/Tela_Atualizada.png)
 
-## 10. Criando um site completo usange Github pages
+## 10. Criando um site completo usando o Github pages
 
 Inicialmente, crie um arquivo novo do tipo Quarto document, em `File<New file<Quarto document...`. O documento vem com o template padrão do Quarto, então você precisa fazer algumas modificações.
 
@@ -282,6 +282,6 @@ Pronto, em alguns segundos o site estará no ar.
 -   R for data science: <https://r4ds.had.co.nz/>
 
 ::: aside
-Precisei adaptar muita coisa desses sites, que foram criados há apenas alguns meses e já estão ligeiramente desatualizados.
+Precisei adaptar muita coisa desses dois sites, que foram criados há um tempo e já estão ligeiramente desatualizados.
 :::
 
