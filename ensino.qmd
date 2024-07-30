@@ -17,7 +17,11 @@ engine: knitr
   - Período: Março a julho de 2023
   - Plataforma: AVA da FURG.
 
-- [**Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**](https://mauricio-camargo.github.io/Biodiversidade2023/)
+<!--
+ - [**Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**](https://mauricio-camargo.github.io/Biodiversidade2023/)
+-->
+
+- **Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**
   - Cursos oferecidos: *Oceanologia*
   - Período: Março a julho de 2023
 
