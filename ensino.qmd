@@ -27,7 +27,7 @@ engine: knitr
 
 #### Pós-graduação
 
-- [**Reprodutibilidade científica no R (em andamento**)](https://mauricio-camargo.github.io/reprodu2023/)
+- [**Reprodutibilidade científica no R (em andamento**)](https://mauricio-camargo.github.io/reprodu2024/)
   - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
   - Período: Outubro e novembro de 2023
 
