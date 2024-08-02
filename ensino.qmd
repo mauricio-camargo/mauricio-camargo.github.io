@@ -47,12 +47,12 @@ engine: knitr
 
 #### Pós-graduação
 
-- [**Reprodutibilidade científica no R (em andamento**)](https://mauricio-camargo.github.io/reprodu2024/)
+  - **Reprodutibilidade científica no R**
   - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
   - Período: Outubro e novembro de 2023
 
-- **Delineamento Experimental em Ecologia (Programada)**
-  - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+- **Delineamento Experimental em Ecologia**
+- Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
   - Período: Outubro e novembro de 2023
 
 ### **2022**
