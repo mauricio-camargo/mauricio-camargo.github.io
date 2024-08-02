@@ -47,13 +47,13 @@ engine: knitr
 
 #### Pós-graduação
 
-  - **Reprodutibilidade científica no R**
-  - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
-  - Período: Outubro e novembro de 2023
+- **Reprodutibilidade científica no R**
+    - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+    - Período: Outubro e novembro de 2023
 
 - **Delineamento Experimental em Ecologia**
-- Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
-  - Período: Outubro e novembro de 2023
+    - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+    - Período: Outubro e novembro de 2023
 
 ### **2022**
 
