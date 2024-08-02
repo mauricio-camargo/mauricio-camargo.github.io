@@ -17,7 +17,7 @@ justify !important}
 :::
 ::: {.column width="80%"}
 <br>
-Professor da Universidade Federal do Rio Grande (FURG)
+Professor da Universidade Federal de Rio Grande (FURG)
 :::
 ::::
 
