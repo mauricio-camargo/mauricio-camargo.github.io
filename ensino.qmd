@@ -8,6 +8,26 @@ engine: knitr
 
 <br>
 
+### **2024**
+
+#### Graduação
+
+- **Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**
+  - Cursos oferecidos: *Oceanologia*
+  - Período: Agosto e Setembro de 2024
+
+#### Pós-graduação
+
+- [**Reprodutibilidade científica no R (em andamento**)](https://mauricio-camargo.github.io/reprodu2024/)
+  - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+  - Período: Julho a Outubro de 2024
+
+
+- **Delineamento Experimental em Ecologia (Programada)**
+  - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+  - Período: Ainda não definido para 2024.
+
+
 ### **2023**
 
 #### Graduação
