@@ -38,8 +38,7 @@ Ministro disciplinas de estatística ambiental na graduação e na pós-graduaç
 
 **Disciplinas do primeiro semestre de 2024:**
 
-- [Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)](https://mauricio-camargo.github.io/Biodiversi
-dade2024/)
+- [Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)](https://mauricio-camargo.github.io/Biodiversidade2024/)
 
 - [Reprodutibilidade científica: como fazer ciência reprodutível no R](https://mauricio-camargo.github.io/reprodu2024/)
 
