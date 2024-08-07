@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Desativar</title>
+<title>Desativar .RData e .RHistory</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -155,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Desativar</h1>
+<h1 class="title">Desativar .RData e .RHistory</h1>
 </div>
 
 
@@ -172,6 +172,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>O RStudio grava todos os objetos (incluindo datasets) no arquivo oculto <strong>.RData</strong> e todos os comandos usados na IDE no arquivo <strong>.Rhistory</strong>.</p>
+<p>Estes arquivos podem chegar a tamanhos de muitos gigabytes e por isso acredito que devam ser desativados.</p>
+<p>Para isso, é preciso entrar nas configurações do RStudio e fazer as seguintes modificações:</p>
+<p><code>Tools &lt; Global Options &lt; General</code></p>
+<p><img src="img/RStudio1.png" class="img-fluid"></p>
 
 
 

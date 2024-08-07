@@ -1,11 +1,11 @@
 ---
-title: "Desativar"
+title: "Desativar .RData e .RHistory"
 editor: visual
 ---
 
 O RStudio grava todos os objetos (incluindo datasets) no arquivo oculto **.RData** e todos os comandos usados na IDE no arquivo **.Rhistory**.
 
-Estes arquivos podem chegar a tamanhos de muitos gigabytes e por isso devem ser desativados.
+Estes arquivos podem chegar a tamanhos de muitos gigabytes e por isso acredito que devam ser desativados.
 
 Para isso, é preciso entrar nas configurações do RStudio e fazer as seguintes modificações:
 
