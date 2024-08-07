@@ -60,7 +60,7 @@
     "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#desativar-.rdata-e-.-rhistory-no-rstudio",
     "title": "Passos para integrar RStudio e Github",
     "section": "3. Desativar .RData e . Rhistory no RStudio",
-    "text": "3. Desativar .RData e . Rhistory no RStudio\nO RStudio grava todos os objetos (incluindo datasets) no arquivo oculto .RData e todos os comandos usados na IDE no arquivo .Rhistory.\nEstes arquivos podem chegar a tamanhos de muitos gigabytes e por isso devem ser desativados.\nPara isso, é preciso entrar nas configurações do RStudio e fazer as seguintes modificações:\nTools &lt; Global Options &lt; General"
+    "text": "3. Desativar .RData e . Rhistory no RStudio\nEste passo é opcional, porém é muito útil. Para acessá-lo, clique aqui."
   },
   {
     "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-o-git",

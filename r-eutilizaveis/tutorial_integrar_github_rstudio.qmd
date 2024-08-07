@@ -43,17 +43,9 @@ tinytex::install_tinytex()
 Antes do pacote tinytex a instalação do LaTeX era um inferno! 
 :::
 
-## 3. Desativar .RData e . Rhistory no RStudio
+## [3. Desativar .RData e . Rhistory no RStudio](Desativar_RData.html)
 
-O RStudio grava todos os objetos (incluindo datasets) no arquivo oculto **.RData** e todos os comandos usados na IDE no arquivo **.Rhistory**.
-
-Estes arquivos podem chegar a tamanhos de muitos gigabytes e por isso devem ser desativados.  
-
-Para isso, é preciso entrar nas configurações do RStudio e fazer as seguintes modificações:
-
-`Tools < Global Options < General`
-
-![](img/RStudio1.png)
+Este passo é opcional, porém é muito útil. Para acessá-lo, clique [aqui](Desativar_RData.html).
 
 ## 4. Instalar o Git
 
