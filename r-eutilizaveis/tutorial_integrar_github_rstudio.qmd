@@ -152,11 +152,11 @@ Para conferir se está tudo certo, digite:
 usethis::git_sitrep()
 ```
 
-:::{.callout-caution}
+:::{.callout-note}
 
-> PRONTO!   
+**PRONTO!**
 
-O seu RStudio está configurado para manipular arquivos do Github e criar sites inteiros usando o **Quarto**, usando toda a riqueza da linguagem RMarkdown.
+O seu RStudio está configurado para manipular arquivos do Github e criar sites inteiros com o **Quarto**, usando toda a riqueza da linguagem RMarkdown.
 :::
 
 ## 7. Criar um novo repositório do Github
