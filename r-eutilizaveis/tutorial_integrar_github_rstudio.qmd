@@ -123,9 +123,10 @@ Um prompt na janela do Terminal dentro do RStudio vai pedir:
 
 `? Enter password or token:`
 
-Para responder:
--  copie o token recém-criado da página do Github (use o botão de copiar) 
--  clique na janela da aba Terminal do RStudio
+Para responder:  
+
+-  copie o token recém-criado da página do Github (use o botão de copiar)  
+-  clique na janela da aba Terminal do RStudio  
 -  cole (ctrl-V) o token recém-copiado e pronto, estamos quase lá!
 
 O procedimento acima atribui o token ao Git para sempre, usando o pacote `gitcreds`, e você não mais precisará informá-lo toda vez que usar o Github a partir do RStudio. 
@@ -155,7 +156,7 @@ usethis::git_sitrep()
 
 > PRONTO!   
 
-O seu RStudio está configurado para manipular arquivos do Github e criar sites inteiros usando o **Quarto**.
+O seu RStudio está configurado para manipular arquivos do Github e criar sites inteiros usando o **Quarto**, usando toda a riqueza da linguagem RMarkdown.
 :::
 
 ## 7. Criar um novo repositório do Github
