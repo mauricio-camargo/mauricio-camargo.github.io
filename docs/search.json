@@ -67,7 +67,7 @@
     "href": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#instalar-o-git",
     "title": "Passos para integrar RStudio e Github",
     "section": "4. Instalar o Git",
-    "text": "4. Instalar o Git\nGit: https://git-scm.com/download/\nTeste a instalação do Git no terminal do Windows.\nPara abrir o terminal, clique no botão Iniciar do Windows e digite cmd. Quando a tela do terminal abrir, digite:\n\n\ncmd é o terminal de comando do Windows, ou seja, a janela onde se digitam comandos ao sistema operacional. Em Linux e Mac é conhecido só como Terminal\ngit --version"
+    "text": "4. Instalar o Git\nGit: https://git-scm.com/download\nTeste a instalação do Git no terminal do Windows.\nPara abrir o terminal, clique no botão Iniciar do Windows e digite cmd. Quando a tela do terminal abrir, digite:\n\n\ncmd é o terminal de comando do Windows, ou seja, a janela onde se digitam comandos ao sistema operacional. Em Linux e Mac é conhecido só como Terminal\ngit --version"
   },
   {
     "objectID": "r-eutilizaveis/tutorial_integrar_github_rstudio.html#criar-uma-conta-gratuita-no-github",

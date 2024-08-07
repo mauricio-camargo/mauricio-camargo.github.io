@@ -43,13 +43,13 @@ tinytex::install_tinytex()
 Antes do pacote tinytex a instalação do LaTeX era um inferno! 
 :::
 
-## [3. Desativar .RData e . Rhistory no RStudio](Desativar_RData.html)
+## 3. Desativar .RData e . Rhistory no RStudio
 
 Este passo é opcional, porém é muito útil. Para acessá-lo, clique [aqui](Desativar_RData.html).
 
 ## 4. Instalar o Git
 
-Git: <https://git-scm.com/download/>
+Git: [https://git-scm.com/download](https://git-scm.com/download){target="_blank"}
 
 Teste a instalação do Git no terminal do Windows.  
 Para abrir o terminal, clique no botão Iniciar do Windows e digite `cmd`. Quando a tela do terminal abrir, digite:
