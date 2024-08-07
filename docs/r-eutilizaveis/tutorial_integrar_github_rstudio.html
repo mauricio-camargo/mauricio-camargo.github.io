@@ -216,7 +216,7 @@ window.Quarto = {
     <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r" id="toc-instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r" class="nav-link active" data-scroll-target="#instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r">1.Instalar os programas do ecossistema de reprodutibilidade do R:</a></li>
+  <li><a href="#instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r-windows-linux-ou-mac" id="toc-instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r-windows-linux-ou-mac" class="nav-link active" data-scroll-target="#instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r-windows-linux-ou-mac">1.Instalar os programas do ecossistema de reprodutibilidade do R (Windows, Linux ou Mac):</a></li>
   <li><a href="#instalar-os-pacotes-no-r" id="toc-instalar-os-pacotes-no-r" class="nav-link" data-scroll-target="#instalar-os-pacotes-no-r">2.Instalar os pacotes no R:</a></li>
   <li><a href="#desativar-.rdata-e-.-rhistory-no-rstudio" id="toc-desativar-.rdata-e-.-rhistory-no-rstudio" class="nav-link" data-scroll-target="#desativar-.rdata-e-.-rhistory-no-rstudio">3. Desativar .RData e . Rhistory no RStudio</a></li>
   <li><a href="#instalar-o-git" id="toc-instalar-o-git" class="nav-link" data-scroll-target="#instalar-o-git">4. Instalar o Git</a></li>
@@ -258,8 +258,8 @@ window.Quarto = {
 
 
 <hr>
-<section id="instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r" class="level2">
-<h2 class="anchored" data-anchor-id="instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r">1.Instalar os programas do ecossistema de reprodutibilidade do R:</h2>
+<section id="instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r-windows-linux-ou-mac" class="level2">
+<h2 class="anchored" data-anchor-id="instalar-os-programas-do-ecossistema-de-reprodutibilidade-do-r-windows-linux-ou-mac">1.Instalar os programas do ecossistema de reprodutibilidade do R (Windows, Linux ou Mac):</h2>
 <ul>
 <li>R: <a href="https://cran.r-project.org" class="uri">https://cran.r-project.org</a></li>
 <li>RStudio: <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a></li>
@@ -292,7 +292,7 @@ window.Quarto = {
 </section>
 <section id="instalar-o-git" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="instalar-o-git">4. Instalar o Git</h2>
-<p>Git: <a href="https://git-scm.com/download" target="_blank">https://git-scm.com/download</a></p>
+<p>Baixe e instale o Git para o seu sistema operacional em <a href="https://git-scm.com/download" target="_blank">https://git-scm.com/download</a>.</p>
 <p>Teste a instalação do Git no terminal do Windows.<br>
 Para abrir o terminal, clique no botão Iniciar do Windows e digite <code>cmd</code>. Quando a tela do terminal abrir, digite:</p>
 
@@ -303,8 +303,7 @@ Para abrir o terminal, clique no botão Iniciar do Windows e digite <code>cmd</c
 <section id="criar-uma-conta-gratuita-no-github" class="level2">
 <h2 class="anchored" data-anchor-id="criar-uma-conta-gratuita-no-github">5. Criar uma conta gratuita no Github</h2>
 <p><a href="https://github.com/" class="uri">https://github.com/</a></p>
-<p><code>Você vai precisar de um e-mail @furg.br</code></p>
-<p>Para criar páginas HTML e hospedá-las no Github, você vai precisar criar uma conta de estudante. A maneira mais fácil de fazer isso é usando seu e-mail da FURG.</p>
+<p>O Github oferecerá a opção de criar uma conta de estudante cheia de vantagens, mas o processo é muito burocrático e desnecessário. Escolha uma conta simples e FREE, e você terá acesso à hospedagem de páginas HTML com um limite de 15 GB, que é mais do que suficiente.</p>
 </section>
 <section id="configurar-o-git" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="configurar-o-git">6. Configurar o Git</h2>
@@ -320,7 +319,7 @@ Para abrir o terminal, clique no botão Iniciar do Windows e digite <code>cmd</c
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">user.name =</span> <span class="st">"SEU NOME NO GITHUB"</span>,</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">user.email =</span> <span class="st">"seu_email_no@gmail.com"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>Crie um <strong>Personal Access <em>Token</em></strong> (PAT)</li>
+<li>Criar um <strong>Personal Access <em>Token</em></strong> (PAT)</li>
 </ul>
 <p>De uns tempos para cá o Github aperfeiçoou o método de autenticação no site, de modo que a senha do usuário foi substituída por um <code>token</code>.</p>
 
@@ -331,9 +330,16 @@ Para abrir o terminal, clique no botão Iniciar do Windows e digite <code>cmd</c
 <div class="no-row-height column-margin column-container"><div class="margin-aside">
 <p>Você pode acessar diretamente a página do Github para criar um token, mas usando o pacote <code>usethis</code> as configurações são pré-fixadas.</p>
 </div></div><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">create_github_token</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Uma janela do navegador irá se abrir e você precisará informar o nome do usuário do Github e a senha.</p>
+<p>Uma janela do navegador irá se abrir e poderá pedir o nome do usuário do Github e a senha.</p>
 <p><img src="img/Novo_PAT_do_Github.png" class="img-fluid"></p>
 <p>Escreva um nome para o token e escolha uma data de validade para ele. Deixe todo o resto das opções como estão e pressione o botão <code>Generate token</code>.</p>
+<p>Uma nova janela aparecerá com o novo token recém-criado. Use o botão ao lado para copiar o tokrn.</p>
+<p>Sem sair desta página, entre no RStudio e execute este comando:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>gitcreds<span class="sc">::</span><span class="fu">gitcreds_set</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Um prompt na janela do Terminal dentro do RStudio vai pedir:</p>
+<p><code>? Enter password or token:</code></p>
+<p>Para responder: - copie o token recém-criado da página do Github (use o botão de copiar) - clique na janela da aba Terminal do RStudio - cole (ctrl-V) o token recém-copiado e pronto, estamos quase lá!</p>
+<p>O procedimento acima atribui o token ao Git para sempre, usando o pacote <code>gitcreds</code>, e você não mais precisará informá-lo toda vez que usar o Github a partir do RStudio.</p>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -347,21 +353,15 @@ Cuidado
 <blockquote class="blockquote">
 <p>ATENÇÃO:</p>
 </blockquote>
-<p>Copie e guarde o token <code>AGORA</code>. Você não terá outra chance <code>fácil</code> de achá-lo novamente.</p>
+<p>Depois de sair da página de criação do token, nunca mais você conseguirá recuperá-lo facilmente. Copie o token para um arquivo, se quiser, guardá-lo, mas</p>
+<p><strong>NÃO COPIE O TOKEN PARA NENHUM ARQUIVO QUE FIQUE DENTRO DO PROJETO DO GITHUB.</strong></p>
+<p>Caso contrário, ocorrerá um erro de segurança.</p>
 </div>
 </div>
 
 <div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p>No entanto, um novo token pode ser criado e utilizado a qualquer momento.</p>
-</div></div><ul>
-<li>Atribuir o token ao Git para sempre.</li>
-</ul>
-<p>Usando o pacote <code>gitcreds</code>, você pode informar o Git seu recém-criado token e você não mais precisará informá-lo toda vez que entrar o Github.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>gitcreds<span class="sc">::</span><span class="fu">gitcreds_set</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Um prompt na janela de console do R dentro do RStudio vai pedir:</p>
-<p><code>? Enter password or token:</code></p>
-<p>Para responder, clique na janela e cole (ctrl-V) o token recém-copiado e pronto, estamos quase lá!</p>
-<p>Para conferir se está tudo certo, digite:</p>
+<p>Lembre-se que um novo token pode ser criado a qualquer momento usando os procedimentos aqui descritos.</p>
+</div></div><p>Para conferir se está tudo certo, digite:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>usethis<span class="sc">::</span><span class="fu">git_sitrep</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
