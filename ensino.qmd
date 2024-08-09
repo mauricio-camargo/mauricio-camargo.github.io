@@ -12,7 +12,7 @@ engine: knitr
 
 #### Graduação
 
-- **Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**
+- [**Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**](https://mauricio-camargo.github.io/Biodiversidade2024/))
   - Cursos oferecidos: *Oceanologia*
   - Período: Agosto e Setembro de 2024
 
@@ -25,8 +25,16 @@ engine: knitr
 
 - **Delineamento Experimental em Ecologia (Programada)**
   - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
-  - Período: Ainda não definido para 2024.
+  - Período: Programada para o segundo semestre de 2024.
 
+::: aside
+**Disciplinas em processo de criação para 2025:**
+
+- Gradução 
+  + *Como fazer ciência*
+- Graduação e pós-graduação em conjunto
+  + *Programação orientada a objetos no R* 
+:::
 
 ### **2023**
 
@@ -35,15 +43,14 @@ engine: knitr
 - **Programação em Python e R**
   - Cursos oferecidos: *Oceanologia*
   - Período: Março a julho de 2023
-  - Plataforma: AVA da FURG.
-
-<!--
- - [**Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**](https://mauricio-camargo.github.io/Biodiversidade2023/)
--->
 
 - **Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**
   - Cursos oferecidos: *Oceanologia*
   - Período: Março a julho de 2023
+
+- **Monitoramento da Contaminação e Poluição Aquática** (4h) 
+  - Cursos oferecidos: *Oceanologia*
+  - Período: Outubro de 2023
 
 #### Pós-graduação
 
@@ -169,18 +176,22 @@ engine: knitr
     + Cursos oferecidos: *Pós-graduações diversas*
     + Período: Outubro e novembro de 2015
 
-### **2014 - 2004**
+### **2014 - 2000**
 
 Disciplinas ministradas no Centro de Estudos do Mar da UFPR:  
 
-**Graduação**
+**Graduação** (Oceanografia e Aquicultura)
 
 - Introdução à estatística
 - Inferência estatística
 - Análise multivariada
 - Planejamento amostral e experimental
+- Oficina de pesquisa I, II e IV
+- Biodiversidade de invertebrados (Poliquetas)
 
-**Pós-graduação**
+**Pós-graduação** (PGSISCO e PGZOO)
 
-- Ecologia numérica
-- Análise multivariada
+- Ecologia numérica (PGSISCO)
+- Análise multivariada (PGSISCO)
+- Estatística básica (PGZOO)
+

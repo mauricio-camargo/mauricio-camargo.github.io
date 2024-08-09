@@ -1,4 +1,4 @@
-#Não pode salvar o Token aqui, senão Github 
+#Não pode salvar o Token aqui, senão o Github 
 #não deixa fazer Push.
 
 usethis::use_git_config(
