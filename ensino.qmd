@@ -188,6 +188,7 @@ Disciplinas ministradas no Centro de Estudos do Mar da UFPR:
 - Planejamento amostral e experimental
 - Oficina de pesquisa I, II e IV
 - Biodiversidade de invertebrados (Poliquetas)
+- Programação em Pascal e SQL  
 
 **Pós-graduação** (PGSISCO e PGZOO)
 
