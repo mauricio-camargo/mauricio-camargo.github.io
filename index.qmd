@@ -1,5 +1,5 @@
 ---
-title: "Maurício Camargo - Furg"
+title: "Maurício Garcia de Camargo"
 lang: pt-br
 engine: knitr
 
