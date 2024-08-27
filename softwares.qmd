@@ -58,7 +58,7 @@ Autor: Maurício Camargo
 Estágio: O SysGran foi criado em 1995 e se espalhou pelo mundo, inicialmente como um programa pago, até 2003. Em 2005 o SysGran deixou de ser atualizado e foi substituído pelo pacote rysgran do R. No entanto, até hoje existem cópias do SysGran funcionando em milhares de computadores.  
 Disponível em: <https://github.com/mauricio-camargo/SysGran3>
 
-- [**MaresDB**](https://github.com/mauricio-camargo/MaresDB): Sobreposição gráfica de linhas de maré para demonstração de longas séries temporais. Para Windows.  
+- **MaresDB**: Sobreposição gráfica de linhas de maré para demonstração de longas séries temporais. Para Windows.  
 Autor: Maurício Camargo  
 Estágio: ativo (necessita atualização)
 Histórico: Este programa plota linhas de maré durante o período de 24h, sobrepondo centenas de linhas em poucos segundos, servindo para a demonstração de longas séries temporais.
@@ -67,7 +67,7 @@ Histórico: Este programa plota linhas de maré durante o período de 24h, sobre
 Autor: Maurício Camargo  
 Estágio: desaparecido
 
-- [**BGM**](https://github.com/mauricio-camargo/BGM): Rotinas usadas em Biogeoquímica marinha. Para Windows.  
+- **BGM**: Rotinas usadas em Biogeoquímica marinha. Para Windows.  
 Autor: Maurício Camargo  
 Estágio: desaparecido.
 
