@@ -201,5 +201,33 @@
     "title": "Administração",
     "section": "Cargos e comissões na UFPR (2004-2014)",
     "text": "Cargos e comissões na UFPR (2004-2014)\n\n2014\n\nCoordenador do curso de Ciências Exatas da UFPR\n\n\n\n2006-2012\n\nCoordenador do curso de Oceanografia"
+  },
+  {
+    "objectID": "extensao.html#section",
+    "href": "extensao.html#section",
+    "title": "",
+    "section": "2018",
+    "text": "2018\n\nAnálise estatística de comunidades ecológicas no R.\nLocal: UERGS-Osório\nEvento: Mini-curso no VI Simpósio Acadêmico de Biologia Marinha.\nCarga horária: 16 horas\nData: 18 e 19 de agosto/2018\nConteúdo: Análise multivariada aplicada a estudos de comunidades ecológicas."
+  },
+  {
+    "objectID": "extensao.html#section-1",
+    "href": "extensao.html#section-1",
+    "title": "",
+    "section": "2017",
+    "text": "2017\n\nR-cases: casos de sucesso no R (2017)\nLocal: FURG\nConteúdo: \n05/05 (sexta). R: por onde começar?\n12/05. A gramática dos gráficos (ggplot e agregados)\n19/05. A gramática dos dados (SQL, dplyr e agregados)\n24/05. R-case: o pacote rysgran para granulometria\n02/06. Reprodutibilidade da ciência no R\n09/06 08:00h. Última aula. Encerramento."
+  },
+  {
+    "objectID": "extensao.html#section-2",
+    "href": "extensao.html#section-2",
+    "title": "",
+    "section": "2016",
+    "text": "2016\n\nRmarkdown: um jeito simples de escrever relatórios (ou artigos!), criar apresentações e gerenciar sites no RStudio\nLocal: FURG\nData: 31 de agosto/2016\nHora: 09:00h até 12:00h\nConteúdo: RMarkdown é uma linguagem de rápido aprendizado para criar documentos em PDF ou HTML que incluam textos, figuras, gráficos, tabelas e fórmulas. É capaz de inserir no arquivo gráficos criados no R. Arquivos profissionais em PDF podem ser criados, tanto para relatórios de estudantes como para escrever artigos científicos. A partir dos arquivos em HTML podem ser criadas apresentações portáveis e simples, porém eficientes. Um site inteiro pode ser criado usando os arquivos HTML, que pode ser gerenciado facilmente usando as ferramentas que a nova versão do RStudio traz. Público: Aberto a qualquer pessoa.\nPágina do curso\n\n\nAnálise estatística de comunidades ecológicas no R.\nLocal: UERGS-Osório\nEvento: Mini-curso no V Simpósio Acadêmico de Biologia Marinha.\nCarga horária: 16 horas\nData: 13 e 14 de agosto/2016\nConteúdo: Análise multivariada aplicada a estudos de comunidades ecológicas."
+  },
+  {
+    "objectID": "extensao.html#section-3",
+    "href": "extensao.html#section-3",
+    "title": "",
+    "section": "2015",
+    "text": "2015\n\nExpandindo o R\nCurso de extensão eventual\nLocal: FURG\nCarga horária: até 24 horas\nData: Outubro/2015\nConteúdo: Funcionalidades não-estatísticas do RStudio, planilhagem, gráficos modernos, relatórios em html, pdf e doc, integração com Github, manipulação de arquivos LaTeX, criação de aplicativos no browser.\n\n\nDesvendando o R\nLocal: FURG\nCarga horária: 24 horas\nData: Agosto-Dezembro/2015\nConteúdo: Estatística descritiva e inferência básica no R.\n\n\nDominando o R\nCurso de extensão eventual\nLocal: FURG\nCarga horária: 12 horas\nData: Outubro/2015\nConteúdo: Estatística inferencial multifatorial, análises multivariadas e mapas."
   }
 ]
