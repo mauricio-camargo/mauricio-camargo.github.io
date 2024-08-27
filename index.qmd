@@ -34,7 +34,9 @@ Todo o conteúdo do site é livre para uso [não comercial](https://creativecomm
 ----
 
 ### Disciplinas atuais
-Ministro disciplinas de estatística ambiental na graduação e na pós-graduação e também programação, diversidade de anelídeos poliquetas e metodologia da ciência na graduação. 
+Ministro disciplinas de estatística ambiental na graduação e na pós-graduação e também programação e diversidade de anelídeos poliquetas.
+
+<!-- e metodologia da ciência na graduação. -->
 
 **Disciplinas do primeiro semestre de 2024:**
 
@@ -65,7 +67,6 @@ Atualmente sou coordenador substituto do curso de Oceanologia.
 - Github: <http://www.github.com/mauricio-camargo>
 <!-- - Facebook: https://www.facebook.com/profile.php?id=100014050901446 -->
 - Endereço: Laboratório de Invertebrados Bentônicos - Instituto de Oceanografia. Av. Itália, km 8. Campus Carreiros. Rio Grande - RS. CEP 96203-900.
-- Telefone: (053) 3233-6750
 
 <center>
   <hr width="100%" size="3px">
@@ -80,11 +81,24 @@ Atualmente sou coordenador substituto do curso de Oceanologia.
 <p>
 <font size="2"> Conteúdo disponível através da Licença Creative Commons 4.0 <br>
 Maurício Garcia de Camargo<br>
-Número de hits desde 19 de Junho de 2023
+<!--Número de hits desde 19 de Junho de 2023-->
 <br>
 </font>
 
+<!--
 <a href="http://www.webcontadores.com" title="contador de visitas para blog"><img src="http://counter7.01counter.com/private/webcontadores.php?c=aae54ceffc577de6f41508e54a80e1e7" border="0" title="contador de visitas" alt="contador de visitas"></a>
+-->
+
+<!--
+<div id="sfcq1fsm943kycc6ceunewfnxcdjlcz1m3w"></div>
+<script type="text/javascript" src="https://counter2.optistats.ovh/private/counter.js?c=q1fsm943kycc6ceunewfnxcdjlcz1m3w&down=async" async></script>
+<br><a href="https://www.webcontadores.com">contador de visitas para webnode</a><noscript><a href="https://www.webcontadores.com" title="contador de visitas para webnode"><img src="https://counter2.optistats.ovh/private/webcontadores.php?c=q1fsm943kycc6ceunewfnxcdjlcz1m3w" border="0" title="contador de visitas para webnode" alt="contador de visitas para webnode"></a></noscript>
+-->
+
+<div id="sfcy9ntznsj4amxzj5j792l3wz9ladul5hx"></div>
+<script type="text/javascript" src="https://counter2.optistats.ovh/private/counter.js?c=y9ntznsj4amxzj5j792l3wz9ladul5hx&down=async" async></script>
+<br>
+
 
 </center>
 
