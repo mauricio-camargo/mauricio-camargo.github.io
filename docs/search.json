@@ -166,5 +166,12 @@
     "title": "Passos para integrar RStudio e Github",
     "section": "1.Instalar os programas do ecossistema de reprodutibilidade do R (Windows, Linux ou Mac):",
     "text": "1.Instalar os programas do ecossistema de reprodutibilidade do R (Windows, Linux ou Mac):\n\nR: https://cran.r-project.org\nRStudio: https://posit.co/download/rstudio-desktop/\nQuarto: https://quarto.org/docs/get-started/\n\nGit: Veja instruções abaixo."
+  },
+  {
+    "objectID": "r-eutilizaveis.html",
+    "href": "r-eutilizaveis.html",
+    "title": "R-eutilizáveis",
+    "section": "",
+    "text": "Tutoriais de reprodutibilidade (RMarkdown, Quarto, LaTeX, Github  etc)\n\nTutorial de configuração do Gituhub e do RStudio para uso do Quarto\nReferência de RMarkdown e Quarto\n\nTutorial de uso de CSS e temas no Quarto\n\nTutorial de Shiny\nTruques do Quarto e Github\n\n\nTutorial de kivy para criação de app de celular com Python\nTradução para o R de alguns tutoriais em Python do prof. Guto"
   }
 ]

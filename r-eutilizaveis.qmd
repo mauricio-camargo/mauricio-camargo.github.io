@@ -7,16 +7,19 @@ toc-location: left
 lang: pt
 ---
 
----
+------------------------------------------------------------------------
 
-- `Tutoriais de reprodutibilidade (RMarkdown, Quarto, LaTeX, Github  etc)`
-  - [Tutorial de configuração do Gituhub e do RStudio para uso do Quarto](r-eutilizaveis/tutorial_integrar_github_rstudio.qmd)
-  - [Referência de RMarkdown e Quarto](r-eutilizaveis/tutorial_quarto.qmd)  
-  - [Tutotial de uso de templates para revistas científicas da Elsevier](r-eutilizaveis/tutorial_template_elsevier.qmd)
-  - [Tutorial de uso de CSS e temas no Quarto](r-eutilizaveis/tutorial_css_temas.qmd)  
-  - [Tutorial de Shiny](r-eutilizaveis/tutorial_shiny.qmd) 
-  - [Truques do Quarto e Github](r-eutilizaveis/truq_quarto.qmd)  
-- [Tutorial de `kivy` para criação de app de celular com Python](r-eutilizaveis/tutorial_kivy.qmd)
+-   `Tutoriais de reprodutibilidade (RMarkdown, Quarto, LaTeX, Github  etc)`
 
-- [Tradução para o R de alguns tutoriais em Python do prof. Guto](r-eutilizaveis/r_guto.qmd)
+    -   [Tutorial de configuração do Gituhub e do RStudio para uso do Quarto](r-eutilizaveis/tutorial_integrar_github_rstudio.qmd)
+    -   [Referência de RMarkdown e Quarto](r-eutilizaveis/tutorial_quarto.qmd)
+    
+        <!-- [Tutotial de uso de templates para revistas científicas da Elsevier](r-eutilizaveis/tutorial_template_elsevier.qmd) -->
+        
+    -   [Tutorial de uso de CSS e temas no Quarto](r-eutilizaveis/tutorial_css_temas.qmd)\
+    -   [Tutorial de Shiny](r-eutilizaveis/tutorial_shiny.qmd)
+    -   [Truques do Quarto e Github](r-eutilizaveis/truq_quarto.qmd)\
 
+-   [Tutorial de `kivy` para criação de app de celular com Python](r-eutilizaveis/tutorial_kivy.qmd)
+
+-   [Tradução para o R de alguns tutoriais em Python do prof. Guto](r-eutilizaveis/r_guto.qmd)

@@ -1,0 +1,16 @@
+{
+  "hash": "0310a08988be025a300b5f45a55b99c1",
+  "result": {
+    "markdown": "---\ntitle: \"Hidroweb\"\n---\n\n\n***\nVamos primeiramente abrir o arquivo  vazoes_T_87905000.txt, que foi baixado do site hidroweb.\n\\newline\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(readr)\nArqTxtPath='vazoes_T_87905000.txt'\nArqTxt=read_lines(ArqTxtPath,skip=13)\nArqTxt[1]=paste0(ArqTxt[1],';') #Inserindo \";\" na primeira linha para evitar problemas com row.names\nArqCsvPath=gsub('txt','csv',ArqTxtPath)\nwrite_lines(ArqTxt,ArqCsvPath)\ndados=read.table(ArqCsvPath,header=T,sep=';',dec=',')\ncat('Imprimindo parte dos dados...')\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nImprimindo parte dos dados...\n```\n:::\n\n```{.r .cell-code}\nprint(dados[1:5,1:5])\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n  EstacaoCodigo NivelConsistencia       Data Hora MediaDiaria\n1      87905000                 1 01/04/2021   NA           1\n2      87905000                 1 01/01/2021   NA           1\n3      87905000                 1 01/12/2020   NA           1\n4      87905000                 1 01/11/2020   NA           1\n5      87905000                 1 01/10/2020   NA           1\n```\n:::\n:::\n\n\\newline\nCriando coluna com tipo datetime e plotando:\n\n::: {.cell}\n\n```{.r .cell-code}\ndados$dataN=as.POSIXct(dados$Data,format = \"%d/%m/%Y\")\nplot(dados$Maxima~dados$dataN,type='line')\n```\n\n::: {.cell-output-display}\n![](hidroweb_files/figure-html/unnamed-chunk-2-1.png){width=960}\n:::\n:::\n\n\\newline\nCriando coluna dos meses:\n\n::: {.cell}\n\n```{.r .cell-code}\ndados$mes = format(dados$dataN,format='%m')\n```\n:::\n\n\\newline\nExtraindo a media e dp:\n\n::: {.cell}\n\n```{.r .cell-code}\nmedia=aggregate(dados$Maxima,list(Mes=dados$mes),mean,na.rm=T)\ndp=aggregate(dados$Maxima,list(dados$mes),sd,na.rm=T)\n```\n:::\n\n\\newline\nCalculando desvio superior e inferior:\n\n::: {.cell}\n\n```{.r .cell-code}\nmediaMais=media$x+dp$x\nmediaMenos=media$x-dp$x\n```\n:::\n\n\\newline\nPlot final:\n\n::: {.cell paged.print='false'}\n\n```{.r .cell-code}\nplot(media$Mes,media$x, ty=\"l\", col=\"blue\", \n     ylab='Vazão', \n     xlab='Meses',\n     lty=1,lwd=3,\n     ylim=c(-1000,3000))\nlines(media$Mes, mediaMais, col='gray')\nlines(media$Mes, mediaMenos, col='gray')\npolygon(x=c(media$Mes, rev(media$Mes)), y=c(mediaMais, rev(mediaMenos)), col=\"lightblue\", density = 40, angle=60)\nlines(media$Mes, media$x)\npoints(media$Mes, media$x,pch=19)\n```\n\n::: {.cell-output-display}\n![](hidroweb_files/figure-html/unnamed-chunk-6-1.png){width=960}\n:::\n:::\n",
+    "supporting": [
+      "hidroweb_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
