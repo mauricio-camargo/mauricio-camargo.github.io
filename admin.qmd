@@ -4,11 +4,11 @@ lang: pt-br
 engine: knitr
 ---
 
-## Cargos e comissões
+## Cargos e comissões na FURG (2015-2024)
 
 <br>
 
-### 2023-24
+### 2022-24
 - Representante do IO na Comissão Própria de Avaliação (CPA)
 
 ### 2019-2021
@@ -25,4 +25,13 @@ engine: knitr
 ### 2016
 - Representante do  Núcleo de Oceanografia Biológica (NOB) no Conselho do Instituto de Oceanografia (IO).
 - Suplente do Núcleo Docente Estruturante (NDE) do curso de Oceanologia.
+
+
+## Cargos e comissões na UFPR (2004-2014)
+
+### 2014 
+- Coordenador do curso de Ciências Exatas da UFPR
+
+### 2006-2012
+- Coordenador do curso de Oceanografia
 
