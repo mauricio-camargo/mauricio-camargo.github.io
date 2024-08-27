@@ -13,6 +13,8 @@ justify !important}
 ## Publicações
 
 :::{.justify}
+- [BALBELA, CAROLINE CARNEIRO ; SOROLDONI, SANYE ; FERNANDES, ANDREIA NEVES ; DE CAMARGO, MAURÍCIO GARCIA ; KESSLER, FELIPE ; PINHO, GRASIELA LOPES LEÃES . Assessing the impact of simulated ocean acidification on the photodegradation of selected microplastics. MARINE POLLUTION BULLETIN, v. 207, p. 116854, 2024.](http://dx.doi.org/10.1016/j.marpolbul.2024.116854)
+
 - [VASCONCELLOS, DAVI M ; BAINY, MARA CRS ; CAMARGO, MAURÍCIO G ; TEIXEIRA BONECKER, ANA CRISTINA ; COSTA BONECKER, SÉRGIO LUIS ; HAIMOVICI, MANUEL . Cephalopod paralarvae in a tropical Brazilian basin: distribution throughout oceanographic features and water masses. BULLETIN OF MARINE SCIENCE, v. xxx, p. 1, 2024.](http://dx.doi.org/10.5343/bms.2023.0171)
 
 - [BORDIN, LUÍS HENRIQUE ; DA COSTA MACHADO, EUNICE ; MENDES, CARLOS RAFAEL BORGES ; FERNANDES, ELISA HELENA LEÃO ; DE CAMARGO, MAURÍCIO GARCIA . Total Ecosystem Metabolism Variability in a Subtropical Lagoonal Estuary Channel-Site. Estuaries and Coasts, v. 1, p. 1, 2023.](http://dx.doi.org/10.1007/s12237-023-01270-2)
