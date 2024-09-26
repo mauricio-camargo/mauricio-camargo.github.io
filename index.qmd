@@ -40,7 +40,7 @@ Ministro disciplinas de estatística ambiental na graduação e na pós-graduaç
 
 **Disciplinas do primeiro semestre de 2024:**
 
-- [Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)](https://mauricio-camargo.github.io/Biodiversidade2024/)
+- Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)<!--(https://mauricio-camargo.github.io/Biodiversidade2024/)-->
 
 - [Reprodutibilidade científica: como fazer ciência reprodutível no R](https://mauricio-camargo.github.io/reprodu2024/)
 
@@ -54,7 +54,7 @@ Oriento alunos de graduação e de pós-graduação em ecologia de comunidades b
 
 <!--
 -----
-### Atividades adminstrativas
+### Atividades administrativas
 Atualmente sou coordenador substituto do curso de Oceanologia.
 -->
 
