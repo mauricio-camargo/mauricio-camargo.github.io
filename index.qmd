@@ -42,7 +42,7 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 - Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)<!--(https://mauricio-camargo.github.io/Biodiversidade2024/)-->
 
-- [Reprodutibilidade científica: como fazer ciência reprodutível no R](https://mauricio-camargo.github.io/reprodu2024/)
+- [Reprodutibilidade científica: como fazer ciência reprodutível no R]<!--(https://mauricio-camargo.github.io/reprodu2024/)-->
 
 
 <!--
