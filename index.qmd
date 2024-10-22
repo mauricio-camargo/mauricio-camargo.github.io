@@ -38,11 +38,15 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 <!-- e metodologia da ciência na graduação. -->
 
+**Disciplinas do segundo semestre de 2024:**
+
+-  Delineamentos experimentais em ecologia
+
 **Disciplinas do primeiro semestre de 2024:**
 
 - Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)<!--(https://mauricio-camargo.github.io/Biodiversidade2024/)-->
 
-- [Reprodutibilidade científica: como fazer ciência reprodutível no R]<!--(https://mauricio-camargo.github.io/reprodu2024/)-->
+- Reprodutibilidade científica: como fazer ciência reprodutível no R<!--(https://mauricio-camargo.github.io/reprodu2024/)-->
 
 
 <!--
