@@ -13,18 +13,18 @@ engine: knitr
 ::: aside
 **Disciplinas em processo de criação para 2026:**
 
-- Gradução 
+- Graduação 
   + *Como fazer ciência*
 :::
 
 
 #### Graduação
 
+- **Lógica da programação e análise de dados em R** (Iniciando - aguardem conteúdo)
+
 - **Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**<!--(https://mauricio-camargo.github.io/Biodiversidade2025/))-->
   - Cursos oferecidos: *Oceanologia*
-  - Período: Março e Julho de 2025
-
-- **Lógica da programação e análise de dados em R** (Iniciando - aguardem conteúdo)
+  - Período: Março a Julho de 2025
 
 #### Pós-graduação
 
@@ -37,7 +37,7 @@ engine: knitr
 
 - **Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**<!--(https://mauricio-camargo.github.io/Biodiversidade2024/))-->
   - Cursos oferecidos: *Oceanologia*
-  - Período: Agosto e Setembro de 2024
+  - Período: Março a Julho de 2024
 
 #### Pós-graduação
 
