@@ -43,12 +43,11 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 - Lógica da programação e análise de dados em R (Iniciando - aguardem conteúdo)
 
-
--  Delineamentos experimentais em ecologia (Inicia em 21/10/25)
+-  Delineamentos experimentais em ecologia (Início em 21/10/25)
 
 **Disciplinas do primeiro semestre de 2025:**
 
-- Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)<!--(https://mauricio-camargo.github.io/Biodiversidade2025/)-->
+- Biodiversidade de invertebrados marinhos - Anelídeos poliquetas (Encerrada)<!--(https://mauricio-camargo.github.io/Biodiversidade2025/)-->
 
 <!--
 -----
