@@ -32,7 +32,7 @@ Este é o meu site pessoal onde concentro todas as minhas atividades profissiona
 
 
 <br>
-cTodo o conteúdo do site é livre para uso [não comercial](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
+yTodo o conteúdo do site é livre para uso [não comercial](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
 
 ----
 
