@@ -2,9 +2,14 @@
 #title: "hobbies"
 ---
 
-`Em breve...`
-
-## Corridas e pedal
-
-## Música
+1. Corrida
+2. Bike
+3. Skate
+4. Volei
+5. Beach Tennis
+6. Guitarra
+7. Moto
+8. Xadrez
+9. Cozinha
+10. Programação
 
