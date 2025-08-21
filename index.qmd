@@ -1,4 +1,3 @@
-<!--gitcreds::gitcreds_set()-->
 ---
 title: "Maurício Garcia de Camargo"
 lang: pt-br
