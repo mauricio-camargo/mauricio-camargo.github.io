@@ -25,7 +25,7 @@ Professor da Universidade Federal de Rio Grande (FURG)
 ----
 
 :::{.justify}
-Este é o meu site pessoal, onde concentro todas as minhas atividades profissionais como professor e pesquisador do [Instituto de Oceanografia (IO)](http://www.io.furg.br) e do [Instituto de Matemática, Estatística e Física](http://www.imef.furg.br) da [Universidade Federal do Rio Grande - FURG](http://www.furg.br). Estou lotado no [Laboratório de Ecologia de Invertebrados Bentônicos](https://io.furg.br/pesquisa/laboratorios) do [IO](http://www.io.furg.br). 
+Este é o meu site pessoal onde concentro todas as minhas atividades profissionais como professor e pesquisador do [Instituto de Oceanografia (IO)](http://www.io.furg.br) e do [Instituto de Matemática, Estatística e Física](http://www.imef.furg.br) da [Universidade Federal do Rio Grande - FURG](http://www.furg.br). Estou lotado no [Laboratório de Ecologia de Invertebrados Bentônicos](https://io.furg.br/pesquisa/laboratorios) do [IO](http://www.io.furg.br). 
 :::
 
 
@@ -41,9 +41,10 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 **Disciplinas do segundo semestre de 2025:**
 
-- Lógica da programação e análise de dados em R
+- Lógica da programação e análise de dados em R (Iniciando - aguardem conteúdo)
 
--  Delineamentos experimentais em ecologia
+
+-  Delineamentos experimentais em ecologia (Inicia em 21/10/25)
 
 **Disciplinas do primeiro semestre de 2025:**
 
