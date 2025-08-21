@@ -5,7 +5,8 @@ engine: knitr
 
 ---
 
-<!-- gitcreds::gitcreds_set() -->
+<!-- Usar em caso de emergência gitcreds::gitcreds_set() 
+-->
 
 ```{css,  echo=FALSE}
 .justify {
@@ -19,7 +20,7 @@ justify !important}
 :::
 ::: {.column width="80%"}
 <br>
-Professor da Universidade Federal de Rio Grande (FURG)
+Professor da Universidade Federal de Rio Grande ([FURG](www.furg.br))
 :::
 ::::
 
