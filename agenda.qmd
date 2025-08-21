@@ -4,7 +4,7 @@ lang: pt-br
 engine: knitr
 ---
 
-A agenda pública não estará mais disponível.
+A agenda pública não ficará mais disponível.
 
 Para agendar um atendimento, envie um e-mail para <camargofurg@gmail.com>.
 
