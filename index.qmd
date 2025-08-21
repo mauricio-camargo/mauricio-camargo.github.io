@@ -40,7 +40,7 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 **Disciplinas do segundo semestre de 2025:**
 
-- Lógica da programação (de computadores) e análise de dados em R
+- Lógica da programação e análise de dados em R
 
 -  Delineamentos experimentais em ecologia
 
@@ -48,13 +48,11 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 - Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)<!--(https://mauricio-camargo.github.io/Biodiversidade2025/)-->
 
-
 <!--
 -----
 ### Orientações em pesquisa
 Oriento alunos de graduação e de pós-graduação em ecologia de comunidades bentônicas com interesse em estatística ambiental e linguagens de programação.
 -->
-
 
 <!--
 -----
