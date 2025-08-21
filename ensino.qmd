@@ -13,10 +13,9 @@ engine: knitr
 ::: aside
 **Disciplinas em processo de criação para 2026:**
 
-- Graduação 
-  + *Como fazer ciência*
-:::
+*Como fazer ciência* (Graduação em Oceanologia) 
 
+:::
 
 #### Graduação
 
@@ -30,7 +29,9 @@ engine: knitr
 
 #### Pós-graduação
 
-- **Delineamentos experimentais em ecologia**   - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+- **Delineamentos experimentais em ecologia**   
+
+- Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
   - Período: Outubro a Dezembro de 2025.
 
 
