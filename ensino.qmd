@@ -12,13 +12,13 @@ engine: knitr
 
 #### Graduação
 
-- [**Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**](https://mauricio-camargo.github.io/Biodiversidade2024/))
+- [**Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**]<!--(https://mauricio-camargo.github.io/Biodiversidade2024/))-->
   - Cursos oferecidos: *Oceanologia*
   - Período: Agosto e Setembro de 2024
 
 #### Pós-graduação
 
-- [**Reprodutibilidade científica no R (em andamento**)](https://mauricio-camargo.github.io/reprodu2024/)
+- [**Reprodutibilidade científica no R]<!--(https://mauricio-camargo.github.io/reprodu2024/)-->
   - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
   - Período: Julho a Outubro de 2024
 
