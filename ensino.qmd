@@ -8,19 +8,24 @@ engine: knitr
 
 <br>
 
+
+
 ### **2025**
 
+### Disciplinas atuais
+Ministro disciplinas de estatística ecológica, programação de computadores e diversidade de anelídeos poliquetas na graduação e na pós-graduação.
+
+<!--  e metodologia da ciência na graduação. -->
 
 **Disciplinas do segundo semestre de 2025:**
 
-- Lógica da programação e análise de dados em R
+- Lógica da programação e análise de dados em R (Iniciando - aguardem conteúdo)
 
--  Delineamentos experimentais em ecologia
+-  Delineamentos experimentais em ecologia (Início em 21/10/25)
 
 **Disciplinas do primeiro semestre de 2025:**
 
-- Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)<!--(https://mauricio-camargo.github.io/Biodiversidade2025/)-->
-
+- Biodiversidade de invertebrados marinhos - Anelídeos poliquetas (Encerrada)<!--(https://mauricio-camargo.github.io/Biodiversidade2025/)-->
 
 ::: aside
 **Disciplinas em processo de criação para 2026:**
