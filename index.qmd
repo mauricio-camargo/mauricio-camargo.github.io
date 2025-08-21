@@ -5,6 +5,8 @@ engine: knitr
 
 ---
 
+<!-- gitcreds::gitcreds_set() -->
+
 ```{css,  echo=FALSE}
 .justify {
  text-align:

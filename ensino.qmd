@@ -20,7 +20,9 @@ engine: knitr
 
 #### Graduação
 
-- **Lógica da programação e análise de dados em R** (Iniciando - aguardem conteúdo)
+- **Lógica da programação e análise de dados em R** 
+  - Cursos oferecidos: *Oceanologia*
+  - Período: Iniciando - aguardem conteúdo
 
 - **Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**<!--(https://mauricio-camargo.github.io/Biodiversidade2025/))-->
   - Cursos oferecidos: *Oceanologia*
@@ -28,7 +30,8 @@ engine: knitr
 
 #### Pós-graduação
 
-- **Delineamentos experimentais em ecologia** (Início em 21/10/25)
+- **Delineamentos experimentais em ecologia**   - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+  - Período: Outubro a Dezembro de 2025.
 
 
 ### **2024**
@@ -48,7 +51,7 @@ engine: knitr
 
 - **Delineamento Experimental em Ecologia**
   - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
-  - Período: Programada para o segundo semestre de 2024.
+  - Período: Outubro a Dezembro de 2024.
 
 
 ### **2023**
