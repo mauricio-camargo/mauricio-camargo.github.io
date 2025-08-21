@@ -32,7 +32,7 @@ Este é o meu site pessoal onde concentro todas as minhas atividades profissiona
 
 
 <br>
-yTodo o conteúdo do site é livre para uso [não comercial](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
+Todo o conteúdo do site é livre para uso [não comercial](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
 
 ----
 
@@ -43,7 +43,7 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 **Disciplinas do segundo semestre de 2025:**
 
-- Lógica da programação e análise de dados em R (Iniciando - aguardem conteúdo)
+- [Lógica da programação e análise de dados em R](https://mauricio-camargo.github.io/Programacao_R_2025/) 
 
 -  Delineamentos experimentais em ecologia (Início em 21/10/25)
 
