@@ -8,33 +8,45 @@ engine: knitr
 
 <br>
 
+**Disciplinas do segundo semestre de 2025:**
+
+- Lógica da programação e análise de dados em R
+
+-  Delineamentos experimentais em ecologia
+
+**Disciplinas do primeiro semestre de 2025:**
+
+- Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)<!--(https://mauricio-camargo.github.io/Biodiversidade2025/)-->
+
+
+::: aside
+**Disciplinas em processo de criação para 2026:**
+
+- Gradução 
+  + *Como fazer ciência*
+:::
+
+
+
 ### **2024**
 
 #### Graduação
 
-- [**Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**]<!--(https://mauricio-camargo.github.io/Biodiversidade2024/))-->
+- **Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**<!--(https://mauricio-camargo.github.io/Biodiversidade2024/))-->
   - Cursos oferecidos: *Oceanologia*
   - Período: Agosto e Setembro de 2024
 
 #### Pós-graduação
 
-- [**Reprodutibilidade científica no R]<!--(https://mauricio-camargo.github.io/reprodu2024/)-->
+- **Reprodutibilidade científica no R**<!--(https://mauricio-camargo.github.io/reprodu2024/)-->
   - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
   - Período: Julho a Outubro de 2024
 
 
-- **Delineamento Experimental em Ecologia (Programada)**
+- **Delineamento Experimental em Ecologia**
   - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
   - Período: Programada para o segundo semestre de 2024.
 
-::: aside
-**Disciplinas em processo de criação para 2025:**
-
-- Gradução 
-  + *Como fazer ciência*
-- Graduação e pós-graduação em conjunto
-  + *Programação orientada a objetos no R* 
-:::
 
 ### **2023**
 
