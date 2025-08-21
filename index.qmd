@@ -20,7 +20,7 @@ justify !important}
 :::
 ::: {.column width="80%"}
 <br>
-Professor da Universidade Federal de Rio Grande ([FURG](www.furg.br))
+Professor da Universidade Federal de Rio Grande ([FURG](http://www.furg.br))
 :::
 ::::
 
