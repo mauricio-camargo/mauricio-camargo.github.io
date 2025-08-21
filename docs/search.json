@@ -229,5 +229,299 @@
     "title": "",
     "section": "2015",
     "text": "2015\n\nExpandindo o R\nCurso de extensão eventual\nLocal: FURG\nCarga horária: até 24 horas\nData: Outubro/2015\nConteúdo: Funcionalidades não-estatísticas do RStudio, planilhagem, gráficos modernos, relatórios em html, pdf e doc, integração com Github, manipulação de arquivos LaTeX, criação de aplicativos no browser.\n\n\nDesvendando o R\nLocal: FURG\nCarga horária: 24 horas\nData: Agosto-Dezembro/2015\nConteúdo: Estatística descritiva e inferência básica no R.\n\n\nDominando o R\nCurso de extensão eventual\nLocal: FURG\nCarga horária: 12 horas\nData: Outubro/2015\nConteúdo: Estatística inferencial multifatorial, análises multivariadas e mapas."
+  },
+  {
+    "objectID": "temp.html#testando",
+    "href": "temp.html#testando",
+    "title": "Teste de solução",
+    "section": "Testando",
+    "text": "Testando\n\nTeste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado v Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado Teste de texto justificado"
+  },
+  {
+    "objectID": "hobbies.html",
+    "href": "hobbies.html",
+    "title": "",
+    "section": "",
+    "text": "Em breve..."
+  },
+  {
+    "objectID": "hobbies.html#corridas-e-pedal",
+    "href": "hobbies.html#corridas-e-pedal",
+    "title": "",
+    "section": "Corridas e pedal",
+    "text": "Corridas e pedal"
+  },
+  {
+    "objectID": "hobbies.html#música",
+    "href": "hobbies.html#música",
+    "title": "",
+    "section": "Música",
+    "text": "Música"
+  },
+  {
+    "objectID": "r-eutilizaveis/CTD/CTD.html",
+    "href": "r-eutilizaveis/CTD/CTD.html",
+    "title": "CTD",
+    "section": "",
+    "text": "Primeiramente, todos os arquivos devem ser salvos em uma pasta. \n\npasta_ctd=('./csv')\n\nDois pacotes devem ser carregados. Se der erro tem que instalar os pacotes. \n\nlibrary(readr)\nlibrary(lattice)\n\nArmazenando os caminhos dos arquivos na variável arquivos_csv \n\narquivos_csv=list.files(pasta_ctd,pattern = '*.Csv',full.names = T)\n\nCriando dataframes vazios. \n\narquivos_txt=c()\ndadosF=c()\n\nLendo cada arquivo Csv e escrevendo uma tabela com a datahora. \n\nfor (i in 1:length(arquivos_csv)) {\n   ArqCabeca=read_lines(arquivos_csv[i],skip=0,n_max=16)\n   datahora=substr(ArqCabeca[15],11,29) #Tira da linha 15 o valor\n   ArqDados=read_lines(arquivos_csv[i], skip=43)\n   arquivos_txt[i]=gsub('Csv','txt',arquivos_csv[i])\n   write_lines(ArqDados,arquivos_txt[i])\n   dados=read.csv(arquivos_txt[i], header = T)\n   dados$datahora=datahora\n   dados$tempo=as.POSIXct(dados$datahora,format = \"%Y/%m/%d %H:%M:%S\")\n   if (i==1) {\n      dadosF = dados\n   } else {\n      dadosF = rbind(dadosF,dados)\n   }  \n}\n\nQuem faz a mágica é o pacote Lattice. Há como melhorar a interpolação usando o próprio pacote. \n\nlevelplot(dadosF$Sal..... ~ as.numeric(format(dadosF$tempo,\"%H\"))*-dadosF$Depth..m., \n          data = dadosF,\n          xlab = \"X Coordinate (feet)\", ylab = \"Y Coordinate (feet)\",\n          main = \"Surface elevation data\",\n          col.regions = colorRampPalette(c(\"blue\",\"red\"))(30))\n\n\n\n\nPlotando gráficos de perfil de cada campanha. \n\ndados=subset(dadosF,\n     as.numeric(format(dadosF$tempo,'%H'))==10)\n\npar(mfrow=c(1,5))\nplot(dados$Sal.....,-dados$Depth..m.,ty='l',\n     xlab='Salinity (psu)',\n     ylab='Depth (m)')\nplot(dados$Temp...deg.C.,-dados$Depth..m.,ty='l',\n     xlab='Temperature (oC)',\n     ylab='')\nplot(dados$Chl.a..ug.l.,-dados$Depth..m.,ty='l',\n     xlab='Chlorophyl (ug/L)',\n     ylab='')\nplot(dados$Turb.M..FTU.,-dados$Depth..m.,ty='l',\n     xlab='Turbidity (FTU)',\n     ylab='')\nplot(dados$DO....,-dados$Depth..m.,ty='l',\n     xlab='Oxygen (%)',\n     ylab='')"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_css_temas.html",
+    "href": "r-eutilizaveis/tutorial_css_temas.html",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "",
+    "text": "Se as capacidades gráficas do Quarto não são suficientes para um layout mais avançado, então podemos usar os temas fornecidos pelo Quarto ou, de maneira mais avançada ainda, manipular arquivos css, que definem o formato das publicações html."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_css_temas.html#css",
+    "href": "r-eutilizaveis/tutorial_css_temas.html#css",
+    "title": "Passos para integrar RStudio e Github",
+    "section": "2. CSS",
+    "text": "2. CSS\nCSS (Cascading Style Sheet) é uma linguagem para estilizar elementos escritos em uma linguagem de marcação como HTML. Conteúdo e representação visual da página são separados usando CSS.\nCom CSS é possível alterar a cor do texto e do fundo, fonte e espaçamento entre parágrafos e usar variações de layouts.\nUsar CSS no Quarto é muito simples, bastando criar um arquivo com extensão .scss e especificar o nome dele logo abaixo do tema. O arquivo .scss precisa esta no mesmo diretório do arquivo .qmd.\n---\ntitle: Meu título\nformat:\n  html:\n    theme: [cosmo, custom.scss]\nO conteúdo do arquivo deve estar escrito em linguagem css. PAra aprender sobre esta linguagem, recorra à página do Quarto.\nO conteúdo dos arquivos .scss que são usados em cada um dos 25 temas do Quarto estão aqui.\nUm exemplo de arquivo .scss que eu uso neste site para a apresentações está aqui:\n\n/*-- scss:defaults --*/\n\n$font-family-sans-serif: Helvetica;\n$presentation-h2-font-size: 1.2em;\n$presentation-h4-font-size: 1.2em;\n$presentation-heading-color: #e0020c;\n$presentation-font-smaller: 0.8;\n$presentation-line-height: 1;\n\n/*-- scss:rules --*/\n\n.reveal .slide-logo {\n  height: 120px !important;\n  width: 120px!important;\n  max-width: unset !important;\n  max-height: unset !important;\n}\n\n.reveal .slide blockquote {\n  border-left: 3px solid $text-muted;\n  padding-left: 0.5em;\n}"
+  },
+  {
+    "objectID": "r-eutilizaveis/hidroweb/hidroweb.html",
+    "href": "r-eutilizaveis/hidroweb/hidroweb.html",
+    "title": "Hidroweb",
+    "section": "",
+    "text": "Vamos primeiramente abrir o arquivo vazoes_T_87905000.txt, que foi baixado do site hidroweb. \n\nlibrary(readr)\nArqTxtPath='vazoes_T_87905000.txt'\nArqTxt=read_lines(ArqTxtPath,skip=13)\nArqTxt[1]=paste0(ArqTxt[1],';') #Inserindo \";\" na primeira linha para evitar problemas com row.names\nArqCsvPath=gsub('txt','csv',ArqTxtPath)\nwrite_lines(ArqTxt,ArqCsvPath)\ndados=read.table(ArqCsvPath,header=T,sep=';',dec=',')\ncat('Imprimindo parte dos dados...')\n\nImprimindo parte dos dados...\n\nprint(dados[1:5,1:5])\n\n  EstacaoCodigo NivelConsistencia       Data Hora MediaDiaria\n1      87905000                 1 01/04/2021   NA           1\n2      87905000                 1 01/01/2021   NA           1\n3      87905000                 1 01/12/2020   NA           1\n4      87905000                 1 01/11/2020   NA           1\n5      87905000                 1 01/10/2020   NA           1\n\n\nCriando coluna com tipo datetime e plotando:\n\ndados$dataN=as.POSIXct(dados$Data,format = \"%d/%m/%Y\")\nplot(dados$Maxima~dados$dataN,type='line')\n\n\n\n\nCriando coluna dos meses:\n\ndados$mes = format(dados$dataN,format='%m')\n\nExtraindo a media e dp:\n\nmedia=aggregate(dados$Maxima,list(Mes=dados$mes),mean,na.rm=T)\ndp=aggregate(dados$Maxima,list(dados$mes),sd,na.rm=T)\n\nCalculando desvio superior e inferior:\n\nmediaMais=media$x+dp$x\nmediaMenos=media$x-dp$x\n\nPlot final:\n\nplot(media$Mes,media$x, ty=\"l\", col=\"blue\", \n     ylab='Vazão', \n     xlab='Meses',\n     lty=1,lwd=3,\n     ylim=c(-1000,3000))\nlines(media$Mes, mediaMais, col='gray')\nlines(media$Mes, mediaMenos, col='gray')\npolygon(x=c(media$Mes, rev(media$Mes)), y=c(mediaMais, rev(mediaMenos)), col=\"lightblue\", density = 40, angle=60)\nlines(media$Mes, media$x)\npoints(media$Mes, media$x,pch=19)"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_template_elsevier.html",
+    "href": "r-eutilizaveis/tutorial_template_elsevier.html",
+    "title": "Como gerar templates para revistas da Elsevier",
+    "section": "",
+    "text": "Antes de mais nada, é preciso instalar o pacote tinytex, que serve para instalar toda a infra-estrutura do LaTeX para lidar com PDFs.\ninstall.packages('tinytex')\ntinytex::install_tinytex()\nPessoal, o template da Elsevier que tentamos colocar no RStudio através do terminal deu problema para mim por causa da confusão entre as pastas criadas. Acredito que para muitos foi a mesma coisa.\nNo entanto, existe uma maneira muito prática no RStudio de trabalhar com pastas no terminal.\nAo invés de precisar escrever todo o caminho, tipo c:\\user\\mauricio\\projeto_aula, podemos usar o gerenciador de arquivos do próprio RStudio.\nObserve a figura abaixo e localize o Terminal e o gerenciador de arquivos (Files). Os caminhos destacados devem ser os mesmos (este é o caminho do seu projeto).\n\n\nAs duas janelas inferiores podem ser maximizadas usando os botões destacados abaixo. Isso facilita o trabalho.\n\n\nÉ possível sincronizar os caminhos das duas janelas usando o gerenciador de arquivos, sem a necessidade de escrever o caminho inteiro no terminal.\nA opção Open New Terminal Here abre um novo terminal apontando para o mesmo caminho do gerenciador de arquivos. Nesta pasta (=diretório) o template será instalado.\n\n\nObserve que um novo terminal foi criado, chamado de Terminal2.\n\n\nAgora é hora de incluir os comandos para baixar o template da Elsevier, que pode ser encontrado em https://github.com/quarto-journals/elsevier#installation-for-existing-document\n\nO comando é:\nquarto use template quarto-journals/elsevier\n\n\nApós confirmar que confia no autor do template, informe o nome do novo diretório onde será instalado o template (meu_dir).\n\n\nObserve no gerenciador de arquivos que o diretório meu_dir foi criado.\n\n\nDentro deste diretório encontre o arquivo meu_dir.qmd. Este é o seu template. Clique ne e tente renderizar o pdf.\n\n\nBoa sorte!"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html",
+    "href": "r-eutilizaveis/tutorial_shiny.html",
+    "title": "Reprodutibilidade científica",
+    "section": "",
+    "text": "Momento 1: O que é um aplicativo para web.\nMomento 2: O que é Shiny?\n\nMomento 3: Quais recursos o Shiny possui?\n\nMomento 4: Construindo um aplicativo Shiny.\n\nMomento 5: UI (User Interface).\nMomento 6: Códigos do server e outputs.\nMomento 7: Exemplos complexos de aplicativos em Shiny.\nMomento 8: Comnunidades de Shiny na internet.\n\n\n\n\n\n# Fake: serve só para que a data apareça no primeiro slide\nss=Sys.Date()"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#resumo-da-aula-de-hoje",
+    "href": "r-eutilizaveis/tutorial_shiny.html#resumo-da-aula-de-hoje",
+    "title": "Reprodutibilidade científica",
+    "section": "",
+    "text": "Momento 1: O que é um aplicativo para web.\nMomento 2: O que é Shiny?\n\nMomento 3: Quais recursos o Shiny possui?\n\nMomento 4: Construindo um aplicativo Shiny.\n\nMomento 5: UI (User Interface).\nMomento 6: Códigos do server e outputs.\nMomento 7: Exemplos complexos de aplicativos em Shiny.\nMomento 8: Comnunidades de Shiny na internet.\n\n\n\n\n\n# Fake: serve só para que a data apareça no primeiro slide\nss=Sys.Date()"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#o-que-é-um-aplicativo-da-web",
+    "href": "r-eutilizaveis/tutorial_shiny.html#o-que-é-um-aplicativo-da-web",
+    "title": "Reprodutibilidade científica",
+    "section": "1. O que é um aplicativo da web?",
+    "text": "1. O que é um aplicativo da web?\n\n\nUm aplicativo da web é um software que roda em um servidor remoto e interage com o usuário através de um browser.\n\n\n\nO software é dividido entre UI (User Interface), que corresponde ao frontend, e códigos do servidor, que corresponde ao backend.\n\n\n\nUma das vantagens de um aplicativo web é que não há a necessidade de instalação do software na máquina do usuário. Todo o processamento é feito remotamente e devolvido para o browser."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#o-que-é-shiny",
+    "href": "r-eutilizaveis/tutorial_shiny.html#o-que-é-shiny",
+    "title": "Reprodutibilidade científica",
+    "section": "2. O que é Shiny?",
+    "text": "2. O que é Shiny?\n\n\nShiny é um framework para a criação de aplicativos da web que usa códigos do R, que são interativos e reativos, ou seja, obedecem a controles manipulados pelo usuário e mostram um output na tela.\n\n\n\nShiny é capaz de criar aplicativos complexos de forma muito simples, que de outra maneira demandaria muito tempo para serem construídos em JavaScript e HTML.\n\n\n\nPara aprender Shiny, basta ter uma boa noção de códigos em R."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#quais-recursos-o-shiny-possui",
+    "href": "r-eutilizaveis/tutorial_shiny.html#quais-recursos-o-shiny-possui",
+    "title": "Reprodutibilidade científica",
+    "section": "3. Quais recursos o Shiny possui?",
+    "text": "3. Quais recursos o Shiny possui?\n\n\nFácil de usar e aprender.\nO tempo do desenvolvimento é minimizado.\nExcelente ferramenta para visualização de dados.\nTem um apoio forte da linguagem R.\nCria aplicativos da web úteis com apenas algumas linhas de códigos.\nFunciona em qualquer ambiente R (Console do R ou RStudio).\nÉ possível enriquecer o layout dos aplicativos usando HTML ou CSS.\nOs aplicativos Shiny são “ativos” automaticamente. As saídas mudam instantaneamente conforme os usuários modificam as entradas, sem a necessidade de recarregar o navegador."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#construindo-um-aplicativo-shiny.",
+    "href": "r-eutilizaveis/tutorial_shiny.html#construindo-um-aplicativo-shiny.",
+    "title": "Reprodutibilidade científica",
+    "section": "4. Construindo um aplicativo Shiny.",
+    "text": "4. Construindo um aplicativo Shiny.\nNão é necessário instalar nada no RStudio para usar o Shiny atualmente. Versões mais antigas do RStudio precisam instalar o pacote e carregá-lo:\n\n# install.packages('shiny')\n# library(shiny)\n\n\nNo RStudio, para criar novo app da web, use:\n# File&gt;New file&gt;Shiny web app\n\n\n\nA estrutura do novo arquivo vem com um exemplo de app pronto. No entanto, a estrutura mais básica de um app é a seguinte:\nlibrary(shiny)\nui &lt;- fluidPage(\n   'Hello, world!'\n)\nserver &lt;- function(input, output, session) {\n}\nshinyApp(ui = ui, server = server)"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#ui-user-interface",
+    "href": "r-eutilizaveis/tutorial_shiny.html#ui-user-interface",
+    "title": "Reprodutibilidade científica",
+    "section": "5. UI (User Interface)",
+    "text": "5. UI (User Interface)\nShiny traz uma série de controles (widgets) para a construção de UI:"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#códigos-do-server-e-outputs.",
+    "href": "r-eutilizaveis/tutorial_shiny.html#códigos-do-server-e-outputs.",
+    "title": "Reprodutibilidade científica",
+    "section": "6. Códigos do server e outputs.",
+    "text": "6. Códigos do server e outputs.\n\nOs códigos do server são usados para capturar os inputs da UI e realizar os cáculos necessários, que serão devolvidos ao usuário na seção output.\n\nNesta parte entram basicamente códigos do R e qualquer background poderá aproveitado."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#exemplos-em-shiny-no-rstudio.",
+    "href": "r-eutilizaveis/tutorial_shiny.html#exemplos-em-shiny-no-rstudio.",
+    "title": "Reprodutibilidade científica",
+    "section": "8. Exemplos em Shiny no RStudio.",
+    "text": "8. Exemplos em Shiny no RStudio.\n\nA seguir, aplicatitivos da web feitos no RStudio e exemplos de utilização."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_shiny.html#exemplos-mais-complexos-de-aplicativos-em-shiny-e-referências.",
+    "href": "r-eutilizaveis/tutorial_shiny.html#exemplos-mais-complexos-de-aplicativos-em-shiny-e-referências.",
+    "title": "Reprodutibilidade científica",
+    "section": "8. Exemplos mais complexos de aplicativos em Shiny e referências.",
+    "text": "8. Exemplos mais complexos de aplicativos em Shiny e referências.\n\n\nTabela básica\nGaleria de widgets\nWidgets dinÂmicos\nMúltiplas distribuições\nGráfico de bolhas\n\nReferência do Shiny\n\nShiny - livro Oficial"
+  },
+  {
+    "objectID": "r-eutilizaveis/r_guto.html",
+    "href": "r-eutilizaveis/r_guto.html",
+    "title": "R-eutilizáveis",
+    "section": "",
+    "text": "Tradução para o R de alguns tutoriais em Python do prof. Guto Schettini\n\nCTD\n\nHidroweb\n\nIBGE1\n\nIBGE2\n\n\n\n\n\nHá outros tutorias na página que podem ser traduzidos para o R. Algum voluntário?"
+  },
+  {
+    "objectID": "r-eutilizaveis/IBGE1/IBGE1.html",
+    "href": "r-eutilizaveis/IBGE1/IBGE1.html",
+    "title": "IBGE1",
+    "section": "",
+    "text": "Farei aqui reproduções das análises do Guto usando o notebook do R.\nPois é, o R também tem notebook que podem facilmente criar arquivos em PDF, HTML e DOC.\nAdeus editor de texto. Se o seu texto é um relatório que envolve análise de dados, é muito melhor fazer por aqui.\nAqui vai a reprodução da análise IBGE 1.\nPrimeiramente abrimos os dados baixados do site do IBGE, conforme explicado pelo Guto. Pode ser qualquer arquivo. O meu foi IMB201009.txt. Vamos guardar o arquivo na variável dados, que é do tipo dataframe.\nAdapte o caminho completo do arquivo para o seu computador. A função read.csv2 lê dados separados por vírgulas.\n\ndados = read.csv2(        \n   \"IMB201009.txt\",\n   header=FALSE, \n   sep=\"\")\n\nPara ver os dados use View(dados) ou print(dados).\nOs nomes das colunas (V1 a V4) foram dados automaticamente.\nAgora vamos executar os códigos para gerar um gráfico:\n\nn=length(dados$V4)      #Número de linhas de V4\nplot(1:n,                 #Plota x e y\n   dados$V4) \n\n\n\n\nVamos plotar do novo mudando algumas características do gráfico.\n\nplot(1:n,               #Plota novamente em linha\n   dados$V4,\n   type='line',\n   xlab='',ylab='') \n\n\n\n\nAgora vamos ajeitar o eixo x (tempo), que ainda não é do tipo datetime. Primeiro concatenamos as duas colunas de Data e Hora e depois transformamos para o tipo datetime.\n\ntempo=paste(dados$V1,dados$V2) \ntempo=as.POSIXct(tempo,format = \"%d/%m/%Y %H:%M:%S\")\n\nCria o plot completo contendo a série V3 em azul e V4 em vermelho.\n\nplot(tempo,                #Eixo x\n     dados$V3,             #Eixo y\n     type='line',          #Tipo de linha\n     col='blue',           #Cor da linha\n     main='IMB201009.txt',  #Título do gráfico\n     ylab='Nível (m)',     #Título do eixo y\n     xlab='Tempo')         #Título do eixo x\nlines(tempo,         #Adiciona nova série (V4) em vermelho\n      dados$V4,\n      type='line',\n      col='red')\nlegend('topright',  #Adiciona legenda\n       legend=c('Var1','Var2'),\n       lty=c(1,1),\n       col=c('blue','red'),\n       cex=0.6)"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html",
+    "href": "r-eutilizaveis/tutorial_quarto.html",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "",
+    "text": "&lt;!-- Aqui vai o comentário --&gt;\n\n\nEsse estilo de comentário é herdado do HTML e é uma porcaria.\n\n\n\n\n\"Dois espaços no final da linha criam um novo parágrafo\"\n\n[1] \"Dois espaços no final da linha criam um novo parágrafo\"\n\n\n\n\n&lt;br&gt; vem do HTML e também cria um parágrafo.\n\n\n\n*Itálico*\n**Negrito**\n***Negrito e itálico***\nsuperscript^2^ / subscript~2~\n~~strikethrough~~"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html#formatação-básica",
+    "href": "r-eutilizaveis/tutorial_quarto.html#formatação-básica",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "",
+    "text": "&lt;!-- Aqui vai o comentário --&gt;\n\n\nEsse estilo de comentário é herdado do HTML e é uma porcaria.\n\n\n\n\n\"Dois espaços no final da linha criam um novo parágrafo\"\n\n[1] \"Dois espaços no final da linha criam um novo parágrafo\"\n\n\n\n\n&lt;br&gt; vem do HTML e também cria um parágrafo.\n\n\n\n*Itálico*\n**Negrito**\n***Negrito e itálico***\nsuperscript^2^ / subscript~2~\n~~strikethrough~~"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html#cabeçalhos",
+    "href": "r-eutilizaveis/tutorial_quarto.html#cabeçalhos",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "Cabeçalhos",
+    "text": "Cabeçalhos\n# Header 1\n## Header 2\n## Header 3\n...\n###### Header 6\n\n\nExistem várias opções do revealjs para headers. Ver depois."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html#links-e-imagens",
+    "href": "r-eutilizaveis/tutorial_quarto.html#links-e-imagens",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "Links e imagens:",
+    "text": "Links e imagens:\n[Quarto](https://quarto.org) #Link\n![Elefante](elephant.png)    #Imagem\n[![Elefante](elephant.png)](https://quarto.org) #Link de Imagem\n![Elephant](elephant.png){width=300}\n![Elephant](elephant.png){width=80%}\n![Elephant](elephant.png){fig-align=\"left\"}\n\nPosição absoluta:\n![](image1.png){.absolute top=200 left=0 width=\"350\" height=\"300\"}"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html#literais",
+    "href": "r-eutilizaveis/tutorial_quarto.html#literais",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "Literais",
+    "text": "Literais\n\nLiterais em uma linha entre crases:\n`aqui vai literal`\n\n\nLiterais em mais de uma linha:\nColoque 4 crases (````) no início e no final do texto. \n\n\nÀs vezes dá um resultado meio bizarro. Coisa chata."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html#listas",
+    "href": "r-eutilizaveis/tutorial_quarto.html#listas",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "Listas",
+    "text": "Listas\n* unordered list\n    + sub-item 1\n    + sub-item 2\n        - sub-sub-item 1\n\n1. ordered list\n2. item 2\n    i) sub-item 1\n         A.  sub-sub-item 1"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html#tabelas",
+    "href": "r-eutilizaveis/tutorial_quarto.html#tabelas",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "Tabelas",
+    "text": "Tabelas\n\nTabelas simples\n| Right | Left | Default | Center |\n|------:|:-----|---------|:------:|\n|  12   |  12  |    12   |    12  |\n|  123  |  123 |   123   |   123  |\n|  1    |    1 |     1   |     1  |\n\n\nTabelas com grid\n+---------------+---------------+--------------------+\n| Fruit         | Price         | Advantages         |\n+===============+===============+====================+\n| Bananas       | $1.34         | - built-in wrapper |\n|               |               | - bright color     |\n+---------------+---------------+--------------------+\n| Oranges       | $2.10         | - cures scurvy     |\n|               |               | - tasty            |\n+---------------+---------------+--------------------+\n\n: Sample grid table.\n\n\nExistem outras opções de tabelas. Esta é a mais simples."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html#fórmulas",
+    "href": "r-eutilizaveis/tutorial_quarto.html#fórmulas",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "Fórmulas",
+    "text": "Fórmulas\n$E = mc^{2}$ para inline\nou\n$$E = mc^{2}$$ para centro da linha\n\n\nEstas são fórmulas do Markdown. Para fórmulas mais complexas, existe o LaTeX."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html#notas-de-margem",
+    "href": "r-eutilizaveis/tutorial_quarto.html#notas-de-margem",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "Notas de margem",
+    "text": "Notas de margem\n::: {.column-margin}\nWe know from *the first fundamental theorem of calculus* \n:::"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html#diagramas",
+    "href": "r-eutilizaveis/tutorial_quarto.html#diagramas",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "Diagramas",
+    "text": "Diagramas\n{mermaid}\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\nVeja em mermaid.js.org\n\n\nMermaid é uma biblioteca JS para criar diagramas online baseado numa linguagem específica."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html#destaque-de-textos",
+    "href": "r-eutilizaveis/tutorial_quarto.html#destaque-de-textos",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "Destaque de textos",
+    "text": "Destaque de textos\n\ncallout (avisos)\n:::{.callout-note}\nNote that there are five types of callouts, including: \n`note`, `tip`, `warning`, `caution`, and `important`.\n:::\n\n\nBlockquote\n&gt; Bloco destacado\n\n\nBlockquote mais de uma linha.\n| Line Block\n|   Spaces and newlines\n|   are preserved\n\n\nOs espaços e formatação são todos preservados."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html#layouts",
+    "href": "r-eutilizaveis/tutorial_quarto.html#layouts",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "Layouts",
+    "text": "Layouts\n\nDuas colunas\n:::: {.columns}\n::: {.column width=\"40%\"}\ncontents...\n:::\n::: {.column width=\"60%\"}\ncontents...\n:::\n::::\n\n\nMúltiplas colunas\nDuas linhas, a primeira com 2 e a segunda com 1 gráfico, todos com o mesmo tamanho.\n::: {layout=\"[[1,1], [1]]\"}\n![Surus](surus.png)\n![Surus1](surus1.png)\n![Surus2](surus2.png)\n:::\n\nPara layout com percentuais:\n::: {layout=\"[[40,-20,40], [100]]\"}"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html#html---cabeçalhos",
+    "href": "r-eutilizaveis/tutorial_quarto.html#html---cabeçalhos",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "HTML - cabeçalhos",
+    "text": "HTML - cabeçalhos\n- Antes do html\ntoc: true\ntoc-depth: 4\ntoc-location: left\n- Depois do html\ntheme: default (Outros em https://quarto.org/docs/output-formats/html-themes.html) \nhtml-math-method: katex\ncode-tools: true\ncode-line-numbers: false\nself-contained: false"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_quarto.html#revealjs---apresentações",
+    "href": "r-eutilizaveis/tutorial_quarto.html#revealjs---apresentações",
+    "title": "Mini-tutorial do Quarto no RStudio",
+    "section": "Revealjs - Apresentações",
+    "text": "Revealjs - Apresentações\n\nNova página\n--- #Três ou mais tracinhos\n## Header 2 também cria nova página\n####hox ::: Box ou info-box\nasdasd\n:::\n\n\nIncremental\n- Para tudo ser incremental, no cabeçalho colocar incremental: true   \n- Para tornar uma lista particular incremental:\n::: {.incremental}\n- Eat spaghetti\n- Drink wine\n:::\n\n\nColunas múltiplas\n:::: {.columns}\n\n::: {.column width=\"40%\"}\ncontents...\n:::\n\n::: {.column width=\"60%\"}\ncontents...\n:::\n\n::::\n\n\nFooter global\nNo cabeçalho:\nfooter: \"`Mais bonitinho com crase`\"\n\n\nFooter por página\n::: footer\nCustom footer text\n:::\n\n\nAside (tipo de footer sem referência)\n::: aside\nSome additional commentary of more peripheral interest.\n:::\n\n\nAside (tipo de footer com referência)\nNumera automaticamente\n- Green ^[Aqui a nota de rodapé]\n- Brown\n- Purple\n\n\nSmaller fonts\n## Slide Title {.smaller}\n\n\nscrollable\n## Slide Title {.scrollable}\n\n\nNotas do apresentador\n::: {.notes}\nSpeaker notes go here.\n:::\n\n\nTemas\ntheme: default\nOutros: https://quarto.org/docs/presentations/revealjs/\n\n\nSlide com diferente background\n## Título {background-color=\"aquamarine\"}\n\n\nTexto incremental num box\n::: columns\n::: {.column .box width=\"40%\"}\n   MATERIALS AND METHODS\n\n   *Experimental design* **(condensed version)**\n\n   -   **Experimental plots were planted   with different plant communities spanning [plant diversity gradient of one, four, and 16 species]{.fragment .highlight-blue}, which were randomly chosen from the species listed (5 plant functional groups -- 19 species in total)**\n   -   [Plots were divided into three subplots]{.fragment .highlight-red}\n\n:::\n\n::: {.column width=\"56%\"}\n::: fragment\nThis is in fact a **split-plot design**!\n:::\n\n::: fragment\n:::\n:::\n:::"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_kivy.html",
+    "href": "r-eutilizaveis/tutorial_kivy.html",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "",
+    "text": "kivy é uma plataforma para criação de GUI (Graphic User Interface) usando Python como linguagem.\nA grande vantagem do Kivy é a facilidade de criar aplicativos para Android e IPhone.\nPara criar programas com GUI para desktop (Windows, Linux e Mac), prefira o PyQt, que em breve terá aqui um tutorial.\nKivy funciona em qualquer sistema operacional, mas as ferramentas para criar um app de celular funciona apenas no LINUX. O exemplo que darei aqui será a criação de um arquivo .apk que pode ser instalado em celulares rodando Android.\nVocê vai precisar do Python3, que já vem instalado com o Linux, e do pip.\nEntre com os seguintes comandos no terminal do Linux:"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_kivy.html#o-que-é-o-kivy",
+    "href": "r-eutilizaveis/tutorial_kivy.html#o-que-é-o-kivy",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "",
+    "text": "kivy é uma plataforma para criação de GUI (Graphic User Interface) usando Python como linguagem.\nA grande vantagem do Kivy é a facilidade de criar aplicativos para Android e IPhone.\nPara criar programas com GUI para desktop (Windows, Linux e Mac), prefira o PyQt, que em breve terá aqui um tutorial.\nKivy funciona em qualquer sistema operacional, mas as ferramentas para criar um app de celular funciona apenas no LINUX. O exemplo que darei aqui será a criação de um arquivo .apk que pode ser instalado em celulares rodando Android.\nVocê vai precisar do Python3, que já vem instalado com o Linux, e do pip.\nEntre com os seguintes comandos no terminal do Linux:"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_kivy.html#instalando-e-testando-kivy",
+    "href": "r-eutilizaveis/tutorial_kivy.html#instalando-e-testando-kivy",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "Instalando e testando kivy",
+    "text": "Instalando e testando kivy\n\n\nPrimeiro, instale o pip.\n\n\nsudo apt install python3-pip\n\n\nAtualize o pip.\n\n\npython3 -m pip install --upgrade pip setuptools\n\n\nInstale o kivy e os exemplos.\n\n\npython3 -m pip install \"kivy[base]\" kivy_examples\n\n\nCriar um arquivo Python (obrigatoriamente com o nome main.py) contendo o seguinte código (salve em qualquer lugar):\n\n\nimport kivy\n\nfrom kivy.app import App\nfrom kivy.uix.label import Label\n\nclass MyApp(App):\n\n    def build(self):\n        return Label(text='Hello world')\n\nif __name__ == '__main__':\n    MyApp().run()\nO código acima contém a estrutura mínima para um programa em kivy. Layouts e widgets podem ser adicionados à janela, que serão os mesmos em todos os SO. Mais informações em:\nDocumentação oficial do kivy ( muito rica)\n\n\nExecute o aplicativo para testar. Abra o terminal na pasta onde salvou o arquivo main.py e digiter:\n\n\npython3 main.py"
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_kivy.html#criando-um-arquivo-.apk-para-android.",
+    "href": "r-eutilizaveis/tutorial_kivy.html#criando-um-arquivo-.apk-para-android.",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "Criando um arquivo .apk para Android.",
+    "text": "Criando um arquivo .apk para Android.\nPara criar um arquivo .apk a partir de um arquivo .py usando kivy, usaremos uma ferramenta chamada buildozer, que automatiza todo o processo e elimina toda a complexidade da interação com o Android."
+  },
+  {
+    "objectID": "r-eutilizaveis/tutorial_kivy.html#buildozer-ferramenta-para-criação-do-.apk-android-e-ios-iphone",
+    "href": "r-eutilizaveis/tutorial_kivy.html#buildozer-ferramenta-para-criação-do-.apk-android-e-ios-iphone",
+    "title": "Tutorial de kivy para criação de app de celular",
+    "section": "Buildozer: ferramenta para criação do .apk (Android) e iOS (IPhone)",
+    "text": "Buildozer: ferramenta para criação do .apk (Android) e iOS (IPhone)\n\n\nInstalando o buildozer.\n\n\nNo terminal, linha por linha:\npip3 install --user --upgrade buildozer\nsudo apt update\nsudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev\npip3 install --user --upgrade Cython==0.29.33 \nApós isso, entre no Nautilus pelo modo Admin:\nsudo nautilus\nHabilite a opção de mostrar arquivos ocultos no Nautilus.\nDentro da pasta root abra o aquivo .bashrc e inclua a seguinte linha:\nexport PATH=$PATH:~/.local/bin/\n\n\nCriando o aqruivo .apk\n\n\nNo terminal, executa na mesma pasta que o arquivo main.py o seguinte comando:\nbuildozer init\nUm arquivo chamado buildozer.spec será criado e pode ser editado para mudar as especicações do app.\nFinalmente, para construir um .apk, entre no terminal:\nbuildozer android debug\nNa primeira execução, o comando demora muito, mas nas posteriores é bem rápido!\nO arquivo .apk estará na pasta Bin. Basta copiá-lo para o celular e instalar (em cada celular é um processo diferente, mas normalmente deve-se habilitar a instalação de programas não veridicados ou hobilitar o modo desenvolvedor).\nBons app!"
+  },
+  {
+    "objectID": "r-eutilizaveis/truq_quarto.html",
+    "href": "r-eutilizaveis/truq_quarto.html",
+    "title": "Truques do Quarto e Github",
+    "section": "",
+    "text": "1. Linha mágica para dar um Commit quando o RStudio trava.\nNo RStudio, ao selecionar os arquivos para dar um Commit, pode acontecer de travar o programa ou a seleção não funcionar.\nQuando não for possível dar um Commit, tente a seguinte linha mágica no terminal do RStudio:\ngit add -A && git commit -m \"staging all files\"\n\n\n2. Quando o RStudio pede para instalar o Python ou o Jupyter, do nada?\nInforme no cabeçalho que a engine é a knitr, usando engine: knitr.\n---\ntitle: \"Título\"\nengine: knitr\n---\n\n\n\n“Engine” é o motor de renderização (que transforma script em HTML), que pode ser o knitr (do RStudio) ou Jupyter (do Python). O padrão (default) é knitr, mas não sei porque de vez em quando temos que informar manualmente.\n\n\n\n3. E se eu quiser justificar um texto longo?\nPara justificar um texto, pode-se usar:\n\n:::{.justify}\nTesto a ser justificado. Claro que precisa ser um texto longo para testar se justifica ou não, então aqui vai um texto longo: asdasdasd sdfsdfg fghfgh rtertert dfg f fgh sd sdf sdf sd gdfgdfg serw er fgh fg hfg h sdf sdf dfg gfhjfghfg sdfsdfgdrfghdh dfgdfhgfghfghfghgf sdfsdfgfghfghgfh \n:::\n\nNo entanto, há um bug no RStudio e o texto não é justificado nunca.\nPrimeiro, é necessário usar engine: knitr, como mostrado no item 2.\nSe não funcionar, adicione também o seguinte código em qualquer parte do seu script:\n\n```{css,  echo=FALSE}\n.justify {\n text-align:\njustify !important}\n```"
+  },
+  {
+    "objectID": "r-eutilizaveis/IBGE2/IBGE2.html",
+    "href": "r-eutilizaveis/IBGE2/IBGE2.html",
+    "title": "IBGE2",
+    "section": "",
+    "text": "Primeiramente, os arquivos zip baixados devem ser salvos em uma pasta. Os códigos abaixo extraem os arquivos dos zips e salvam em outra pasta.\n\n\npasta_zip='./zips/'\narquivos=list.files(pasta_zip)\npasta_unzip='./unzip/'\nfor (i in arquivos) \n   unzip(paste0(pasta_zip,i),exdir=pasta_unzip)\n\nAqui os arquivos são separados e juntados novamente. É feito um looping em cada estação, que são armazenadas em na variável estacoes, e todos os arquivos de cada uma são juntados. \n\nestacoes = c('IMB','ARC','SAL','FOR','SAN') #1..5\nDTS=list()\nj=0\nfor (i in estacoes) {\n   files = list.files(pasta_unzip,pattern=i,full.names = TRUE)\n   dt = lapply(files, function(x) {read.csv2(file=x, header=F,          sep=\"\")})\n   j=j+1\n   DTS[[j]] = do.call(\"rbind\", lapply(dt, as.data.frame)) \n   tempo=paste0(DTS[[j]]$V1,DTS[[j]]$V2) #concatena as duas colunas de Data e Hora\n   DTS[[j]]$tempo=as.POSIXct(tempo,format = \"%d/%m/%Y %H:%M:%S\")\n}\n\nPlots únicos de cada estação. \n\ndt=DTS[[1]]     #Plot de IMB\ndt=DTS[[3]]     #Plot de SAL\nplot(dt$tempo, dt$V3,ty='l',\n     xlab='', ylab='', main='SAL', xaxt='n')\naxis(1, dt$tempo, format(dt$tempo,\"%d\"), tick=F)\n\n\n\n\nE aqui o plot múltiplo, com as variáveis padronizadas. \n\ndt=DTS[[3]]\nplot(dt$tempo, dt$V3-mean(dt$V3),\n     ty='l', xlab='', ylim=c(-2,2),\n     ylab='', col='blue', xaxt='n')\nlines(dt$tempo, dt$V3-mean(dt$V3), col='red')\ndt=DTS[[1]]\nlines(dt$tempo, dt$V3-mean(dt$V3), col='black')\ndt=DTS[[4]]\nlines(dt$tempo,dt$V3-mean(dt$V3),col='gray')\ndt=DTS[[5]]\nlines(dt$tempo, dt$V3-mean(dt$V3), col='blue')\naxis(1, dt$tempo, tick=F, format(dt$tempo,\"%d\"))\nlegend('topright', \n       legend=c('IMB','ARC','SAL','FOR','SAN'),\n       lty=c(1,1,1,1,1),\n       col=c('blue','red','black','gray','coral'),\n       cex=0.5, ncol = 5)"
   }
 ]

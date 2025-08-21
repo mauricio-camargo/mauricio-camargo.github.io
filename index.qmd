@@ -38,23 +38,20 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 <!-- e metodologia da ciência na graduação. -->
 
+**Disciplinas do segundo semestre de 2025:**
 
-**Disciplinas do segundo semestre de 2024:**
+- Lógica da programação (de computadores) e análise de dados em R
+
+-  Delineamentos experimentais em ecologia
 
 **Disciplinas do primeiro semestre de 2025:**
 
--  Delineamentos experimentais em ecologia (acesso via [http://ava.furg.br](http://ava.furg.br))
-
-**Disciplinas do primeiro semestre de 2024:**
-
-- Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)<!--(https://mauricio-camargo.github.io/Biodiversidade2024/)-->
-
-- Reprodutibilidade científica: como fazer ciência reprodutível no R<!--(https://mauricio-camargo.github.io/reprodu2024/)-->
+- Biodiversidade de invertebrados marinhos (Anelídeos poliquetas)<!--(https://mauricio-camargo.github.io/Biodiversidade2025/)-->
 
 
 <!--
 -----
-### Orientações em pesqisa
+### Orientações em pesquisa
 Oriento alunos de graduação e de pós-graduação em ecologia de comunidades bentônicas com interesse em estatística ambiental e linguagens de programação.
 -->
 
