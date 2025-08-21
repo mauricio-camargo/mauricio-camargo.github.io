@@ -31,7 +31,7 @@ engine: knitr
 
 - **Delineamentos experimentais em ecologia**   
 
-- Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
+  - Cursos oferecidos: *Pós-graduações diversas (PPGAMB, PPGOB, PPGO)*
   - Período: Outubro a Dezembro de 2025.
 
 
