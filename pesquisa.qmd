@@ -12,7 +12,12 @@ justify !important}
 
 ## Publicações
 
+
 :::{.justify}
+- [SANTOS, MARCOS EDUARDO MIRANDA ; SPENASSATO, DÉBORA ; DE AZAMBUJA, ANA MARIA VOLKMER ; NUNES, JORGE LUIZ SILVA ; DE CAMARGO, MAURÍCIO GARCIA . Trends for Research on Hard Substrate Colonization by Meiofauna. Marine Ecology-An Evolutionary Perspective, v. 46, p. e70010, 2025.](http://dx.doi.org/10.1111/maec.70010)
+
+- [ROCHA, ELIS BRANDÃO ; DA COSTA MACHADO, EUNICE ; DE CAMARGO, MAURÍCIO GARCIA ; DE REZENDE, CARLOS EDUARDO ; GATTS, PEDRO VIANNA ; MENDES, CARLOS RAFAEL BORGES ; COSTA, RAUL RODRIGO ; WALLNER-KERSANACH, MÔNICA ; MATA, MAURICIO M. ; KERR, RODRIGO . Distribution, composition, and drivers of suspended particulate organic matter in the Gerlache Strait, Northern Antarctic Peninsula. DEEP-SEA RESEARCH PART I-OCEANOGRAPHIC RESEARCH PAPERS, v. 224, p. 104559, 2025.](http://dx.doi.org/10.1016/j.dsr.2025.104559)  
+
 - [BALBELA, CAROLINE CARNEIRO ; SOROLDONI, SANYE ; FERNANDES, ANDREIA NEVES ; DE CAMARGO, MAURÍCIO GARCIA ; KESSLER, FELIPE ; PINHO, GRASIELA LOPES LEÃES . Assessing the impact of simulated ocean acidification on the photodegradation of selected microplastics. MARINE POLLUTION BULLETIN, v. 207, p. 116854, 2024.](http://dx.doi.org/10.1016/j.marpolbul.2024.116854)
 
 - [VASCONCELLOS, DAVI M ; BAINY, MARA CRS ; CAMARGO, MAURÍCIO G ; TEIXEIRA BONECKER, ANA CRISTINA ; COSTA BONECKER, SÉRGIO LUIS ; HAIMOVICI, MANUEL . Cephalopod paralarvae in a tropical Brazilian basin: distribution throughout oceanographic features and water masses. BULLETIN OF MARINE SCIENCE, v. xxx, p. 1, 2024.](http://dx.doi.org/10.5343/bms.2023.0171)
