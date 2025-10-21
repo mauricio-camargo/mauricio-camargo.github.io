@@ -45,7 +45,7 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 - [Lógica da programação e análise de dados em R](https://mauricio-camargo.github.io/Programacao_R_2025/) 
 
--  Delineamentos experimentais em ecologia (Início em 21/10/25)
+-  [Delineamentos experimentais em ecologia](https://ava.furg.br/)
 
 **Disciplinas do primeiro semestre de 2025:**
 
