@@ -47,6 +47,10 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 -  [Delineamentos experimentais em ecologia](https://ava.furg.br/)
 
+**Minicurso do segundo semestre de 2025:**
+
+- R raiz! ([arquivo R](docs/R-raiz.R))
+
 **Disciplinas do primeiro semestre de 2025:**
 
 - Biodiversidade de invertebrados marinhos - Anelídeos poliquetas (Encerrada)<!--(https://mauricio-camargo.github.io/Biodiversidade2025/)-->
