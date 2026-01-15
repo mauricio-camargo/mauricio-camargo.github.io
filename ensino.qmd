@@ -34,6 +34,8 @@ engine: knitr
 #### Minicurso
 
 - **R raiz!** <!--([arquivo R](docs/R-raiz.R))-->
+  - Evento oferecido: *SNO *
+  - Período: Março a Julho de 2025
 
 #### Pós-graduação
 
@@ -209,7 +211,7 @@ Disciplinas ministradas no Centro de Estudos do Mar da UFPR:
 
 **Graduação** (Oceanografia e Aquicultura)
 
-- Análise multivariada e de séries temporais (ministrada sozinho em 2002, logo após a defesa do doutorado) 
+- Análise multivariada e de séries temporais (ministrada sozinho em 2002, ano seguinte à defesa do meu doutorado) 
 - Introdução à estatística (Oceanografia e Aquicultura) 
 - Inferência estatística (Oceanografia)
 - Planejamento amostral e experimental (Oceanografia)
