@@ -6,10 +6,6 @@ engine: knitr
 
 ## Disciplinas - FURG
 
-<br>
-
-### **2025**
-
 ::: aside
 **Disciplinas em processo de criação para 2026:**
 
@@ -17,11 +13,19 @@ engine: knitr
 
 :::
 
+### **2026 (Atual)**
+
+- **Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**
+  - Cursos oferecidos: *Oceanologia*
+  - Período: Março a Julho de 2026
+
+### **2025**
+
 #### Graduação
 
 - **Lógica da programação e análise de dados em R** 
   - Cursos oferecidos: *Oceanologia*
-  - Período: Iniciando - aguardem conteúdo
+  - Período: Agosto a Dezembro de 2025
 
 - **Biodiversidade de invertebrados marinhos - Anelídeos poliquetas**<!--(https://mauricio-camargo.github.io/Biodiversidade2025/))-->
   - Cursos oferecidos: *Oceanologia*
@@ -201,17 +205,16 @@ Disciplinas ministradas no Centro de Estudos do Mar da UFPR:
 
 **Graduação** (Oceanografia e Aquicultura)
 
-- Introdução à estatística
-- Inferência estatística
-- Análise multivariada
-- Planejamento amostral e experimental
-- Oficina de pesquisa I, II e IV
-- Biodiversidade de invertebrados (Poliquetas)
-- Programação em Pascal e SQL  
+- Análise multivariada e de séries temporais (ministrada sozinho em 2002, logo após a defesa do doutorado) 
+- Introdução à estatística (Oceanografia e Aquicultura) 
+- Inferência estatística (Oceanografia)
+- Planejamento amostral e experimental (Oceanografia)
+- Oficina de pesquisa I, II e IV (Oceanografia)
+- Biodiversidade de invertebrados - Poliquetas (Oceanografia)
+- Programação em Pascal e SQL (Oceanografia)
 
-**Pós-graduação** (PGSISCO e PGZOO)
+**Pós-graduação** (PGSISCO e PGZOO da UFPR)
 
 - Ecologia numérica (PGSISCO)
 - Análise multivariada (PGSISCO)
 - Estatística básica (PGZOO)
-
