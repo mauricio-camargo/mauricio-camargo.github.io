@@ -31,6 +31,10 @@ engine: knitr
   - Cursos oferecidos: *Oceanologia*
   - Período: Março a Julho de 2025
 
+#### Minicurso
+
+- **R raiz!** <!--([arquivo R](docs/R-raiz.R))-->
+
 #### Pós-graduação
 
 - **Delineamentos experimentais em ecologia**   
