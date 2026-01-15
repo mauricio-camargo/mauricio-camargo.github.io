@@ -34,8 +34,8 @@ engine: knitr
 #### Minicurso
 
 - **R raiz!** <!--([arquivo R](docs/R-raiz.R))-->
-  - Evento oferecido: *SNO *
-  - Período: Março a Julho de 2025
+  - Evento oferecido: *SNO 2025*
+  - Período: ??? de 2025
 
 #### Pós-graduação
 
