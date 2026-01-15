@@ -41,19 +41,20 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 <!--  e metodologia da ciência na graduação. -->
 
+**Disciplinas do primeiro semestre de 2026:**
+
+- Biodiversidade de invertebrados marinhos - Anelídeos poliquetas<!--(https://mauricio-camargo.github.io/Biodiversidade2026/)-->
+
+
 **Disciplinas do segundo semestre de 2025:**
 
-- [Lógica da programação e análise de dados em R](https://mauricio-camargo.github.io/Programacao_R_2025/) 
+- Lógica da programação e análise de dados em R<!--(https://mauricio-camargo.github.io/Programacao_R_2025/)-->
 
--  [Delineamentos experimentais em ecologia](https://ava.furg.br/)
+-  Delineamentos experimentais em ecologia<!--(https://ava.furg.br/)-->
 
 **Minicurso do segundo semestre de 2025:**
 
-- R raiz! ([arquivo R](docs/R-raiz.R))
-
-**Disciplinas do primeiro semestre de 2025:**
-
-- Biodiversidade de invertebrados marinhos - Anelídeos poliquetas (Encerrada)<!--(https://mauricio-camargo.github.io/Biodiversidade2025/)-->
+- R raiz! <!--([arquivo R](docs/R-raiz.R))-->
 
 <!--
 -----
