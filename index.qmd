@@ -36,7 +36,7 @@ Todo o conteúdo do site é livre para uso [não comercial](https://creativecomm
 
 ----
 
-### Disciplinas atuais
+### Disciplinas recentes
 Ministro disciplinas de estatística ecológica, programação de computadores e diversidade de anelídeos poliquetas na graduação e na pós-graduação.
 
 <!--  e metodologia da ciência na graduação. -->
