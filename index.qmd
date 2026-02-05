@@ -62,12 +62,6 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 Oriento alunos de graduação e de pós-graduação em ecologia de comunidades bentônicas com interesse em estatística ambiental e linguagens de programação.
 -->
 
-<!--
------
-### Atividades administrativas
-Atualmente sou coordenador substituto do curso de Oceanologia.
--->
-
 ------
 
 ### Contato 
