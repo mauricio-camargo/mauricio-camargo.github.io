@@ -2,11 +2,11 @@
 #title: "hobbies"
 ---
 
-1. Corrida
-2. Bike
+1. Beach Tennis
+2. Volei
 3. Skate
-4. Volei
-5. Beach Tennis
+4. Corrida
+5. Bike
 6. Guitarra
 7. Moto
 8. Xadrez
