@@ -56,12 +56,6 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 - R raiz! <!--([arquivo R](docs/R-raiz.R))-->
 
-<!--
------
-### Orientações em pesquisa
-Oriento alunos de graduação e de pós-graduação em ecologia de comunidades bentônicas com interesse em estatística ambiental e linguagens de programação.
--->
-
 ------
 
 ### Contato 
