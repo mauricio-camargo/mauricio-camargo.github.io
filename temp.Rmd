@@ -1,0 +1,26 @@
+---
+title: "temp"
+output: html_document
+---
+
+<details>
+<summary><strong>Item 1</strong></summary>
+
+- sub-item 1  
+- sub-item 2  
+
+</details>
+
+<details>
+<summary><strong>Item 2</strong></summary>
+
+Conteúdo do item 2.
+
+</details>
+
+<details>
+<summary><strong>Item 3</strong></summary>
+
+Conteúdo do item 3.
+
+</details>
