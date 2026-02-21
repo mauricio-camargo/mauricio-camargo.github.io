@@ -27,9 +27,8 @@ Professor da Universidade Federal de Rio Grande ([FURG](http://www.furg.br))
 ----
 
 :::{.justify}
-Este é o meu site pessoal e profissional, no qual reúno  minhas atividades preferidas, além das outras como professor e pesquisador do [Instituto de Oceanografia (IO)](http://www.io.furg.br) e do [Instituto de Matemática, Estatística e Física](http://www.imef.furg.br) da [Universidade Federal do Rio Grande - FURG](http://www.furg.br). Estou lotado no [Laboratório de Ecologia de Invertebrados Bentônicos](https://www.instagram.com/bentosfurg/) do [IO](http://www.io.furg.br). 
+Este é o meu site pessoal e profissional, onde reúno as atividades de que mais gosto e também outras relacionadas ao meu trabalho como professor e pesquisador do [Instituto de Oceanografia (IO)](http://www.io.furg.br) e do [Instituto de Matemática, Estatística e Física](http://www.imef.furg.br) da [Universidade Federal do Rio Grande - FURG](http://www.furg.br). Estou lotado no [Laboratório de Ecologia de Invertebrados Bentônicos](https://www.instagram.com/bentosfurg/) do [IO](http://www.io.furg.br). 
 :::
-
 
 <br>
 Todo o conteúdo do site é livre para uso [não comercial](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
