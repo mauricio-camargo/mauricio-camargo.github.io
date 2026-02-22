@@ -25,7 +25,7 @@ Passei, então, a praticar os outros esportes (BT, vôlei e skate), que substitu
 - Semmmmpre pedalei. Fiz muitas viagens de bike.  
 Quando comecei a ter lesões por causa da corrida, o pedal me salvou. O pedal me deu sobrevida à corrida, pois é um complemento dela. Pedal cura joelho, acreditem!   
 
-- Coisa boa da vida: fazer uma pedalada longa em mountain bike.  
+- Coisa boa da vida: fazer uma pedalada longa de mountain bike.  
 </details>
 
 <details>
@@ -42,7 +42,7 @@ Quando comecei a ter lesões por causa da corrida, o pedal me salvou. O pedal me
 
 - Redescobri o skate (após a infância) em Março de 2025 (57 anos), depois de assistir uma mulher circulando na pista do Cassino sem tirar as rodas do chão. Fiquei sabendo que aquele era um novo tipo de skate chamado simulador de surf. Comprei imediatamente e me apaixonei compulsivamente. Fiz aulas e aprendi rapidinho a fazer todo o circuito da minha querida pista de skate do Cassino, que está no [Youtube](https://www.youtube.com/shorts/tBj-65xjIow). 
 
-- Coisa boa da vida: andar de skate todo dia...
+- Coisa boa da vida: poder andar de skate todo dia. Infelizmente não é o meu caso (ainda).
 
 </details>
 
@@ -53,7 +53,7 @@ Quando comecei a ter lesões por causa da corrida, o pedal me salvou. O pedal me
 Me apaixonei perdidamente e me confesso viciado.  
 Jogo há pouco tempo, mas (acho que) não sou mais (tão) iniciante. 
 
-- Coisa boa na vida: ter a turminha do BT de terça e sábado, mais a aula de sexta.  
+- Coisa boa na vida: ter a turminha do BT de terça e sábado, além da aula de sexta.  
 
 </details>
 
@@ -68,9 +68,9 @@ Em 2018, no meu aniversário de 50 anos, me dei de presente uma Fender Stracocas
 
 <details>
 <summary><strong>7. Moto</strong></summary>
-- Tive uma XL-250R em 1992 (24 anos), de um carburador, que era um tratorzinho. Com ela rodei os estados do PR e SC. Em 2024 (56 anos) comprei uma RE Meteor 350, que tinha um ronco muito parecido com o da XL. Vendi, mas logo, logo vou comprar uma RE Himalayan 450.
+- Tive uma XL-250R em 1992 (24 anos), de um carburador, que era um tratorzinho. Com ela rodei os estados do PR e SC. Em 2024 (56 anos) comprei uma RE Meteor 350, que tinha um ronco muito parecido com o da XL. Tive que vendê-la, mas logo, logo vou comprar uma RE Himalayan 450.
 
-- Coisa boa da vida: fazer um bate e volta de Rio Grande para PoA de moto! (Estou sem moto agora, mas por pouco tempo).
+- Coisa boa da vida: fazer um bate e volta de Rio Grande para PoA de moto!
 
 </details>
 
@@ -97,15 +97,17 @@ Em 2018, no meu aniversário de 50 anos, me dei de presente uma Fender Stracocas
 
 - Hoje eu amo cozinhar, mesmo com minhas deficiências de base culinária e esquecimentos, que aprendi a conviver e que os outros são obrigados a me perdoar!  
 
-- Coisa boa da vida: acertar as descidas de todas as pizzas no forno a lenha sem cagar o forno.
+- Coisa boa da vida: acertar as 4 descidas de pizza no forno a lenha numa pizzada, sem cagar o forno.
 
 </details>
 
 <details>
 <summary><strong>11. Programação</strong></summary>
-- A programação entrou na minha vida por necessidade acadêmica, na Bélgica, ainda em 1993. Na época estava surgindo o Delphi, uma implementação da linguagem Pascal compilada, ou seja, rápida como um raio. Me apaixonei e fiz dezenas de programas comerciais, acadêmicos e open source com ele. Mais tarde comecei a programar em Lazarus, uma alternativa open source ao Delphi. Hoje Lazarus é minha paixão, e disponibilizo diversos programas open source no meu [Github](https://github.com/mauricio-camargo). 
+- A programação entrou na minha vida por necessidade acadêmica do mestrado na Bélgica, em 1993. Na época estava surgindo o Delphi, uma implementação da linguagem Pascal compilada, ou seja, rápida como um raio. Me apaixonei e fiz dezenas de programas comerciais, acadêmicos e open source com ele, até virar professor. Desde então comecei a programar com o Lazarus, uma alternativa open source ao Delphi e multiplataforma. Hoje Lazarus é minha paixão, e disponibilizo diversos programas open source para Linux e Windows no meu [Github](https://github.com/mauricio-camargo). 
 
-- Programação em R também é minha paixão. Ano passado dei uma disciplina de Introdução à programação com o R, que funcionou muito bem. Mas R não é um hobby como o Lazarus, que é capaz de criar programas genéricos, que servem para qualquer coisa. 
+- Programação em R também é minha paixão. Ano passado dei uma disciplina de Introdução à programação com o R, que funcionou muito bem. Mas R não é um hobby como o Lazarus, que é capaz de criar programas genéricos para qualquer propósito. 
+
+- Coisa boa da vida: receber feedback dos usuários dos meus programas em Lazarus e dos meus pacotes do R.
 
 </details>
 
