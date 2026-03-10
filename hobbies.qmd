@@ -41,9 +41,9 @@ Quando comecei a ter lesões por causa da corrida, o pedal me salvou. O pedal me
 <summary><strong>4. Skate (surfskate / simulador)
 </strong></summary>
 
-- Redescobri o skate (após a infância) em Março de 2025 (57 anos), depois de assistir uma mulher circulando na pista do Cassino sem tirar as rodas do chão. Fiquei sabendo que aquele era um novo tipo de skate chamado simulador de surf. Comprei um imediatamente e me apaixonei compulsivamente. Fiz aulas e aprendi rapidinho a fazer todo o circuito da minha querida pista de skate do Cassino, que está no [Youtube](https://www.youtube.com/shorts/tBj-65xjIow). 
+- Redescobri o skate (após a infância) em Março de 2025 (57 anos), depois de assistir a uma mulher circulando na pista do Cassino sem tirar as rodas do chão. Fiquei sabendo que aquele era um novo tipo de skate chamado simulador de surf. Comprei um imediatamente e me apaixonei compulsivamente. Fiz aulas e aprendi rapidinho a fazer todo o circuito da minha querida pista de skate do Cassino, que está no [Youtube](https://www.youtube.com/shorts/tBj-65xjIow). 
 
-- Coisa boa da vida: poder andar de skate todo dia. Infelizmente não é o meu caso (ainda).
+- Coisa boa da vida: poder andar de skate sem se quebrar, graças ao equipamento de proteção. Eu uso tudo, até protetores de punho e bermuda anti-impacto.
 
 </details>
 
@@ -87,7 +87,7 @@ Em 2018, no meu aniversário de 50 anos, me dei de presente uma Fender Stracocas
 <summary><strong>9. Horta e compostagem</strong></summary>
 - Faço compostagem há muitos anos. Toda a matéria orgânica da minha casa vai para as minhocas que produzem muito adubo e chorume. As minhocas servem até para aulas de Annelida! Hoje tenho uma horta circular de cerca de $1 m^2$ que abriga 21 espécies de ervas, temperos e folhas, abastecida pelo adubo da minha compostagem.  
 
-- Coisa boa da vida: plantar meus próprios temperos.
+- Coisa boa da vida: plantar meus próprios temperos e folhas orgânicos.
 
 </details>
 
@@ -104,9 +104,9 @@ Em 2018, no meu aniversário de 50 anos, me dei de presente uma Fender Stracocas
 
 <details>
 <summary><strong>11. Programação</strong></summary>
-- A programação entrou na minha vida por necessidade acadêmica do mestrado na Bélgica, em 1993. Na época estava surgindo o Delphi, uma implementação da linguagem Pascal compilada, ou seja, rápida como um raio. Me apaixonei e fiz dezenas de programas comerciais, acadêmicos e open source com ele, até virar professor. Desde então comecei a programar com o Lazarus, uma alternativa open source ao Delphi e multiplataforma. Hoje Lazarus é minha paixão, e disponibilizo diversos programas open source para Linux e Windows no meu [Github](https://github.com/mauricio-camargo). 
+- A programação entrou na minha vida por necessidade acadêmica do mestrado na Bélgica, em 1993. Na época estava surgindo o [Delphi](https://www.embarcadero.com/br/products/delphi), uma implementação da linguagem Pascal compilada, ou seja, rápida como um raio. Me apaixonei e resolvi todos os problemas do mestrado com o Delphi. Depois fiz dezenas de programas comerciais, acadêmicos e open source com ele, até virar professor, em 20024. Desde então, comecei a programar com o [Lazarus](https://www.lazarus-ide.org), uma alternativa *open source* ao Delphi e multiplataforma. Hoje Lazarus é minha paixão, e disponibilizo diversos programas open source para Linux e Windows no meu [Github](https://github.com/mauricio-camargo). 
 
-- Programação em R também é minha paixão. Ano passado dei uma disciplina de Introdução à programação com o R, que funcionou muito bem. Mas R não é um hobby como o Lazarus, que é capaz de criar programas genéricos para qualquer propósito. 
+- Programação em R também é minha paixão. Ano passado (2025) dei uma disciplina de Introdução à programação com o R, que funcionou muito bem. Mas R não é um hobby como o Lazarus, que é capaz de criar programas genéricos para qualquer propósito. 
 
 - Coisa boa da vida: receber feedback dos usuários dos meus programas em Lazarus e dos meus pacotes do R.
 
