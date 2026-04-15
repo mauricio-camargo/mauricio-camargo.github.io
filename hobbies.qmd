@@ -4,9 +4,7 @@
 
 ## Meus 11 hobbies (2026)
 
-Em 2021 (53 anos) decidi elencar 10 hobbies e praticá-los semanalmente. Apareceram 11. Foi a melhor decisão da minha vida.  
-
-Meu ranking atual (**2026**) dos 11 hobbies é o seguinte:
+Em 2021 (53 anos) decidi elencar 10 hobbies e praticá-los semanalmente. Apareceram 11. Foi a melhor decisão da minha vida. Meu ranking atual (**2026**) dos 11 hobbies é o seguinte:
 
 <details>
 <summary><strong>1. Corrida</strong></summary>
@@ -104,7 +102,7 @@ Em 2018, no meu aniversário de 50 anos, me dei de presente uma Fender Stracocas
 
 <details>
 <summary><strong>11. Programação</strong></summary>
-- A programação entrou na minha vida por necessidade acadêmica do mestrado na Bélgica, em 1993. Na época estava surgindo o [Delphi](https://www.embarcadero.com/br/products/delphi), uma implementação da linguagem Pascal compilada, ou seja, rápida como um raio. Me apaixonei e resolvi todos os problemas do mestrado com o Delphi. Depois fiz dezenas de programas comerciais, acadêmicos e open source com ele, até virar professor, em 20024. Desde então, comecei a programar com o [Lazarus](https://www.lazarus-ide.org), uma alternativa *open source* ao Delphi e multiplataforma. Hoje Lazarus é minha paixão, e disponibilizo diversos programas open source para Linux e Windows no meu [Github](https://github.com/mauricio-camargo). 
+- A programação entrou na minha vida por necessidade acadêmica do mestrado na Bélgica, em 1993. Na época estava surgindo o [Delphi](https://www.embarcadero.com/br/products/delphi), uma implementação da linguagem Pascal compilada, ou seja, rápida como um raio. Me apaixonei e resolvi todos os problemas do mestrado com o Delphi. Depois fiz dezenas de programas comerciais, acadêmicos e open source com ele, até virar professor, em 2004. Desde então, comecei a programar com o [Lazarus](https://www.lazarus-ide.org), uma alternativa *open source* ao Delphi e multiplataforma. Hoje Lazarus é minha paixão, e disponibilizo diversos programas open source para Linux e Windows no meu [Github](https://github.com/mauricio-camargo). 
 
 - Programação em R também é minha paixão. Ano passado (2025) dei uma disciplina de Introdução à programação com o R, que funcionou muito bem. Mas R não é um hobby como o Lazarus, que é capaz de criar programas genéricos para qualquer propósito. 
 
