@@ -8,3 +8,6 @@
 .quarto
 
 /.quarto/
+.positai
+
+**/*.quarto_ipynb

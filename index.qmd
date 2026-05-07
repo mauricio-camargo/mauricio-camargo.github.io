@@ -42,8 +42,7 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 **Disciplinas no primeiro semestre de 2026:**
 
-- [Biodiversidade de invertebrados marinhos - Anelídeos poliquetas](https://ava.furg.br/)
-<!--(https://mauricio-camargo.github.io/Biodiversidade2026/)-->
+- [Biodiversidade de invertebrados marinhos - Anelídeos poliquetas](https://mauricio-camargo.github.io/Biodiversidade2026/)
 
 **Disciplinas no segundo semestre de 2025:**
 
