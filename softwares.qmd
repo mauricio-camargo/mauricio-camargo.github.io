@@ -1,8 +1,14 @@
 ---
 #title: "Softwares"
+format:
+  html:
+    toc: true
+    toc-location: left    # "right" é o padrão
+    toc-depth: 3
+    toc-title: "Nesta página"
 ---
 
-## Pacotes do R (Multiplataforma)
+### Pacotes do R 
 
 <br>
 
@@ -25,7 +31,14 @@ Estágio: em construção
 
 ----
 
-### Programas livres escrito em Lazarus (Windows e Linux)
+### Sites e mecanismos da Internet 
+- Site do CEM (1999-2014): desenvolvi toda a parte de programação do site do CEM no período, e fui responsável pela atualização.
+- Implantação do ambiente virtual de aprendizado Moodle (servidor) próprio do CEM, entre 2010 e 2014.
+- [Site pessoal](https://mauricio-camargo.github.io/) de divulgação usando o mecanismo do Github e RStudio.
+
+---
+
+### Programas em Lazarus (Win e Linux)
 - [**sysgran4**](https://github.com/mauricio-camargo/sysgran4): esta é a evolução do [SysGran3](https://github.com/mauricio-camargo/sysgran3) (originalmente escrito em Delphi), rodando agora tanto em Windows quanto Linux.  
 Disponível em: <https://github.com/mauricio-camargo/sysgran4>  
 Estágio: ativo
@@ -48,7 +61,7 @@ Estágio: finalizando (falta implementar entrada por video pelo ffmpeg)
 
 ---
 
-### Programas de código livre escritos em Delphi (Windows)
+### Programas em Delphi (Win only)
 - [**SysGran3**](https://github.com/mauricio-camargo/SysGran3): Sistema integrado de análise granulométrica para Windows, com análises estatísticas e gráficos para sedimentologia.  
 Autor: Maurício Camargo  
 Estágio: O SysGran foi criado em 1995 e se espalhou pelo mundo, inicialmente como um programa pago, até 2003. Em 2004 o SysGran foi colocado como open source. Em 2012 foi substituído pelo pacote rysgran do R. No entanto, até hoje existem cópias do SysGran funcionando em milhares de computadores.  
@@ -70,7 +83,7 @@ Estágio: desaparecido.
 ----
 
 
-### Programas comerciais escritos em Delphi (Windows)
+### Programas comerciais em Delphi (Win)
 - **Pilots-Transf**: Programa de transferência de dados recebidos por porta serial de equipamentos oceanográficos como marégrafos, ondógrafos e CTDs para bancos de dados.  
 Autor: Maurício Camargo  
 Estágio: ativo  

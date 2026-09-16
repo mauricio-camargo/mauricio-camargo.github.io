@@ -4,6 +4,7 @@ lang: pt-br
 engine: knitr
 ---
 
+
 ```{css,  echo=FALSE}
 .justify {
  text-align:
@@ -14,6 +15,7 @@ justify !important}
 
 
 :::{.justify}
+- [SILVA POERSCH, LUÍSA ; SOROLDONI, SANYE ; CHAVES LOPES, FERNANDA ; DE MARTINEZ GASPAR MARTINS, CAMILA ; GRASSI, MARCO TADEU ; JANUÁRIO DA SILVA, BRENNO ; GARCIA DE CAMARGO, MAURÍCIO ; KERR, RODRIGO ; LOPES LEÃES PINHO, GRASIELA . Copper Dynamics in the Aquatic Environment Under Ocean Acidification and Contamination by Microplastics. WATER AIR AND SOIL POLLUTION, v. 237, p. 1-16, 2026.](http://dx.doi.org/10.1007/s11270-026-09440-1)
 - [SANTOS, MARCOS EDUARDO MIRANDA ; SPENASSATO, DÉBORA ; DE AZAMBUJA, ANA MARIA VOLKMER ; NUNES, JORGE LUIZ SILVA ; DE CAMARGO, MAURÍCIO GARCIA . Trends for Research on Hard Substrate Colonization by Meiofauna. Marine Ecology-An Evolutionary Perspective, v. 46, p. e70010, 2025.](http://dx.doi.org/10.1111/maec.70010)
 
 - [ROCHA, ELIS BRANDÃO ; DA COSTA MACHADO, EUNICE ; DE CAMARGO, MAURÍCIO GARCIA ; DE REZENDE, CARLOS EDUARDO ; GATTS, PEDRO VIANNA ; MENDES, CARLOS RAFAEL BORGES ; COSTA, RAUL RODRIGO ; WALLNER-KERSANACH, MÔNICA ; MATA, MAURICIO M. ; KERR, RODRIGO . Distribution, composition, and drivers of suspended particulate organic matter in the Gerlache Strait, Northern Antarctic Peninsula. DEEP-SEA RESEARCH PART I-OCEANOGRAPHIC RESEARCH PAPERS, v. 224, p. 104559, 2025.](http://dx.doi.org/10.1016/j.dsr.2025.104559)  

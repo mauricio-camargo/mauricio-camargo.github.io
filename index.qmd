@@ -40,9 +40,18 @@ Ministro disciplinas de estatística ecológica, programação de computadores e
 
 <!--  e metodologia da ciência na graduação. -->
 
+**Disciplinas no segundo semestre de 2026:**
+
+-  Delineamentos experimentais em ecologia (início em outubro para PGs) 
+<!--(https://ava.furg.br/)-->
+
+- Monitoramento da Contaminação e Poluição Aquática (Oceanologia)
+
 **Disciplinas no primeiro semestre de 2026:**
 
-- [Biodiversidade de invertebrados marinhos - Anelídeos poliquetas](https://mauricio-camargo.github.io/Biodiversidade2026/)
+- Biodiversidade de invertebrados marinhos - Anelídeos poliquetas
+
+<!--(https://mauricio-camargo.github.io/Biodiversidade2026/)-->
 
 **Disciplinas no segundo semestre de 2025:**
 

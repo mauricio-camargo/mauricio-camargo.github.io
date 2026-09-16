@@ -31,8 +31,11 @@ Quando comecei a ter lesões por causa da corrida, o pedal me salvou. O pedal me
 <summary><strong>3. Vôlei de praia</strong></summary>
 
 - Redescobri o vôlei em Maio de 2024 (56 anos), relembrando a adolescência.    
+- Em Jan/2026 descobri uma lesão degenerativa no manguito e precisei parar com o vôlei, até que eu consiga algum tipo de reabilitação.
+<!--
+- Coisa boa da vida: fazer aula de vôlei e ter a turminha do vôlei de domingo. -->
 
-- Coisa boa da vida: fazer aula de vôlei e ter a turminha do vôlei de domingo.
+
 </details>
 
 <details>
@@ -67,7 +70,7 @@ Em 2018, no meu aniversário de 50 anos, me dei de presente uma Fender Stracocas
 
 <details>
 <summary><strong>7. Moto</strong></summary>
-- Tive uma XL-250R em 1992 (24 anos), de um carburador, que era um tratorzinho. Com ela rodei os estados do PR e SC. Em 2024 (56 anos) comprei uma RE Meteor 350, que tinha um ronco muito parecido com o da XL. Tive que vendê-la, mas logo, logo vou comprar uma RE Himalayan 450.
+- Tive uma XL-250R em 1992 (24 anos), de um carburador só, que era um tratorzinho. Com ela rodei os estados do PR e SC. Em 2024 (56 anos) comprei uma RE Meteor 350, que tinha um ronco muito parecido com o da XL. Tive que vendê-la em 2026, mas logo, logo vou comprar uma RE Himalayan 450.
 
 - Coisa boa da vida: fazer um bate e volta de Rio Grande para PoA de moto!
 
@@ -77,7 +80,7 @@ Em 2018, no meu aniversário de 50 anos, me dei de presente uma Fender Stracocas
 <summary><strong>8. Xadrez</strong></summary>
 - Aprendi na infância, com amigos. Joguei muito na adolescência, mas não estudava. Ficou adormecido em mim, até que descobri em 2018 (50 anos) o site <https://www.chessfriends.com>. Comecei a jogar com gente do mundo todo, de todos os níveis, e isso mudou tudo. Hoje estudo um pouco e vivo tentando detonar uns russos de 12-13 anos, que são o capeta no xadrez.
 
-- Coisa boa da vida: detonar um russo de 12-13 anos no xadrez online! 
+- Coisa boa da vida: derrotar no xadrez online um russo de 12-13 anos (é tudo o que eu consigo!) 
 
 </details>
 
@@ -96,7 +99,9 @@ Em 2018, no meu aniversário de 50 anos, me dei de presente uma Fender Stracocas
 
 - Hoje eu amo cozinhar, mesmo com minhas deficiências de base culinária e esquecimentos, que aprendi a conviver e que os outros são obrigados a me perdoar!  
 
-- Coisa boa da vida: acertar as 4 descidas de pizza no forno a lenha numa pizzada, sem cagar o forno todo.
+- Minhas especialidades são pizza no forno a lenha,  sushi e feijoada.
+
+- Coisa boa da vida: conzinhar um prato bem complexo sem errar nen esquecer nada!
 
 </details>
 
@@ -104,7 +109,7 @@ Em 2018, no meu aniversário de 50 anos, me dei de presente uma Fender Stracocas
 <summary><strong>11. Programação</strong></summary>
 - A programação entrou na minha vida por necessidade acadêmica do mestrado na Bélgica, em 1993. Na época estava surgindo o [Delphi](https://www.embarcadero.com/br/products/delphi), uma implementação da linguagem Pascal compilada, ou seja, rápida como um raio. Me apaixonei e resolvi todos os problemas do mestrado com o Delphi. Depois fiz dezenas de programas comerciais, acadêmicos e open source com ele, até virar professor, em 2004. Desde então, comecei a programar com o [Lazarus](https://www.lazarus-ide.org), uma alternativa *open source* ao Delphi e multiplataforma. Hoje Lazarus é minha paixão, e disponibilizo diversos programas open source para Linux e Windows no meu [Github](https://github.com/mauricio-camargo). 
 
-- Programação em R também é minha paixão. Ano passado (2025) dei uma disciplina de Introdução à programação com o R, que funcionou muito bem. Mas R não é um hobby como o Lazarus, que é capaz de criar programas genéricos para qualquer propósito. 
+- Programação em R também é minha paixão. Em 2025 dei uma disciplina de Introdução à programação com o R, que funcionou muito bem. Mas R não é um hobby como o Lazarus, que é capaz de criar programas genéricos para qualquer propósito. 
 
 - Coisa boa da vida: receber feedback dos usuários dos meus programas em Lazarus e dos meus pacotes do R.
 
