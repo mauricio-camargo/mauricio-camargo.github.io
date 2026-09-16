@@ -13,7 +13,6 @@ justify !important}
 
 ## Publicações
 
-as
 
 :::{.justify}
 - [SILVA POERSCH, LUÍSA ; SOROLDONI, SANYE ; CHAVES LOPES, FERNANDA ; DE MARTINEZ GASPAR MARTINS, CAMILA ; GRASSI, MARCO TADEU ; JANUÁRIO DA SILVA, BRENNO ; GARCIA DE CAMARGO, MAURÍCIO ; KERR, RODRIGO ; LOPES LEÃES PINHO, GRASIELA . Copper Dynamics in the Aquatic Environment Under Ocean Acidification and Contamination by Microplastics. WATER AIR AND SOIL POLLUTION, v. 237, p. 1-16, 2026.](http://dx.doi.org/10.1007/s11270-026-09440-1)
