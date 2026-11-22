@@ -33,11 +33,13 @@ Este é o meu site pessoal e profissional, onde reúno as atividades de que mais
 <br>
 Todo o conteúdo do site é livre para uso [não comercial](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
 
-----
+::: {.novidade}
+[[]{.bi .bi-megaphone-fill} Novidade]{.novidade-rotulo}
 
-**Novidade**: Está no ar a [chave interativa da família Lumbrineridae (Polychaeta) da Bacia de Pelotas.](https://atlaspoliqrs-lumbrineridae.share.connect.posit.cloud/) 
+Está no ar a **chave interativa da família Lumbrineridae (Polychaeta) da Bacia de Pelotas**.
 
-----
+[Acessar a chave []{.bi .bi-arrow-right}](https://atlaspoliqrs-lumbrineridae.share.connect.posit.cloud/){.novidade-botao}
+:::
 
 ### Disciplinas recentes
 Ministro disciplinas de estatística ecológica, programação de computadores e diversidade de anelídeos poliquetas na graduação e na pós-graduação.

@@ -1,1 +1,50 @@
 /* css styles */
+
+/* Aviso de novidade na Home */
+.novidade {
+  margin: 1.75rem 0;
+  padding: 1.1rem 1.4rem;
+  background: linear-gradient(135deg, #eef5ff 0%, #ffffff 75%);
+  border: 1px solid #cfe2ff;
+  border-left: 5px solid #0d6efd;
+  border-radius: 0.6rem;
+  box-shadow: 0 2px 10px rgba(13, 110, 253, 0.08);
+}
+.novidade p {
+  margin: 0 0 0.6rem 0;
+}
+.novidade p:last-child {
+  margin-bottom: 0;
+}
+.novidade-rotulo {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  background: #0d6efd;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 999px;
+}
+.novidade-rotulo .bi {
+  margin-right: 0.3rem;
+}
+.novidade-botao {
+  display: inline-block;
+  padding: 0.35rem 0.9rem;
+  border: 1px solid #0d6efd;
+  border-radius: 0.4rem;
+  color: #0d6efd;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.15s, color 0.15s;
+}
+.novidade-botao:hover,
+.novidade-botao:focus {
+  background: #0d6efd;
+  color: #fff;
+}
+.novidade-botao .bi {
+  margin-left: 0.3rem;
+}
